@@ -1,0 +1,407 @@
+---
+title: "Analysis of Optimising creativity for literary texts"
+author: "Ana Guerberof Arenas"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+---
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(lme4)
+library(ggplot2)
+library(car)
+library(ARTool)
+library(glmmTMB)
+library(DHARMa)
+library(car)
+library(gridExtra)
+library(lme4)
+```
+
+# Load and Explore Data
+
+```{r}
+# Load the dataset
+data <- read.csv("UCP_Annotations_All.csv")
+
+# Display the structure of the dataset
+str(data)
+data$Modality <- as.factor(data$Modality)
+data$UCPs <- as.factor(data$UCPs)
+data$Language <- as.factor(data$Language)
+levels(data$Modality)
+levels(data$UCPs)
+levels(data$Language)
+str(data)
+
+# Preview the data
+dplyr::glimpse(data)
+
+# Eliminate first hidden characters from UCP_ID
+colnames(data)[colnames(data) == "X...UCP_ID"] <- "UCP_ID"
+
+# Drop 3c for CA and replace 3c by 3d
+# rationale. We tried 2 NMT systems (3c and 3d) and 3d is better. For the other languages we had only one (3c)
+data_fil <- data %>% filter_at(vars(Language, Modality), any_vars(. != "CA" | . != "3c"))
+data_fil <- data[!(data$Language == "CA" & data$Modality == "3c"), ]
+data_fil$Modality[data_fil$Modality == "3d"] <- "3c"
+data <- data_fil
+
+```
+
+# Data Preparation
+
+```{r}
+# Calculate the number of CSs (sum of CSM, CSA, CSC) per Modality
+data <- data %>% 
+  mutate(CS_Total = if_else(UCPs %in% c("CSM", "CSA", "CSC"), 1, 0))
+
+# Create new column new_UCPs in case we want to compare with R, O, E.
+
+data <- data %>% 
+  mutate(new_UCPs = case_when(
+    UCPs %in% c("CSM", "CSA", "CSC") ~ "CS",
+    UCPs == "R" ~ "R",
+    UCPs == "O" ~ "O",
+    UCPs == "E" ~ "E",
+    TRUE ~ NA_character_
+  ))
+
+# Summarize CSs, Errors, and Points per Modality
+data_summary <- data %>% 
+  group_by(Modality) %>% 
+  summarize(
+    Total_CS = sum(CS_Total),
+    Total_Errors = sum(Errors),
+    Total_Points = sum(Points),
+    Total_Index = sum(Creativity_Index)
+  )
+
+data_summary
+
+# Create subset of data without HT, to have only ChatGPT, DeepL and GT
+
+data_filtered <- data %>%
+  filter(!Modality %in% c("HT"))
+
+# View the first few rows of the filtered dataset
+head(data_filtered)
+
+# Create subset of data with HT, to compare with best performing models 3b (ES, NL, Zh) and 1b (CA)
+
+data_subset <- data %>%
+  filter(
+    (Modality %in% c("HT", "3b") & Language %in% c("ES", "NL")) | 
+    (Modality %in% c("HT", "1b") & Language == "CA"))
+
+# View the first few rows of the subset
+head(data_subset)
+
+
+```
+
+# Exploratory Data Analysis
+
+## Total CSs, Errors, and Points per Modality
+
+```{r}
+# Bar plots for CSs, Errors, and Points using the data_summary
+cs_plot <- ggplot(data_summary, aes(x = Modality, y = Total_CS)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  labs(title = "Total CSs per Modality", x = "Modality", y = "Total CSs")
+
+errors_plot <- ggplot(data_summary, aes(x = Modality, y = Total_Errors)) +
+  geom_bar(stat = "identity", fill = "tomato") +
+  labs(title = "Total Errors per Modality", x = "Modality", y = "Total Errors")
+
+points_plot <- ggplot(data_summary, aes(x = Modality, y = Total_Points)) +
+  geom_bar(stat = "identity", fill = "forestgreen") +
+  labs(title = "Total Points per Modality", x = "Modality", y = "Total Points")
+
+grid.arrange(cs_plot, errors_plot, points_plot, ncol = 3)
+
+
+```
+
+## Interaction Graphics (without HT): Creative Shifts
+
+```{r}
+# Summarize CS_Total by Modality and Language
+data_sum_CS <- data_filtered %>%
+  group_by(Modality, Language) %>%
+  summarise(Total_CS = sum(CS_Total, na.rm = TRUE))  # Sum CS_Total for each group
+
+pdf(file="./plot_css_gpt.pdf", width = 6, height = 4)
+ggplot(data_sum_CS, aes(x = Modality, y = Total_CS, color = Language, group = Language)) +
+  geom_point(position = position_dodge(width = 0.3), alpha = 0.7, size = 3) +  # Ensure alignment with dodge
+  geom_line(position = position_dodge(width = 0.3), alpha = 0.7, size = 1, linetype = "dotted") +  # Dodge ensures lines match points
+  scale_color_brewer(palette = "Set2") +  # Use a colorblind-friendly palette
+  labs(x = "Modality", 
+       y = "Total CSs",
+       color = "Language") +  # Change 'fill' to 'color' since we're using color mapping
+  theme_minimal(base_size = 10) +  # Minimal theme with larger text
+  theme(
+    legend.position = "top",  # Move legend to top
+    legend.title = element_text(face = "bold"),  # Bold legend title
+    axis.text.x = element_text(angle = 45, hjust = 1, face = "bold"),  # Rotate and bold x-axis labels
+    plot.title = element_text(face = "bold", hjust = 0.5, size = 16)  # Center and bold the title
+  )
+dev.off()
+```
+
+## Interaction Graphics (without HT): Error points
+
+```{r}
+
+# Interaction of Points and Modality
+
+# Summarize Points by Modality and Language
+data_sum_points <- data_filtered %>%
+  group_by(Modality, Language) %>%
+  summarise(Total_Points = sum(Points, na.rm = TRUE))  # Sum Points for each group
+
+# Calculate the overall mean of Total Points
+#mean_points <- mean(data_sum_points$Total_Points, na.rm = TRUE)
+
+pdf(file="./plot_errors_gpt.pdf", width = 6, height = 4)
+ggplot(data_sum_points, aes(x = Modality, y = Total_Points, color = Language, group = Language)) +
+  geom_point(position = position_dodge(width = 0.3), alpha = 0.7, size = 3) +  # Ensure alignment with dodge
+  geom_line(position = position_dodge(width = 0.3), alpha = 0.7, size = 1, linetype = "dotted") +  # Dodge ensures lines match points
+  scale_color_brewer(palette = "Set2") +  # Use a colorblind-friendly palette
+  labs(x = "Modality", 
+       y = "Total Error points",
+       color = "Language") +  # Change 'fill' to 'color' since we're using color mapping
+  theme_minimal(base_size = 10) +  # Minimal theme with larger text
+  theme(
+    legend.position = "top",  # Move legend to top
+    legend.title = element_text(face = "bold"),  # Bold legend title
+    axis.text.x = element_text(angle = 45, hjust = 1, face = "bold"),  # Rotate and bold x-axis labels
+    plot.title = element_text(face = "bold", hjust = 0.5, size = 16)  # Center and bold the title
+  )
+dev.off()
+```
+
+
+## Interaction Graphics subset of data: best models with HT
+
+```{r}
+# Interaction of CS_Total and Modality in subset
+
+# Summarize the data: the sum of CS_Total for each Modality and Language
+data_subset_sum_CS <- data_subset %>%
+  group_by(Modality, Language) %>%
+  summarize(CS_Total = sum(CS_Total, na.rm = TRUE))
+
+data_subset_points <- data_subset %>%
+  group_by(Modality, Language) %>%
+  summarize(Total_Points = sum(Points, na.rm = TRUE))
+
+# Create the plot with the summarized data
+pdf(file="./plot_css_ht.pdf", width = 6, height = 4)
+ggplot(data_subset_sum_CS, aes(x = Modality, y = CS_Total, fill = Language)) +
+  geom_col(position = "dodge") +  # Side-by-side bars for each Language
+  scale_fill_brewer(palette = "Set2") +  # Use the same colorblind-friendly palette
+  labs(x = "Modality", 
+       y = "Total CSs", 
+       fill = "Language") +
+  theme_minimal(base_size = 10) +  # Keep the same text size
+  theme(
+    legend.position = "top",  # Move legend to the top for consistency
+    legend.title = element_text(face = "bold"),  # Bold legend title
+    axis.text.x = element_text(angle = 45, hjust = 1, face = "bold"),  # Rotate and bold x-axis labels
+    )
+dev.off()
+
+# Interaction of Points and Modality and Language
+pdf(file="./plot_errors_ht.pdf", width = 6, height = 4)
+ggplot(data_subset_points, aes(x = Modality, y = Total_Points, fill = Language)) +
+  geom_col(position = "dodge") +  # Side-by-side bars for each Language
+  scale_fill_brewer(palette = "Set2") +  # Use the same colorblind-friendly palette
+  labs(x = "Modality", 
+       y = "Total Error Points", 
+       fill = "Language") +
+  theme_minimal(base_size = 10) +  # Keep the same text size
+  theme(
+    legend.position = "top",  # Move legend to the top for consistency
+    legend.title = element_text(face = "bold"),  # Bold legend title
+    axis.text.x = element_text(angle = 45, hjust = 1, face = "bold"),  # Rotate and bold x-axis labels
+    )
+dev.off()
+```
+
+
+# Modeling
+
+## Interaction of CSs per Modality (with Repeated Measures)
+
+```{r}
+# Mixed model for CSs
+cs_model <- lmer(CS_Total ~ Modality + (1|UCP_ID) + (1|Language) , data = data_filtered)
+summary(cs_model)
+
+# Check assumptions
+plot(resid(cs_model), fitted(cs_model), main = "Residuals vs Fitted: CS Model")
+hist(resid(cs_model), main = "Residuals Histogram: CS Model", xlab = "Residuals")
+qqnorm(resid(cs_model))
+qqline(resid(cs_model))
+
+# Assumptions do not check
+
+# Transform data to avoid 0s and 1s (Beta regression requires (0,1) range)
+data_filtered$CS_Total_adj <- (data_filtered$CS_Total * (nrow(data_filtered) - 1) + 0.5) / nrow(data_filtered)
+
+# Fit the Beta GLMM
+model <- glmmTMB(CS_Total_adj ~ Modality * Language + (1 | UCP_ID), 
+                 family = beta_family(), 
+                 data = data_filtered)
+
+# Check model summary
+summary(model)
+
+# Simulate residuals for GLMM
+res_glmm <- simulateResiduals(model)
+
+# Residual diagnostics plot
+plot(res_glmm)
+
+testDispersion(res_glmm)
+
+# Initial assumptions do not check.
+
+# Mixed model for Points
+points_model <- lmer(Points ~ Modality * Language + (1|UCP_ID), data = data_filtered)
+summary(points_model)
+
+# Check assumptions
+
+plot(residuals(points_model) ~ fitted(points_model))
+hist(residuals(points_model))  # Histogram
+qqnorm(residuals(points_model))
+shapiro.test(residuals(points_model))
+acf(residuals(points_model))
+ranef(points_model)
+vif(points_model)
+
+# Assumptions do not check
+
+```
+
+# Non-parametric tests
+
+## Interaction of CSs per Modality (with Repeated Measures)
+
+```{r}
+
+# Non parametric Tests. 
+# Since the assumptions are not met in the model, We will use ART ANOVA. The Aligned Rank Transform (ART) ANOVA is a non-parametric alternative to standard ANOVA that allows for testing main effects and interactions in factorial designs.
+
+# We use only the data_filtered here
+
+model_art_CS <- art(CS_Total ~ Modality * Language + (1 | UCP_ID), data = data_filtered)
+anova(model_art_CS)
+
+
+# Pairwise comparisons for Modality
+art.con(model_art_CS, "Modality", adjust = "bonferroni") 
+
+# Pairwise comparisons for Language
+art.con(model_art_CS, "Language", adjust = "bonferroni") 
+
+# Pairwise comparisons for Interaction (Modality * Language)
+art.con(model_art_CS, "Modality:Language", adjust = "bonferroni")
+
+
+```
+
+
+## Interaction of Points per Modality (with Repeated Measures)
+
+```{r}
+
+# Run also ART ANOVA (non-parametric) for the points
+art_model_points <- art(Points ~ Modality * Language + (1|UCP_ID), data = data_filtered)
+
+# ANOVA
+anova(art_model_points)
+
+
+# Pairwise comparisons for Modality
+art.con(art_model_points, "Modality", adjust = "bonferroni") 
+# Pairwise comparisons for Language
+art.con(art_model_points, "Language", adjust = "bonferroni") 
+
+# Pairwise comparisons for Interaction (Modality * Language)
+art.con(art_model_points, "Modality:Language", adjust = "bonferroni")
+
+# Run ART ANOVA (non-parametric) only Modality to double check
+
+art_model_modality <- art(Points ~ Modality + (1|UCP_ID), data = data_filtered)
+anova(art_model_modality)
+
+# Pairwise comparisons for Modality
+art.con(art_model_modality, "Modality", adjust = "bonferroni")
+
+
+```
+
+
+## HT vs MT and Creative Shifts
+
+```{r}
+# Create a dataset to compare the best options with HT from data_subset
+data_subset <- data_subset %>% 
+  mutate(new_Modality = case_when(
+    Modality == "HT" ~ "HT",
+    Modality == "3b" ~ "MT",
+    Modality == "1b" ~ "MT",
+    TRUE ~ NA_character_
+  ))
+
+data_subset$new_Modality <- as.factor(data_subset$new_Modality)
+
+# Run art anova for CSs
+
+art_model_HT_CS <- art(CS_Total ~ new_Modality * Language + (1 | UCP_ID), data = data_subset)
+anova(art_model_HT_CS)
+
+# Pairwise comparisons for Modality
+art.con(art_model_HT_CS, "new_Modality", adjust = "bonferroni") 
+
+# Pairwise comparisons for Language
+art.con(art_model_HT_CS, "Language", adjust = "bonferroni") 
+
+# Pairwise comparisons for Interaction (Modality * Language)
+art.con(art_model_HT_CS, "new_Modality:Language", adjust = "bonferroni")
+```
+
+
+## HT vs MT and Error points
+
+```{r}
+## Interaction of CS per Modality, HT vs MT
+
+# Run ART ANOVA (non-parametric)
+art_model_HT <- art(Points ~ new_Modality * Language + (1|UCP_ID), data = data_subset)
+
+# ANOVA for ART model
+anova(art_model_HT)
+
+# Pairwise comparisons for Modality
+art.con(art_model_HT, "new_Modality", adjust = "bonferroni") #No significance
+
+# Pairwise comparisons for Language
+art.con(art_model_HT, "Language", adjust = "bonferroni") #Significance CA with other languages
+
+# Pairwise comparisons for Interaction (Modality * Language)
+art.con(art_model_HT, "new_Modality:Language", adjust = "bonferroni") #No significance
+```
+
+
+
+
+

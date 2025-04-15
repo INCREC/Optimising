@@ -1,0 +1,101 @@
+---
+title: "Correlations Between Metrics"
+author: "Antonio Toral"
+date: "2025-02-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data Load
+
+```{r data}
+library(tidyr)
+library(dplyr)
+library(corrplot)
+library(Hmisc)
+
+df <- read.csv("scores_for_correlations.csv")
+str(df)
+df$TL <- as.factor(df$TL)
+df$metric <- as.factor(df$metric)
+df$MT.system <- as.factor(df$MT.system)
+str(df)
+```
+
+## CA
+
+```{r ca}
+dfCA <- df[df$TL=="CA",]
+dfCA <- subset(dfCA, select= -c(TL))
+wideCA <- dfCA %>%
+  pivot_wider(names_from = metric, values_from = score)
+
+wideCA[,-1]
+cormCA <- cor(wideCA[,-1], use = "pairwise.complete.obs", method = "spearman")
+corrplot(cormCA)
+
+rcorr(as.matrix(wideCA[,-1]),type="spearman")
+#corrplot(rcormCA, p.mat = p_values, is.corr = TRUE)#, method = "square", type = "upper", tl.srt = 45, col = col, diag = TRUE, addCoef.col = TRUE, sig.level = 0.05, insig = "blank")
+
+# Significant:
+# - All pairs of string-based metrics (BLEU, chrF, TER)
+# - COMET & chrF
+# - COMETQE & (BLEU, chrF, TER, COMET)
+# - CI and error points
+```
+
+## ES
+
+```{r es}
+dfES <- df[df$TL=="ES",]
+dfES <- subset(dfES, select= -c(TL))
+wideES <- dfES %>%
+  pivot_wider(names_from = metric, values_from = score)
+
+wideES[,-1]
+cormES<- cor(wideES[,-1], use = "pairwise.complete.obs", method = "spearman")
+corrplot(cormES)
+
+rcorr(as.matrix(wideES[,-1]),type="spearman")
+# significant:
+# - TER & chrF
+# - CSs & COMETQE
+# - CSs & chrF
+# - CI & CSs
+# - CI & error points
+```
+
+## NL
+
+```{r NL}
+dfNL <- df[df$TL=="NL",]
+dfNL <- subset(dfNL, select= -c(TL))
+wideNL <- dfNL %>%
+  pivot_wider(names_from = metric, values_from = score)
+
+wideNL[,-1]
+cormNL<- cor(wideNL[,-1], use = "pairwise.complete.obs", method = "spearman")
+corrplot(cormNL)
+rcorr(as.matrix(wideNL[,-1]),type="spearman")
+# significant:
+# - All pairs of ref-based metrics (BLEU, chrF, TER, COMET)
+# - CI and CSs
+```
+
+## ZH
+
+```{r ZH}
+dfZH <- df[df$TL=="ZH",]
+dfZH <- subset(dfZH, select= -c(TL))
+wideZH <- dfZH %>%
+  pivot_wider(names_from = metric, values_from = score)
+
+wideZH[,-1]
+cormZH<- cor(wideZH[,-1], use = "pairwise.complete.obs", method = "spearman")
+corrplot(cormZH)
+rcorr(as.matrix(wideZH[,-1]),type="spearman")
+# Only significance: CI and errorpoints
+```
