@@ -1,0 +1,1912 @@
+Sentence ID: 1:1
+Best Ref: 2br02b
+Orig Hyp: ﻿c-0-n-0-c
+
+REF:  2br02b    
+HYP:  ﻿c-0-n-0-c
+EVAL: S         
+SHFT:           
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 2:1
+Best Ref: tot estava perfectament inflat.
+Orig Hyp: tot era absolutament sensacional.
+
+REF:  tot estava perfectament inflat.     
+HYP:  tot era    absolutament sensacional.
+EVAL:     S      S            S           
+SHFT:                                     
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 3:1
+Best Ref: no hi havia presons, ni barris marginals, ni manicomis, ni cossos, ni pobresa, ni guerres.
+Orig Hyp: no hi havia presons ni barris de barraques ni manicomis ni esguerrats ni pobresa ni guerres.
+
+REF:  no hi havia presons, ni barris ** marginals, ni manicomis, ni cossos,    ni pobresa, ni guerres.
+HYP:  no hi havia presons  ni barris de barraques  ni manicomis  ni esguerrats ni pobresa  ni guerres.
+EVAL:             S                  I  S             S             S             S                   
+SHFT:                                                                                                 
+TER Score:  40.00 (  6.0/ 15.0)
+
+
+
+Sentence ID: 4:1
+Best Ref: totes les malalties van ser vençudes. així va ser la vellesa.
+Orig Hyp: s'havien vençut totes les malalties. també la vellesa.
+
+REF:    totes les   malalties van ser vençudes. així     va         ser   la vellesa.
+HYP:  [ totes les ] ********* *** *** s'havien  vençut @ malalties. també la vellesa.
+EVAL:               D         D   D   S         S        S          S                
+SHFT: 1           1                                    1                             
+TER Score:  72.73 (  8.0/ 11.0)
+
+Shift [totes, les] 2 words left
+ REF:    totes les   malalties van ser vençudes. així     va         ser   la vellesa.
+ HYP:  [ totes les ] ********* *** *** s'havien  vençut @ malalties. també la vellesa.
+
+
+
+Sentence ID: 5:1
+Best Ref: la mort, excepte accidents, va ser una aventura per als voluntaris.
+Orig Hyp: la mort, tret de pels accidents, era una aventura per a voluntaris.
+
+REF:  la mort, **** excepte   accidents,   va     ser una aventura per als voluntaris.
+HYP:  la mort, tret de      [ accidents, ] pels @ era una aventura per a   voluntaris.
+EVAL:          I    S                      S      S                    S              
+SHFT:                       1            1      1                                     
+TER Score:  54.55 (  6.0/ 11.0)
+
+Shift [accidents,] 1 words left
+ REF:  la mort, **** excepte   accidents,   va     ser una aventura per als voluntaris.
+ HYP:  la mort, tret de      [ accidents, ] pels @ era una aventura per a   voluntaris.
+
+
+
+Sentence ID: 6:1
+Best Ref: la població dels estats units es va estabilitzar en quaranta milions d'ànimes.
+Orig Hyp: la població dels estats units s'havia estabilitzat en quaranta milions d'ànimes.
+
+REF:  la població dels estats units es va      estabilitzar en quaranta milions d'ànimes.
+HYP:  la població dels estats units ** s'havia estabilitzat en quaranta milions d'ànimes.
+EVAL:                               D  S       S                                         
+SHFT:                                                                                    
+TER Score:  25.00 (  3.0/ 12.0)
+
+
+
+Sentence ID: 7:1
+Best Ref: un matí brillant a l'hospital de chicago, un home anomenat edward k. wehling, jr., esperava que la seva dona parís. era l'únic home que esperava. ja no va néixer molta gent un dia.
+Orig Hyp: un matí lluminós a la maternitat de chicago, un home anomenat edward k. wehling jr. esperava que la seva dona donés a llum. era l'únic que s'esperava. ja no naixien gaires persones al dia.
+
+REF:  un matí brillant a ** l'hospital de chicago, un home anomenat edward k. wehling, jr., esperava que la seva dona ***** * parís. era l'únic home que esperava.   ja no va néixer  molta  gent     un dia.
+HYP:  un matí lluminós a la maternitat de chicago, un home anomenat edward k. wehling  jr.  esperava que la seva dona donés a llum.  era l'únic **** que s'esperava. ja no ** naixien gaires persones al dia.
+EVAL:         S          I  S                                                 S        S                              I     I S                 D        S                 D  S       S      S        S      
+SHFT:                                                                                                                                                                                                        
+TER Score:  45.45 ( 15.0/ 33.0)
+
+
+
+Sentence ID: 8:1
+Best Ref: wehling tenia cinquanta-sis anys, un simple jove en una població l'edat mitjana de la qual era de cent vint-i-nou.
+Orig Hyp: wehling tenia cinquanta-sis anys, tot un jovencell per una població amb una mitjana d'edat de cent vint-i-nou anys.
+
+REF:  wehling tenia cinquanta-sis anys,   un   simple   jove      en  una població l'edat   mitjana   de la  qual   era    de cent ********** vint-i-nou.
+HYP:  wehling tenia cinquanta-sis anys, [ un ] tot    @ jovencell per una població ****** [ mitjana ] ** amb una  @ d'edat de cent vint-i-nou anys.      
+EVAL:                                          S        S         S                D                  D  S   S      S              I          S          
+SHFT:                                   1    1        1                                   2         2             2                                      
+TER Score:  63.16 ( 12.0/ 19.0)
+
+Shift [un] 1 words left
+ REF:  wehling tenia cinquanta-sis anys,   un   simple   jove      en  una població l'edat mitjana de  la  qual    era    de cent ********** vint-i-nou.
+ HYP:  wehling tenia cinquanta-sis anys, [ un ] tot    @ jovencell per una població ****** ******* amb una mitjana d'edat de cent vint-i-nou anys.      
+
+Shift [mitjana] 2 words left
+ REF:  wehling tenia cinquanta-sis anys, un simple jove      en  una població l'edat   mitjana   de la  qual   era    de cent ********** vint-i-nou.
+ HYP:  wehling tenia cinquanta-sis anys, un tot    jovencell per una població ****** [ mitjana ] ** amb una  @ d'edat de cent vint-i-nou anys.      
+
+
+
+Sentence ID: 9:1
+Best Ref: les radiografies havien revelat que la seva dona tindria tres bessons. els nens serien els seus primers.
+Orig Hyp: les radiografies havien revelat que la seva dona tindria trigèmins. serien els seus primers fills.
+
+REF:  les radiografies havien revelat que la seva dona tindria tres bessons. els nens       serien els seus ******* primers.
+HYP:  les radiografies havien revelat que la seva dona tindria **** ******** *** trigèmins. serien els seus primers fills.  
+EVAL:                                                          D    D        D   S                          I       S       
+SHFT:                                                                                                                       
+TER Score:  35.29 (  6.0/ 17.0)
+
+
+
+Sentence ID: 10:1
+Best Ref: el jove wehling estava encorbat a la cadira, el cap a la mà. estava tan arrugat, tan quiet i incolor que era pràcticament invisible. el seu camuflatge era perfecte, ja que la sala d'espera també tenia un aire desordenat i desmoralitzat. les cadires i els cendrers havien estat allunyats de les parets. el terra estava pavimentat amb draps esquitxats.
+Orig Hyp: el jove wehling seia cargolat a la cadira, aguantant-se el cap amb la mà. estava tan arronsat, tan quiet i apagat, que era virtualment invisible. el seu camuflatge era perfecte perquè la sala d'espera també tenia un aire desmanegat i desmoralitzat. havien mogut les cadires i els cendrers per apartar-los de la paret. aquí i allà el terra estava cobert amb teles protectores.
+
+REF:  el jove wehling estava encorbat a la cadira, ************ el cap a   la mà. estava tan arrugat,  tan quiet i incolor que era pràcticament invisible. el seu camuflatge era perfecte, ja       que    la sala d'espera també tenia un aire desordenat i desmoralitzat.   ***** les cadires i els cendrers   havien   estat allunyats   de ** ****** **** les parets. el terra estava pavimentat amb draps esquitxats. 
+HYP:  el jove wehling seia   cargolat a la cadira, aguantant-se el cap amb la mà. estava tan arronsat, tan quiet i apagat, que era virtualment  invisible. el seu camuflatge era ********* perfecte perquè la sala d'espera també tenia un aire desmanegat i desmoralitzat. @ mogut les cadires i els cendrers [ havien ] per   apartar-los de la paret. aquí i   allà    el terra estava cobert     amb teles protectores.
+EVAL:                 S      S                     I                   S                     S                     S               S                                             D         S        S                                           S                             I                                           S     S              I  I      I    S   S                       S              S     S           
+SHFT:                                                                                                                                                                                                                                                                       1                                  1        1                                                                                                  
+TER Score:  38.98 ( 23.0/ 59.0)
+
+Shift [havien] 6 words right
+ REF:  el jove wehling estava encorbat a la cadira, ************ el cap a   la mà. estava tan arrugat,  tan quiet i incolor que era pràcticament invisible. el seu camuflatge era perfecte, ja       que    la sala d'espera també tenia un aire desordenat i desmoralitzat.   ***** les cadires i els cendrers   havien   estat allunyats   de ** ****** **** les parets. el terra estava pavimentat amb draps esquitxats. 
+ HYP:  el jove wehling seia   cargolat a la cadira, aguantant-se el cap amb la mà. estava tan arronsat, tan quiet i apagat, que era virtualment  invisible. el seu camuflatge era ********* perfecte perquè la sala d'espera també tenia un aire desmanegat i desmoralitzat. @ mogut les cadires i els cendrers [ havien ] per   apartar-los de la paret. aquí i   allà    el terra estava cobert     amb teles protectores.
+
+
+
+Sentence ID: 11:1
+Best Ref: l'habitació estava sent redecorada. s'estava redecorant com a monument a un home que s'havia ofert per morir.
+Orig Hyp: estaven redecorant la sala. l'estaven redecorant per commemorar l'home que s'havia ofert voluntari per morir.
+
+REF:  l'habitació estava     sent redecorada. s'estava  redecorant com a monument a   un         home   que s'havia ofert ********* per morir.
+HYP:  estaven     redecorant la   sala.       l'estaven redecorant *** * ******** per commemorar l'home que s'havia ofert voluntari per morir.
+EVAL: S           S          S    S           S                    D   D D        S   S          S                        I                   
+SHFT:                                                                                                                                         
+TER Score:  70.59 ( 12.0/ 17.0)
+
+
+
+Sentence ID: 12:1
+Best Ref: un vell sardònic, d'uns dos-cents anys, va asseure's en una escala, pintant un mural que no li agradava. a l'època en què la gent envellia visiblement, la seva edat s'hauria endevinat als trenta-cinc anys més o menys. l'envelliment l'havia tocat molt abans que es trobés la cura per a l'envelliment.
+Orig Hyp: un vell sarcàstic d'uns dos-cents anys s'estava assegut en una escala de mà pintant un mural que no li agradava. temps enllà, quan a les persones se'ls notava que envellien, li haurien posat uns trenta-cinc anys. l'envelliment ja l'havia afectat fins a aquest extrem quan van trobar-ne la cura.
+
+REF:  un vell sardònic, d'uns dos-cents anys,   va       asseure's en una ****** ** escala, pintant un mural que no li agradava.   a   l'època en     què    la     gent envellia visiblement, la       seva       edat s'hauria endevinat als trenta-cinc   anys   més o       menys.   l'envelliment   l'havia tocat molt    abans     que   es     trobés la   cura per         a     l'envelliment.
+HYP:  un vell sarcàstic d'uns dos-cents ***** @ s'estava assegut   en una escala de mà      pintant un mural que no li agradava. [ a ] temps   enllà, quan [ la ] @ les  persones se'ls        notava @ envellien, li   haurien  posat     uns trenta-cinc [ anys ] *** anys. @ ja     [ l'envelliment ] l'havia ***** afectat fins  @ [ que ] aquest extrem quan van  trobar-ne [ a ] @ cura.         
+EVAL:         S                         D       S        S                I      I  S                                                  S       S      S             S    S        S            S        S          S    S        S         S                        D   S       S                                D     S       S               S      S      S    S    S                 S             
+SHFT:                                         1                                                                                  2   2                     5    5 2                                   3                                                    1      1           4        4               4                             6 3     3                                   6   6 5               
+TER Score:  74.00 ( 37.0/ 50.0)
+
+Shift [anys] 29 words right
+ REF:  un vell sardònic, d'uns dos-cents anys,   va       asseure's en una ****** ** escala, pintant un mural que no li agradava. a     l'època en   què la  gent     envellia visiblement, la  seva       edat s'hauria endevinat als trenta-cinc   anys   més o menys. l'envelliment l'havia tocat   molt    abans que es     trobés la   cura per       a  l'envelliment.
+ HYP:  un vell sarcàstic d'uns dos-cents ***** @ s'estava assegut   en una escala de mà      pintant un mural que no li agradava. temps enllà,  quan a   les persones se'ls    notava       que envellien, li   haurien  posat     uns trenta-cinc [ anys ] *** * anys.  l'envelliment ja      l'havia afectat fins  a   aquest extrem quan van  trobar-ne la cura.         
+
+Shift [a] 3 words left
+ REF:  un vell sardònic, d'uns dos-cents anys, va       asseure's en una ****** ** escala, pintant un mural que no li agradava.   a   l'època en     què    la  gent     envellia visiblement, la  seva       edat s'hauria endevinat als trenta-cinc anys més o menys. l'envelliment l'havia tocat   molt    abans que es     trobés la   cura per       a  l'envelliment.
+ HYP:  un vell sarcàstic d'uns dos-cents ***** s'estava assegut   en una escala de mà      pintant un mural que no li agradava. [ a ] temps   enllà, quan @ les persones se'ls    notava       que envellien, li   haurien  posat     uns trenta-cinc anys *** * anys.  l'envelliment ja      l'havia afectat fins  a   aquest extrem quan van  trobar-ne la cura.         
+
+Shift [que] 14 words right
+ REF:  un vell sardònic, d'uns dos-cents anys, va       asseure's en una ****** ** escala, pintant un mural que no li agradava. a l'època en    què    la   gent envellia visiblement, la       seva       edat s'hauria endevinat als trenta-cinc anys més o     menys.        l'envelliment l'havia tocat   molt abans   que   es     trobés la   cura per       a  l'envelliment.
+ HYP:  un vell sarcàstic d'uns dos-cents ***** s'estava assegut   en una escala de mà      pintant un mural que no li agradava. a ******* temps enllà, quan les  persones se'ls        notava @ envellien, li   haurien  posat     uns trenta-cinc anys *** anys. l'envelliment ja            l'havia afectat fins a     [ que ] aquest extrem quan van  trobar-ne la cura.         
+
+Shift [l'envelliment] 1 words right
+ REF:  un vell sardònic, d'uns dos-cents anys, va       asseure's en una ****** ** escala, pintant un mural que no li agradava. a l'època en    què    la   gent envellia visiblement, la     seva       edat s'hauria endevinat als trenta-cinc anys més o       menys.   l'envelliment   l'havia tocat   molt abans que es     trobés la   cura per       a  l'envelliment.
+ HYP:  un vell sarcàstic d'uns dos-cents ***** s'estava assegut   en una escala de mà      pintant un mural que no li agradava. a ******* temps enllà, quan les  persones se'ls        notava envellien, li   haurien  posat     uns trenta-cinc anys *** anys. @ ja     [ l'envelliment ] l'havia afectat fins a     que aquest extrem quan van  trobar-ne la cura.         
+
+Shift [la] 24 words left
+ REF:  un vell sardònic, d'uns dos-cents anys, va       asseure's en una ****** ** escala, pintant un mural que no li agradava. a l'època en     què    la   gent envellia visiblement, la     seva       edat s'hauria endevinat als trenta-cinc anys més o     menys. l'envelliment l'havia tocat   molt abans que es trobés la     cura per a           l'envelliment.
+ HYP:  un vell sarcàstic d'uns dos-cents ***** s'estava assegut   en una escala de mà      pintant un mural que no li agradava. a temps   enllà, quan [ la ] les  persones se'ls        notava envellien, li   haurien  posat     uns trenta-cinc anys *** anys. ja     l'envelliment l'havia afectat fins a     que ** aquest extrem quan van trobar-ne @ cura.         
+
+Shift [a] 6 words right
+ REF:  un vell sardònic, d'uns dos-cents anys, va       asseure's en una ****** ** escala, pintant un mural que no li agradava. a l'època en     què  la gent envellia visiblement, la     seva       edat s'hauria endevinat als trenta-cinc anys més o     menys. l'envelliment l'havia tocat molt    abans   que es     trobés la   cura per         a   l'envelliment.
+ HYP:  un vell sarcàstic d'uns dos-cents ***** s'estava assegut   en una escala de mà      pintant un mural que no li agradava. a temps   enllà, quan la les  persones se'ls        notava envellien, li   haurien  posat     uns trenta-cinc anys *** anys. ja     l'envelliment l'havia ***** afectat fins  @ que aquest extrem quan van  trobar-ne [ a ] cura.         
+
+
+
+Sentence ID: 13:1
+Best Ref: el mural en el qual estava treballant representava un jardí molt cuidat. homes i dones de blanc, metges i infermeres, van girar el sòl, van plantar plàntules, van ruixar insectes, escampar adob.
+Orig Hyp: el mural en el qual treballava representava un jardí molt net i polit. homes i dones vestits de blanc, metges i infermeres, removien la terra, plantaven plançons, fumigaven, escampaven fertilitzant.
+
+REF:  el mural en el qual estava treballant representava un jardí molt *** * cuidat. homes i dones ******* de blanc, metges i infermeres, van girar el sòl, van      plantar plàntules, van       ruixar    insectes,  escampar   adob.        
+HYP:  el mural en el qual ****** treballava representava un jardí molt net i polit.  homes i dones vestits de blanc, metges i infermeres, *** ***** ** **** removien la      terra,     plantaven plançons, fumigaven, escampaven fertilitzant.
+EVAL:                     D      S                                     I   I S                     I                                      D   D     D  D    S        S       S          S         S         S          S          S            
+SHFT:                                                                                                                                                                                                                                          
+TER Score:  56.25 ( 18.0/ 32.0)
+
+
+
+Sentence ID: 14:1
+Best Ref: homes i dones amb uniformes de color lila van treure males herbes, tallaven plantes velles i malaltissimes, van rastrejar les fulles, van portar les deixalles als cremadors d'escombraries.
+Orig Hyp: tot d'homes i dones amb uniformes morats arrencaven males herbes, tallaven les plantes velles i malaltes, rastellaven fulles i portaven la brossa a l'incinerador de residus.
+
+REF:  *** homes   i dones amb uniformes   de   color lila van    treure     males herbes, tallaven   plantes velles i malaltissimes, van         rastrejar   les   fulles, van portar   les deixalles als cremadors       d'escombraries.
+HYP:  tot d'homes i dones amb uniformes [ de ] ***** **** morats arrencaven males herbes, tallaven @ plantes velles i malaltes,      rastellaven fulles    [ les ] ******* i   portaven la  brossa    a   l'incinerador @ residus.       
+EVAL: I   S                                    D     D    S      S                                                    S              S           S                 D       S   S        S   S         S   S               S              
+SHFT:                                   2    2                                                     1                                                       1     1                                                      2                
+TER Score:  67.86 ( 19.0/ 28.0)
+
+Shift [les] 6 words right
+ REF:  *** homes   i dones amb uniformes de color lila van    treure     males herbes, tallaven   plantes velles i malaltissimes, van         rastrejar   les   fulles, van      portar les    deixalles als           cremadors d'escombraries.
+ HYP:  tot d'homes i dones amb uniformes ** ***** **** morats arrencaven males herbes, tallaven @ plantes velles i malaltes,      rastellaven fulles    [ les ] i       portaven la     brossa a         l'incinerador de        residus.       
+
+Shift [de] 18 words left
+ REF:  *** homes   i dones amb uniformes   de   color lila van    treure     males herbes, tallaven plantes velles i malaltissimes, van         rastrejar les fulles, van portar   les deixalles als cremadors       d'escombraries.
+ HYP:  tot d'homes i dones amb uniformes [ de ] ***** **** morats arrencaven males herbes, tallaven plantes velles i malaltes,      rastellaven fulles    les ******* i   portaven la  brossa    a   l'incinerador @ residus.       
+
+
+
+Sentence ID: 15:1
+Best Ref: mai, mai, mai, ni tan sols a l'holanda medieval ni al japó antic, un jardí havia estat més formal, millor cuidat. cada planta tenia tota la marga, la llum, l'aigua, l'aire i els aliments que podia utilitzar.
+Orig Hyp: cap jardí no havia estat mai, mai, mai, —ni tan sols a l'holanda medieval ni al japó antic— tan decent i ben cuidat. cada planta tenia tot el soler, la llum, l'aire i l'aliment que li calia.
+
+REF:  ***   **   mai, mai, mai, ni  tan sols a l'holanda medieval ni al japó antic, un    jardí     havia estat   més    formal, millor cuidat. cada planta tenia tota la marga, la llum, l'aigua, l'aire i els aliments  que podia utilitzar.
+HYP:  cap @ no @ mai, mai, mai, —ni tan sols a l'holanda medieval ni al japó antic— tan [ jardí ] [ havia estat ] decent i       ben    cuidat. cada planta tenia tot  el soler, la llum, ******** l'aire i *** l'aliment que li    calia.    
+EVAL: I     I                   S                                            S      S                             S      S       S                                S    S  S               D                 D   S             S     S         
+SHFT:     2    1                                                                        2       2 1             1                                                                                                                             
+TER Score:  48.65 ( 18.0/ 37.0)
+
+Shift [havia, estat] 14 words right
+ REF:  *** ***** **   mai, mai, mai, ni  tan sols a l'holanda medieval ni al japó antic, un     jardí   havia estat   més    formal, millor cuidat. cada planta tenia tota la marga, la llum, l'aigua, l'aire i els aliments  que podia utilitzar.
+ HYP:  cap jardí no @ mai, mai, mai, —ni tan sols a l'holanda medieval ni al japó ****** antic— tan   [ havia estat ] decent i       ben    cuidat. cada planta tenia tot  el soler, la llum, ******** l'aire i *** l'aliment que li    calia.    
+
+Shift [jardí] 15 words right
+ REF:  ***   ** mai, mai, mai, ni  tan sols a l'holanda medieval ni al japó antic, un    jardí   havia estat més    formal, millor cuidat. cada planta tenia tota la marga, la llum, l'aigua, l'aire i els aliments  que podia utilitzar.
+ HYP:  cap @ no mai, mai, mai, —ni tan sols a l'holanda medieval ni al japó antic— tan [ jardí ] havia estat decent i       ben    cuidat. cada planta tenia tot  el soler, la llum, ******** l'aire i *** l'aliment que li    calia.    
+
+
+
+Sentence ID: 16:1
+Best Ref: un encarregat de l'hospital va baixar pel passadís, cantant sota la seva respiració una cançó popular:
+Orig Hyp: un auxiliar sanitari va arribar pel passadís tot cantant una cançó popular entre dents:
+
+REF:  un encarregat de       l'hospital va baixar  pel passadís,   cantant   sota     la      seva    respiració   una cançó   popular:
+HYP:  un ********** auxiliar sanitari   va arribar pel ********* [ cantant ] passadís tot @ @ popular entre      [ una cançó ] dents:  
+EVAL:    D          S        S             S           D                     S        S       S       S                        S       
+SHFT:                                                            2         2              1 2                    1           1         
+TER Score:  75.00 ( 12.0/ 16.0)
+
+Shift [una, cançó] 2 words right
+ REF:  un encarregat de       l'hospital va baixar  pel passadís, cantant  sota la        seva    respiració   una cançó   popular:
+ HYP:  un ********** auxiliar sanitari   va arribar pel ********* passadís tot  cantant @ popular entre      [ una cançó ] dents:  
+
+Shift [cantant] 2 words left
+ REF:  un encarregat de       l'hospital va baixar  pel passadís,   cantant   sota     la    seva    respiració una cançó popular:
+ HYP:  un ********** auxiliar sanitari   va arribar pel ********* [ cantant ] passadís tot @ popular entre      una cançó dents:  
+
+
+
+Sentence ID: 17:1
+Best Ref: si no t'agraden els meus petons, amor,
+Orig Hyp: si no t'agraden els meus petons, reina,
+
+REF:  si no t'agraden els meus petons, amor, 
+HYP:  si no t'agraden els meus petons, reina,
+EVAL:                                  S     
+SHFT:                                        
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 18:1
+Best Ref: això és el que faré:
+Orig Hyp: vet aquí el que faré:
+
+REF:  això és   el que faré:
+HYP:  vet  aquí el que faré:
+EVAL: S    S                
+SHFT:                       
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 19:1
+Best Ref: aniré a veure una noia de violeta,
+Orig Hyp: aniré a veure una noia vestida de morat,
+
+REF:  aniré a veure una noia ******* de violeta,
+HYP:  aniré a veure una noia vestida de morat,  
+EVAL:                        I          S       
+SHFT:                                           
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 20:1
+Best Ref: un petó a aquest món trist.
+Orig Hyp: m'acomiadaré d'aquest món trist.
+
+REF:  un petó a            aquest   món trist.
+HYP:  ** **** m'acomiadaré d'aquest món trist.
+EVAL: D  D    S            S                  
+SHFT:                                         
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 21:1
+Best Ref: si no vols el meu amor,
+Orig Hyp: si no vols el meu amor,
+
+REF:  si no vols el meu amor,
+HYP:  si no vols el meu amor,
+EVAL:                        
+SHFT:                        
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 22:1
+Best Ref: per què hauria d'ocupar tot aquest espai?
+Orig Hyp: quin sentit té que ocupi un lloc?
+
+REF:  per  què    hauria d'ocupar tot   aquest espai?
+HYP:  quin sentit té     que      ocupi un     lloc? 
+EVAL: S    S      S      S        S     S      S     
+SHFT:                                                
+TER Score: 100.00 (  7.0/  7.0)
+
+
+
+Sentence ID: 23:1
+Best Ref: me'n sortiré d'aquest vell planeta,
+Orig Hyp: baixaré d'aquest planeta,
+
+REF:  me'n sortiré d'aquest vell planeta,
+HYP:  **** baixaré d'aquest **** planeta,
+EVAL: D    S                D            
+SHFT:                                    
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 24:1
+Best Ref: deixa que algun dolç nadó tingui el meu lloc.
+Orig Hyp: i que una criatureta es quedi el meu lloc.
+
+REF:  deixa que algun dolç       nadó tingui el meu lloc.
+HYP:  i     que una   criatureta es   quedi  el meu lloc.
+EVAL: S         S     S          S    S                  
+SHFT:                                                    
+TER Score:  55.56 (  5.0/  9.0)
+
+
+
+Sentence ID: 25:1
+Best Ref: l'encarregat va mirar el mural i el muralista. "sembla tan real", va dir, "pràcticament puc imaginar que estic al mig".
+Orig Hyp: l'auxiliar es va mirar el mural i el pintor a la sala. —sembla tan real —va dir—. pràcticament em puc imaginar que soc dret allà al mig.
+
+REF:  ********** l'encarregat va mirar el mural i el ****** * ** muralista. "sembla tan **** real", va    dir,         "pràcticament puc imaginar que *** **** estic al mig".
+HYP:  l'auxiliar es           va mirar el mural i el pintor a la sala.      —sembla tan real —va    dir—. pràcticament em            puc imaginar que soc dret allà  al mig. 
+EVAL: I          S                                   I      I I  S          S           I    S      S     S            S                              I   I    S        S    
+SHFT:                                                                                                                                                                        
+TER Score:  80.00 ( 16.0/ 20.0)
+
+
+
+Sentence ID: 26:1
+Best Ref: "què et fa pensar que no hi estàs?" va dir el pintor. va fer un somriure satíric. "es diu "el jardí feliç de la vida", ja ho saps".
+Orig Hyp: —què et fa pensar que no hi ets? —va dir el pintor, tot fent un somriure satíric—. es diu el feliç jardí de la vida, saps?
+
+REF:  "què et fa pensar que no hi estàs?" va  dir el pintor. va  fer  un somriure satíric.  "es diu "el   jardí   feliç   de la vida", ja ho    saps".
+HYP:  —què et fa pensar que no hi ets?    —va dir el pintor, tot fent un somriure satíric—. es  diu el  @ jardí [ feliç ] de la ****** ** vida, saps? 
+EVAL: S                           S       S          S       S   S                S         S       S                           D      D  S     S     
+SHFT:                                                                                                   1       1       1                             
+TER Score:  50.00 ( 14.0/ 28.0)
+
+Shift [feliç] 1 words right
+ REF:  "què et fa pensar que no hi estàs?" va  dir el pintor. va  fer  un somriure satíric.  "es diu "el   jardí   feliç   de la vida", ja ho    saps".
+ HYP:  —què et fa pensar que no hi ets?    —va dir el pintor, tot fent un somriure satíric—. es  diu el  @ jardí [ feliç ] de la ****** ** vida, saps? 
+
+
+
+Sentence ID: 27:1
+Best Ref: "això està bé del doctor hitz", va dir l'encàrrec.
+Orig Hyp: —li ha quedat bé el doctor hitz —va dir l'auxiliar.
+
+REF:  *** "això està   bé del doctor hitz", va  dir l'encàrrec.
+HYP:  —li ha    quedat bé el  doctor hitz   —va dir l'auxiliar.
+EVAL: I   S     S         S          S      S       S          
+SHFT:                                                          
+TER Score:  77.78 (  7.0/  9.0)
+
+
+
+Sentence ID: 28:1
+Best Ref: es referia a una de les figures masculines de blanc, el cap de la qual era un retrat del doctor benjamin hitz, obstetra en cap de l'hospital. hitz era un home bellíssim.
+Orig Hyp: es referia a una de les figures masculines de blanc, el cap de la qual era un retrat del doctor benjamin hitz, l'obstetre en cap de l'hospital. hitz era un home d'una bellesa encegadora.
+
+REF:  es referia a una de les figures masculines de blanc, el cap de la qual era un retrat del doctor benjamin hitz, obstetra   en cap de l'hospital. hitz era un home ***** ******* bellíssim. 
+HYP:  es referia a una de les figures masculines de blanc, el cap de la qual era un retrat del doctor benjamin hitz, l'obstetre en cap de l'hospital. hitz era un home d'una bellesa encegadora.
+EVAL:                                                                                                                S                                                 I     I       S          
+SHFT:                                                                                                                                                                                           
+TER Score:  12.50 (  4.0/ 32.0)
+
+
+
+Sentence ID: 29:1
+Best Ref: "encara queden cares per omplir", va dir l'encàrrec. volia dir que les cares de moltes de les figures del mural encara estaven en blanc. tots els espais en blanc s'havien d'omplir amb retrats de persones importants del personal de l'hospital o de l'oficina de chicago de l'oficina federal de terminació.
+Orig Hyp: —encara falten moltes cares per omplir —va dir l'auxiliar. volia dir que les cares de moltes figures del mural encara estaven en blanc. tots els buits s'havien d'omplir amb els retrats de persones importants, ja fos del personal de l'hospital o de la delegació de chicago de l'oficina federal de liquidació.
+
+REF:  ******* "encara queden cares per omplir", va  dir l'encàrrec. volia dir que les cares de moltes de les figures del mural encara estaven en blanc. tots els espais en blanc s'havien d'omplir amb *** retrats de persones *********** ** importants del personal de l'hospital o de ** l'oficina de chicago de l'oficina federal de terminació.
+HYP:  —encara falten  moltes cares per omplir   —va dir l'auxiliar. volia dir que les cares de moltes ** *** figures del mural encara estaven en blanc. tots els ****** ** buits s'havien d'omplir amb els retrats de persones importants, ja fos        del personal de l'hospital o de la delegació de chicago de l'oficina federal de liquidació.
+EVAL: I       S       S                S        S       S                                             D  D                                                       D      D  S                           I                       I           I  S                                          I  S                                            S          
+SHFT:                                                                                                                                                                                                                                                                                                                                               
+TER Score:  36.00 ( 18.0/ 50.0)
+
+
+
+Sentence ID: 30:1
+Best Ref: "ha de ser agradable poder fer imatges que semblin alguna cosa", va dir l'encàrrec.
+Orig Hyp: —ha de ser bonic saber dibuixar imatges que semblin alguna cosa —va dir l'auxiliar.
+
+REF:  "ha de ser agradable poder fer      imatges que semblin alguna cosa", va  dir l'encàrrec.
+HYP:  —ha de ser bonic     saber dibuixar imatges que semblin alguna cosa   —va dir l'auxiliar.
+EVAL: S          S         S     S                                   S      S       S          
+SHFT:                                                                                          
+TER Score:  50.00 (  7.0/ 14.0)
+
+
+
+Sentence ID: 31:1
+Best Ref: la cara del pintor es va quallar de menyspreu. "creus que estic orgullós d'aquest embruix?" va dir. "creus que aquesta és la meva idea de com és realment la vida?"
+Orig Hyp: al pintor se li va posar una cara agra de menyspreu. —et penses que estic orgullós d'aquesta pasterada? et penses que aquesta és realment la imatge que jo tinc de la vida?
+
+REF:  la   cara     ** del   pintor     es    va    quallar de menyspreu. *** "creus que estic orgullós d'aquest  embruix?"    va   dir. "creus que aquesta   és     la  meva idea de com   és realment la   vida?"
+HYP:  al [ cara ] @ se li  [ pintor ] @ posar una @ agra    de menyspreu. —et penses que estic orgullós d'aquesta pasterada? [ va ] et   penses que aquesta @ imatge que jo   tinc de la  [ és realment la ] vida? 
+EVAL: S             I  S                S     S     S                     I   S                         S         S                 S    S                    S      S   S    S       S                      S     
+SHFT:    4      4 3        3        3 2           4                                                                          2    2                         1                             1                1       
+TER Score:  73.33 ( 22.0/ 30.0)
+
+Shift [és, realment, la] 6 words right
+ REF:  ** ****** la cara del pintor es  va   quallar de menyspreu. *** "creus que estic orgullós d'aquest embruix?" va         dir. "creus que aquesta   és     la  meva idea de com   és realment la   vida?"
+ HYP:  al pintor se li   va  posar  una cara agra    de menyspreu. —et penses que estic orgullós ******** d'aquesta pasterada? et   penses que aquesta @ imatge que jo   tinc de la  [ és realment la ] vida? 
+
+Shift [va] 13 words right
+ REF:  ** la     cara del   pintor es  va   quallar de menyspreu. *** "creus que estic orgullós d'aquest  embruix?"    va   dir. "creus que aquesta és     la  meva idea de com és realment la vida?"
+ HYP:  al pintor se   li  @ posar  una cara agra    de menyspreu. —et penses que estic orgullós d'aquesta pasterada? [ va ] et   penses que aquesta imatge que jo   tinc de la  és realment la vida? 
+
+Shift [pintor] 2 words right
+ REF:  la   cara del   pintor   ***** es  va   quallar de menyspreu. *** "creus que estic orgullós d'aquest  embruix?"  va dir. "creus que aquesta és     la  meva idea de com és realment la vida?"
+ HYP:  al @ se   li  [ pintor ] posar una cara agra    de menyspreu. —et penses que estic orgullós d'aquesta pasterada? va et   penses que aquesta imatge que jo   tinc de la  és realment la vida? 
+
+Shift [cara] 5 words left
+ REF:  la   cara   ** del pintor es    va    quallar de menyspreu. *** "creus que estic orgullós d'aquest  embruix?"  va dir. "creus que aquesta és     la  meva idea de com és realment la vida?"
+ HYP:  al [ cara ] se li  pintor posar una @ agra    de menyspreu. —et penses que estic orgullós d'aquesta pasterada? va et   penses que aquesta imatge que jo   tinc de la  és realment la vida? 
+
+
+
+Sentence ID: 32:1
+Best Ref: "quina idea tens de com és la vida?" va dir l'encàrrec.
+Orig Hyp: —quina imatge té vostè de la vida? —va preguntar l'auxiliar.
+
+REF:  "quina idea   tens     de   com és      la vida?" va  dir       l'encàrrec.
+HYP:  ****** —quina imatge [ de ] té  vostè @ la vida?  —va preguntar l'auxiliar.
+EVAL: D      S      S             S   S          S      S   S         S          
+SHFT:                      1    1           1                                    
+TER Score:  90.91 ( 10.0/ 11.0)
+
+Shift [de] 2 words left
+ REF:  "quina idea   tens     de   com és      la vida?" va  dir       l'encàrrec.
+ HYP:  ****** —quina imatge [ de ] té  vostè @ la vida?  —va preguntar l'auxiliar.
+
+
+
+Sentence ID: 33:1
+Best Ref: el pintor va fer un gest a un drap brut. "hi ha una bona imatge d'això", va dir. "enmarca-ho, i tindreu una imatge maleïda més honesta que aquesta".
+Orig Hyp: el pintor va assenyalar una tela empastifada de les que protegien el terra. —vet aquí una bona imatge de la vida —va dir—. l'emmarques i ja tindràs un coi de quadre mil vegades més honest que aquest.
+
+REF:  el pintor va **********   **** fer           un   ** gest a   un        drap brut.  "hi  ha   una bona imatge ** ** d'això", va  dir.  "enmarca-ho, i ** *******   *** tindreu   una   ****** imatge maleïda més honesta que aquesta".
+HYP:  el pintor va assenyalar @ tela empastifada [ un ] de les  que protegien el   terra. —vet aquí una bona imatge de la vida     —va dir—. l'emmarques  i ja tindràs @ coi de      [ una ] quadre mil    vegades més honest  que aquest.  
+EVAL:              I            I    S                  I  S    S   S         S    S      S    S                    I  I  S        S   S     S              I  I         I   S               I      S      S           S           S        
+SHFT:                         1                  2    2                                                                                                                2             1     1                                                
+TER Score: 100.00 ( 28.0/ 28.0)
+
+Shift [una] 25 words right
+ REF:  el pintor va **********   **** fer         un gest a   un        drap brut.  "hi  ha   una bona imatge ** ** d'això", va  dir.  "enmarca-ho, i ** ******* ** *** tindreu   una   ****** imatge maleïda més honesta que aquesta".
+ HYP:  el pintor va assenyalar @ tela empastifada de les  que protegien el   terra. —vet aquí una bona imatge de la vida     —va dir—. l'emmarques  i ja tindràs un coi de      [ una ] quadre mil    vegades més honest  que aquest.  
+
+Shift [un] 20 words left
+ REF:  el pintor va ********** **** fer           un   ** gest a   un        drap brut.  "hi  ha   una bona imatge ** ** d'això", va  dir.  "enmarca-ho, i ** *******   *** tindreu una ****** imatge maleïda més honesta que aquesta".
+ HYP:  el pintor va assenyalar tela empastifada [ un ] de les  que protegien el   terra. —vet aquí una bona imatge de la vida     —va dir—. l'emmarques  i ja tindràs @ coi de      una quadre mil    vegades més honest  que aquest.  
+
+
+
+Sentence ID: 34:1
+Best Ref: —ets un ànec vell ombrívol, oi? va dir l'encàrrec.
+Orig Hyp: —és un vell pessimista, eh? —va dir l'auxiliar.
+
+REF:  —ets un ànec vell ombrívol,   oi? va  dir l'encàrrec.
+HYP:  —és  un **** vell pessimista, eh? —va dir l'auxiliar.
+EVAL: S       D         S           S   S       S          
+SHFT:                                                      
+TER Score:  66.67 (  6.0/  9.0)
+
+
+
+Sentence ID: 35:1
+Best Ref: "això és un delicte?" va dir el pintor.
+Orig Hyp: —què és delicte, ser-ho? —va dir el pintor.
+
+REF:  "això és un       delicte?" va  dir el pintor.
+HYP:  —què  és delicte, ser-ho?   —va dir el pintor.
+EVAL: S        S        S         S                 
+SHFT:                                               
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 36:1
+Best Ref: l'encarregat es va arronsar d'espatlles. "si no t'agrada aquí, avi..." va dir, i va acabar la idea amb el número de telèfon truc al qual havien de trucar la gent que no volia viure més. el zero del número de telèfon va pronunciar "res".
+Orig Hyp: l'auxiliar va arronsar les espatlles. —iaio, si això no li agrada, … —va dir, i va acabar la idea amb l'enginyós número de telèfon al qual havien de trucar els qui ja no volien viure més. els dos zeros del telèfon es pronunciaven com una o.
+
+REF:  l'encarregat     es   va arronsar *** ********** ****** d'espatlles. "si  no t'agrada aquí,   avi..." va  dir, i va acabar la idea amb el         número de telèfon truc al qual havien de trucar la  gent que no volia  viure més. el  zero   del   número     de             telèfon   va  pronunciar "res".
+HYP:  l'auxiliar   @ [ es ] va arronsar les espatlles. —iaio, si           això no li       agrada, …       —va dir, i va acabar la idea amb l'enginyós número de telèfon **** al qual havien de trucar els qui  ja  no volien viure més. els dos  [ del ] zeros  @ @ pronunciaven [ telèfon ] com una        o.    
+EVAL: S                                 I   I          I      S            S       S        S       S       S                                S                            D                             S   S    S      S                 S   S            S          S                        S   S          S     
+SHFT:              1 2    2                                                                                                                                                                                                                        3     3        2 3              1         1                      
+TER Score:  59.09 ( 26.0/ 44.0)
+
+Shift [telèfon] 2 words right
+ REF:  l'encarregat es         va arronsar *** ********** ****** d'espatlles. "si  no t'agrada aquí,   avi..." va  dir, i va acabar la idea amb el         número de telèfon truc al qual havien de trucar la  gent que no volia  viure més. *** el  zero  del   número de             telèfon   va  pronunciar "res".
+ HYP:  ************ l'auxiliar va arronsar les espatlles. —iaio, si           això no li       agrada, …       —va dir, i va acabar la idea amb l'enginyós número de telèfon **** al qual havien de trucar els qui  ja  no volien viure més. els dos zeros del @ es     pronunciaven [ telèfon ] com una        o.    
+
+Shift [es] 39 words left
+ REF:  l'encarregat   es   va arronsar *** ********** ****** d'espatlles. "si  no t'agrada aquí,   avi..." va  dir, i va acabar la idea amb el         número de telèfon truc al qual havien de trucar la  gent que no volia  viure més. el  zero del   número   de           telèfon va  pronunciar "res".
+ HYP:  l'auxiliar   [ es ] va arronsar les espatlles. —iaio, si           això no li       agrada, …       —va dir, i va acabar la idea amb l'enginyós número de telèfon **** al qual havien de trucar els qui  ja  no volien viure més. els dos  zeros del    @ pronunciaven telèfon com una        o.    
+
+Shift [del] 1 words left
+ REF:  l'encarregat es va arronsar *** ********** ****** d'espatlles. "si  no t'agrada aquí,   avi..." va  dir, i va acabar la idea amb el         número de telèfon truc al qual havien de trucar la  gent que no volia  viure més. el  zero   del   número   de           telèfon va  pronunciar "res".
+ HYP:  l'auxiliar   es va arronsar les espatlles. —iaio, si           això no li       agrada, …       —va dir, i va acabar la idea amb l'enginyós número de telèfon **** al qual havien de trucar els qui  ja  no volien viure més. els dos  [ del ] zeros  @ pronunciaven telèfon com una        o.    
+
+
+
+Sentence ID: 37:1
+Best Ref: el número era: "2 b r 0 2 b".
+Orig Hyp: el número era: c-0-n-0-c.
+
+REF:  el número era: "2 b r 0 2 b".       
+HYP:  el número era: ** * * * * c-0-n-0-c.
+EVAL:                D  D D D D S         
+SHFT:                                     
+TER Score:  66.67 (  6.0/  9.0)
+
+
+
+Sentence ID: 38:1
+Best Ref: era el número de telèfon d'una institució els sobrenoms fantasiosos de la qual incloïen: "automat", "birdland", "cannery", "catbox", "de-louser", "easy-go", "adéu, mare" ". happy hooligan", "kiss-me-quick", "lucky pierre", "sheepdip", "waring blendor" "no plori més" i "per què preocupar-se?"
+Orig Hyp: era el telèfon d'una institució que tenia sobrenoms imaginatius com ara: autoservei, club birdland, envasadora, caixa del gat, llemenera, sortida fàcil, adéu-mama, camorrista feliç, últim petó, pel davant i pel darrere, bany de suarda, minipimer, prou plorar i per-què-amoïnar-s'hi?
+
+REF:  era el número   de   telèfon d'una institució *** els   sobrenoms fantasiosos de  la   qual        incloïen: "automat", "birdland", "cannery", "catbox", "de-louser", "easy-go", "adéu,  mare"  ".         happy      hooligan", "kiss-me-quick", "lucky pierre", "sheepdip",   "waring blendor" "no    plori   més"         i   **** "per   què preocupar-se?"       
+HYP:  era el ****** [ de ] telèfon d'una institució que tenia sobrenoms imaginatius com ara: autoservei, club      birdland,  envasadora, caixa      del       gat,         llemenera, sortida fàcil, adéu-mama, camorrista feliç,     últim            petó,  pel      davant      @ pel     darrere, bany @ suarda, minipimer, [ i ] prou plorar i   per-què-amoïnar-s'hi?
+EVAL:        D                                      I   S               S           S   S    S           S         S          S           S          S         S            S          S       S      S          S          S          S                S      S        S             S       S        S      S       S                I    S      S   S                    
+SHFT:               1    1                                                                                                                                                                                                                                                          2                       1                    2   2                                      
+TER Score:  89.47 ( 34.0/ 38.0)
+
+Shift [de] 30 words left
+ REF:  era el número   de   telèfon d'una institució *** els   sobrenoms *********** fantasiosos de   la          qual incloïen: "automat",  "birdland", "cannery", "catbox", "de-louser", "easy-go", "adéu, mare"      ".         happy  hooligan", "kiss-me-quick", "lucky pierre", "sheepdip", "waring blendor" "no    plori   més"       i    "per   què preocupar-se?"       
+ HYP:  era el ****** [ de ] telèfon d'una institució que tenia sobrenoms imaginatius com         ara: autoservei, club birdland, envasadora, caixa       del        gat,      llemenera,   sortida    fàcil, adéu-mama, camorrista feliç, últim      petó,            pel    davant   i           pel     darrere, bany @ suarda, minipimer, prou plorar i   per-què-amoïnar-s'hi?
+
+Shift [i] 5 words right
+ REF:  era el número de telèfon d'una institució *** els   sobrenoms fantasiosos de  la   qual        incloïen: "automat", "birdland", "cannery", "catbox", "de-louser", "easy-go", "adéu,  mare"  ".         happy      hooligan", "kiss-me-quick", "lucky pierre", "sheepdip",   "waring blendor" "no  plori   més"         i   **** "per   què preocupar-se?"       
+ HYP:  era el ****** de telèfon d'una institució que tenia sobrenoms imaginatius com ara: autoservei, club      birdland,  envasadora, caixa      del       gat,         llemenera, sortida fàcil, adéu-mama, camorrista feliç,     últim            petó,  pel      davant      @ pel     darrere, bany suarda, minipimer, [ i ] prou plorar i   per-què-amoïnar-s'hi?
+
+
+
+Sentence ID: 39:1
+Best Ref: "ser o no ser" era el número de telèfon de les cambres de gas municipals de l'oficina federal de terminació.
+Orig Hyp: «ser o no ser» era el número de telèfon de les cambres de gas municipals de l'oficina federal de liquidació.
+
+REF:  "ser o no ser" era el número de telèfon de les cambres de gas municipals de l'oficina federal de terminació.
+HYP:  «ser o no ser» era el número de telèfon de les cambres de gas municipals de l'oficina federal de liquidació.
+EVAL: S         S                                                                                      S          
+SHFT:                                                                                                             
+TER Score:  15.00 (  3.0/ 20.0)
+
+
+
+Sentence ID: 40:1
+Best Ref: el pintor va colpejar el nas a l'encàrrec. "quan decideixi que és hora d'anar", va dir, "no serà al sheepdip".
+Orig Hyp: el pintor va trufar-se de l'auxiliar. —quan decideixi que és hora de marxar —va dir—, no m'hi veuran al bany de suarda.
+
+REF:  el pintor va colpejar el nas       a  l'encàrrec. "quan decideixi que és hora ** ****** d'anar", va    dir, "no  serà   al **** ** sheepdip".
+HYP:  el pintor va ******** ** trufar-se de l'auxiliar. —quan decideixi que és hora de marxar —va      dir—, no   m'hi veuran al bany de suarda.   
+EVAL:              D        D  S         S  S           S                           I  I      S        S     S    S    S         I    I  S         
+SHFT:                                                                                                                                              
+TER Score:  80.00 ( 16.0/ 20.0)
+
+
+
+Sentence ID: 41:1
+Best Ref: "un fes-ho-ho tu mateix, eh?" va dir l'encàrrec. "afers desordenats, avi. per què no tens una mica de consideració per la gent que ha de netejar després de tu?"
+Orig Hyp: —així que vostè és dels autosuficients, eh? —va dir l'auxiliar—. quin merder, iaio. per què no té una mica de consideració per la gent que ho haurà de netejar després?
+
+REF:  ***** *** "un   fes-ho-ho tu   mateix,         eh?" va  dir l'encàrrec.  "afers desordenats, avi.  per què no tens una mica de consideració per la gent que ** ha    de netejar després de tu?"    
+HYP:  —així que vostè és        dels autosuficients, eh?  —va dir l'auxiliar—. quin   merder,      iaio. per què no té   una mica de consideració per la gent que ho haurà de netejar ******* ** després?
+EVAL: I     I   S     S         S    S               S    S       S            S      S            S                S                                             I  S                D       D  S       
+SHFT:                                                                                                                                                                                                    
+TER Score:  62.07 ( 18.0/ 29.0)
+
+
+
+Sentence ID: 42:1
+Best Ref: el pintor va expressar amb obscenitat la seva manca de preocupació per les tribulacions dels seus supervivents. "el món podria fer-ho amb molt més embolic, si em preguntes", va dir.
+Orig Hyp: el pintor va expressar amb una obscenitat la seva manca de miraments per les tribulacions dels que el sobreviurien. —mira què et dic, al món ja li aniria bé més merder, molt més merder —va dir.
+
+REF:  el pintor va expressar amb *** obscenitat la seva manca de preocupació per les tribulacions dels *** ** ************* ***** *** seus supervivents. "el món podria fer-ho amb      molt més   embolic, si  em        preguntes", va  dir.
+HYP:  el pintor va expressar amb una obscenitat la seva manca de miraments   per les tribulacions dels que el sobreviurien. —mira què et   dic,          al  món ja     li     aniria [ molt més ] bé       més merder, @ merder      —va dir.
+EVAL:                            I                               S                                     I   I  I             I     I   S    S             S       S      S      S                   S        S   S         S           S       
+SHFT:                                                                                                                                                                                 1          1                      1                     
+TER Score:  63.33 ( 19.0/ 30.0)
+
+Shift [molt, més] 3 words left
+ REF:  el pintor va expressar amb *** obscenitat la seva manca de preocupació per les tribulacions dels *** ** ************* ***** *** seus supervivents. "el món podria fer-ho amb      molt més   embolic, si  em        preguntes", va  dir.
+ HYP:  el pintor va expressar amb una obscenitat la seva manca de miraments   per les tribulacions dels que el sobreviurien. —mira què et   dic,          al  món ja     li     aniria [ molt més ] bé       més merder, @ merder      —va dir.
+
+
+
+Sentence ID: 43:1
+Best Ref: l'encarregat va riure i va seguir endavant.
+Orig Hyp: l'auxiliar va riure i va prosseguir el seu camí.
+
+REF:  l'encarregat va riure i va ********** ** seguir endavant.
+HYP:  l'auxiliar   va riure i va prosseguir el seu    camí.    
+EVAL: S                          I          I  S      S        
+SHFT:                                                          
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 44:1
+Best Ref: wehling, el pare que esperava, va murmurar alguna cosa sense aixecar el cap. i llavors va tornar a callar.
+Orig Hyp: wehling, el pare que s'esperava, va murmurar alguna cosa sense aixecar el cap. i després va tornar a quedar-se en silenci.
+
+REF:  wehling, el pare que esperava,   va murmurar alguna cosa sense aixecar el cap. i llavors va tornar a ********* ** callar. 
+HYP:  wehling, el pare que s'esperava, va murmurar alguna cosa sense aixecar el cap. i després va tornar a quedar-se en silenci.
+EVAL:                      S                                                           S                   I         I  S       
+SHFT:                                                                                                                           
+TER Score:  26.32 (  5.0/ 19.0)
+
+
+
+Sentence ID: 45:1
+Best Ref: una dona tosca i formidable va entrar a la sala d'espera amb talons de punta. les seves sabates, mitges, gabardina, bossa i gorra d'ultramar eren tots porpra, el morat que el pintor anomenava "el color del raïm el dia del judici".
+Orig Hyp: una dona formidable i barroera amb talons d'agulla va entrar a la sala d'espera fent gambades. les sabates, les mitges, la gavardina, la bossa, el casquet, eren tots de color morat, del morat que el pintor anomenava «el color del raïm el dia del judici final».
+
+REF:  una dona tosca      i ********   formidable va entrar a la sala d'espera   amb talons     de   **** punta.    les   seves   sabates,   mitges, gabardina, bossa      i  gorra    d'ultramar eren tots   ***** porpra,   el   *** morat que el pintor anomenava "el color del raïm el dia del ****** judici".
+HYP:  una dona formidable i barroera @ d'agulla   va entrar a la sala d'espera [ amb talons ] [ de ] fent gambades. les @ les   [ sabates, ] mitges, la         gavardina, la bossa, @ casquet,   eren tots @ color morat,  [ el ] del morat que el pintor anomenava «el color del raïm el dia del judici final». 
+EVAL:          S            I          S                                                             I    S               S                          S          S          S  S        S                      I     S              I                                 S                             I      S       
+SHFT:                                1                                         1            1 4    4                    2       2          2                                         3                      4               3    3                                                                                
+TER Score:  51.22 ( 21.0/ 41.0)
+
+Shift [amb, talons] 7 words right
+ REF:  una dona tosca      i ********   formidable va entrar a la sala d'espera   amb talons   de   punta.    les seves    sabates, mitges, ** gabardina, bossa i      gorra d'ultramar eren tots ** ***** porpra, el  morat que el pintor anomenava "el color del raïm el dia del ****** judici".
+ HYP:  una dona formidable i barroera @ d'agulla   va entrar a la sala d'espera [ amb talons ] fent gambades. les sabates, les      mitges, la gavardina, la    bossa, el    casquet,   eren tots de color morat,  del morat que el pintor anomenava «el color del raïm el dia del judici final». 
+
+Shift [sabates,] 1 words right
+ REF:  una dona tosca      i ******** formidable va entrar a la sala d'espera amb talons de   punta.    les   seves   sabates,   mitges, ** gabardina, bossa i      gorra d'ultramar eren tots ** ***** porpra, el  morat que el pintor anomenava "el color del raïm el dia del ****** judici".
+ HYP:  una dona formidable i barroera d'agulla   va entrar a la sala d'espera amb talons fent gambades. les @ les   [ sabates, ] mitges, la gavardina, la    bossa, el    casquet,   eren tots de color morat,  del morat que el pintor anomenava «el color del raïm el dia del judici final». 
+
+Shift [el] 6 words right
+ REF:  una dona tosca      i ******** formidable va entrar a la sala d'espera amb talons de   punta.    les seves sabates, mitges, gabardina, bossa      i  gorra    d'ultramar eren tots ** ***** porpra,   el   *** morat que el pintor anomenava "el color del raïm el dia del ****** judici".
+ HYP:  una dona formidable i barroera d'agulla   va entrar a la sala d'espera amb talons fent gambades. les les   sabates, mitges, la         gavardina, la bossa, @ casquet,   eren tots de color morat,  [ el ] del morat que el pintor anomenava «el color del raïm el dia del judici final». 
+
+Shift [de] 13 words left
+ REF:  una dona tosca      i ******** formidable va entrar a la sala d'espera amb talons   de   **** punta.    les seves sabates, mitges, gabardina, bossa      i  gorra  d'ultramar eren tots   ***** porpra, el *** morat que el pintor anomenava "el color del raïm el dia del ****** judici".
+ HYP:  una dona formidable i barroera d'agulla   va entrar a la sala d'espera amb talons [ de ] fent gambades. les les   sabates, mitges, la         gavardina, la bossa, casquet,   eren tots @ color morat,  el del morat que el pintor anomenava «el color del raïm el dia del judici final». 
+
+
+
+Sentence ID: 46:1
+Best Ref: el medalló de la seva bossa musette morada era el segell de la divisió de serveis de l'oficina federal de terminació, una àguila posada sobre un torniquet.
+Orig Hyp: el medalló del sarró morat era el segell de la divisió de servei de l'oficina federal de liquidació, una àguila aferrada a un torniquet giratori.
+
+REF:  el medalló de la seva bossa musette morada era el segell de la divisió de serveis de l'oficina federal de terminació, una àguila posada   sobre un ********* torniquet.
+HYP:  el medalló ** ** **** del   sarró   morat  era el segell de la divisió de servei  de l'oficina federal de liquidació, una àguila aferrada a     un torniquet giratori. 
+EVAL:            D  D  D    S     S       S                                     S                               S                      S        S        I         S         
+SHFT:                                                                                                                                                                        
+TER Score:  44.44 ( 12.0/ 27.0)
+
+
+
+Sentence ID: 47:1
+Best Ref: la dona tenia molts pèls facials, un bigoti inconfusible, de fet. una cosa curiosa sobre les hostesses de la cambra de gas és que, per molt amables i femenines que fossin quan les van reclutar, totes van brotar bigotis en cinc anys aproximadament.
+Orig Hyp: la dona tenia molt pèl facial, de fet, tenia un bigoti inconfusible. una cosa curiosa de les hostesses de la cambra de gas era que, per molt adorables i femenines que fossin en el moment de reclutar-les, al cap d'uns cinc anys a totes els acabava sortint bigoti.
+
+REF:  la dona tenia molts pèls facials,     un bigoti   inconfusible,   de   *****   fet.          una cosa curiosa sobre les hostesses de la cambra de gas és  que, per molt amables   i femenines que fossin quan les van    reclutar,   totes   van           brotar bigotis en    cinc anys *   *** ******* ******* aproximadament.
+HYP:  la dona tenia molt  pèl  facial,  @ [ un bigoti ] fet,          [ de ] tenia @ inconfusible. una cosa curiosa de    les hostesses de la cambra de gas era que, per molt adorables i femenines que fossin en   el  moment de        [ totes ] reclutar-les, al     cap     d'uns cinc anys a @ els acabava sortint bigoti.        
+EVAL:               S     S    S                        S                    I       S                              S                                       S                 S                                S    S   S      S                   S             S      S       S               I   I   I       I       S              
+SHFT:                                   3 1           1               3    3       1                                                                                                                                                     2       2                                                2                                    
+TER Score:  58.14 ( 25.0/ 43.0)
+
+Shift [un, bigoti] 2 words left
+ REF:  la dona tenia **** molts pèls    facials,   un bigoti   inconfusible, de      fet.          una cosa curiosa sobre les hostesses de la cambra de gas és  que, per molt amables   i femenines que fossin quan les van reclutar, totes van           brotar bigotis en    cinc anys * ***** *** ******* ******* aproximadament.
+ HYP:  la dona tenia molt pèl   facial, de       [ un bigoti ] fet,          tenia @ inconfusible. una cosa curiosa de    les hostesses de la cambra de gas era que, per molt adorables i femenines que fossin **** en  el  moment    de    reclutar-les, al     cap     d'uns cinc anys a totes els acabava sortint bigoti.        
+
+Shift [totes] 7 words left
+ REF:  la dona tenia **** molts pèls    facials, un bigoti inconfusible, de    fet.          una cosa curiosa sobre les hostesses de la cambra de gas és  que, per molt amables   i femenines que fossin quan les van    reclutar,   totes   van           brotar bigotis en    cinc anys *   *** ******* ******* aproximadament.
+ HYP:  la dona tenia molt pèl   facial, de       un bigoti fet,          tenia inconfusible. una cosa curiosa de    les hostesses de la cambra de gas era que, per molt adorables i femenines que fossin en   el  moment de        [ totes ] reclutar-les, al     cap     d'uns cinc anys a @ els acabava sortint bigoti.        
+
+Shift [de] 3 words right
+ REF:  la dona tenia molts pèls facials,   un bigoti inconfusible,   de   ***** fet.          una cosa curiosa sobre les hostesses de la cambra de gas és  que, per molt amables   i femenines que fossin quan les van    reclutar, totes van           brotar bigotis en    cinc anys * *** ******* ******* aproximadament.
+ HYP:  la dona tenia molt  pèl  facial,  @ un bigoti fet,          [ de ] tenia inconfusible. una cosa curiosa de    les hostesses de la cambra de gas era que, per molt adorables i femenines que fossin en   el  moment de        totes reclutar-les, al     cap     d'uns cinc anys a els acabava sortint bigoti.        
+
+
+
+Sentence ID: 48:1
+Best Ref: "és aquí on se suposa que he de venir?" va dir al pintor.
+Orig Hyp: —és aquí on se suposa que he de venir? —va preguntar al pintor.
+
+REF:  "és aquí on se suposa que he de venir?" va  dir       al pintor.
+HYP:  —és aquí on se suposa que he de venir?  —va preguntar al pintor.
+EVAL: S                               S       S   S                   
+SHFT:                                                                 
+TER Score:  30.77 (  4.0/ 13.0)
+
+
+
+Sentence ID: 49:1
+Best Ref: "molt dependria de quin fos el teu negoci", va dir. "no estàs a punt de tenir un nadó, oi?"
+Orig Hyp: —depèn molt de l'assumpte que tingui entre mans —va dir ell—. no està a punt de tenir una criatura, oi?
+
+REF:  "molt  dependria de ********** quin fos    el    teu  negoci", va  dir.  "no estàs a punt de tenir un  nadó,     oi?"
+HYP:  —depèn molt      de l'assumpte que  tingui entre mans —va      dir ell—. no  està  a punt de tenir una criatura, oi? 
+EVAL: S      S            I          S    S      S     S    S        S   S     S   S                     S   S         S   
+SHFT:                                                                                                                      
+TER Score:  78.95 ( 15.0/ 19.0)
+
+
+
+Sentence ID: 50:1
+Best Ref: "em van dir que havia de posar per a una foto", va dir. "em dic leora duncan". ella va esperar.
+Orig Hyp: —m'han dit que he de posar per a un quadre —va dir la dona—. em dic leora pelham. va esperar resposta.
+
+REF:  "em    van   dir   que havia de posar per a ** una    foto",   va dir.   "em dic leora duncan".   ella      va   esperar. 
+HYP:  —m'han dit [ dir ] que he    de posar per a un quadre —va    @ la dona—. em  dic leora pelham.  @ esperar [ va ] resposta.
+EVAL: S      S               S                    I  S      S        S  S      S             S          S              S        
+SHFT:            1     1                                           1                                  2         2    2          
+TER Score:  70.00 ( 14.0/ 20.0)
+
+Shift [dir] 9 words left
+ REF:  "em    van   dir   que havia de posar per a ** una    foto",   va dir.   "em dic leora duncan". ella va      esperar. 
+ HYP:  —m'han dit [ dir ] que he    de posar per a un quadre —va    @ la dona—. em  dic leora pelham.  va   esperar resposta.
+
+Shift [va] 1 words right
+ REF:  "em    van dir que havia de posar per a ** una    foto", va dir.   "em dic leora duncan".   ella      va   esperar. 
+ HYP:  —m'han dit dir que he    de posar per a un quadre —va    la dona—. em  dic leora pelham.  @ esperar [ va ] resposta.
+
+
+
+Sentence ID: 51:1
+Best Ref: "i tu enfons la gent", va dir.
+Orig Hyp: —i es dedica a pelar la gent —va dir el pintor.
+
+REF:  ** ** "i     tu enfons la **** *** gent", va dir.   
+HYP:  —i es dedica a  pelar  la gent —va dir    el pintor.
+EVAL: I  I  S      S  S         I    I   S      S  S      
+SHFT:                                                     
+TER Score: 142.86 ( 10.0/  7.0)
+
+
+
+Sentence ID: 52:1
+Best Ref: "què?" va dir ella.
+Orig Hyp: —què?
+
+REF:  "què?" va dir ella.
+HYP:  ****** ** *** —què?
+EVAL: D      D  D   S    
+SHFT:                    
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 53:1
+Best Ref: "salteu-ho", va dir.
+Orig Hyp: —deixi-ho córrer.
+
+REF:  "salteu-ho", va        dir.   
+HYP:  ************ —deixi-ho córrer.
+EVAL: D            S         S      
+SHFT:                               
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 54:1
+Best Ref: "aquesta és una imatge bonica", va dir. "sembla el cel o alguna cosa així".
+Orig Hyp: —això sí que és un quadre bonic —va dir la dona—. sembla el cel o una cosa així.
+
+REF:  ***** ** "aquesta és ** ****** una   imatge bonica", va dir.   "sembla el cel o alguna cosa així".
+HYP:  —això sí que      és un quadre bonic —va    dir      la dona—. sembla  el cel o una    cosa així. 
+EVAL: I     I  S           I  I      S     S      S        S  S      S                S           S     
+SHFT:                                                                                                   
+TER Score:  92.86 ( 13.0/ 14.0)
+
+
+
+Sentence ID: 55:1
+Best Ref: "o alguna cosa", va dir el pintor. va treure una llista de noms de la butxaca de la sabatilla. "duncan, duncan, duncan", va dir, examinant la llista. "sí, aquí tens. tens dret a ser immortalitzat. veus aquí qualsevol cos sense rostre al qual t'agradaria que fiqués el cap? ens queden uns quants d'escollir."
+Orig Hyp: —o una cosa així —va dir el pintor. es va treure una llista de noms de la butxaca del guardapols.— pelham, pelham, pelham —va dir, tot examinant la llista—. sí, aquí la tenim. té dret a ser immortalitzada. veu cap cos sense cara on li agradaria que hi posés el seu cap? encara en queden uns quants per triar.
+
+REF:  ** "o  alguna cosa", va  dir el pintor. ** va treure una llista de noms de la butxaca de    la   sabatilla.   "duncan, duncan, duncan", va  dir, *** examinant la llista.  "sí, aquí   tens.  tens dret a ser immortalitzat. veus            aquí qualsevol cos sense rostre al qual t'agradaria que ** fiqués el *** cap? ****** ens queden uns quants *** d'escollir."
+HYP:  —o una cosa   així   —va dir el pintor. es va treure una llista de noms de la butxaca del [ la ] guardapols.— pelham,  pelham, pelham   —va dir, tot examinant la llista—. sí,  aquí @ tenim. té   dret a ser ************** immortalitzada. veu  cap       cos sense cara   on li   agradaria   que hi posés  el seu cap? encara en  queden uns quants per triar.      
+EVAL: I  S   S      S      S                  I                                             S          S            S        S       S        S        I                S        S           S      S               D              S               S    S                   S      S  S    S               I  S         I        I      S                     I   S           
+SHFT:                                                                                           1    1                                                                                     1                                                                                                                                                                                  
+TER Score:  62.26 ( 33.0/ 53.0)
+
+Shift [la] 12 words left
+ REF:  ** "o  alguna cosa", va  dir el pintor. ** va treure una llista de noms de la butxaca de    la   sabatilla.   "duncan, duncan, duncan", va  dir, *** examinant la llista.  "sí, aquí   tens.  tens dret a ser immortalitzat. veus            aquí qualsevol cos sense rostre al qual t'agradaria que ** fiqués el *** cap? ****** ens queden uns quants *** d'escollir."
+ HYP:  —o una cosa   així   —va dir el pintor. es va treure una llista de noms de la butxaca del [ la ] guardapols.— pelham,  pelham, pelham   —va dir, tot examinant la llista—. sí,  aquí @ tenim. té   dret a ser ************** immortalitzada. veu  cap       cos sense cara   on li   agradaria   que hi posés  el seu cap? encara en  queden uns quants per triar.      
+
+
+
+Sentence ID: 56:1
+Best Ref: va estudiar el mural amb desolació. "vai", va dir, "són tots iguals per a mi. no sé res d'art".
+Orig Hyp: la dona va estudiar el mural amb fredor. —bufa —va dir—, tots em semblen iguals. jo no en sé res, d'art.
+
+REF:  ** **** va estudiar el mural amb desolació. "vai",  va    dir, "són  tots iguals per     a       mi. no ** sé res  d'art".
+HYP:  la dona va estudiar el mural amb ********** fredor. —bufa —va  dir—, tots em     semblen iguals. jo  no en sé res, d'art. 
+EVAL: I  I                             D          S       S     S    S          S      S       S       S      I     S    S      
+SHFT:                                                                                                                           
+TER Score:  73.68 ( 14.0/ 19.0)
+
+
+
+Sentence ID: 57:1
+Best Ref: "un cos és un cos, eh?" va dir. "molt bé. com a mestre de belles arts, recomano aquest cos aquí." va indicar una figura sense rostre d'una dona que portava tiges seques a un cremador d'escombraries.
+Orig Hyp: —un cos és un cos, oi? —va dir el pintor—. molt bé. com a mestre de les belles arts, jo li recomanaria aquest cos d'aquí —va fer assenyalant la figura sense cara d'una dona que portava tot de rostolls secs a la incineradora de residus.
+
+REF:  "un cos és un cos, *** *** eh?" va dir.     "molt bé. com a mestre de *** belles arts, ** ** recomano    aquest cos ****** aquí." va  indicar     una figura sense rostre d'una dona que portava *** ** tiges    seques a ** un           cremador d'escombraries.
+HYP:  —un cos és un cos, oi? —va dir  el pintor—. molt  bé. com a mestre de les belles arts, jo li recomanaria aquest cos d'aquí —va    fer assenyalant la  figura sense cara   d'una dona que portava tot de rostolls secs   a la incineradora de       residus.       
+EVAL: S                  I   I   S    S  S        S                         I                I  I  S                      I      S      S   S           S                S                             I   I  S        S        I  S            S        S              
+SHFT:                                                                                                                                                                                                                                                                   
+TER Score:  69.44 ( 25.0/ 36.0)
+
+
+
+Sentence ID: 58:1
+Best Ref: "bé", va dir leora duncan, "això és més la gent d'eliminació, no? vull dir, estic en servei. no faig cap eliminació".
+Orig Hyp: —bé —va dir leora pelham—, això és més propi dels que s'encarreguen de les desferres, no? vull dir, que jo soc de la divisió de servei. no toco les desferres.
+
+REF:  "bé", va  dir leora duncan,  "això és més   la   ***** **** *** ************* ** gent d'eliminació, no? vull dir, *** ** *** **   estic   en servei. no faig cap eliminació".
+HYP:  —bé   —va dir leora pelham—, això  és més [ la ] propi dels que s'encarreguen de les  desferres,    no? vull dir, que jo soc de @ divisió de servei. no toco les desferres.  
+EVAL: S     S             S        S                   I     I    I   I             I  S    S                           I   I  I   I    S       S             S    S   S           
+SHFT:                                           1    1                                                                                1                                            
+TER Score: 100.00 ( 21.0/ 21.0)
+
+Shift [la] 14 words left
+ REF:  "bé", va  dir leora duncan,  "això és més   la   ***** **** *** ************* ** gent d'eliminació, no? vull dir, *** ** *** **   estic   en servei. no faig cap eliminació".
+ HYP:  —bé   —va dir leora pelham—, això  és més [ la ] propi dels que s'encarreguen de les  desferres,    no? vull dir, que jo soc de @ divisió de servei. no toco les desferres.  
+
+
+
+Sentence ID: 59:1
+Best Ref: el pintor va picar de mans amb un plaer simulat. "vostè dius que no saps res d'art, i després demostres en el següent alè que en saps més que jo! per descomptat, el portador de garbes s'equivoca per a una hostessa! un franctirador, un podador, això és més. la teva línia". va assenyalar una figura de color porpra que estava serrant una branca morta d'un pomer. "i ella?" va dir. "t'agrada gens?"
+Orig Hyp: el pintor va picar de mans amb falsa complaença. —diu que no sap res d'art, i al cap d'un minut demostra que en sap més que no pas jo! esclar que el que carreteja els garbons és una mala tria per a una hostessa! algú que podi, que esporgui, estaria més en la seva línia —. va assenyalar una figura que estava serrant la branca morta d'una pomera—. i aquesta? —va preguntar—. li agrada una mica?
+
+REF:  el pintor va picar de mans amb un plaer simulat. "vostè      dius que no saps res d'art, i després demostres   en   el   següent alè      que en saps més que ** *** jo! per    descomptat, el *** ********* portador de        garbes s'equivoca per a una hostessa! un   franctirador, un    podador, això        és   ******* més.   la **** teva  línia". va assenyalar una figura de color porpra que estava serrant     una   ** branca morta ***** ******** d'un pomer.   "i  ella?"      va dir.   "t'agrada gens?"
+HYP:  el pintor va picar de mans amb ** ***** falsa    complaença. —diu que no sap  res d'art, i al      cap       [ en ] d'un minut   demostra que en sap  més que no pas jo! esclar que         el que carreteja els      garbons @ mala   tria       per a una hostessa! algú que           podi, que      esporgui, [ és ] estaria més  @ la seva línia —.      va assenyalar una figura ** ***** ****** que estava serrant @ [ una ] la branca morta d'una pomera—. i    aquesta? —va preguntar—. li agrada una       mica? 
+EVAL:                                D  D     S        S           S           S                 S       S                S    S       S               S            I  I       S      S              I   I         S        S         S      S                              S    S             S     S        S                I       S         I    S     S                                D  D     D                                   I               I     I        S    S        S   S           S  S      S         S     
+SHFT:                                                                                                              1    1                                                                                                           3                                                                                   2    2              1                                                                                   2 3     3                                                                                        
+TER Score:  68.06 ( 49.0/ 72.0)
+
+Shift [en] 33 words left
+ REF:  el pintor va picar de mans amb un plaer simulat. "vostè      dius que no saps res d'art, i després demostres   en   el   següent alè      que en saps més que ** *** jo! per    descomptat, el *** ********* *** ******* portador de  garbes s'equivoca per a una hostessa! un   franctirador, un    podador, això      és      més.   la **** teva  línia". va assenyalar una figura de color porpra que estava serrant una branca morta ***** ******** d'un pomer.   "i  ella?"      va dir.   "t'agrada gens?"
+ HYP:  el pintor va picar de mans amb ** ***** falsa    complaença. —diu que no sap  res d'art, i al      cap       [ en ] d'un minut   demostra que en sap  més que no pas jo! esclar que         el que carreteja els garbons és       una mala   tria       per a una hostessa! algú que           podi, que      esporgui, estaria més  @ la seva línia —.      va assenyalar una figura ** ***** ****** que estava serrant la  branca morta d'una pomera—. i    aquesta? —va preguntar—. li agrada una       mica? 
+
+Shift [és] 12 words right
+ REF:  el pintor va picar de mans amb un plaer simulat. "vostè      dius que no saps res d'art, i després demostres en el   següent alè      que en saps més que ** *** jo! per    descomptat, el *** ********* *** portador   de  garbes s'equivoca per a una hostessa! un   franctirador, un    podador, això        és   ******* més. la **** teva  línia". va assenyalar una figura de color porpra que estava serrant una branca morta ***** ******** d'un pomer.   "i  ella?"      va dir.   "t'agrada gens?"
+ HYP:  el pintor va picar de mans amb ** ***** falsa    complaença. —diu que no sap  res d'art, i al      cap       en d'un minut   demostra que en sap  més que no pas jo! esclar que         el que carreteja els garbons  @ una mala   tria       per a una hostessa! algú que           podi, que      esporgui, [ és ] estaria més  la seva línia —.      va assenyalar una figura ** ***** ****** que estava serrant la  branca morta d'una pomera—. i    aquesta? —va preguntar—. li agrada una       mica? 
+
+Shift [una] 25 words right
+ REF:  el pintor va picar de mans amb un plaer simulat. "vostè      dius que no saps res d'art, i després demostres en el   següent alè      que en saps més que ** *** jo! per    descomptat, el *** ********* portador de        garbes s'equivoca per a una hostessa! un   franctirador, un    podador, això      és ******* més. la **** teva  línia". va assenyalar una figura de color porpra que estava serrant   una   ** branca morta ***** ******** d'un pomer.   "i  ella?"      va dir.   "t'agrada gens?"
+ HYP:  el pintor va picar de mans amb ** ***** falsa    complaença. —diu que no sap  res d'art, i al      cap       en d'un minut   demostra que en sap  més que no pas jo! esclar que         el que carreteja els      garbons @ mala   tria       per a una hostessa! algú que           podi, que      esporgui, és estaria més  la seva línia —.      va assenyalar una figura ** ***** ****** que estava serrant [ una ] la branca morta d'una pomera—. i    aquesta? —va preguntar—. li agrada una       mica? 
+
+
+
+Sentence ID: 60:1
+Best Ref: "désam..." va dir, i es va ruboritzar i es va tornar humil, "això... això em posa just al costat del doctor hitz".
+Orig Hyp: —mare meva… —va dir tot posant-se vermella i agafant un aire d'humilitat—. així… així seria just al costat del doctor hitz.
+
+REF:  "désam..." va    dir, i   es  va        ruboritzar i es va      tornar humil, "això...      això  em   posa  just al costat del doctor hitz".
+HYP:  —mare      meva… —va  dir tot posant-se vermella   i ** agafant un     aire   d'humilitat—. així… així seria just al costat del doctor hitz. 
+EVAL: S          S     S    S   S   S         S            D  S       S      S      S             S     S    S                               S     
+SHFT:                                                                                                                                              
+TER Score:  72.73 ( 16.0/ 22.0)
+
+
+
+Sentence ID: 61:1
+Best Ref: "això et molesta?" va dir.
+Orig Hyp: —que li disgusta, això?
+
+REF:  "això et   molesta?" va        dir. 
+HYP:  ***** —que li        disgusta, això?
+EVAL: D     S    S         S         S    
+SHFT:                                     
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 62:1
+Best Ref: "bona salsa, no!" va dir ella. "és... és tot un honor".
+Orig Hyp: —per déu, no pas! —va dir la dona—. és que… és un honor tan gran!
+
+REF:  **** "bona salsa, no!" va  dir ella. "és... és **** tot un ***** *** honor".
+HYP:  —per déu,  no     pas! —va dir la    dona—. és que… és  un honor tan gran!  
+EVAL: I    S     S      S    S       S     S         I    S      I     I   S      
+SHFT:                                                                             
+TER Score: 109.09 ( 12.0/ 11.0)
+
+
+
+Sentence ID: 63:1
+Best Ref: "ah, tu... l'admires, eh?" va dir.
+Orig Hyp: —ah, així que l'admira, oi? —va dir ell.
+
+REF:  **** **** "ah, tu...     l'admires, eh?" va  dir.
+HYP:  —ah, així que  l'admira, oi?        —va  dir ell.
+EVAL: I    I    S    S         S          S    S   S   
+SHFT:                                                  
+TER Score: 133.33 (  8.0/  6.0)
+
+
+
+Sentence ID: 64:1
+Best Ref: "qui no l'admira?" va dir, adorant el retrat d'en hitz. era el retrat d'un zeus bronzejat, de cabell blanc, omnipotent, de dos-cents quaranta anys. "qui no l'admira?" va tornar a dir. "va ser el responsable de muntar la primera cambra de gas a chicago".
+Orig Hyp: —i qui no? —va respondre ella venerant el retrat d'en hitz. era la imatge d'un zeus moreno, de cabells blancs, omnipotent, de dos-cents quaranta anys—. i qui no? —va repetir—. va ser ell qui va obrir la primera cambra de gas a chicago.
+
+REF:  ** "qui no  l'admira?" va        dir, adorant  el retrat d'en hitz. era el retrat d'un zeus bronzejat, de cabell  blanc,  omnipotent, de dos-cents quaranta anys. "qui no     l'admira?"   va   tornar a   dir. "va         ser el  responsable de muntar la primera cambra de gas a chicago".
+HYP:  —i qui  no? —va        respondre ella venerant el retrat d'en hitz. era la imatge d'un zeus moreno,    de cabells blancs, omnipotent, de dos-cents quaranta ***** **** anys—. i          [ va ] qui    no? —va  repetir—. @ ser ell qui         va obrir  la primera cambra de gas a chicago. 
+EVAL: I  S    S   S          S         S    S                                 S  S                S             S       S                                         D     D    S      S                 S      S   S    S               S   S           S  S                                 S        
+SHFT:                                                                                                                                                                                          1    1                           1                                                                   
+TER Score:  59.09 ( 26.0/ 44.0)
+
+Shift [va] 4 words left
+ REF:  ** "qui no  l'admira?" va        dir, adorant  el retrat d'en hitz. era el retrat d'un zeus bronzejat, de cabell  blanc,  omnipotent, de dos-cents quaranta anys. "qui no     l'admira?"   va   tornar a   dir. "va         ser el  responsable de muntar la primera cambra de gas a chicago".
+ HYP:  —i qui  no? —va        respondre ella venerant el retrat d'en hitz. era la imatge d'un zeus moreno,    de cabells blancs, omnipotent, de dos-cents quaranta ***** **** anys—. i          [ va ] qui    no? —va  repetir—. @ ser ell qui         va obrir  la primera cambra de gas a chicago. 
+
+
+
+Sentence ID: 65:1
+Best Ref: "res m'agradaria més", va dir el pintor, "que posar-vos sempre al costat d'ell. serrar una extremitat, això us sembla adequat?"
+Orig Hyp: —res no em faria més feliç —va dir el pintor— que col·locar-la al seu costat per a l'eternitat. això de serrar una branca... ho veu adequat?
+
+REF:  **** ** ** "res  m'agradaria més", va  dir el pintor, "que posar-vos      sempre   al   costat *** * ************   d'ell. serrar una extremitat,   això   us sembla adequat?"
+HYP:  —res no em faria més         feliç —va dir el pintor— que  col·locar-la @ seu    [ al ] costat per a l'eternitat. @ de     serrar una branca...   [ això ] ho veu    adequat? 
+EVAL: I    I  I  S     S           S     S          S       S    S              S                    I   I I              S                 S                    S  S      S        
+SHFT:                                                                         2        2    2                           1                               1      1                    
+TER Score: 105.00 ( 21.0/ 20.0)
+
+Shift [això] 4 words right
+ REF:  **** ** ** "res  m'agradaria més", va  dir el pintor, "que posar-vos    sempre al  costat *** * ************   d'ell. serrar una extremitat,   això   us sembla adequat?"
+ HYP:  —res no em faria més         feliç —va dir el pintor— que  col·locar-la al     seu costat per a l'eternitat. @ de     serrar una branca...   [ això ] ho veu    adequat? 
+
+Shift [al] 1 words right
+ REF:  **** ** ** "res  m'agradaria més", va  dir el pintor, "que posar-vos      sempre   al   costat *** * ************ d'ell. serrar una extremitat, això us sembla adequat?"
+ HYP:  —res no em faria més         feliç —va dir el pintor— que  col·locar-la @ seu    [ al ] costat per a l'eternitat. de     serrar una branca...   això ho veu    adequat? 
+
+
+
+Sentence ID: 66:1
+Best Ref: "això és una mica com el que faig", va dir. ella era recatada sobre el que feia. el que va fer va ser posar la gent còmode mentre ella els matava.
+Orig Hyp: —no és gaire diferent del que faig —va dir ella. era reservada en aquella qüestió. la seva feina consistia a fer sentir còmoda la gent mentre els matava.
+
+REF:  "això és una mica  com      el  que faig", va  dir. ella  era recatada  sobre el      que      feia. el   que   va          fer   va   ser    posar  la gent còmode mentre ella els matava.
+HYP:  —no   és *** gaire diferent del que faig   —va dir  ella. era reservada en    aquella qüestió. la    seva feina consistia [ fer ] a  @ sentir còmoda la gent ****** mentre **** els matava.
+EVAL: S        D   S     S        S       S      S   S    S         S         S     S       S        S     S    S     S                 S    S      S              D             D               
+SHFT:                                                                                                                           1     1    1                                                     
+TER Score:  74.19 ( 23.0/ 31.0)
+
+Shift [fer] 1 words left
+ REF:  "això és una mica  com      el  que faig", va  dir. ella  era recatada  sobre el      que      feia. el   que   va          fer   va   ser    posar  la gent còmode mentre ella els matava.
+ HYP:  —no   és *** gaire diferent del que faig   —va dir  ella. era reservada en    aquella qüestió. la    seva feina consistia [ fer ] a  @ sentir còmoda la gent ****** mentre **** els matava.
+
+
+
+Sentence ID: 67:1
+Best Ref: i, mentre leora duncan posava per al seu retrat, el mateix doctor hitz va entrar a la sala d'espera. feia set peus d'alçada i va créixer amb importància, èxits i l'alegria de viure.
+Orig Hyp: i, mentre la leora pelham posava per al seu retrat, va entrar a gambades a la sala d'espera el doctor hitz en persona. feia dos quinze d'alçada i reverberava d'importància, de mèrits i d'alegria de viure.
+
+REF:  i, mentre ** leora duncan posava per al seu retrat,   el   mateix   doctor hitz   va entrar * ******** a la sala ********     ** d'espera. feia set peus   d'alçada i va créixer     amb            importància, èxits  i l'alegria de viure.
+HYP:  i, mentre la leora pelham posava per al seu retrat, [ el ] ****** [ doctor hitz ] va entrar a gambades a la sala d'espera @ @ en persona.  feia dos quinze d'alçada i ** reverberava d'importància, de           mèrits i d'alegria de viure.
+EVAL:           I        S                                       D                                I I                  I            I  S              S   S                 D  S           S              S            S        S                  
+SHFT:                                                     2    2        1             1                                         1 2                                                                                                                
+TER Score:  54.55 ( 18.0/ 33.0)
+
+Shift [doctor, hitz] 9 words left
+ REF:  i, mentre ** leora duncan posava per al seu retrat, el mateix   doctor hitz   va entrar * ******** a la sala ******** **   ** d'espera. feia set peus   d'alçada i va créixer     amb            importància, èxits  i l'alegria de viure.
+ HYP:  i, mentre la leora pelham posava per al seu retrat, ** ****** [ doctor hitz ] va entrar a gambades a la sala d'espera el @ en persona.  feia dos quinze d'alçada i ** reverberava d'importància, de           mèrits i d'alegria de viure.
+
+Shift [el] 10 words left
+ REF:  i, mentre ** leora duncan posava per al seu retrat,   el   mateix doctor hitz va entrar * ******** a la sala ********   ** d'espera. feia set peus   d'alçada i va créixer     amb            importància, èxits  i l'alegria de viure.
+ HYP:  i, mentre la leora pelham posava per al seu retrat, [ el ] ****** doctor hitz va entrar a gambades a la sala d'espera @ en persona.  feia dos quinze d'alçada i ** reverberava d'importància, de           mèrits i d'alegria de viure.
+
+
+
+Sentence ID: 68:1
+Best Ref: "bé, senyoreta duncan! senyoreta duncan!" va dir, i va fer una broma. "què fas aquí?" va dir. "d'aquí no surt la gent, d'aquí és on entra!"
+Orig Hyp: —ves per on, senyoreta pelham! senyoreta pelham! —va dir, i després va fer broma—. què hi fa vostè, aquí? —li va preguntar—. per aquí no se'n va ningú. aquí és on arriben!
+
+REF:  **** *** "bé, senyoreta duncan! senyoreta duncan!" va  dir, i ******* va fer ******* *** una broma. "què   fas   aquí?" va *********** dir. "d'aquí no surt la gent,  d'aquí és on entra!" 
+HYP:  —ves per on,  senyoreta pelham! senyoreta pelham!  —va dir, i després va fer broma—. què hi  fa     vostè, aquí? —li    va preguntar—. per  aquí    no se'n va ningú. aquí   és on arriben!
+EVAL: I    I   S              S                 S        S          I              I       I   S   S      S      S     S         I           S    S          S    S  S      S            S       
+SHFT:                                                                                                                                                                                            
+TER Score:  84.62 ( 22.0/ 26.0)
+
+
+
+Sentence ID: 69:1
+Best Ref: "anem a estar a la mateixa foto junts", va dir tímidament.
+Orig Hyp: —sortirem junts al mateix mural —va dir ella amb timidesa.
+
+REF:  "anem a         estar a  la     mateixa foto   junts", va    dir   tímidament.
+HYP:  ***** —sortirem junts al mateix mural   —va  @ ella    amb [ dir ] timidesa.  
+EVAL: D     S         S     S  S      S       S      S       S           S          
+SHFT:                                              1             1     1            
+TER Score: 100.00 ( 11.0/ 11.0)
+
+Shift [dir] 2 words right
+ REF:  "anem a         estar a  la     mateixa foto   junts", va    dir   tímidament.
+ HYP:  ***** —sortirem junts al mateix mural   —va  @ ella    amb [ dir ] timidesa.  
+
+
+
+Sentence ID: 70:1
+Best Ref: "bé!" va dir el doctor hitz de tot cor. "i, per exemple, no és una imatge?"
+Orig Hyp: —molt bé! —va dir el doctor hitz efusivament—. per cert, quin senyor mural, oi que sí?
+
+REF:  ***** "bé!" va  dir el doctor hitz de tot             cor.  "i,    per   exemple, no     és una imatge?"
+HYP:  —molt bé!   —va dir el doctor hitz ** efusivament—. @ cert, quin [ per ] senyor   mural, oi que sí?     
+EVAL: I     S     S                      D  S               S     S            S        S      S  S   S       
+SHFT:                                                     1            1     1                                
+TER Score:  81.25 ( 13.0/ 16.0)
+
+Shift [per] 2 words right
+ REF:  ***** "bé!" va  dir el doctor hitz de tot             cor.  "i,    per   exemple, no     és una imatge?"
+ HYP:  —molt bé!   —va dir el doctor hitz ** efusivament—. @ cert, quin [ per ] senyor   mural, oi que sí?     
+
+
+
+Sentence ID: 71:1
+Best Ref: "segur que estic honrada d'estar-hi amb tu", va dir.
+Orig Hyp: —per a mi és tot un honor aparèixer-hi al seu costat —va dir ella.
+
+REF:  **** * ** ** *** "segur que   estic        honrada d'estar-hi amb    tu", va  dir. 
+HYP:  —per a mi és tot un     honor aparèixer-hi al      seu        costat —va  dir ella.
+EVAL: I    I I  I  I   S      S     S            S       S          S      S    S   S    
+SHFT:                                                                                    
+TER Score: 155.56 ( 14.0/  9.0)
+
+
+
+Sentence ID: 72:1
+Best Ref: "deixa'm dir-te", va dir, "estic honrat d'estar-hi amb tu. sense dones com tu, aquest món meravellós que tenim no seria possible".
+Orig Hyp: —doncs deixi'm que li digui —va ser la resposta d'ell— que l'honor és meu de ser al seu costat. sense dones com vostè, aquesta meravella de món que tenim no seria possible.
+
+REF:  ****** ******* *** ** ***** *** *** ** ******** ****** "deixa'm dir-te", va dir, "estic honrat d'estar-hi amb tu.     sense dones com ****** tu,     aquest      món   meravellós   que tenim no seria possible".
+HYP:  —doncs deixi'm que li digui —va ser la resposta d'ell— que      l'honor  és meu  de     ser    al         seu costat. sense dones com vostè, aquesta meravella [ món ] de         @ que tenim no seria possible. 
+EVAL: I      I       I   I  I     I   I   I  I        I      S        S        S  S    S      S      S          S   S                       I      S       S                 S                               S         
+SHFT:                                                                                                                                                                1     1            1                              
+TER Score: 119.05 ( 25.0/ 21.0)
+
+Shift [món] 1 words left
+ REF:  ****** ******* *** ** ***** *** *** ** ******** ****** "deixa'm dir-te", va dir, "estic honrat d'estar-hi amb tu.     sense dones com ****** tu,     aquest      món   meravellós   que tenim no seria possible".
+ HYP:  —doncs deixi'm que li digui —va ser la resposta d'ell— que      l'honor  és meu  de     ser    al         seu costat. sense dones com vostè, aquesta meravella [ món ] de         @ que tenim no seria possible. 
+
+
+
+Sentence ID: 73:1
+Best Ref: la va saludar i es va dirigir cap a la porta que donava a les sales de part. "endevina què acaba de néixer", va dir.
+Orig Hyp: li va dedicar una salutació marcial i es va acostar a la porta que duia a les sales de part. —aviam si sap qui acaba de néixer —va dir.
+
+REF:  la va ******* *** ********* saludar i es va dirigir cap     a la porta que donava a les sales de part. ****** ** "endevina què acaba de néixer", va  dir.
+HYP:  li va dedicar una salutació marcial i es va ******* acostar a la porta que duia   a les sales de part. —aviam si sap       qui acaba de néixer   —va dir.
+EVAL: S     I       I   I         S               D       S                      S                           I      I  S         S            S        S       
+SHFT:                                                                                                                                                          
+TER Score:  56.00 ( 14.0/ 25.0)
+
+
+
+Sentence ID: 74:1
+Best Ref: "no puc", va dir ella.
+Orig Hyp: —no ho puc saber —va respondre ella.
+
+REF:  *** ** "no puc", va  dir       ella.
+HYP:  —no ho puc saber —va respondre ella.
+EVAL: I   I  S   S     S   S              
+SHFT:                                     
+TER Score: 120.00 (  6.0/  5.0)
+
+
+
+Sentence ID: 75:1
+Best Ref: "trillets!" va dir.
+Orig Hyp: —trigèmins! —va dir ell.
+
+REF:  *********** "trillets!" va  dir.
+HYP:  —trigèmins! —va         dir ell.
+EVAL: I           S           S   S   
+SHFT:                                 
+TER Score: 133.33 (  4.0/  3.0)
+
+
+
+Sentence ID: 76:1
+Best Ref: "trillissos!" va dir ella. ella exclamava sobre les implicacions legals dels trillissos.
+Orig Hyp: —trigèmins! —va dir ella, i va començar a recitar les implicacions jurídiques del fet que haguessin nascut tres infants.
+
+REF:  "trillissos!"   va   *** dir ***** ella.   ella     exclamava sobre   les implicacions ********** *** *** *** ********* legals dels trillissos.
+HYP:  —trigèmins!   [ va ] —va dir ella, i     @ començar a         recitar les implicacions jurídiques del fet que haguessin nascut tres infants.   
+EVAL: S                    I       I     S       S        S         S                        I          I   I   I   I         S      S    S          
+SHFT:               1    1                     1                                                                                                     
+TER Score: 133.33 ( 16.0/ 12.0)
+
+Shift [va] 4 words left
+ REF:  "trillissos!"   va   *** dir ***** ella.   ella     exclamava sobre   les implicacions ********** *** *** *** ********* legals dels trillissos.
+ HYP:  —trigèmins!   [ va ] —va dir ella, i     @ començar a         recitar les implicacions jurídiques del fet que haguessin nascut tres infants.   
+
+
+
+Sentence ID: 77:1
+Best Ref: la llei deia que cap nen nounat podria sobreviure tret que els pares del nen poguessin trobar algú que s'oferís voluntari per morir. tres bessons, si haguessin de viure tots, van demanar tres voluntaris.
+Orig Hyp: la llei estipulava que no podia néixer cap nova criatura llevat que els seus pares trobessin algú que decidís morir voluntàriament. que fossin trigèmins implicava, si volien que sobrevivissin tots, trobar tres voluntaris.
+
+REF:  la llei deia       que   cap   ** nen   nounat   podria sobreviure tret   que els   pares   del nen    poguessin   trobar   algú que ******* s'oferís voluntari       per morir. tres      bessons,   si haguessin de  viure         tots, van demanar   tres voluntaris.
+HYP:  la llei estipulava que [ cap ] no podia néixer @ nova   criatura   llevat que els [ pares ] *** seus @ trobessin [ trobar ] algú que decidís morir    voluntàriament. que fossin trigèmins implicava, si volien    que sobrevivissin tots, *** ******* @ tres voluntaris.
+EVAL:         S                      I  S     S        S      S          S                        D   S      S                             I       S        S               S   S      S         S             S         S   S                   D   D                         
+SHFT:                        1     1                 1                                  2       2          2           3        3                                                                                                                            3                 
+TER Score:  73.53 ( 25.0/ 34.0)
+
+Shift [cap] 3 words left
+ REF:  la llei deia       que   cap   ** nen   nounat   podria sobreviure tret   que els pares del nen  poguessin trobar    algú que ******* s'oferís voluntari       per morir. tres      bessons,   si haguessin de  viure         tots, van demanar tres voluntaris.
+ HYP:  la llei estipulava que [ cap ] no podia néixer @ nova   criatura   llevat que els ***** *** seus pares     trobessin algú que decidís morir    voluntàriament. que fossin trigèmins implicava, si volien    que sobrevivissin tots, *** trobar  tres voluntaris.
+
+Shift [pares] 1 words left
+ REF:  la llei deia       que cap ** nen   nounat podria sobreviure tret   que els   pares   del nen poguessin   trobar    algú que ******* s'oferís voluntari       per morir. tres      bessons,   si haguessin de  viure         tots, van demanar tres voluntaris.
+ HYP:  la llei estipulava que cap no podia néixer nova   criatura   llevat que els [ pares ] *** *** seus      @ trobessin algú que decidís morir    voluntàriament. que fossin trigèmins implicava, si volien    que sobrevivissin tots, *** trobar  tres voluntaris.
+
+Shift [trobar] 14 words left
+ REF:  la llei deia       que cap ** nen   nounat podria sobreviure tret   que els pares del nen  poguessin   trobar   algú que ******* s'oferís voluntari       per morir. tres      bessons,   si haguessin de  viure         tots, van demanar   tres voluntaris.
+ HYP:  la llei estipulava que cap no podia néixer nova   criatura   llevat que els pares *** seus trobessin [ trobar ] algú que decidís morir    voluntàriament. que fossin trigèmins implicava, si volien    que sobrevivissin tots, *** ******* @ tres voluntaris.
+
+
+
+Sentence ID: 78:1
+Best Ref: "els pares tenen tres voluntaris?" va dir leora duncan.
+Orig Hyp: —ja tenen tres voluntaris, els pares? —va dir la leora pelham.
+
+REF:  "els pares tenen tres *********** *** voluntaris?" va  dir ** leora duncan.
+HYP:  **** —ja   tenen tres voluntaris, els pares?       —va dir la leora pelham.
+EVAL: D    S                I           I   S            S       I        S      
+SHFT:                                                                            
+TER Score:  88.89 (  8.0/  9.0)
+
+
+
+Sentence ID: 79:1
+Best Ref: "l'última vegada que vaig sentir", va dir el doctor hitz, "en tenien un i estaven intentant treure'n dos més".
+Orig Hyp: —l'última cosa que en sé —va explicar el doctor hitz— és que en tenien un i que provaven d'esgarrapar-ne un parell més.
+
+REF:  "l'última vegada que vaig sentir", va  dir      el doctor ***** ** hitz, "en tenien un i *** estaven  intentant       treure'n dos    més".
+HYP:  —l'última cosa   que en   sé       —va explicar el doctor hitz— és que   en  tenien un i que provaven d'esgarrapar-ne un       parell més. 
+EVAL: S         S          S    S        S   S                  I     I  S     S               I   S        S               S        S      S    
+SHFT:                                                                                                                                            
+TER Score:  84.21 ( 16.0/ 19.0)
+
+
+
+Sentence ID: 80:1
+Best Ref: "no crec que ho hagin aconseguit", va dir. "ningú va fer tres cites amb nosaltres. no hi ha res més que solters que passen avui, tret que algú hagi trucat després que jo me'n vaig anar. com es diu?"
+Orig Hyp: —no crec que els hagin trobat —va dir ella—. al nostre servei ningú no ha concertat tres cites. avui només ens ha entrat gent sola, si no és que han vingut quan jo ja no hi era. quin nom és?
+
+REF:  "no crec que ho  hagin aconseguit", va  dir. "ningú va fer      tres   cites  amb   nosaltres.     no hi     ha   *********   res    més    que   solters que passen avui,  tret que   algú hagi trucat   després que      jo   me'n   vaig   anar. com  es  diu?"
+HYP:  —no crec que els hagin trobat       —va dir  ella—. al nostre [ tres ] servei ningú no         @ [ no hi ] [ ha ] concertat @ cites. avui [ que ] només   ens ha     entrat gent sola, si   no   és     @ han     vingut [ jo ] quan @ ja   @ era.  quin nom és?  
+EVAL: S            S         S            S   S    S      S  S               S      S     S                             I           S      S            S       S   S      S      S    S     S    S    S        S       S             S      S      S     S    S   S    
+SHFT:                                                               3      3                         2 1       1 2    2           3             4     4                                                       4                5    5      5      1                     
+TER Score:  92.31 ( 36.0/ 39.0)
+
+Shift [no, hi] 19 words left
+ REF:  "no crec que ho  hagin aconseguit", va  dir. "ningú va fer    tres   cites amb nosaltres.   no hi   ********* ha   res    més  que   solters que passen avui, tret  que algú hagi trucat després que    jo   me'n vaig   anar. com  es  diu?"
+ HYP:  —no crec que els hagin trobat       —va dir  ella—. al nostre servei ningú no  ha         [ no hi ] concertat tres cites. avui només ens     ha  entrat gent  sola, si  no   és   que    han     vingut quan jo   ja   @ era.  quin nom és?  
+
+Shift [ha] 2 words right
+ REF:  "no crec que ho  hagin aconseguit", va     dir. "ningú va     fer tres   cites  amb   nosaltres.   no hi   ha   res       més  que    solters que   passen avui, tret   que  algú  hagi trucat després que *** ****** jo   me'n vaig anar. com  es  diu?"
+ HYP:  —no crec que els hagin ************ trobat —va  dir    ella—. al  nostre servei ningú no         @ no hi [ ha ] concertat tres cites. avui    només ens    ha    entrat gent sola, si   no     és      que han vingut quan jo   ja   era.  quin nom és?  
+
+Shift [tres] 7 words left
+ REF:  "no crec que ho  hagin aconseguit", va  dir. "ningú va fer      tres   cites  amb   nosaltres. no hi ha *********   res    més  que   solters que passen avui, tret  que algú hagi trucat després que    jo   me'n vaig anar. com  es  diu?"
+ HYP:  —no crec que els hagin trobat       —va dir  ella—. al nostre [ tres ] servei ningú no         no hi ha concertat @ cites. avui només ens     ha  entrat gent  sola, si  no   és   que    han     vingut quan jo   ja   era.  quin nom és?  
+
+Shift [que] 9 words left
+ REF:  "no crec que ho  hagin aconseguit", va  dir. "ningú va fer    tres cites  amb   nosaltres. no hi ha ********* res    més    que   solters que passen avui,  tret que   algú hagi trucat   després que    jo   me'n vaig anar. com  es  diu?"
+ HYP:  —no crec que els hagin trobat       —va dir  ella—. al nostre tres servei ningú no         no hi ha concertat cites. avui [ que ] només   ens ha     entrat gent sola, si   no   és     @ han     vingut quan jo   ja   era.  quin nom és?  
+
+Shift [jo] 1 words left
+ REF:  "no crec que ho  hagin aconseguit", va  dir. "ningú va fer    tres cites  amb   nosaltres. no hi ha ********* res    més  que solters que passen avui,  tret que   algú hagi trucat després que      jo   me'n   vaig anar. com  es  diu?"
+ HYP:  —no crec que els hagin trobat       —va dir  ella—. al nostre tres servei ningú no         no hi ha concertat cites. avui que només   ens ha     entrat gent sola, si   no   és     han     vingut [ jo ] quan @ ja   era.  quin nom és?  
+
+
+
+Sentence ID: 81:1
+Best Ref: "wehling", va dir el pare que l'esperava, assegut, amb els ulls vermells i la cara. "edward k. wehling, jr., és el nom del futur pare feliç".
+Orig Hyp: —wehling —va dir el pare expectant reincorporant-se, amb els ulls encesos i malforjat—. edward k. wehling jr. és com es diu el futur pare feliç.
+
+REF:  "wehling", va  dir el pare que l'esperava, assegut,          amb els ulls vermells i la cara.       "edward k. wehling, jr., és   el   *** nom del   futur pare feliç".
+HYP:  —wehling   —va dir el pare *** expectant   reincorporant-se, amb els ulls encesos  i ** malforjat—. edward  k. wehling  jr.  és [ el ] com es  diu @ futur pare feliç. 
+EVAL: S          S               D   S           S                              S          D  S           S          S        S              I   S   S                S      
+SHFT:                                                                                                                                 1    1             1                   
+TER Score:  61.54 ( 16.0/ 26.0)
+
+Shift [el] 3 words left
+ REF:  "wehling", va  dir el pare que l'esperava, assegut,          amb els ulls vermells i la cara.       "edward k. wehling, jr., és   el   *** nom del   futur pare feliç".
+ HYP:  —wehling   —va dir el pare *** expectant   reincorporant-se, amb els ulls encesos  i ** malforjat—. edward  k. wehling  jr.  és [ el ] com es  diu @ futur pare feliç. 
+
+
+
+Sentence ID: 82:1
+Best Ref: va aixecar la mà dreta, va mirar un punt de la paret, va fer una rialla roncament desgraciada. "present", va dir.
+Orig Hyp: ell va aixecar la mà dreta, va observar una taca de la paret i va deixar anar una trista rialla enrogallada. —servidor —va dir.
+
+REF:  *** va aixecar la mà dreta, va mirar    un  punt de la ***** paret, va ****** fer  una   rialla   roncament   desgraciada. "present", va  dir.
+HYP:  ell va aixecar la mà dreta, va observar una taca de la paret i      va deixar anar una [ rialla ] trista    @ enrogallada. —servidor  —va dir.
+EVAL: I                              S        S   S          I     S         I      S                   S           S            S          S       
+SHFT:                                                                                        1        1           1                                 
+TER Score:  61.90 ( 13.0/ 21.0)
+
+Shift [rialla] 1 words left
+ REF:  *** va aixecar la mà dreta, va mirar    un  punt de la ***** paret, va ****** fer  una   rialla   roncament   desgraciada. "present", va  dir.
+ HYP:  ell va aixecar la mà dreta, va observar una taca de la paret i      va deixar anar una [ rialla ] trista    @ enrogallada. —servidor  —va dir.
+
+
+
+Sentence ID: 83:1
+Best Ref: "oh, senyor wehling", va dir el doctor hitz, "no us vaig veure".
+Orig Hyp: —ui, senyor wehling —va dir el doctor hitz—, no l'havia vist.
+
+REF:  "oh, senyor wehling", va  dir el doctor hitz, "no    us vaig    veure".
+HYP:  —ui, senyor wehling   —va dir el doctor ***** hitz—, no l'havia vist.  
+EVAL: S           S         S                 D     S      S  S       S      
+SHFT:                                                                        
+TER Score:  66.67 (  8.0/ 12.0)
+
+
+
+Sentence ID: 84:1
+Best Ref: "l'home invisible", va dir wehling.
+Orig Hyp: —l'home invisible —va dir en wehling.
+
+REF:  "l'home invisible", va  dir ** wehling.
+HYP:  —l'home invisible   —va dir en wehling.
+EVAL: S       S           S       I          
+SHFT:                                        
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 85:1
+Best Ref: "m'acaben de trucar perquè els teus bessons han nascut", va dir el doctor hitz. "tots estan bé, i la mare també. ara vaig a veure'ls".
+Orig Hyp: —m'acaben de trucar per dir-me que han nascut els seus trigèmins —va dir el doctor hitz—. estan tots bé, i la mare, també. ara mateix entraré a veure'ls.
+
+REF:  "m'acaben de trucar *** perquè   els   teus   bessons     han   **** nascut",  va  dir el doctor hitz.    "tots   estan   bé, i la mare  també. ara ****** vaig    a veure'ls".
+HYP:  —m'acaben de trucar per dir-me [ els ] que  @ nascut  @ [ han ] seus trigèmins —va dir el doctor hitz—. @ tots  [ estan ] bé, i la mare, també. ara mateix entraré a veure'ls. 
+EVAL: S                   I   S              S      S                 I    S         S                 S        S                        S                I      S         S         
+SHFT:                                2     2      1         2 1     1                                         3       3       3                                                      
+TER Score:  68.00 ( 17.0/ 25.0)
+
+Shift [han] 2 words right
+ REF:  "m'acaben de trucar *** perquè els   teus   bessons   han   **** nascut",  va  dir el doctor hitz.  "tots estan bé, i la mare  també. ara ****** vaig    a veure'ls".
+ HYP:  —m'acaben de trucar per dir-me que @ nascut els     [ han ] seus trigèmins —va dir el doctor hitz—. estan tots  bé, i la mare, també. ara mateix entraré a veure'ls. 
+
+Shift [els] 2 words left
+ REF:  "m'acaben de trucar *** perquè   els   teus bessons   han **** nascut",  va  dir el doctor hitz.  "tots estan bé, i la mare  també. ara ****** vaig    a veure'ls".
+ HYP:  —m'acaben de trucar per dir-me [ els ] que  nascut  @ han seus trigèmins —va dir el doctor hitz—. estan tots  bé, i la mare, també. ara mateix entraré a veure'ls. 
+
+Shift [estan] 1 words right
+ REF:  "m'acaben de trucar *** perquè els teus bessons han **** nascut",  va  dir el doctor hitz.    "tots   estan   bé, i la mare  també. ara ****** vaig    a veure'ls".
+ HYP:  —m'acaben de trucar per dir-me els que  nascut  han seus trigèmins —va dir el doctor hitz—. @ tots  [ estan ] bé, i la mare, també. ara mateix entraré a veure'ls. 
+
+
+
+Sentence ID: 86:1
+Best Ref: "hura", va dir wehling buit.
+Orig Hyp: —visca! —va dir en wehling desolat.
+
+REF:  "hura", va  dir ** wehling buit.   
+HYP:  —visca! —va dir en wehling desolat.
+EVAL: S       S       I          S       
+SHFT:                                    
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 87:1
+Best Ref: "no sembla molt feliç", va dir el doctor hitz.
+Orig Hyp: —no sembla gaire content —va dir el doctor hitz.
+
+REF:  "no sembla molt  feliç", va  dir el doctor hitz.
+HYP:  —no sembla gaire content —va dir el doctor hitz.
+EVAL: S          S     S       S                      
+SHFT:                                                 
+TER Score:  44.44 (  4.0/  9.0)
+
+
+
+Sentence ID: 88:1
+Best Ref: "quin home a la meva pell no seria feliç?" va dir wehling. va fer un gest amb les mans per simbolitzar la senzillesa sense preocupacions. "tot el que he de fer és triar quin dels bessons viurà, després lliurar el meu avi matern al happy hooligan i tornar aquí amb un rebut".
+Orig Hyp: —quin home que es trobés en la meva pell no estaria content? —va dir en wehling. va fer un gest amb les mans per simbolitzar una candidesa despreocupada—. només haig de triar quin dels meus tres fills viurà i després deixar el meu avi matern al camorrista feliç i tornar a fer cap aquí amb el comprovant.
+
+REF:  "quin home   a     ** ****** ** la meva pell no seria   feliç?"  va  dir ** wehling. va fer un gest amb les mans per simbolitzar la senzillesa sense     preocupacions.  "tot    el     que   he   de   fer   és triar quin dels **** **** ***** bessons viurà, després lliurar el meu avi matern al happy      hooligan i tornar     *** aquí amb un   rebut".    
+HYP:  —quin home [ a ] @ es trobés en la meva pell no estaria content? —va dir en wehling. va fer un gest amb les mans per simbolitzar ** una        candidesa despreocupada—. només [ el ] [ que ] haig de [ fer ] ** triar quin dels meus tres fills viurà   i      després deixar  el meu avi matern al camorrista feliç    i tornar @ @ cap aquí amb ** @ comprovant.
+EVAL: S                  I  I      I                  S       S        S       I                                                       D  S          S         S               S                    S               D                  I    I    I     S       S              S                            S          S                     I            D    S          
+SHFT:            3   3 1                                                                                                                                                             4    4 1     1         2     2                                                                                                                     2 3                 4            
+TER Score:  57.69 ( 30.0/ 52.0)
+
+Shift [que] 26 words right
+ REF:  "quin home   ** ****** a  la meva pell no seria   feliç?"  va  dir ** wehling. va fer un gest amb les mans per simbolitzar la senzillesa sense preocupacions. "tot            el      que   he   de fer és triar quin dels **** **** ***** bessons viurà, després lliurar el meu avi matern al happy      hooligan i tornar * *** *** aquí amb un rebut".    
+ HYP:  —quin home @ es trobés en la meva pell no estaria content? —va dir en wehling. va fer un gest amb les mans per simbolitzar ** ********** una   candidesa      despreocupada—. només [ que ] haig de *** ** triar quin dels meus tres fills viurà   i      després deixar  el meu avi matern al camorrista feliç    i tornar a fer cap aquí amb el comprovant.
+
+Shift [fer] 20 words left
+ REF:  "quin home ** ****** a  la meva pell no seria   feliç?"  va  dir ** wehling. va fer un gest amb les mans per simbolitzar la senzillesa sense preocupacions. "tot            el    que he   de   fer   és triar quin dels **** **** ***** bessons viurà, després lliurar el meu avi matern al happy      hooligan i tornar *   *** aquí amb un rebut".    
+ HYP:  —quin home es trobés en la meva pell no estaria content? —va dir en wehling. va fer un gest amb les mans per simbolitzar ** ********** una   candidesa      despreocupada—. només que haig de [ fer ] ** triar quin dels meus tres fills viurà   i      després deixar  el meu avi matern al camorrista feliç    i tornar a @ cap aquí amb el comprovant.
+
+Shift [a] 49 words left
+ REF:  "quin home   a   ** ****** ** la meva pell no seria   feliç?"  va  dir ** wehling. va fer un gest amb les mans per simbolitzar la senzillesa sense preocupacions. "tot            el    que he   de fer és triar quin dels **** **** ***** bessons viurà, després lliurar el meu avi matern al happy      hooligan i tornar   *** aquí amb un rebut".    
+ HYP:  —quin home [ a ] es trobés en la meva pell no estaria content? —va dir en wehling. va fer un gest amb les mans per simbolitzar ** ********** una   candidesa      despreocupada—. només que haig de fer ** triar quin dels meus tres fills viurà   i      després deixar  el meu avi matern al camorrista feliç    i tornar @ cap aquí amb el comprovant.
+
+Shift [el] 26 words left
+ REF:  "quin home a ** ****** ** la meva pell no seria   feliç?"  va  dir ** wehling. va fer un gest amb les mans per simbolitzar la senzillesa sense     preocupacions.  "tot    el   que he   de fer és triar quin dels **** **** ***** bessons viurà, després lliurar el meu avi matern al happy      hooligan i tornar *** aquí amb un   rebut".    
+ HYP:  —quin home a es trobés en la meva pell no estaria content? —va dir en wehling. va fer un gest amb les mans per simbolitzar ** una        candidesa despreocupada—. només [ el ] que haig de fer ** triar quin dels meus tres fills viurà   i      després deixar  el meu avi matern al camorrista feliç    i tornar cap aquí amb ** @ comprovant.
+
+
+
+Sentence ID: 89:1
+Best Ref: el doctor hitz es va tornar força sever amb wehling, es va alçar sobre ell. "no creu en el control de la població, senyor wehling?" va dir.
+Orig Hyp: el doctor hitz es va tornar molt esquerp amb en wehling i el va observar des de dalt. —que no hi creu, en el control poblacional, senyor wehling? —li va preguntar.
+
+REF:  el doctor hitz es va tornar força sever   amb ** ******* wehling, es va ******** ***   alçar sobre ell. "no creu  en el control   de   la             població,   senyor   wehling?" va dir.      
+HYP:  el doctor hitz es va tornar molt  esquerp amb en wehling i        el va observar des @ dalt. —que  no   hi  creu, en el control [ de ] poblacional, @ wehling?  [ senyor ] —li       va preguntar.
+EVAL:                             S     S           I  I       S        S     I        I     S     S     S    S   S                          S              S                    S            S         
+SHFT:                                                                                      1                                          1    1              2           2        2                        
+TER Score:  70.37 ( 19.0/ 27.0)
+
+Shift [de] 8 words right
+ REF:  el doctor hitz es va tornar força sever   amb ** ******* wehling, es va ******** ***   alçar sobre ell. "no creu  en el control   de   la           població, senyor   wehling?" va dir.      
+ HYP:  el doctor hitz es va tornar molt  esquerp amb en wehling i        el va observar des @ dalt. —que  no   hi  creu, en el control [ de ] poblacional, senyor    wehling? —li       va preguntar.
+
+Shift [senyor] 1 words right
+ REF:  el doctor hitz es va tornar força sever   amb ** ******* wehling, es va ******** *** alçar sobre ell. "no creu  en el control de la             població,   senyor   wehling?" va dir.      
+ HYP:  el doctor hitz es va tornar molt  esquerp amb en wehling i        el va observar des dalt. —que  no   hi  creu, en el control de poblacional, @ wehling?  [ senyor ] —li       va preguntar.
+
+
+
+Sentence ID: 90:1
+Best Ref: "crec que està perfectament entusiasmat", va dir wehling amb tensió.
+Orig Hyp: —em sembla d'allò més bé —va dir en wehling amb aspror a la veu.
+
+REF:  "crec que    està   perfectament entusiasmat", va  dir ** wehling amb ****** * ** tensió.
+HYP:  —em   sembla d'allò més          bé            —va dir en wehling amb aspror a la veu.   
+EVAL: S     S      S      S            S             S       I              I      I I  S      
+SHFT:                                                                                          
+TER Score: 110.00 ( 11.0/ 10.0)
+
+
+
+Sentence ID: 91:1
+Best Ref: "t'agradaria tornar als bons vells temps, quan la població de la terra era de vint mil milions, a punt de convertir-se en quaranta mil milions, després vuitanta mil milions, després cent seixanta mil milions? saps què és una drupeta, sr. wehling?" va dir hitz.
+Orig Hyp: —s'estimaria més tornar als vells temps en què la població de la terra era de vint mil milions, a punt de ser-ne quaranta mil milions, i després vuitanta, i després cent seixanta? sap vostè què és una drupa, senyor wehling? —va dir en hitz.
+
+REF:  ************ "t'agradaria tornar als bons vells temps,   quan la població de la terra era de vint mil milions, a punt de convertir-se   en   quaranta mil milions,   després   vuitanta   mil       milions, després cent seixanta mil       milions? saps  què és una drupeta, sr.    wehling?" va  dir ** hitz.
+HYP:  —s'estimaria més          tornar als **** vells temps  @ què  la població de la terra era de vint mil milions, a punt de ser-ne       [ en ] quaranta mil milions, [ després ] i        @ vuitanta, i        després cent ******** seixanta? sap      vostè què és una drupa,   senyor wehling?  —va dir en hitz.
+EVAL: I            S                       D          S        S                                                               S                                                     S          S         S                     D        S         S        S                S        S      S         S       I       
+SHFT:                                                        1                                                                              1    1                       2         2          2                                                                                                                        
+TER Score:  45.45 ( 20.0/ 44.0)
+
+Shift [en] 15 words right
+ REF:  ************ "t'agradaria tornar als bons vells temps,   quan la població de la terra era de vint mil milions, a punt de convertir-se   en   quaranta mil milions, després vuitanta mil       milions, després cent seixanta mil       milions? saps  què és una drupeta, sr.    wehling?" va  dir ** hitz.
+ HYP:  —s'estimaria més          tornar als **** vells temps  @ què  la població de la terra era de vint mil milions, a punt de ser-ne       [ en ] quaranta mil milions, i       després  vuitanta, i        després cent ******** seixanta? sap      vostè què és una drupa,   senyor wehling?  —va dir en hitz.
+
+Shift [després] 1 words left
+ REF:  ************ "t'agradaria tornar als bons vells temps, quan la població de la terra era de vint mil milions, a punt de convertir-se en quaranta mil milions,   després   vuitanta   mil       milions, després cent seixanta mil       milions? saps  què és una drupeta, sr.    wehling?" va  dir ** hitz.
+ HYP:  —s'estimaria més          tornar als **** vells temps  què  la població de la terra era de vint mil milions, a punt de ser-ne       en quaranta mil milions, [ després ] i        @ vuitanta, i        després cent ******** seixanta? sap      vostè què és una drupa,   senyor wehling?  —va dir en hitz.
+
+
+
+Sentence ID: 92:1
+Best Ref: "no", va dir wehling malhumorat.
+Orig Hyp: —no —va fer en wehling, emmurriat.
+
+REF:  *** "no", va  dir wehling  malhumorat.
+HYP:  —no —va   fer en  wehling, emmurriat. 
+EVAL: I   S     S   S   S        S          
+SHFT:                                       
+TER Score: 120.00 (  6.0/  5.0)
+
+
+
+Sentence ID: 93:1
+Best Ref: "una drupeleta, senyor wehling, és un dels petits poms, un dels petits grans de polpa d'una móra", va dir el doctor hitz. "sense el control de la població, els éssers humans ara estarien embalats en aquesta superfície d'aquest vell planeta com drupeletes sobre una móra! penseu-hi!"
+Orig Hyp: —una drupa, senyor wehling, és un d'aquells puntets, un granet d'aquells molsuts que tenen les mores —va dir el doctor hitz—. sense control poblacional, a hores d'ara els humans estaríem tots atapeïts per la superfície d'aquest vell planeta com les drupes d'una mora.
+
+REF:  "una drupeleta, senyor wehling, és un dels petits    poms,    un dels   petits    grans   de  polpa d'una móra", va  dir el doctor hitz. "sense el    control de           la població,   els   éssers   humans ara      estarien embalats en  aquesta superfície d'aquest vell planeta com drupeletes sobre una    móra! penseu-hi!"
+HYP:  —una drupa,     senyor wehling, és un **** d'aquells puntets, un granet d'aquells molsuts que tenen les   mores  —va dir el doctor ***** hitz—. sense control poblacional, a  hores     [ els ] d'ara  @ humans estaríem tots     atapeïts per la      superfície d'aquest vell planeta com ********** les   drupes d'una mora.      
+EVAL: S    S                                D    S         S           S      S         S       S   S     S     S      S                 D     S      S             S            S  S                 S               S        S        S        S   S                                            D          S     S      S     S          
+SHFT:                                                                                                                                                                                         1     1        1                                                                                                                             
+TER Score:  67.39 ( 31.0/ 46.0)
+
+Shift [els] 1 words left
+ REF:  "una drupeleta, senyor wehling, és un dels petits    poms,    un dels   petits    grans   de  polpa d'una móra", va  dir el doctor hitz. "sense el    control de           la població,   els   éssers   humans ara      estarien embalats en  aquesta superfície d'aquest vell planeta com drupeletes sobre una    móra! penseu-hi!"
+ HYP:  —una drupa,     senyor wehling, és un **** d'aquells puntets, un granet d'aquells molsuts que tenen les   mores  —va dir el doctor ***** hitz—. sense control poblacional, a  hores     [ els ] d'ara  @ humans estaríem tots     atapeïts per la      superfície d'aquest vell planeta com ********** les   drupes d'una mora.      
+
+
+
+Sentence ID: 94:1
+Best Ref: wehling va continuar mirant el mateix punt de la paret.
+Orig Hyp: en wehling va continuar clavant la mirada en la mateixa taca de la paret.
+
+REF:  ** wehling va continuar ******* ** ****** mirant el mateix  punt de la paret.
+HYP:  en wehling va continuar clavant la mirada en     la mateixa taca de la paret.
+EVAL: I                       I       I  I      S      S  S       S                
+SHFT:                                                                              
+TER Score:  80.00 (  8.0/ 10.0)
+
+
+
+Sentence ID: 95:1
+Best Ref: "l'any 2000", va dir el dr. hitz, "abans que els científics intervinssin i diposissin la llei, ni tan sols hi havia prou aigua potable per a tot arreu, i res per menjar, excepte algues, i encara la gent insistia en la seva dret a reproduir-se com els conills i el seu dret, si és possible, a viure per sempre".
+Orig Hyp: —l'any 2000 —va dir el doctor hitz—, abans que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, i per menjar no hi havia més que algues, i malgrat tot la gent s'entestava a defensar el seu dret a reproduir-se com conills. i també el dret, si podien, de viure eternament.
+
+REF:  "l'any 2000", va  dir el dr.    hitz,  "abans que els científics ** intervinssin    i diposissin la llei, ni tan sols hi havia prou aigua potable per a            tot       ****** arreu,   i   res per   menjar, excepte algues, i encara    la gent insistia en            la       seva   dret a reproduir-se com els        conills   i   el   seu   dret, si és      possible,   a   viure   per   sempre".   
+HYP:  —l'any 2000   —va dir el doctor hitz—, abans  que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, [ tot ] @ @ menjar no     [ i ] hi  havia més     que     algues, i malgrat @ la gent ******** s'entestava @ defensar el   @ dret a reproduir-se com conills. @ també   [ i ] el [ seu ] dret, si podien, de        [ a ] viure [ per ] eternament.
+EVAL: S      S      S          S      S      S                         I  S                 S                                                               S                      I      S            S   S     S       S                 S                 D        S             S        S                              S          S                                 S       S                             S          
+SHFT:                                                                                                                                                                  4     4 1 3               3   3                                             4                              2               5                                  6         6   6    5     5                            2   2       1     1            
+TER Score:  54.24 ( 32.0/ 59.0)
+
+Shift [per] 30 words right
+ REF:  "l'any 2000", va  dir el dr.    hitz,  "abans que els científics ** intervinssin    i diposissin la llei, ni tan sols hi havia prou aigua potable per a          tot   arreu, i  res per   menjar, excepte algues, i ******* encara la gent *********** insistia en       la seva dret a reproduir-se com els conills  i el    seu dret, si és possible, a  viure   per   sempre".   
+ HYP:  —l'any 2000   —va dir el doctor hitz—, abans  que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, i   @ menjar no hi  havia més     que     algues, i malgrat tot    la gent s'entestava a        defensar el seu  dret a reproduir-se com *** conills. i també el  dret, si ** podien,   de viure [ per ] eternament.
+
+Shift [a] 15 words right
+ REF:  "l'any 2000", va  dir el dr.    hitz,  "abans que els científics ** intervinssin    i diposissin la llei, ni tan sols hi havia prou aigua potable per a          tot arreu, i  res per   menjar, excepte algues, i ******* encara la gent insistia      en       la seva dret a reproduir-se com els conills  i el    seu dret, si és      possible,   a   viure per sempre".   
+ HYP:  —l'any 2000   —va dir el doctor hitz—, abans  que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, i   menjar no hi  havia més     que     algues, i malgrat tot    la gent s'entestava @ defensar el seu  dret a reproduir-se com *** conills. i també el  dret, si podien, de        [ a ] viure per eternament.
+
+Shift [i] 2 words right
+ REF:  "l'any 2000", va  dir el dr.    hitz,  "abans que els científics ** intervinssin    i diposissin la llei, ni tan sols hi havia prou aigua potable per a            tot    arreu,   i   res per   menjar, excepte algues, i ******* encara la gent insistia    en       la seva dret a reproduir-se com els conills  i el    seu dret, si és      possible, a viure per sempre".   
+ HYP:  —l'any 2000   —va dir el doctor hitz—, abans  que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, @ menjar no     [ i ] hi  havia més     que     algues, i malgrat tot    la gent s'entestava defensar el seu  dret a reproduir-se com *** conills. i també el  dret, si podien, de        a viure per eternament.
+
+Shift [tot] 10 words left
+ REF:  "l'any 2000", va  dir el dr.    hitz,  "abans que els científics ** intervinssin    i diposissin la llei, ni tan sols hi havia prou aigua potable per a            tot   ****** arreu, i res per   menjar, excepte algues, i encara    la gent insistia    en       la seva dret a reproduir-se com els conills  i el    seu dret, si és      possible, a viure per sempre".   
+ HYP:  —l'any 2000   —va dir el doctor hitz—, abans  que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, [ tot ] menjar no     i hi  havia més     que     algues, i malgrat @ la gent s'entestava defensar el seu  dret a reproduir-se com *** conills. i també el  dret, si podien, de        a viure per eternament.
+
+Shift [seu] 8 words right
+ REF:  "l'any 2000", va  dir el dr.    hitz,  "abans que els científics ** intervinssin    i diposissin la llei, ni tan sols hi havia prou aigua potable per a          tot ****** arreu, i res per   menjar, excepte algues, i encara  la gent insistia en          la       seva   dret a reproduir-se com els      conills i     el   seu   dret, si és      possible, a viure per sempre".   
+ HYP:  —l'any 2000   —va dir el doctor hitz—, abans  que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, tot menjar no     i hi  havia més     que     algues, i malgrat la gent ******** s'entestava defensar el   @ dret a reproduir-se com conills. i       també el [ seu ] dret, si podien, de        a viure per eternament.
+
+Shift [i] 1 words right
+ REF:  "l'any 2000", va  dir el dr.    hitz,  "abans que els científics ** intervinssin    i diposissin la llei, ni tan sols hi havia prou aigua potable per a          tot ****** arreu, i res per   menjar, excepte algues, i encara  la gent insistia en          la       seva dret a reproduir-se com els        conills   i   el seu dret, si és      possible, a viure per sempre".   
+ HYP:  —l'any 2000   —va dir el doctor hitz—, abans  que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, tot menjar no     i hi  havia més     que     algues, i malgrat la gent ******** s'entestava defensar el   dret a reproduir-se com conills. @ també   [ i ] el seu dret, si podien, de        a viure per eternament.
+
+
+
+Sentence ID: 96:1
+Best Ref: "vull aquests nens", va dir wehling en veu baixa. "jo els vull tots tres".
+Orig Hyp: —jo els vull, aquests nens —va dir en wehling tranquil·lament—. els vulls tots tres.
+
+REF:  *** *** "vull aquests nens", va  dir   wehling   en veu baixa.   "jo               els vull  tots tres".
+HYP:  —jo els vull, aquests nens   —va dir [ wehling ] en *** ****** @ tranquil·lament—. els vulls tots tres. 
+EVAL: I   I   S             S      S                      D   D        S                     S          S     
+SHFT:                                      1         1               1                                        
+TER Score:  78.57 ( 11.0/ 14.0)
+
+Shift [wehling] 1 words left
+ REF:  *** *** "vull aquests nens", va  dir   wehling   en veu baixa.   "jo               els vull  tots tres".
+ HYP:  —jo els vull, aquests nens   —va dir [ wehling ] en *** ****** @ tranquil·lament—. els vulls tots tres. 
+
+
+
+Sentence ID: 97:1
+Best Ref: "per descomptat que sí", va dir el doctor hitz. "això només és humà".
+Orig Hyp: —esclar que els vol —va dir el doctor hitz—. no hi ha cosa més humana.
+
+REF:  "per      descomptat   que   sí", va  dir el doctor ****** ** hitz. "això només és  humà". 
+HYP:  —esclar @ els        [ que ] vol  —va dir el doctor hitz—. no hi    ha    cosa  més humana.
+EVAL: S         S                  S    S                 I      I  S     S     S     S   S      
+SHFT:         1            1     1                                                               
+TER Score:  92.31 ( 12.0/ 13.0)
+
+Shift [que] 1 words right
+ REF:  "per      descomptat   que   sí", va  dir el doctor ****** ** hitz. "això només és  humà". 
+ HYP:  —esclar @ els        [ que ] vol  —va dir el doctor hitz—. no hi    ha    cosa  més humana.
+
+
+
+Sentence ID: 98:1
+Best Ref: "jo tampoc vull que el meu avi mori", va dir wehling.
+Orig Hyp: —i tampoc no vull que mori el meu avi —va dir en wehling.
+
+REF:  "jo tampoc ** vull que **** el meu avi mori",   va   dir   wehling.
+HYP:  —i  tampoc no vull que mori el meu avi —va    @ en [ dir ] wehling.
+EVAL: S          I           I               S        S                  
+SHFT:                                               1    1     1         
+TER Score:  54.55 (  6.0/ 11.0)
+
+Shift [dir] 1 words right
+ REF:  "jo tampoc ** vull que **** el meu avi mori",   va   dir   wehling.
+ HYP:  —i  tampoc no vull que mori el meu avi —va    @ en [ dir ] wehling.
+
+
+
+Sentence ID: 99:1
+Best Ref: "ningú està molt content de tenir un familiar proper al catbox", va dir el doctor hitz amb suavitat i comprensió.
+Orig Hyp: —a ningú no li agrada dur un familiar proper a la caixa del gat —va dir el doctor hitz amb un to amable, compassiu.
+
+REF:  "ningú està  molt content de     tenir un familiar proper * ** ***** al  catbox", va  dir el doctor hitz amb ** suavitat i       comprensió.
+HYP:  —a     ningú no   li      agrada dur   un familiar proper a la caixa del gat      —va dir el doctor hitz amb un to       amable, compassiu. 
+EVAL: S      S     S    S       S      S                        I I  I     S   S        S                          I  S        S       S          
+SHFT:                                                                                                                                             
+TER Score:  80.00 ( 16.0/ 20.0)
+
+
+
+Sentence ID: 100:1
+Best Ref: "m'agradaria que la gent no ho digués així", va dir leora duncan.
+Orig Hyp: —m'agradaria que no en diguessin així —va dir la leora pelham.
+
+REF:  "m'agradaria que   la   gent no ho digués    així", va  dir   leora duncan.
+HYP:  —m'agradaria que [ la ] **** no en diguessin així   —va dir @ leora pelham.
+EVAL: S                       D       S  S         S      S               S      
+SHFT:                  1    1                                     1              
+TER Score:  66.67 (  8.0/ 12.0)
+
+Shift [la] 6 words left
+ REF:  "m'agradaria que   la   gent no ho digués    així", va  dir   leora duncan.
+ HYP:  —m'agradaria que [ la ] **** no en diguessin així   —va dir @ leora pelham.
+
+
+
+Sentence ID: 101:1
+Best Ref: "què?" va dir el doctor hitz.
+Orig Hyp: —com? —va preguntar el doctor hitz.
+
+REF:  "què?" va  dir       el doctor hitz.
+HYP:  —com?  —va preguntar el doctor hitz.
+EVAL: S      S   S                        
+SHFT:                                     
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 102:1
+Best Ref: "m'agradaria que la gent no li digués 'la catbox' i coses com aquestes", va dir. "dona a la gent una impressió equivocada".
+Orig Hyp: —m'agradaria que no en diguessin la caixa del gat ni noms d'aquests —va dir ella—. fa la impressió equivocada.
+
+REF:  "m'agradaria que   la   gent no li digués      'la   catbox' i   coses com  aquestes", va  dir. "dona  a  la gent una impressió equivocada".
+HYP:  —m'agradaria que [ la ] **** no en diguessin @ caixa del     gat ni    noms d'aquests  —va dir  ella—. fa la **** *** impressió equivocada. 
+EVAL: S                       D       S  S           S     S       S   S     S    S          S   S    S      S     D    D             S           
+SHFT:                  1    1                      1                                                                                              
+TER Score:  81.82 ( 18.0/ 22.0)
+
+Shift [la] 3 words left
+ REF:  "m'agradaria que   la   gent no li digués      'la   catbox' i   coses com  aquestes", va  dir. "dona  a  la gent una impressió equivocada".
+ HYP:  —m'agradaria que [ la ] **** no en diguessin @ caixa del     gat ni    noms d'aquests  —va dir  ella—. fa la **** *** impressió equivocada. 
+
+
+
+Sentence ID: 103:1
+Best Ref: "tens tota la raó", va dir el doctor hitz. "perdona'm". es va corregir, va donar a les cambres de gas municipals el seu títol oficial, un títol que ningú no va utilitzar mai en la conversa. "hauria d'haver dit: 'ethical suicide studios'", va dir.
+Orig Hyp: —té tota la raó —va dir el doctor hitz—. dispensi'm —es va corregir i es va referir a les cambres de gas municipals pel seu títol oficial, un títol que no feia servir ningú parlant—. hauria d'haver dit el taller de suïcidi ètic —va dir.
+
+REF:  "tens tota la raó", va  dir el doctor hitz.  "perdona'm".   es va   corregir, va ******** *   donar   a les cambres de gas municipals el  seu títol oficial, un títol que   ningú   no va utilitzar mai      en        la       conversa. "hauria   d'haver   dit:   'ethical suicide studios'", va  dir.
+HYP:  —té   tota la raó   —va dir el doctor hitz—. dispensi'm   [ es va ] —es       va corregir i @ referir a les cambres de gas municipals pel seu títol oficial, un títol que [ ningú ] no ** feia      servir @ parlant—. hauria @ dit       el      [ d'haver ] taller de       suïcidi ètic       —va dir.
+EVAL: S             S     S                 S      S                      S            I        I   S                                       S                                                D  S         S        S         S        S         S                   S      S        S       S          S       
+SHFT:                                                           1       1                         1                                                                             2       2                        2                  3                   3         3                                            
+TER Score:  56.82 ( 25.0/ 44.0)
+
+Shift [es, va] 4 words left
+ REF:  "tens tota la raó", va  dir el doctor hitz.  "perdona'm".   es va   corregir, va ******** *   donar   a les cambres de gas municipals el  seu títol oficial, un títol que ningú no va   utilitzar mai   en        la     conversa. "hauria d'haver dit:   'ethical suicide studios'", va  dir.
+ HYP:  —té   tota la raó   —va dir el doctor hitz—. dispensi'm   [ es va ] —es       va corregir i @ referir a les cambres de gas municipals pel seu títol oficial, un títol que ***** no feia servir    ningú parlant—. hauria d'haver   dit     el      taller de       suïcidi ètic       —va dir.
+
+Shift [ningú] 3 words left
+ REF:  "tens tota la raó", va  dir el doctor hitz.  "perdona'm". es va corregir, va ******** * donar   a les cambres de gas municipals el  seu títol oficial, un títol que   ningú   no va utilitzar mai      en        la     conversa. "hauria d'haver dit:   'ethical suicide studios'", va  dir.
+ HYP:  —té   tota la raó   —va dir el doctor hitz—. dispensi'm   es va —es       va corregir i referir a les cambres de gas municipals pel seu títol oficial, un títol que [ ningú ] no ** feia      servir @ parlant—. hauria d'haver   dit     el      taller de       suïcidi ètic       —va dir.
+
+Shift [d'haver] 2 words right
+ REF:  "tens tota la raó", va  dir el doctor hitz.  "perdona'm". es va corregir, va ******** * donar   a les cambres de gas municipals el  seu títol oficial, un títol que ningú no va utilitzar mai    en        la       conversa. "hauria   d'haver   dit:   'ethical suicide studios'", va  dir.
+ HYP:  —té   tota la raó   —va dir el doctor hitz—. dispensi'm   es va —es       va corregir i referir a les cambres de gas municipals pel seu títol oficial, un títol que ningú no ** feia      servir parlant—. hauria @ dit       el      [ d'haver ] taller de       suïcidi ètic       —va dir.
+
+
+
+Sentence ID: 104:1
+Best Ref: "això sona molt millor", va dir leora duncan.
+Orig Hyp: —sona molt millor —va dir la leora pelham.
+
+REF:  "això sona  molt millor", va  dir ** leora duncan.
+HYP:  ***** —sona molt millor   —va dir la leora pelham.
+EVAL: D     S          S        S       I        S      
+SHFT:                                                   
+TER Score:  75.00 (  6.0/  8.0)
+
+
+
+Sentence ID: 105:1
+Best Ref: "aquest fill seu, el que decideixi quedar-se, senyor wehling", va dir el doctor hitz. "ell o ella viurà en un planeta feliç, espaiós, net i ric, gràcies al control de la població. en un jardí com aquell mural d'allà". va negar amb el cap. "fa dos segles, quan era un home jove, era un infern que ningú pensava que podria durar vint anys més. ara segles de pau i abundància s'estenen davant nostre fins on la imaginació vol viatjar".
+Orig Hyp: —aquest infant seu, el que decideixi quedar-se, senyor wehling —va dir el doctor hitz—, serà un nen o una nena que viuran en un planeta feliç, espaiós, net i ric, gràcies al control poblacional. en un jardí semblant al d'aquell mural d'allà —va remenar el cap—. fa dos segles, quan jo era jove, era tot un infern que ningú creia que duraria ni vint anys més. ara ens esperen segles de pau i tant d'espai que no te l'acabes, fins on arribi la imaginació.
+
+REF:  "aquest fill   seu, el que decideixi quedar-se, senyor wehling", va  dir el doctor ****** hitz.   "ell o *** **** ella viurà  en un planeta feliç, espaiós, net i ric, gràcies al control de la població.    en un jardí com      aquell   mural   d'allà".   va     negar amb     el cap.  "fa dos segles, quan era   un   home jove, era *** un infern que ningú pensava que podria  durar vint anys més. ara *** ******* segles de pau i **** ******* abundància s'estenen davant nostre    fins on   la   imaginació vol      viatjar".  
+HYP:  —aquest infant seu, el que decideixi quedar-se, senyor wehling   —va dir el doctor hitz—, serà  @ nen  o una nena que  viuran en un planeta feliç, espaiós, net i ric, gràcies al control ** ** poblacional. en un jardí semblant al     [ mural ] d'aquell @ d'allà —va   remenar el cap—. fa  dos segles, quan jo  [ un ] era  jove, era tot un infern que ningú creia   que duraria ni    vint anys més. ara ens esperen segles de pau i tant d'espai que        no        te     l'acabes, fins on [ la ] ********** arribi @ imaginació.
+EVAL: S       S                                              S         S                 I      S       S      I   I    S    S                                                                  D  D  S                        S        S                S          S      S     S          S     S                    S          S              I                       S           S       S                        I   I                       I    I       S          S         S      S                        D          S        S          
+SHFT:                                                                                                 1                                                                                                                                        2       2          2                                                        1    1                                                                                                                                                                            3    3                   3            
+TER Score:  53.16 ( 42.0/ 79.0)
+
+Shift [un] 35 words right
+ REF:  "aquest fill   seu, el que decideixi quedar-se, senyor wehling", va  dir el doctor ****** hitz.   "ell o *** **** ella viurà  en un planeta feliç, espaiós, net i ric, gràcies al control de la població.    en un jardí com      aquell mural    d'allà". va     negar amb     el cap.  "fa dos segles, quan era   un   home jove, era *** un infern que ningú pensava que podria  durar vint anys més. ara *** ******* segles de pau i **** ******* abundància s'estenen davant nostre    fins on la imaginació vol viatjar".  
+ HYP:  —aquest infant seu, el que decideixi quedar-se, senyor wehling   —va dir el doctor hitz—, serà  @ nen  o una nena que  viuran en un planeta feliç, espaiós, net i ric, gràcies al control ** ** poblacional. en un jardí semblant al     d'aquell mural    d'allà —va   remenar el cap—. fa  dos segles, quan jo  [ un ] era  jove, era tot un infern que ningú creia   que duraria ni    vint anys més. ara ens esperen segles de pau i tant d'espai que        no        te     l'acabes, fins on ** arribi     la  imaginació.
+
+Shift [mural] 1 words left
+ REF:  "aquest fill   seu, el que decideixi quedar-se, senyor wehling", va  dir el doctor ****** hitz. "ell o *** **** ella viurà  en un planeta feliç, espaiós, net i ric, gràcies al control de la població.    en un jardí com      aquell   mural   d'allà".   va     negar amb     el cap.  "fa dos segles, quan era un home jove, era *** un infern que ningú pensava que podria  durar vint anys més. ara *** ******* segles de pau i **** ******* abundància s'estenen davant nostre    fins on la imaginació vol viatjar".  
+ HYP:  —aquest infant seu, el que decideixi quedar-se, senyor wehling   —va dir el doctor hitz—, serà  nen  o una nena que  viuran en un planeta feliç, espaiós, net i ric, gràcies al control ** ** poblacional. en un jardí semblant al     [ mural ] d'aquell @ d'allà —va   remenar el cap—. fa  dos segles, quan jo  un era  jove, era tot un infern que ningú creia   que duraria ni    vint anys més. ara ens esperen segles de pau i tant d'espai que        no        te     l'acabes, fins on ** arribi     la  imaginació.
+
+Shift [la] 1 words left
+ REF:  "aquest fill   seu, el que decideixi quedar-se, senyor wehling", va  dir el doctor ****** hitz. "ell o *** **** ella viurà  en un planeta feliç, espaiós, net i ric, gràcies al control de la població.    en un jardí com      aquell mural d'allà". va     negar amb     el cap.  "fa dos segles, quan era un home jove, era *** un infern que ningú pensava que podria  durar vint anys més. ara *** ******* segles de pau i **** ******* abundància s'estenen davant nostre    fins on   la   imaginació vol      viatjar".  
+ HYP:  —aquest infant seu, el que decideixi quedar-se, senyor wehling   —va dir el doctor hitz—, serà  nen  o una nena que  viuran en un planeta feliç, espaiós, net i ric, gràcies al control ** ** poblacional. en un jardí semblant al     mural d'aquell d'allà —va   remenar el cap—. fa  dos segles, quan jo  un era  jove, era tot un infern que ningú creia   que duraria ni    vint anys més. ara ens esperen segles de pau i tant d'espai que        no        te     l'acabes, fins on [ la ] ********** arribi @ imaginació.
+
+
+
+Sentence ID: 106:1
+Best Ref: va somriure lluminosament.
+Orig Hyp: va deixar anar un somriure lluminós.
+
+REF:  va ****** **** ** somriure lluminosament.
+HYP:  va deixar anar un somriure lluminós.     
+EVAL:    I      I    I           S             
+SHFT:                                          
+TER Score: 133.33 (  4.0/  3.0)
+
+
+
+Sentence ID: 107:1
+Best Ref: el somriure es va esvair quan va veure que wehling acabava de treure un revòlver.
+Orig Hyp: el somriure se li va esborrar quan va veure que en wehling acabava de treure una pistola.
+
+REF:  el somriure ** es va esvair   quan va veure que ** wehling acabava de treure un  revòlver.
+HYP:  el somriure se li va esborrar quan va veure que en wehling acabava de treure una pistola. 
+EVAL:             I  S     S                          I                            S   S        
+SHFT:                                                                                           
+TER Score:  40.00 (  6.0/ 15.0)
+
+
+
+Sentence ID: 108:1
+Best Ref: wehling va matar a trets el doctor hitz. "hi ha lloc per a un, un de gran gran", va dir.
+Orig Hyp: en wehling va matar el doctor hitz d'un tret. —ara hi ha lloc per a un, i tindrà un espai enorme —va dir.
+
+REF:  ** wehling va matar   a    trets   el doctor   ***** hitz. "hi ha lloc per a un,   un   * de       gran  gran", va  dir.
+HYP:  en wehling va matar @ hitz d'un  [ el doctor ] tret. —ara  hi  ha lloc per a un, [ un ] i tindrà @ espai enorme —va dir.
+EVAL: I                     S    S                   I     S     S                            I S        S     S      S       
+SHFT:                     1            1           1                                   2    2          2                      
+TER Score:  65.00 ( 13.0/ 20.0)
+
+Shift [el, doctor] 2 words right
+ REF:  ** wehling va matar   a    trets   el doctor   ***** hitz. "hi ha lloc per a un, * un     de gran  gran", va  dir.
+ HYP:  en wehling va matar @ hitz d'un  [ el doctor ] tret. —ara  hi  ha lloc per a un, i tindrà un espai enorme —va dir.
+
+Shift [un] 2 words left
+ REF:  ** wehling va matar a    trets el doctor ***** hitz. "hi ha lloc per a un,   un   * de       gran  gran", va  dir.
+ HYP:  en wehling va matar hitz d'un  el doctor tret. —ara  hi  ha lloc per a un, [ un ] i tindrà @ espai enorme —va dir.
+
+
+
+Sentence ID: 109:1
+Best Ref: i després va disparar a leora duncan. "només és la mort", li va dir mentre queia. "allà! habitació per a dos."
+Orig Hyp: encabat va matar la leora pelham. —és la mort i prou —li va dir mentre queia a terra—. apa! ja n'hi caben dos.
+
+REF:    i   després va disparar   a   ** leora duncan. "només   és     la     mort", li  va dir mentre *****   queia.  "allà! habitació per  a     dos."
+HYP:  [ i ] encabat va matar    [ a ] la leora pelham. —és    @ mort [ la ] @ prou   —li va dir mentre queia @ terra—. apa!   ja        n'hi caben dos. 
+EVAL:       S          S              I        S       S        S             S      S                 I       S       S      S         S    S     S    
+SHFT: 1   1                     3   3                         2      2    2 1                                3                                          
+TER Score:  85.71 ( 18.0/ 21.0)
+
+Shift [i] 9 words left
+ REF:    i   després va disparar a  leora duncan. "només és la     mort", li  va dir mentre ***** * queia.  "allà! habitació per  a     dos."
+ HYP:  [ i ] encabat va matar    la leora pelham. —és    la mort @ prou   —li va dir mentre queia a terra—. apa!   ja        n'hi caben dos. 
+
+Shift [la] 1 words right
+ REF:  i després va disparar a  leora duncan. "només   és     la   mort", li  va dir mentre ***** * queia.  "allà! habitació per  a     dos."
+ HYP:  i encabat va matar    la leora pelham. —és    @ mort [ la ] prou   —li va dir mentre queia a terra—. apa!   ja        n'hi caben dos. 
+
+Shift [a] 12 words left
+ REF:  i després va disparar   a   ** leora duncan. "només és   la mort", li  va dir mentre *****   queia.  "allà! habitació per  a     dos."
+ HYP:  i encabat va matar    [ a ] la leora pelham. —és    mort la prou   —li va dir mentre queia @ terra—. apa!   ja        n'hi caben dos. 
+
+
+
+Sentence ID: 110:1
+Best Ref: i després es va disparar, deixant lloc als seus tres fills.
+Orig Hyp: i aleshores es va matar ell, i així va deixar lloc per als seus tres fills.
+
+REF:  i després   es va ***** **** * **** disparar, deixant lloc *** als seus tres fills.
+HYP:  i aleshores es va matar ell, i així va        deixar  lloc per als seus tres fills.
+EVAL:   S               I     I    I I    S         S            I                       
+SHFT:                                                                                    
+TER Score:  72.73 (  8.0/ 11.0)
+
+
+
+Sentence ID: 111:1
+Best Ref: ningú va venir corrent. ningú, aparentment, va sentir els trets.
+Orig Hyp: no va venir ningú corrent. feia la sensació que ningú havia sentit els trets.
+
+REF:    ningú   ** va venir   corrent. **** ** ******** ningú, aparentment, va    sentir els trets.
+HYP:  [ ningú ] no va venir @ corrent. feia la sensació que    ningú        havia sentit els trets.
+EVAL:           I                      I    I  I        S      S            S     S                
+SHFT: 1       1             1                                                                      
+TER Score:  90.00 (  9.0/ 10.0)
+
+Shift [ningú] 3 words left
+ REF:    ningú   ** va venir   corrent. **** ** ******** ningú, aparentment, va    sentir els trets.
+ HYP:  [ ningú ] no va venir @ corrent. feia la sensació que    ningú        havia sentit els trets.
+
+
+
+Sentence ID: 112:1
+Best Ref: el pintor es va asseure a la part superior de l'escala, mirant reflexivament la trista escena.
+Orig Hyp: el pintor estava assegut al capdamunt de l'escaleta i des d'allà contemplava capficat aquell panorama tan trist.
+
+REF:  el pintor es     va      asseure a           la         part superior   de   ****** l'escala,   mirant   reflexivament la       trista escena.
+HYP:  el pintor estava assegut al      capdamunt @ l'escaleta i    des      [ de ] d'allà contemplava capficat aquell        panorama tan    trist. 
+EVAL:           S      S       S       S           S          S    S               I      S           S        S             S        S      S      
+SHFT:                                            1                          1    1                                                                  
+TER Score:  93.75 ( 15.0/ 16.0)
+
+Shift [de] 3 words right
+ REF:  el pintor es     va      asseure a           la         part superior   de   ****** l'escala,   mirant   reflexivament la       trista escena.
+ HYP:  el pintor estava assegut al      capdamunt @ l'escaleta i    des      [ de ] d'allà contemplava capficat aquell        panorama tan    trist. 
+
+
+
+Sentence ID: 113:1
+Best Ref: el pintor va reflexionar sobre el lamentable trencaclosques de la vida exigint néixer i, un cop nascut, exigint ser fecund... multiplicar-se i viure el màxim de temps possible, fer tot això en un planeta molt petit que hauria de durar per sempre.
+Orig Hyp: el pintor va reflexionar sobre l'infaust trencaclosques de la vida que exigeix néixer i, un cop nascuda, exigeix fructificar... multiplicar-se i viure tant com es pugui... i tot plegat en un planeta molt petit que hauria de durar eternament.
+
+REF:  el pintor va reflexionar sobre el lamentable trencaclosques de la vida *** exigint néixer i, un cop nascut, exigint  ser     fecund...      multiplicar-se i viure el màxim de  temps possible, fer tot això   en un planeta molt petit que hauria de durar per sempre.    
+HYP:  el pintor va reflexionar sobre ** l'infaust  trencaclosques de la vida que exigeix néixer i, un cop ******* nascuda, exigeix fructificar... multiplicar-se i viure ** tant  com es    pugui...  i   tot plegat en un planeta molt petit que hauria de durar *** eternament.
+EVAL:                                D  S                                    I   S                        D       S        S       S                                     D  S     S   S     S         S       S                                                   D   S          
+SHFT:                                                                                                                                                                                                                                                                            
+TER Score:  40.48 ( 17.0/ 42.0)
+
+
+
+Sentence ID: 114:1
+Best Ref: totes les respostes que el pintor podia pensar eren desagradables. encara més ombrívol, sens dubte, que un catbox, un happy hooligan, un easy go. va pensar en la guerra. va pensar en la pesta. va pensar en la fam.
+Orig Hyp: totes les respostes que li venien al cap eren molt sinistres. molt més encara que una caixa del gat, un camorrista feliç, una sortida fàcil. va pensar en la guerra. va pensar en la pesta. va pensar en la inanició.
+
+REF:  totes les respostes que el pintor podia pensar eren **** desagradables. encara més ombrívol,   sens dubte,   que   un  catbox, un happy      hooligan, un  easy    go.    va pensar en la guerra. va pensar en la pesta. va pensar en la fam.     
+HYP:  totes les respostes que li venien al    cap    eren molt sinistres.     molt   més encara    @ una  caixa  [ que ] del gat,    un camorrista feliç,    una sortida fàcil. va pensar en la guerra. va pensar en la pesta. va pensar en la inanició.
+EVAL:                         S  S      S     S           I    S              S          S           S    S              S   S          S          S         S   S       S                                                                     S        
+SHFT:                                                                                              1             1     1                                                                                                                                
+TER Score:  48.72 ( 19.0/ 39.0)
+
+Shift [que] 2 words right
+ REF:  totes les respostes que el pintor podia pensar eren **** desagradables. encara més ombrívol,   sens dubte,   que   un  catbox, un happy      hooligan, un  easy    go.    va pensar en la guerra. va pensar en la pesta. va pensar en la fam.     
+ HYP:  totes les respostes que li venien al    cap    eren molt sinistres.     molt   més encara    @ una  caixa  [ que ] del gat,    un camorrista feliç,    una sortida fàcil. va pensar en la guerra. va pensar en la pesta. va pensar en la inanició.
+
+
+
+Sentence ID: 115:1
+Best Ref: sabia que no tornaria a pintar mai més. va deixar caure el seu pinzell als draps de sota. i llavors va decidir que també n'havia tingut prou de vida al jardí feliç de la vida, i va baixar lentament de l'escala.
+Orig Hyp: sabia que no tornaria a pintar mai més. va deixar caure el pinzell sobre el paper protector del terra. i en aquell moment va decidir que ja n'havia tingut prou, del seu temps al jardí feliç de la vida, i va baixar a poc a poc de l'escala.
+
+REF:  sabia que no tornaria a pintar mai més. va deixar caure el   seu   pinzell ***** ** als   draps     de  sota.  i ** ****** llavors va decidir que també n'havia tingut prou  de    vida  al jardí feliç de la vida, i va baixar * *** * lentament de l'escala.
+HYP:  sabia que no tornaria a pintar mai més. va deixar caure el [ seu ] pinzell sobre el paper protector del terra. i en aquell moment  va decidir que ja    n'havia tingut prou, del @ temps al jardí feliç de la vida, i va baixar a poc a poc       de l'escala.
+EVAL:                                                                            I     I  S     S         S   S        I  I      S                      S                    S     S     S                                            I I   I S                     
+SHFT:                                                            1     1                                                                                                               1                                                                            
+TER Score:  43.90 ( 18.0/ 41.0)
+
+Shift [seu] 19 words left
+ REF:  sabia que no tornaria a pintar mai més. va deixar caure el   seu   pinzell ***** ** als   draps     de  sota.  i ** ****** llavors va decidir que també n'havia tingut prou  de    vida  al jardí feliç de la vida, i va baixar * *** * lentament de l'escala.
+ HYP:  sabia que no tornaria a pintar mai més. va deixar caure el [ seu ] pinzell sobre el paper protector del terra. i en aquell moment  va decidir que ja    n'havia tingut prou, del @ temps al jardí feliç de la vida, i va baixar a poc a poc       de l'escala.
+
+
+
+Sentence ID: 116:1
+Best Ref: va agafar la pistola de wehling, amb la intenció de disparar-se.
+Orig Hyp: va agafar la pistola d'en wehling amb tota la intenció de disparar-se.
+
+REF:  va agafar la pistola de   wehling, amb **** la intenció de disparar-se.
+HYP:  va agafar la pistola d'en wehling  amb tota la intenció de disparar-se.
+EVAL:                      S    S            I                               
+SHFT:                                                                        
+TER Score:  27.27 (  3.0/ 11.0)
+
+
+
+Sentence ID: 117:1
+Best Ref: però no tenia el cor.
+Orig Hyp: però no s'hi va veure amb cor.
+
+REF:  però no **** ** tenia el  cor.
+HYP:  però no s'hi va veure amb cor.
+EVAL:         I    I  S     S       
+SHFT:                               
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 118:1
+Best Ref: i llavors va veure la cabina telefònica a la cantonada de l'habitació. hi va anar, va marcar el número tan recordat: "2 b r 0 2 b".
+Orig Hyp: i aleshores va veure la cabina de telèfon en un racó de la sala. hi va anar i va marcar el telèfon que tan bé recordava: c-0-n-0-c.
+
+REF:  i llavors   va veure la cabina ** telefònica a    la   ** cantonada de   l'habitació. hi va **** anar, va marcar el número   tan   recordat: "2 b       r     0  2          b".       
+HYP:  i aleshores va veure la cabina de telèfon    en [ la ] un racó      de @ sala.        hi va anar i     va marcar el ****** [ tan ] ********* ** telèfon que @ bé recordava: c-0-n-0-c.
+EVAL:   S                            I  S          S         I  S              S                  I    S                  D              D         D  S       S     S  S          S         
+SHFT:                                                 1    1                 1                                                   2     2                          2                         
+TER Score:  70.37 ( 19.0/ 27.0)
+
+Shift [la] 3 words left
+ REF:  i llavors   va veure la cabina ** telefònica a    la   ** cantonada de   l'habitació. hi va **** anar, va marcar el número tan recordat: "2      b   r   0  2          b".       
+ HYP:  i aleshores va veure la cabina de telèfon    en [ la ] un racó      de @ sala.        hi va anar i     va marcar el ****** *** ********* telèfon que tan bé recordava: c-0-n-0-c.
+
+Shift [tan] 2 words left
+ REF:  i llavors   va veure la cabina ** telefònica a  la ** cantonada de l'habitació. hi va **** anar, va marcar el número   tan   recordat: "2 b       r     0  2          b".       
+ HYP:  i aleshores va veure la cabina de telèfon    en la un racó      de sala.        hi va anar i     va marcar el ****** [ tan ] ********* ** telèfon que @ bé recordava: c-0-n-0-c.
+
+
+
+Sentence ID: 119:1
+Best Ref: "oficina federal de terminació", va dir la veu molt càlida d'una hostessa.
+Orig Hyp: —oficina federal de liquidació —va dir la veu agradable d'una hostessa.
+
+REF:  "oficina federal de terminació", va  dir la veu molt càlida    d'una hostessa.
+HYP:  —oficina federal de liquidació   —va dir la veu **** agradable d'una hostessa.
+EVAL: S                   S            S              D    S                        
+SHFT:                                                                               
+TER Score:  41.67 (  5.0/ 12.0)
+
+
+
+Sentence ID: 120:1
+Best Ref: "quan aviat podria aconseguir una cita?" va preguntar parlant amb molta cura.
+Orig Hyp: —per a quan em podria donar cita? —va preguntar, expressant-se amb molt de compte.
+
+REF:  **** * "quan aviat podria aconseguir una   cita?" va         preguntar       parlant   amb   molta cura.  
+HYP:  —per a quan  em    podria donar      cita? —va    preguntar, expressant-se @ molt    [ amb ] de    compte.
+EVAL: I    I S     S            S          S     S      S          S               S               S     S      
+SHFT:                                                                            1         1     1              
+TER Score: 108.33 ( 13.0/ 12.0)
+
+Shift [amb] 1 words right
+ REF:  **** * "quan aviat podria aconseguir una   cita?" va         preguntar       parlant   amb   molta cura.  
+ HYP:  —per a quan  em    podria donar      cita? —va    preguntar, expressant-se @ molt    [ amb ] de    compte.
+
+
+
+Sentence ID: 121:1
+Best Ref: "probablement us podríem cabre aquesta tarda, senyor", va dir. "fins i tot podria ser abans, si rebem una cancel·lació".
+Orig Hyp: —segurament podríem oferir-li un buit aquest vespre, senyor —va dir ella—. potser abans i tot, si se n'anul·la alguna.
+
+REF:  "probablement   us          podríem   cabre aquesta tarda, senyor", va     dir. "fins   i   tot    podria ser     abans, si rebem una       cancel·lació".
+HYP:  —segurament   @ oferir-li [ podríem ] un    buit    aquest vespre,  senyor —va  dir   [ i ] ella—. potser abans @ tot,   si se    n'anul·la alguna.       
+EVAL: S               S                     S     S       S      S        S      S    S           S      S      S       S         S     S         S             
+SHFT:               1           1         1                                                 2   2                     2                                         
+TER Score:  94.74 ( 18.0/ 19.0)
+
+Shift [podríem] 1 words right
+ REF:  "probablement   us          podríem   cabre aquesta tarda, senyor", va     dir. "fins i      tot    podria ser abans, si rebem una       cancel·lació".
+ HYP:  —segurament   @ oferir-li [ podríem ] un    buit    aquest vespre,  senyor —va  dir   ella—. potser abans  i   tot,   si se    n'anul·la alguna.       
+
+Shift [i] 3 words left
+ REF:  "probablement us        podríem cabre aquesta tarda, senyor", va     dir. "fins   i   tot    podria ser     abans, si rebem una       cancel·lació".
+ HYP:  —segurament   oferir-li podríem un    buit    aquest vespre,  senyor —va  dir   [ i ] ella—. potser abans @ tot,   si se    n'anul·la alguna.       
+
+
+
+Sentence ID: 122:1
+Best Ref: "d'acord", va dir el pintor, "encaix-me, si us plau". i li va donar el seu nom, descrivint-lo.
+Orig Hyp: —entesos —va dir el pintor—, doni'm hora, sisplau —i li va dir com es deia, lletra per lletra.
+
+REF:  "d'acord", va  dir el pintor, "encaix-me, si     us    plau".  i  li va *** *** donar el    seu    nom, descrivint-lo.
+HYP:  —entesos   —va dir el ******* pintor—,    doni'm hora, sisplau —i li va dir com es    deia, lletra per  lletra.       
+EVAL: S          S          D       S           S      S     S       S        I   I   S     S     S      S    S             
+SHFT:                                                                                                                       
+TER Score:  88.24 ( 15.0/ 17.0)
+
+
+
+Sentence ID: 123:1
+Best Ref: "gràcies, senyor", va dir l'amfitriona. "la teva ciutat t'agraeix; el teu país t'ho agraeix; el teu planeta t'ho agraeix. però el més profund agraïment de tots és de les generacions futures".
+Orig Hyp: —gràcies, senyor —va dir l'hostessa—. gràcies de part de la seva ciutat. gràcies de part del seu país. gràcies de part del seu planeta. però, sobretot, moltes gràcies de part de les generacions futures.
+
+REF:  "gràcies, senyor", va  dir ************ *******   l'amfitriona. "la teva ciutat t'agraeix; el      teu país t'ho agraeix; el    teu     planeta t'ho agraeix. però el       més   profund   agraïment   de   ******* tots és   de les generacions futures".
+HYP:  —gràcies, senyor   —va dir l'hostessa—. gràcies @ part          de  la   seva   ciutat.    gràcies de  part del  seu      país. gràcies de      part del      seu  planeta. però, sobretot, moltes    [ de ] gràcies de   part de les generacions futures. 
+EVAL: S         S        S       I            I         S             S   S    S      S          S       S   S    S    S        S     S       S       S    S        S    S        S     S         S                I       S    S                       S        
+SHFT:                                                 1                                                                                                                                                     1    1                                               
+TER Score:  96.77 ( 30.0/ 31.0)
+
+Shift [de] 20 words right
+ REF:  "gràcies, senyor", va  dir ************ *******   l'amfitriona. "la teva ciutat t'agraeix; el      teu país t'ho agraeix; el    teu     planeta t'ho agraeix. però el       més   profund   agraïment   de   ******* tots és   de les generacions futures".
+ HYP:  —gràcies, senyor   —va dir l'hostessa—. gràcies @ part          de  la   seva   ciutat.    gràcies de  part del  seu      país. gràcies de      part del      seu  planeta. però, sobretot, moltes    [ de ] gràcies de   part de les generacions futures. 
+
+
+

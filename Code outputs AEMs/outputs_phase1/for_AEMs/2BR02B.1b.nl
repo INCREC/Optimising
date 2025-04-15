@@ -1,0 +1,123 @@
+2BR02B
+Alles was perfect in orde.
+Er waren geen gevangenissen, geen sloppenwijken, geen krankzinnigengestichten, geen invaliden, geen armoede, geen oorlogen.
+Alle ziekten waren overwonnen. Ouderdom ook.
+Doodgaan, afgezien van ongelukken, was een avontuur voor vrijwilligers.
+De bevolking van de Verenigde Staten was gestabiliseerd op veertig miljoen zielen.
+Op een stralende ochtend in het Chicago Lying-in Hospital wachtte een man genaamd Edward K. Wehling Jr. op de geboorte van zijn vrouw. Hij was de enige wachtende man. Er werden niet meer zo veel mensen per dag geboren.
+Wehling was zesenvijftig, een jongeman in een bevolking met een gemiddelde leeftijd van honderdtwintig jaar.
+Röntgenfoto’s hadden aangetoond dat zijn vrouw een drieling zou krijgen. De kinderen zouden zijn eerste zijn.
+De jonge Wehling zat ineengedoken in zijn stoel, zijn hoofd in zijn hand. Hij was zo verfrommeld, zo stil en kleurloos dat hij praktisch onzichtbaar was. Zijn camouflage was perfect, aangezien de wachtkamer ook een wanordelijke en ontmoedigde sfeer had. Stoelen en asbakken waren verplaatst van de muren. De vloer was bekleed met bespatte doeken.
+De kamer werd gerenoveerd. Het werd gerestaureerd als een gedenkteken voor een man die vrijwillig was gestorven.
+Een sarcastische oude man, ongeveer tweehonderd jaar oud, zat op een keukentrapje en schilderde een muurschildering die hij niet mooi vond. In de tijd dat mensen zichtbaar verouderden, zou zijn leeftijd op vijfendertig zijn geschat. Het ouderdomsproces had hem zover geraakt voordat de remedie tegen veroudering werd gevonden.
+De muurschildering waar hij aan werkte, beeldde een heel nette tuin uit. Mannen en vrouwen in het wit, artsen en verpleegkundigen, bewerkten de grond, plantten zaailingen, spuitten insecten, verspreidden kunstmest.
+Mannen en vrouwen in paarse uniformen trokken onkruid uit, hakten oude en zieke planten om, harken bladeren weg, brachten afval naar vuilverbranders.
+Nooit, nooit, nooit—niet eens in middeleeuws Holland of het oude Japan—was een tuin formeler, beter onderhouden. Elke plant had alle leem, licht, water, lucht en voeding die het nodig had.
+Een ziekenhuisknecht kwam de gang door, zingend zachtjes een populair nummer:
+Als je mijn kussen niet leuk vindt, schatje,  
+Hier is wat ik ga doen:  
+Ik ga naar een meisje in het paars,  
+Kus deze trieste wereld vaarwel.  
+Als je mijn liefde niet wilt,  
+Waarom zou ik dan al deze ruimte innemen?  
+Ik stap van deze oude planeet,  
+Laat een lief klein kind mijn plek innemen.
+De knecht keek naar de muurschildering en de schilder ervan. "Ziet er zo echt uit," zei hij, "ik kan me bijna voorstellen dat ik er middenin sta."
+"Wat maakt dat je denkt dat je er niet in zit?" zei de schilder. Hij gaf een sarcastische glimlach. "Het heet 'De Gelukkige Tuin van het Leven,' weet je."
+"Dat is aardig van Dr. Hitz," zei de knecht.
+Hij bedoelde daarmee een van de mannelijke figuren in het wit, wiens hoofd een portret was van Dr. Benjamin Hitz, de hoofdverloskundige van het ziekenhuis. Hitz was een vreselijk knappe man.
+"Er zijn nog veel gezichten in te vullen," zei de knecht. Hij bedoelde dat de gezichten van veel van de figuren in de muurschildering nog leeg waren. Alle blanco's moesten worden ingevuld met portretten van belangrijke mensen van het ziekenhuispersoneel of van het Chicago-kantoor van het Federal Bureau of Termination.
+"Must be nice to be able to make pictures that look like something," said the orderly.
+Het gezicht van de schilder vertrok van minachting. "Denk je dat ik trots ben op deze klodder?" zei hij. "Denk je dat dit mijn idee is van hoe het leven er echt uitziet?"
+"Wat is jouw idee hoe het leven eruitziet?" zei de knecht.
+De schilder gebaarde naar een vieze doek. "Daar staat een goed beeld van," zei hij. "Lijst dat in, en je hebt een veel eerlijke afbeelding dan deze."
+"Je bent een sombere oude eend, nietwaar?" zei de knecht.
+"Is dat een misdaad?" zei de schilder.
+De knecht haalde zijn schouders op. "Als je het hier niet leuk vindt, opa—" zei hij, en hij beëindigde de gedachte met het truc-telefoonnummer dat mensen moesten bellen die niet langer wilden leven. Het nul in het telefoonnummer sprak hij uit als "niets."
+Het nummer was: "2 B R 0 2 B."
+Het was het telefoonnummer van een instelling waarvan de fantasierijke namen onder andere waren: "Automaat," "Vogelland," "Blikkenfabriek," "Kattenbak," "Ontluizer," "Gemakkelijk gaan," "Vaarwel, moeder," "Blije Hooligan," "Kus-me-snel," "Gelukkige Pierre," "Schapenbad," "Waring Blendor," "Ween-niet-meer" en "Waarom Zorgen?"
+"To be or not to be" was het telefoonnummer van de gemeentelijke gaskamers van het Federal Bureau of Termination.
+De schilder duimde zijn neus naar de knecht. "Als ik besluit dat het tijd is om te gaan," zei hij, "zal het niet in de Schapenbad zijn."
+"Een doe-het-zelver, nietwaar?" zei de knecht. "Rommelige zaak, opa. Waarom heb je geen beetje consideratie voor de mensen die na jou moeten opruimen?"
+De schilder uitte met een schuttingwoord zijn gebrek aan interesse voor de beproevingen van zijn erfgenamen. "De wereld kan wel wat meer chaos gebruiken, als je het mij vraagt," zei hij.
+De knecht lachte en liep door.
+Wehling, de wachtende vader, mompelde iets zonder zijn hoofd op te tillen. En toen hij viel stil weer.
+Een grove, ontslagbare vrouw liep het wachtkamer binnen op naaldhakken. Haar schoenen, kousen, trenchcoat, tas en overzeese pet waren allemaal paars, de paarse die de schilder "de kleur van druiven op de Dag des Oordeels" noemde.
+Metalliet op haar paarse muset-tas was het zegel van de Service Division van het Federal Bureau of Termination, een adelaar die op een draaihek stond.
+De vrouw had veel gezichtsbeharing—een onmiskenbare snor, in feite. Een curieuze zaak over gastvrouwen van de gaskamers was dat, ongeacht hoe mooi en vrouwelijk ze waren bij hun rekrutering, ze allemaal binnen vijf jaar of zo snorren kregen.
+"Is dit waar ik moet komen?" zei ze tegen de schilder.
+"Veel zou afhangen van wat je zaken was,"  zei hij. "Je staat niet op het punt om een baby te krijgen, toch?"
+"Ze vertelden me dat ik moest poseren voor een foto," zei ze. "Mijn naam is Leora Duncan." Ze wachtte.
+"En je dompelt mensen onder," zei hij.
+"Wat?" zei ze.
+"Vergeet het," zei hij.
+"Dat is zeker een mooie foto," zei ze. "Lijkt net op de hemel of zoiets."
+"Of zoiets," zei de schilder. Hij nam een lijst met namen uit zijn kiel-zak. "Duncan, Duncan, Duncan," zei hij, de lijst doorzoekend. "Ja—hier ben je. Je hebt recht om vereewigd te worden. Zie je hier een gezichtsloze lichaam waarop ik je hoofd zou willen plakken? We hebben nog een paar goede over."
+Ze bestudeerde de muurschildering somber. "Tjee," zei ze, "ze zijn allemaal hetzelfde voor mij. Ik weet niets van kunst."
+"Een lichaam is een lichaam, hè?" zei hij. "Oké. Als een meester in de schone kunsten beveel ik dit lichaam hier aan." Hij wees naar een gezichtsloze figuur van een vrouw die droge stengels naar een vuilverbrander droeg.
+"Nou," zei Leora Duncan, "dat is meer voor de afvaldienst, nietwaar? Ik bedoel, ik zit in de dienstverlening. Ik doe geen weggooiwerk."
+De schilder klapte in zijn handen van gespeelde vreugde. "Je zegt dat je niets van kunst weet, en dan bewijst je in de volgende adem dat je meer weet dan ik! Natuurlijk is de schoven-draagster verkeerd voor een gastvrouw! Een knipper, een snoeier—dat is meer jouw vak." Hij wees naar een figuur in paars die een dode tak van een appelboom zaagde. "Wat denk je van haar?" zei hij. "Vind je haar leuk?"
+"Jemig—" zei ze, en ze bloosde en werd nederig—"dat plaatst me precies naast Dr. Hitz."
+"Stoort dat je?" zei hij.
+"Hemeltjelief, nee!" zei ze. "Het is—het is gewoon zo'n eer."
+"Ah, je bewondert hem, hè?" zei hij.
+"Wie bewonderd hem niet?" zei ze, de portret van Hitz aanbiddend. Het was het portret van een gebruinde, witgerande, almachtige Zeus, tweehonderdveertig jaar oud. "Wie bewonderd hem niet?" zei ze weer. "Hij was verantwoordelijk voor het opzetten van de eerste gas, kamer in Chicago."
+"Niets zou mij meer verheugen," zei de schilder, "dan jou voor altijd bij hem te plaatsen. Een tak afzagen—that's appropriate for you."
+"Dat is wel een beetje zoals ik doe," zei ze. Ze was nederig over wat ze deed. Wat ze deed, was mensen comfortabel maken terwijl ze hen doodde.
+En terwijl Leora Duncan voor haar portret poseerde, sprong Dr. Hitz zelf de wachtkamer binnen. Hij was zeven voet lang, en hij barstte van belangrijkheid, prestaties, en levensvreugde.
+"Nou, juffrouw Duncan! Juffrouw Duncan!" zei hij, en hij maakte een grap. "Wat doe je hier?" zei hij. "Dit is niet waar de mensen vertrekken. Dit is waar ze binnenkomen!"
+"We zullen samen op hetzelfde plaatje staan," zei ze verlegen.
+"Goed!" zei Dr. Hitz hartelijk. "En is dat niet enige schilderij?"
+"Ik ben zo vereerd om er samen met u in te staan," zei ze.
+"Laat me je vertellen," zei hij, "ik ben vereerd om er samen met jou in te staan. Zonder vrouwen zoals jij, zou deze prachtige wereld die we hebben niet mogelijk zijn."
+Hij bracht een saluut en liep naar de deur die naar de verloskamers leidde. "Raad eens wat net geboren is," zei hij.
+"Ik kan het niet," zei ze.
+"Drieling!" zei hij.
+"Drieling!" zei ze. Ze was heel verbaasd over de juridische implicaties van drieling.
+Volgens de wet mocht geen pasgeboren kind overleven tenzij de ouders van het kind iemand konden vinden die vrijwillig heilig zou sterven. Drieling, als ze allemaal zouden leven, vroegen om drie vrijwilligers.
+"Hebben de ouders drie vrijwilligers?" zei Leora Duncan.
+"Het laatste dat ik hoorde," zei Dr. Hitz, "hadden ze er één, en probeerden ze er nog twee te vinden."
+"Ik denk niet dat ze het gehaald hebben," zei ze. "Niemand maakte drie afspraken met ons. Niets anders dan singles die vandaag gingen, tenzij iemand na mijn vertrek gebeld heeft. Wat is de naam?"
+"Wehling," zei de wachtende vader, zittend, met rode ogen en slordig. "Edward K. Wehling, Jr., is de naam van de gelukkige aanstaande vader."
+Hij stak zijn rechterhand op, keek naar een plek op de muur, gaf een schor, ellendig lachje. "Aanwezig," zei hij.
+"Oh, meneer Wehling," zei Dr. Hitz, "ik had je niet gezien."
+"De onzichtbare man," zei Wehling.
+"Ze hebben me net gebeld dat je drieling geboren is," zei Dr. Hitz. "Ze zijn allemaal prima, en ook de moeder. Ik ga nu naar binnen om ze te zien."
+"Hoera," zei Wehling lusteloos.
+"Je klinkt niet erg gelukkig," zei Dr. Hitz.
+"Welke man in mijn schoenen zou niet gelukkig zijn?" zei Wehling. Hij maakte met zijn handen een gebaar om zorgeloze eenvoud te symboliseren. "Alles wat ik hoef te doen is kiezen welke van de drieling zal leven, dan mijn grootvader aan de Blije Hooligan overhandigen, en terugkomen met een ontvangstbewijs."
+Dr. Hitz werd een beetje streng met Wehling, en torende over hem heen. "Je gelooft niet in geboortebeperking, meneer Wehling?" zei hij.
+"Ik vind het perfect fantastisch," zei Wehling gespannen.
+"Zou je graag terug willen naar de goede oude tijd, toen de bevolking van de aarde twintig miljard was—op het punt om veertig miljard te worden, toen tachtig miljard, toen honderdzestig miljard? Weet je wat een drupelet is, meneer Wehling?" zei Hitz.
+"Nee," zei Wehling cynisch.
+"Een drupelet, meneer Wehling, is een van die kleine knobbeltjes, een van die kleine, sappige korrels van een braambes," zei Dr. Hitz. "Zonder geboortebeperking zou de mensheid nu op deze oude planeet opeengepakt zitten als drupelets op een braambes! Denk er maar aan!"
+Wehling bleef naar dezelfde plek op de muur staren.
+"In het jaar 2000," zei Dr. Hitz, "voordat wetenschappers ingrepen en de wet vastlegden, was er nog geen drinkwater te verkrijgen, en niets te eten behalve zeewier—en nog steeds stonden mensen erop hun recht om zich als konijnen voort te planten. En hun recht, indien mogelijk, om eeuwig te leven."
+"Ik wil die kinderen," zei Wehling stil. "Ik wil ze alle drie."
+"Natuurlijk wil je dat," zei Dr. Hitz. "Dat is alleen menselijk."
+"Ik wil ook dat mijn grootvader niet sterft," zei Wehling.
+"Niemand is werkelijk blij om een naaste gevangen te nemen naar de Kattenbak," zei Dr. Hitz zachtjes, sympathiek.
+"Ik wou dat mensen dat niet zo zouden noemen," zei Leora Duncan.
+"Wat?" zei Dr. Hitz.
+"Ik wou dat mensen het niet 'de Kattenbak' zouden noemen, en zo," zei ze. "Het geeft de mensen een verkeerde indruk."
+"Je hebt helemaal gelijk," zei Dr. Hitz. "Vergeef me." Hij corrigeerde zichzelf, gaf de gemeentelijke gaskamers hun officiële titel, een titel die niemand ooit in een gesprek gebruikte. "Ik had moeten zeggen, 'Ethische Zelfmoordstudio’s,'" zei hij.
+"Dat klinkt zoveel beter," zei Leora Duncan.
+"Dit kind van jou—welke je ook kiest om te houden, meneer Wehling," zei Dr. Hitz. "Hij of zij zal leven op een gelukkig, ruim, schoon, rijke planeet, dankzij geboortebeperking. In een tuin zoals die muurschildering daar." Hij schudde zijn hoofd. "Twee eeuwen geleden, toen ik een jongeman was, was het een hel die niemand dacht dat nog twintig jaar zou duren. Nu strekken eeuwen van vrede en voorspoed zich uit voor ons zo ver als de verbeelding wil reizen."
+Hij glimlachte stralend.
+De glimlach vervaagde toen hij zag dat Wehling net een revolver had getrokken.
+Wehling schoot Dr. Hitz dood. "Er is ruimte voor één—een hele grote," zei hij.
+En toen schoot hij Leora Duncan neer. "Het is slechts de dood," zei hij tegen haar terwijl ze viel. "Daar! Ruimte voor twee."
+En toen schoot hij zichzelf neer, waardoor er ruimte was voor al zijn drie kinderen.
+Niemand kwam aangerend. Niemand, zo leek het, hoorde de schoten.
+De schilder zat boven op zijn keukentrap, neerkijkend op de droevige scène.
+De schilder peinsde over het treurige puzzel van leven dat verlangt geboren te worden en, eenmaal geboren, verlangt vruchtbaar te zijn... zich te vermenigvuldigen en zo lang mogelijk te leven—om dat alles te doen op een zeer kleine planeet die voor altijd moet blijven bestaan.
+Alle antwoorden die de schilder kon bedenken, waren somber. Zeker somberder dan een Kattenbak, een Blije Hooligan, een Gemakkelijk Gaan. Hij dacht aan oorlog. Hij dacht aan pest. Hij dacht aan hongersnood.
+Hij wist dat hij nooit meer zou schilderen. Hij liet zijn penseel vallen op de doeken beneden. En toen besloot hij dat hij ook genoeg had van het leven in de Gelukkige Tuin van het Leven, en kwam langzaam van de ladder af.
+Hij pakte Wehling’s pistool, echt van plan zichzelf neer te schieten.
+Maar hij had de moed niet.
+En toen zag hij de telefooncel in de hoek van de kamer. Hij ging er naartoe, draaide het welbekende nummer: "2 B R 0 2 B."
+"Federal Bureau of Termination," zei de zeer warme stem van een receptioniste.
+"Hoe snel kan ik een afspraak krijgen?" vroeg hij, zeer zorgvuldig sprekend.
+"We zouden u waarschijnlijk vanmiddag nog kunnen inplannen, meneer," zei ze. "Misschien zelfs eerder, als we een annulering hebben."
+"In orde," zei de schilder, "plan me in, zo je wilt." En hij gaf haar zijn naam, waarbij hij het spelde.
+"Dank u, meneer," zei de receptioniste. "Uw stad dankt u; uw land dankt u; uw planeet dankt u. Maar de diepste dank is van toekomstige generaties."

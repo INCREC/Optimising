@@ -1,0 +1,1856 @@
+Sentence ID: 1:1
+Best Ref: 2br02b
+Orig Hyp: ﻿2br02b
+
+REF:  2br02b 
+HYP:  ﻿2br02b
+EVAL: S      
+SHFT:        
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 2:1
+Best Ref: alles was perfect in orde.
+Orig Hyp: alles was piekfijn geregeld.
+
+REF:  alles was perfect in       orde.    
+HYP:  alles was ******* piekfijn geregeld.
+EVAL:           D       S        S        
+SHFT:                                     
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 3:1
+Best Ref: er waren geen gevangenissen, geen sloppenwijken, geen krankzinnigengestichten, geen kreupelen, geen armoede, geen oorlogen.
+Orig Hyp: er waren geen gevangenissen, geen sloppenwijken, geen krankzinnigengestichten, geen invaliden, geen armoede, geen oorlogen.
+
+REF:  er waren geen gevangenissen, geen sloppenwijken, geen krankzinnigengestichten, geen kreupelen, geen armoede, geen oorlogen.
+HYP:  er waren geen gevangenissen, geen sloppenwijken, geen krankzinnigengestichten, geen invaliden, geen armoede, geen oorlogen.
+EVAL:                                                                                     S                                      
+SHFT:                                                                                                                            
+TER Score:   7.14 (  1.0/ 14.0)
+
+
+
+Sentence ID: 4:1
+Best Ref: alle ziekten waren overwonnen. ouderdom ook.
+Orig Hyp: alle ziektes waren overwonnen. dat gold ook voor ouderdom.
+
+REF:  alle ziekten waren overwonnen. *** **** *** ouderdom ook.     
+HYP:  alle ziektes waren overwonnen. dat gold ook voor     ouderdom.
+EVAL:      S                         I   I    I   S        S        
+SHFT:                                                               
+TER Score: 100.00 (  6.0/  6.0)
+
+
+
+Sentence ID: 5:1
+Best Ref: de dood, ongelukken uitgezonderd, was een avontuur voor vrijwilligers.
+Orig Hyp: de dood, ongelukken daargelaten, was een avontuur voor vrijwilligers.
+
+REF:  de dood, ongelukken uitgezonderd, was een avontuur voor vrijwilligers.
+HYP:  de dood, ongelukken daargelaten,  was een avontuur voor vrijwilligers.
+EVAL:                     S                                                 
+SHFT:                                                                       
+TER Score:  11.11 (  1.0/  9.0)
+
+
+
+Sentence ID: 6:1
+Best Ref: de bevolking van de verenigde staten was gestabiliseerd op veertig miljoen zielen.
+Orig Hyp: met veertig miljoen stervelingen was het inwonersaantal van de verenigde staten in evenwicht gebracht.
+
+REF:  ***   ************   de  bevolking      van de verenigde staten   was   gestabiliseerd op          veertig miljoen   zielen.  
+HYP:  met @ stervelingen @ het inwonersaantal van de verenigde staten [ was ] in             evenwicht [ veertig miljoen ] gebracht.
+EVAL: I     I              S   S                                              S              S                             S        
+SHFT:     1              2                                            2     2                          1                 1          
+TER Score:  75.00 (  9.0/ 12.0)
+
+Shift [veertig, miljoen] 10 words right
+ REF:  ***   ************ *** de  bevolking      van de verenigde staten was gestabiliseerd op          veertig miljoen   zielen.  
+ HYP:  met @ stervelingen was het inwonersaantal van de verenigde staten *** in             evenwicht [ veertig miljoen ] gebracht.
+
+Shift [was] 6 words right
+ REF:  *** ************   de  bevolking      van de verenigde staten   was   gestabiliseerd op        veertig miljoen zielen.  
+ HYP:  met stervelingen @ het inwonersaantal van de verenigde staten [ was ] in             evenwicht veertig miljoen gebracht.
+
+
+
+Sentence ID: 7:1
+Best Ref: op een heldere ochtend wachtte een man genaamd edward k. wehling jr. in het chicago lying-in hospital op de bevalling van zijn vrouw. hij was de enige man die wachtte. er werden niet veel mensen meer per dag geboren.
+Orig Hyp: op een stralende ochtend zat er een man genaamd edward k. wehling jr. in het geboortehuis van chicago te wachten tot zijn vrouw zou bevallen. hij was de enige wachtende. zoveel mensen werden er op een dag niet meer geboren.
+
+REF:  op een heldere   ochtend wachtte   een man genaamd edward k. wehling jr. in het ************   chicago lying-in hospital   op   de    bevalling   van     zijn   *** vrouw.    hij was de enige man        die    wachtte.   er   werden     niet   veel   mensen   meer per   dag   geboren.
+HYP:  op een stralende ochtend zat     @ een man genaamd edward k. wehling jr. in het geboortehuis @ chicago te       wachten  [ op ] tot @ vrouw     [ van ] [ zijn ] zou bevallen. hij was de enige wachtende. zoveel mensen   [ er ] werden @ [ niet ] er   @ een    @ meer *** [ dag ] geboren.
+EVAL:        S                 S                                                      I                      S        S               S     S                          I   S                          S          S      S                                 S      S             D                   
+SHFT:                                  1                                                           2                           4    4     5           2     2 5      5                                                           1    1        3 6      6      4        6          3     3         
+TER Score:  53.85 ( 21.0/ 39.0)
+
+Shift [er] 26 words right
+ REF:  op een heldere   ochtend wachtte   een man genaamd edward k. wehling jr. in het ************ chicago lying-in hospital op      de  bevalling van   zijn vrouw.    hij was de enige man        die    wachtte.   er   werden niet veel mensen meer per  dag  geboren.
+ HYP:  op een stralende ochtend zat     @ een man genaamd edward k. wehling jr. in het geboortehuis van     chicago  te       wachten tot zijn      vrouw zou  bevallen. hij was de enige wachtende. zoveel mensen   [ er ] werden er   op   een    dag  niet meer geboren.
+
+Shift [van] 6 words right
+ REF:  op een heldere   ochtend wachtte een man genaamd edward k. wehling jr. in het ************   chicago lying-in hospital op  de   bevalling   van   zijn vrouw.    hij was de enige man        die    wachtte. er werden niet veel mensen meer per  dag  geboren.
+ HYP:  op een stralende ochtend zat     een man genaamd edward k. wehling jr. in het geboortehuis @ chicago te       wachten  tot zijn vrouw     [ van ] zou  bevallen. hij was de enige wachtende. zoveel mensen   er werden er   op   een    dag  niet meer geboren.
+
+Shift [dag] 2 words right
+ REF:  op een heldere   ochtend wachtte een man genaamd edward k. wehling jr. in het ************ chicago lying-in hospital op  de   bevalling van zijn vrouw.    hij was de enige man        die    wachtte. er werden niet veel mensen   meer per    dag   geboren.
+ HYP:  op een stralende ochtend zat     een man genaamd edward k. wehling jr. in het geboortehuis chicago te       wachten  tot zijn vrouw     van zou  bevallen. hij was de enige wachtende. zoveel mensen   er werden er   op   een    @ niet meer [ dag ] geboren.
+
+Shift [op] 16 words left
+ REF:  op een heldere   ochtend wachtte een man genaamd edward k. wehling jr. in het ************ chicago lying-in hospital   op   *** de   bevalling van zijn vrouw.    hij was de enige man        die    wachtte. er werden niet   veel mensen meer per dag geboren.
+ HYP:  op een stralende ochtend zat     een man genaamd edward k. wehling jr. in het geboortehuis chicago te       wachten  [ op ] tot zijn vrouw     van zou  bevallen. hij was de enige wachtende. zoveel mensen   er werden er   @ een  niet   meer *** dag geboren.
+
+Shift [zijn] 2 words right
+ REF:  op een heldere   ochtend wachtte een man genaamd edward k. wehling jr. in het ************ chicago lying-in hospital op de    bevalling van   zijn   *** vrouw.    hij was de enige man        die    wachtte. er werden niet veel mensen meer per dag geboren.
+ HYP:  op een stralende ochtend zat     een man genaamd edward k. wehling jr. in het geboortehuis chicago te       wachten  op tot @ vrouw     van [ zijn ] zou bevallen. hij was de enige wachtende. zoveel mensen   er werden er   een  niet   meer *** dag geboren.
+
+Shift [niet] 2 words left
+ REF:  op een heldere   ochtend wachtte een man genaamd edward k. wehling jr. in het ************ chicago lying-in hospital op de  bevalling van zijn *** vrouw.    hij was de enige man        die    wachtte. er werden   niet   veel mensen   meer per dag geboren.
+ HYP:  op een stralende ochtend zat     een man genaamd edward k. wehling jr. in het geboortehuis chicago te       wachten  op tot vrouw     van zijn zou bevallen. hij was de enige wachtende. zoveel mensen   er werden [ niet ] er   een    @ meer *** dag geboren.
+
+
+
+Sentence ID: 8:1
+Best Ref: wehling was zesenvijftig, een kleine jongen in een bevolking met een gemiddelde leeftijd van honderdnegenentwintig.
+Orig Hyp: wehling was zesenvijftig, een jochie nog maar in een bevolking met een gemiddelde leeftijd van honderdnegenentwintig jaar.
+
+REF:  wehling was zesenvijftig, een ****** kleine jongen in een bevolking met een gemiddelde leeftijd van ********************* honderdnegenentwintig.
+HYP:  wehling was zesenvijftig, een jochie nog    maar   in een bevolking met een gemiddelde leeftijd van honderdnegenentwintig jaar.                 
+EVAL:                               I      S      S                                                       I                     S                     
+SHFT:                                                                                                                                                 
+TER Score:  33.33 (  5.0/ 15.0)
+
+
+
+Sentence ID: 9:1
+Best Ref: röntgenfoto's hadden uitgewezen dat zijn vrouw een drieling zou krijgen. de kinderen zouden zijn eerste zijn.
+Orig Hyp: uit röntgenfoto's was gebleken dat zijn vrouw een drieling verwachtte. het zouden zijn eerste kinderen zijn.
+
+REF:  *** röntgenfoto's hadden uitgewezen dat zijn vrouw een drieling zou krijgen.    de    kinderen   zouden zijn eerste   zijn.
+HYP:  uit röntgenfoto's was    gebleken   dat zijn vrouw een drieling *** verwachtte. het [ kinderen ] zouden zijn eerste @ zijn.
+EVAL: I                 S      S                                      D   S           S                                          
+SHFT:                                                                                     1          1                    1      
+TER Score:  43.75 (  7.0/ 16.0)
+
+Shift [kinderen] 3 words left
+ REF:  *** röntgenfoto's hadden uitgewezen dat zijn vrouw een drieling zou krijgen.    de    kinderen   zouden zijn eerste   zijn.
+ HYP:  uit röntgenfoto's was    gebleken   dat zijn vrouw een drieling *** verwachtte. het [ kinderen ] zouden zijn eerste @ zijn.
+
+
+
+Sentence ID: 10:1
+Best Ref: de jonge wehling zat voorovergebogen in zijn stoel, zijn hoofd in zijn hand. hij was zo verfomfaaid, zo stil en kleurloos dat hij bijna onzichtbaar was. zijn camouflage was perfect, want ook in de wachtkamer hing een wanordelijke en gedemoraliseerde sfeer. stoelen en asbakken waren van de muren weggeschoven. op de vloer lagen dweilen met spetters.
+Orig Hyp: de jonge wehling zat voorovergebogen op zijn stoel met zijn hoofd in zijn hand. hij zat er zo verfomfaaid bij, zo onbeweeglijk en bleek, dat hij praktisch onzichtbaar was. zijn camouflage kon niet beter, aangezien er in de wachtkamer ook een sfeer van wanorde en ontmoediging hing. stoelen en asbakken waren van de muren geschoven. overal op de vloer lagen afdeklakens vol verfspetters.
+
+REF:  de jonge wehling zat voorovergebogen in zijn ***** stoel, zijn hoofd in zijn hand. hij *** was zo *********** verfomfaaid, zo stil         en kleurloos dat hij bijna     onzichtbaar was. zijn camouflage *** was  perfect, want      ook in de wachtkamer hing een ***** *** wanordelijke en gedemoraliseerde sfeer. stoelen en asbakken waren van de muren ********** weggeschoven. op de vloer lagen dweilen     met spetters.    
+HYP:  de jonge wehling zat voorovergebogen op zijn stoel met    zijn hoofd in zijn hand. hij zat er  zo verfomfaaid bij,         zo onbeweeglijk en bleek,    dat hij praktisch onzichtbaar was. zijn camouflage kon niet beter,   aangezien er  in de wachtkamer ook  een sfeer van wanorde      en ontmoediging     hing.  stoelen en asbakken waren van de muren geschoven. overal        op de vloer lagen afdeklakens vol verfspetters.
+EVAL:                                      S       I     S                                   I   S      I           S               S               S                 S                                          I   S    S        S         S                    S        I     I   S               S                S                                             I          S                               S           S   S            
+SHFT:                                                                                                                                                                                                                                                                                                                                                                                                                                       
+TER Score:  46.43 ( 26.0/ 56.0)
+
+
+
+Sentence ID: 11:1
+Best Ref: de kamer werd opnieuw ingericht. ze werd heringericht als gedenkteken voor een man die vrijwillig was gestorven.
+Orig Hyp: de ruimte werd opgeknapt. hij werd opgeknapt ter nagedachtenis aan een man die zich vrijwillig had opgegeven om te sterven.
+
+REF:  de kamer  werd opnieuw ingericht. ze  werd heringericht als gedenkteken   voor een man die **** vrijwillig *** ********* ** was gestorven.
+HYP:  de ruimte werd ******* opgeknapt. hij werd opgeknapt    ter nagedachtenis aan  een man die zich vrijwillig had opgegeven om te  sterven.  
+EVAL:    S           D       S          S        S            S   S             S                I               I   I         I  S   S         
+SHFT:                                                                                                                                           
+TER Score:  82.35 ( 14.0/ 17.0)
+
+
+
+Sentence ID: 12:1
+Best Ref: een sardonische oude man, ongeveer tweehonderd jaar oud, zat op een trapladder een muurschildering te schilderen die hem niet beviel. in de tijd dat mensen nog zichtbaar ouder werden, zou zijn leeftijd geschat zijn op een jaar of vijfendertig. zoveel had veroudering hem al geraakt voordat het geneesmiddel tegen veroudering was gevonden.
+Orig Hyp: een cynische oude man van een jaar of tweehonderd zat op een ladder en maakte een muurschildering die hem niet aanstond. vroeger, toen mensen nog zichtbaar verouderden, zou zijn leeftijd rond de vijfendertig zijn geschat. zo ver had zijn veroudering ingezet voordat het geneesmiddel hiervoor werd ontdekt.
+
+REF:  een sardonische oude man, ongeveer   tweehonderd jaar oud, zat op een trapladder   een muurschildering   te schilderen   die hem niet beviel. in          de   tijd     dat  mensen nog zichtbaar ouder werden,      zou zijn leeftijd ****   geschat      zijn op         een jaar of   vijfendertig. zoveel had   veroudering   hem al     geraakt voordat het geneesmiddel tegen veroudering was  gevonden.
+HYP:  een cynische    oude man  van      @ tweehonderd **** **** zat op een ladder     [ een muurschildering ] en maakte     @ die hem niet ******* aanstond. [ de ] vroeger, toen mensen nog zichtbaar ***** verouderden, zou zijn leeftijd rond @ vijfendertig zijn geschat. [ een jaar of ] zo            ver    had [ veroudering ] *** zijn @ ingezet voordat het geneesmiddel ***** hiervoor    werd ontdekt. 
+EVAL:     S                S    S                      D    D               S                                  S  S                         D       S                S        S                         D     S                              I      S                 S                        S             S                          D   S      S                                D     S           S    S        
+SHFT:                                    1                                             2                     2               2                                3    3                                                                              3                            1             1                          4             4          4                                                                  
+TER Score:  57.69 ( 30.0/ 52.0)
+
+Shift [een, jaar, of] 27 words right
+ REF:  een sardonische oude man, ongeveer   tweehonderd jaar oud, zat op een trapladder een muurschildering te  schilderen      die hem niet beviel. in de        tijd     dat  mensen nog zichtbaar ouder werden,      zou zijn leeftijd **** ** geschat      zijn op         een jaar of   vijfendertig. zoveel had veroudering hem  al          geraakt voordat het geneesmiddel tegen veroudering was  gevonden.
+ HYP:  een cynische    oude man  van      @ tweehonderd **** **** zat op een ladder     en  maakte          een muurschildering die hem niet ******* ** aanstond. vroeger, toen mensen nog zichtbaar ***** verouderden, zou zijn leeftijd rond de vijfendertig zijn geschat. [ een jaar of ] zo            ver    had *********** zijn veroudering ingezet voordat het geneesmiddel ***** hiervoor    werd ontdekt. 
+
+Shift [een, muurschildering] 2 words left
+ REF:  een sardonische oude man, ongeveer tweehonderd jaar oud, zat op een trapladder   een muurschildering   te schilderen   die hem niet beviel. in de        tijd     dat  mensen nog zichtbaar ouder werden,      zou zijn leeftijd **** ** geschat      zijn op       een jaar of vijfendertig. zoveel had veroudering hem  al          geraakt voordat het geneesmiddel tegen veroudering was  gevonden.
+ HYP:  een cynische    oude man  van      tweehonderd **** **** zat op een ladder     [ een muurschildering ] en maakte     @ die hem niet ******* ** aanstond. vroeger, toen mensen nog zichtbaar ***** verouderden, zou zijn leeftijd rond de vijfendertig zijn geschat. een jaar of zo            ver    had *********** zijn veroudering ingezet voordat het geneesmiddel ***** hiervoor    werd ontdekt. 
+
+Shift [de] 10 words left
+ REF:  een sardonische oude man, ongeveer tweehonderd jaar oud, zat op een trapladder een muurschildering te schilderen die hem niet beviel. in          de   tijd     dat  mensen nog zichtbaar ouder werden,      zou zijn leeftijd ****   geschat      zijn op       een jaar of vijfendertig. zoveel had veroudering hem  al          geraakt voordat het geneesmiddel tegen veroudering was  gevonden.
+ HYP:  een cynische    oude man  van      tweehonderd **** **** zat op een ladder     een muurschildering en maakte     die hem niet ******* aanstond. [ de ] vroeger, toen mensen nog zichtbaar ***** verouderden, zou zijn leeftijd rond @ vijfendertig zijn geschat. een jaar of zo            ver    had *********** zijn veroudering ingezet voordat het geneesmiddel ***** hiervoor    werd ontdekt. 
+
+Shift [veroudering] 1 words left
+ REF:  een sardonische oude man, ongeveer tweehonderd jaar oud, zat op een trapladder een muurschildering te schilderen die hem niet beviel. in        de tijd     dat  mensen nog zichtbaar ouder werden,      zou zijn leeftijd **** geschat      zijn op       een jaar of vijfendertig. zoveel had   veroudering   hem al     geraakt voordat het geneesmiddel tegen veroudering was  gevonden.
+ HYP:  een cynische    oude man  van      tweehonderd **** **** zat op een ladder     een muurschildering en maakte     die hem niet ******* aanstond. de vroeger, toen mensen nog zichtbaar ***** verouderden, zou zijn leeftijd rond vijfendertig zijn geschat. een jaar of zo            ver    had [ veroudering ] *** zijn @ ingezet voordat het geneesmiddel ***** hiervoor    werd ontdekt. 
+
+
+
+Sentence ID: 13:1
+Best Ref: op de muurschildering waar hij aan werkte was een keurige tuin afgebeeld. mannen en vrouwen in het wit, dokters en verpleegsters, woelden de grond om, plantten zaailingen, besproeiden insecten, strooiden kunstmest.
+Orig Hyp: de muurschildering waar hij aan werkte verbeeldde een bijzonder nette tuin. mannen en vrouwen in het wit, artsen en verpleegkundigen, spitten de aarde om, plantten zaailingen, spoten met insectenspray en strooiden kunstmest.
+
+REF:  op de muurschildering waar hij aan werkte was        een keurige   tuin  afgebeeld. mannen en vrouwen in het wit, dokters en verpleegsters,    woelden de grond om, plantten zaailingen, ****** *** besproeiden   insecten, strooiden kunstmest.
+HYP:  ** de muurschildering waar hij aan werkte verbeeldde een bijzonder nette tuin.      mannen en vrouwen in het wit, artsen  en verpleegkundigen, spitten de aarde om, plantten zaailingen, spoten met insectenspray en        strooiden kunstmest.
+EVAL: D                                         S              S         S     S                                        S          S                 S          S                              I      I   S             S                             
+SHFT:                                                                                                                                                                                                                                                 
+TER Score:  41.94 ( 13.0/ 31.0)
+
+
+
+Sentence ID: 14:1
+Best Ref: mannen en vrouwen in paarse uniformen trokken onkruid omhoog, snoeiden oude en ziekelijke planten af, harkten bladeren, droegen afval naar de vuilnisverbranders.
+Orig Hyp: mannen en vrouwen in paarse uniformen wiedden onkruid, rooiden planten die oud en zwak waren, harkten bladeren bijeen en droegen afval naar verbrandingstonnen.
+
+REF:  mannen en vrouwen in paarse uniformen trokken onkruid  omhoog,   snoeiden oude en **** ziekelijke   planten     af,        harkten   ****** bladeren, droegen afval naar de vuilnisverbranders.
+HYP:  mannen en vrouwen in paarse uniformen wiedden onkruid, rooiden @ die      oud  en zwak waren,     [ planten ] @ bladeren [ harkten ] bijeen en        droegen afval naar ** verbrandingstonnen.
+EVAL:                                       S       S        S         S        S       I    S                        S                    I      S                            D  S                  
+SHFT:                                                                1                                  1         1 2          2         2                                                           
+TER Score:  63.64 ( 14.0/ 22.0)
+
+Shift [planten] 5 words right
+ REF:  mannen en vrouwen in paarse uniformen trokken onkruid  omhoog,   snoeiden oude en **** ziekelijke   planten   ******* af,      harkten bladeren, droegen afval naar de vuilnisverbranders.
+ HYP:  mannen en vrouwen in paarse uniformen wiedden onkruid, rooiden @ die      oud  en zwak waren,     [ planten ] harkten bladeren bijeen  en        droegen afval naar ** verbrandingstonnen.
+
+Shift [harkten] 1 words right
+ REF:  mannen en vrouwen in paarse uniformen trokken onkruid  omhoog, snoeiden oude en **** ziekelijke planten   af,        harkten   ****** bladeren, droegen afval naar de vuilnisverbranders.
+ HYP:  mannen en vrouwen in paarse uniformen wiedden onkruid, rooiden die      oud  en zwak waren,     planten @ bladeren [ harkten ] bijeen en        droegen afval naar ** verbrandingstonnen.
+
+
+
+Sentence ID: 15:1
+Best Ref: nooit, nooit, nooit - zelfs niet in middeleeuws nederland of het oude japan - was een tuin formeler geweest, beter onderhouden. elke plant had alle leem, licht, water, lucht en voeding die hij kon gebruiken.
+Orig Hyp: er was werkelijk waar nog nooit zo'n formele of goed onderhouden tuin geweest, zelfs niet in middeleeuws holland of het oude japan. elke plant was rijkelijk voorzien van aarde, licht, water, lucht en voeding.
+
+REF:  ** *** ********* nooit, nooit, nooit **** ******* ** **** -             zelfs niet in middeleeuws nederland of het oude japan -        was een   tuin   formeler     geweest,   beter onderhouden.   elke plant   had      alle leem,  licht, water, lucht en voeding die hij kon gebruiken.
+HYP:  er was werkelijk waar   nog    nooit zo'n formele of goed onderhouden @ zelfs niet in middeleeuws holland   of het oude ***** japan. @ was *** [ tuin ] ******** @ [ geweest, ] ***** rijkelijk    [ elke plant ] voorzien van  aarde, licht, water, lucht en ******* *** *** *** voeding.  
+EVAL: I  I   I         S      S            I    I       I  I    S                                       S                     D     S            D            D                       D     S                           S        S    S                             D       D   D   D   S         
+SHFT:                                                                       3                                                              1         2      2          2 3          3                    1            1                                                                           
+TER Score:  80.00 ( 28.0/ 35.0)
+
+Shift [elke, plant] 2 words right
+ REF:  ** *** ********* nooit, nooit, nooit **** ******* ** **** *********** **** -        zelfs niet in middeleeuws nederland of het oude japan -        was een tuin formeler geweest, beter onderhouden.   elke plant   had      alle leem,  licht, water, lucht en voeding die hij kon gebruiken.
+ HYP:  er was werkelijk waar   nog    nooit zo'n formele of goed onderhouden tuin geweest, zelfs niet in middeleeuws holland   of het oude ***** japan. @ was *** **** ******** ******** ***** rijkelijk    [ elke plant ] voorzien van  aarde, licht, water, lucht en ******* *** *** *** voeding.  
+
+Shift [tuin] 11 words right
+ REF:  ** *** ********* nooit, nooit, nooit **** ******* ** **** ***********   -        zelfs niet in middeleeuws nederland of het oude japan -      was een   tuin   formeler geweest, beter onderhouden. elke plant had      alle leem,  licht, water, lucht en voeding die hij kon gebruiken.
+ HYP:  er was werkelijk waar   nog    nooit zo'n formele of goed onderhouden @ geweest, zelfs niet in middeleeuws holland   of het oude ***** japan. was *** [ tuin ] ******** ******** ***** rijkelijk    elke plant voorzien van  aarde, licht, water, lucht en ******* *** *** *** voeding.  
+
+Shift [geweest,] 11 words right
+ REF:  ** *** ********* nooit, nooit, nooit **** ******* ** **** -             zelfs niet in middeleeuws nederland of het oude japan -      was een tuin formeler   geweest,   beter onderhouden. elke plant had      alle leem,  licht, water, lucht en voeding die hij kon gebruiken.
+ HYP:  er was werkelijk waar   nog    nooit zo'n formele of goed onderhouden @ zelfs niet in middeleeuws holland   of het oude ***** japan. was *** tuin ******** [ geweest, ] ***** rijkelijk    elke plant voorzien van  aarde, licht, water, lucht en ******* *** *** *** voeding.  
+
+
+
+Sentence ID: 16:1
+Best Ref: een ziekenbroeder kwam door de gang en zong onder zijn adem een populair liedje:
+Orig Hyp: er kwam een verpleeghulp door de gang aangelopen die zachtjes een populair liedje zong:
+
+REF:  **   een ziekenbroeder   kwam   door de gang en zong onder      zijn adem     een populair ****** liedje:
+HYP:  er @ een verpleeghulp  [ kwam ] door de gang ** **** aangelopen die  zachtjes een populair liedje zong:  
+EVAL: I        S                                   D  D    S          S    S                     I      S      
+SHFT:    1                   1      1                                                                          
+TER Score:  71.43 ( 10.0/ 14.0)
+
+Shift [kwam] 2 words right
+ REF:  **   een ziekenbroeder   kwam   door de gang en zong onder      zijn adem     een populair ****** liedje:
+ HYP:  er @ een verpleeghulp  [ kwam ] door de gang ** **** aangelopen die  zachtjes een populair liedje zong:  
+
+
+
+Sentence ID: 17:1
+Best Ref: als je mijn kussen niet leuk vindt, liefje,
+Orig Hyp: als jij mijn kussen niet ziet zitten, lief,
+
+REF:  als je  mijn kussen niet leuk vindt,  liefje,
+HYP:  als jij mijn kussen niet ziet zitten, lief,  
+EVAL:     S                    S    S       S      
+SHFT:                                              
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 18:1
+Best Ref: dit is wat ik zal doen:
+Orig Hyp: dan valt dat me zo zwaar,
+
+REF:  dit is   wat ik zal doen: 
+HYP:  dan valt dat me zo  zwaar,
+EVAL: S   S    S   S  S   S     
+SHFT:                           
+TER Score: 100.00 (  6.0/  6.0)
+
+
+
+Sentence ID: 19:1
+Best Ref: ik ga naar een meisje in paars,
+Orig Hyp: ga ik een vrouw in 't paars bezoeken,
+
+REF:    ik   ga naar   een meisje in ** ***** paars,   
+HYP:  [ ik ] ga **** @ een vrouw  in 't paars bezoeken,
+EVAL:           D          S         I  I     S        
+SHFT: 1    1         1                                 
+TER Score:  85.71 (  6.0/  7.0)
+
+Shift [ik] 1 words left
+ REF:    ik   ga naar   een meisje in ** ***** paars,   
+ HYP:  [ ik ] ga **** @ een vrouw  in 't paars bezoeken,
+
+
+
+Sentence ID: 20:1
+Best Ref: kus deze trieste wereld toodle-oo.
+Orig Hyp: voor een laatste 'au revoir'.
+
+REF:  kus  deze trieste wereld toodle-oo.
+HYP:  voor een  laatste 'au    revoir'.  
+EVAL: S    S    S       S      S         
+SHFT:                                    
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 21:1
+Best Ref: als je mijn liefde niet wilt,
+Orig Hyp: als jij mijn liefde afwijst, schatje,
+
+REF:  als je  mijn liefde niet     wilt,   
+HYP:  als jij mijn liefde afwijst, schatje,
+EVAL:     S               S        S       
+SHFT:                                      
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 22:1
+Best Ref: waarom zou ik al deze ruimte innemen?
+Orig Hyp: dan word ik knettergek,
+
+REF:  waarom zou  ik al deze ruimte innemen?   
+HYP:  dan    word ik ** **** ****** knettergek,
+EVAL: S      S       D  D    D      S          
+SHFT:                                          
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 23:1
+Best Ref: ik ga van deze oude planeet af,
+Orig Hyp: zal ik van deze aarde scheiden,
+
+REF:    ik   ga    van deze oude planeet af,      
+HYP:  [ ik ] zal @ van deze **** aarde   scheiden,
+EVAL:        S              D    S       S        
+SHFT: 1    1     1                                
+TER Score:  71.43 (  5.0/  7.0)
+
+Shift [ik] 1 words left
+ REF:    ik   ga    van deze oude planeet af,      
+ HYP:  [ ik ] zal @ van deze **** aarde   scheiden,
+
+
+
+Sentence ID: 24:1
+Best Ref: laat een lieve baby mijn plaats innemen.
+Orig Hyp: en mag een baby'tje mijn plek.
+
+REF:  laat   een   lieve   baby     mijn plaats innemen.
+HYP:  en   [ een ] mag   @ baby'tje mijn ****** plek.   
+EVAL: S            S       S             D      S       
+SHFT:      1     1       1                              
+TER Score:  85.71 (  6.0/  7.0)
+
+Shift [een] 1 words left
+ REF:  laat   een   lieve   baby     mijn plaats innemen.
+ HYP:  en   [ een ] mag   @ baby'tje mijn ****** plek.   
+
+
+
+Sentence ID: 25:1
+Best Ref: de verpleger keek naar de muurschildering en de muurschilder. “ziet er zo echt uit,” zei hij, ”ik kan me bijna voorstellen dat ik er middenin sta.”
+Orig Hyp: de verpleeghulp keek even naar de muurschilder en de muurschildering. 'net echt,' zei hij. 'ik krijg bijna het gevoel dat ik ertussen sta.'
+
+REF:  de verpleger    keek **** naar de muurschildering en de muurschilder. “ziet er zo               echt uit,”  zei hij, ”ik kan     me    bijna   voorstellen dat ik er middenin sta.”
+HYP:  de verpleeghulp keek even naar de muurschilder    en de ************* ***** ** muurschildering. 'net echt,' zei hij. 'ik krijg @ het [ bijna ] gevoel      dat ik ** ertussen sta.'
+EVAL:    S                 I            S                     D             D     D  S                S    S          S    S   S       S             S                  D  S        S    
+SHFT:                                                                                                                                1     1       1                                     
+TER Score:  69.23 ( 18.0/ 26.0)
+
+Shift [bijna] 1 words right
+ REF:  de verpleger    keek **** naar de muurschildering en de muurschilder. “ziet er zo               echt uit,”  zei hij, ”ik kan     me    bijna   voorstellen dat ik er middenin sta.”
+ HYP:  de verpleeghulp keek even naar de muurschilder    en de ************* ***** ** muurschildering. 'net echt,' zei hij. 'ik krijg @ het [ bijna ] gevoel      dat ik ** ertussen sta.'
+
+
+
+Sentence ID: 26:1
+Best Ref: “waarom denk je dat je er niet middenin staat?” zei de schilder. hij gaf een satirische glimlach. “het heet 'de gelukkige tuin van het leven', weet je.”
+Orig Hyp: 'wie zegt dat je d'r niet tussen staat?' zei de schilder. hij glimlachte spottend. 'het heet namelijk "de gelukkige hof des levens".'
+
+REF:  “waarom denk je   dat je er  niet middenin staat?” zei de schilder. hij gaf een satirische glimlach. “het heet 'de   gelukkige   tuin van      het   leven', weet je.”     
+HYP:  ******* 'wie zegt dat je d'r niet tussen   staat?' zei de schilder. hij *** *** glimlachte spottend. 'het heet *** [ gelukkige ] **** namelijk "de @ hof     des  levens".'
+EVAL: D       S    S           S        S        S                            D   D   S          S         S         D                 D    S        S     S       S    S        
+SHFT:                                                                                                                    1           1                   1                       
+TER Score:  70.37 ( 19.0/ 27.0)
+
+Shift [gelukkige] 2 words left
+ REF:  “waarom denk je   dat je er  niet middenin staat?” zei de schilder. hij gaf een satirische glimlach. “het heet 'de   gelukkige   tuin van      het   leven', weet je.”     
+ HYP:  ******* 'wie zegt dat je d'r niet tussen   staat?' zei de schilder. hij *** *** glimlachte spottend. 'het heet *** [ gelukkige ] **** namelijk "de @ hof     des  levens".'
+
+
+
+Sentence ID: 27:1
+Best Ref: “dat is goed van dokter hitz,” zei de ziekenbroeder.
+Orig Hyp: 'dokter hitz lijkt goed,' zei de verpleeghulp,
+
+REF:  “dat is goed    van  dokter hitz,” zei de ziekenbroeder.
+HYP:  **** ** 'dokter hitz lijkt  goed,' zei de verpleeghulp, 
+EVAL: D    D  S       S    S      S             S             
+SHFT:                                                         
+TER Score:  77.78 (  7.0/  9.0)
+
+
+
+Sentence ID: 28:1
+Best Ref: hij verwees naar een van de mannelijke figuren in het wit, wiens hoofd een portret was van dr. benjamin hitz, de hoofdverloskundige van het ziekenhuis. hitz was een verblindend knappe man.
+Orig Hyp: verwijzend aan een van de mannelijke figuren in het wit, wiens gezicht een portret was van dokter benjamin hitz. hitz was het hoofd verloskunde van het geboortehuis, en een verbluffend knappe man.
+
+REF:  hij verwees    naar een van de mannelijke figuren in het wit, wiens   hoofd   ******* een portret was van dr.    benjamin hitz,   de    hoofdverloskundige van het ziekenhuis.     hitz was   ** een verblindend knappe man.
+HYP:  *** verwijzend aan  een van de mannelijke figuren in het wit, wiens [ hoofd ] gezicht een portret was van dokter benjamin hitz. @ het @ verloskunde        van het geboortehuis, [ hitz was ] en een verbluffend knappe man.
+EVAL: D   S          S                                                              I                           S               S       S     S                          S                          I      S                      
+SHFT:                                                                     2       2                                                   1     2                                          1          1                               
+TER Score:  41.94 ( 13.0/ 31.0)
+
+Shift [hitz, was] 6 words right
+ REF:  hij verwees    naar een van de mannelijke figuren in het wit, wiens hoofd   een portret was van dr.    benjamin *****   hitz, de    hoofdverloskundige van het ziekenhuis.     hitz was   ** een verblindend knappe man.
+ HYP:  *** verwijzend aan  een van de mannelijke figuren in het wit, wiens gezicht een portret was van dokter benjamin hitz. @ het   hoofd verloskunde        van het geboortehuis, [ hitz was ] en een verbluffend knappe man.
+
+Shift [hoofd] 9 words left
+ REF:  hij verwees    naar een van de mannelijke figuren in het wit, wiens   hoofd   ******* een portret was van dr.    benjamin hitz, de    hoofdverloskundige van het ziekenhuis.   hitz was ** een verblindend knappe man.
+ HYP:  *** verwijzend aan  een van de mannelijke figuren in het wit, wiens [ hoofd ] gezicht een portret was van dokter benjamin hitz. het @ verloskunde        van het geboortehuis, hitz was en een verbluffend knappe man.
+
+
+
+Sentence ID: 29:1
+Best Ref: “er moeten nog veel gezichten ingevuld worden,” zei de ziekenbroeder. hij bedoelde dat de gezichten van veel figuren op de muurschildering nog leeg waren. alle lege plekken moesten worden opgevuld met portretten van belangrijke mensen van het ziekenhuispersoneel of van het chicago bureau van het federal bureau of termination.
+Orig Hyp: 'er moeten nog een hoop gezichten worden opgevuld,' zei de verpleeghulp. hij bedoelde dat veel figuren op de muurschildering nog geen gezicht hadden. alle blanco gezichten moesten worden opgevuld met een portret van een belangrijke medewerker van het geboortehuis of van het filiaal in chicago van de federale beëindigingsdienst.
+
+REF:  “er moeten nog *** veel gezichten ingevuld worden,”   zei de ziekenbroeder. hij bedoelde dat     de     gezichten       van   veel figuren op de muurschildering nog leeg waren.    alle   lege      plekken   moesten worden opgevuld met *** portretten van *** belangrijke mensen     van het ziekenhuispersoneel of van het   chicago   bureau van het federal bureau   of       termination.       
+HYP:  'er moeten nog een hoop gezichten worden   opgevuld,' zei de verpleeghulp.  hij bedoelde dat @ [ de ] [ gezichten ] @ [ van ] veel figuren op de muurschildering nog geen gezicht [ alle ] hadden. @ blanco  @ moesten worden opgevuld met een portret    van een belangrijke medewerker van het geboortehuis        of van het [ chicago ] ****** *** *** filiaal in     @ federale beëindigingsdienst.
+EVAL: S              I   S              S        S                 S                                                                                                       S    S                S         S                                     I   S              I               S                  S                                          D      D   D   S       S        S        S                  
+SHFT:                                                                                              4 5    5 1           1 3 4     4                                                     2      2         2         1                                                                                                                  3         3                               5                             
+TER Score:  55.10 ( 27.0/ 49.0)
+
+Shift [gezichten] 11 words left
+ REF:  “er moeten nog *** veel gezichten ingevuld worden,”   zei de ziekenbroeder. hij bedoelde dat de   gezichten   van veel figuren op de muurschildering nog leeg waren.  alle    lege plekken   moesten worden opgevuld met *** portretten van *** belangrijke mensen     van het ziekenhuispersoneel of van het chicago bureau  van het     federal bureau of       termination.       
+ HYP:  'er moeten nog een hoop gezichten worden   opgevuld,' zei de verpleeghulp.  hij bedoelde dat ** [ gezichten ] *** veel figuren op de muurschildering nog geen gezicht hadden. alle blanco  @ moesten worden opgevuld met een portret    van een belangrijke medewerker van het geboortehuis        of van het ******* filiaal in  chicago van     de     federale beëindigingsdienst.
+
+Shift [alle] 1 words left
+ REF:  “er moeten nog *** veel gezichten ingevuld worden,”   zei de ziekenbroeder. hij bedoelde dat de gezichten van veel figuren op de muurschildering nog leeg waren.    alle   lege      plekken moesten worden opgevuld met *** portretten van *** belangrijke mensen     van het ziekenhuispersoneel of van het chicago bureau  van het     federal bureau of       termination.       
+ HYP:  'er moeten nog een hoop gezichten worden   opgevuld,' zei de verpleeghulp.  hij bedoelde dat ** gezichten *** veel figuren op de muurschildering nog geen gezicht [ alle ] hadden. @ blanco  moesten worden opgevuld met een portret    van een belangrijke medewerker van het geboortehuis        of van het ******* filiaal in  chicago van     de     federale beëindigingsdienst.
+
+Shift [chicago] 2 words left
+ REF:  “er moeten nog *** veel gezichten ingevuld worden,”   zei de ziekenbroeder. hij bedoelde dat de gezichten van veel figuren op de muurschildering nog leeg waren.  alle lege    plekken moesten worden opgevuld met *** portretten van *** belangrijke mensen     van het ziekenhuispersoneel of van het   chicago   bureau van     het   federal bureau of       termination.       
+ HYP:  'er moeten nog een hoop gezichten worden   opgevuld,' zei de verpleeghulp.  hij bedoelde dat ** gezichten *** veel figuren op de muurschildering nog geen gezicht alle hadden. blanco  moesten worden opgevuld met een portret    van een belangrijke medewerker van het geboortehuis        of van het [ chicago ] ****** filiaal in  @ van     de     federale beëindigingsdienst.
+
+Shift [van] 30 words left
+ REF:  “er moeten nog *** veel gezichten ingevuld worden,”   zei de ziekenbroeder. hij bedoelde dat de gezichten   van   veel figuren op de muurschildering nog leeg waren.  alle lege    plekken moesten worden opgevuld met *** portretten van *** belangrijke mensen     van het ziekenhuispersoneel of van het chicago bureau van het     federal   bureau of       termination.       
+ HYP:  'er moeten nog een hoop gezichten worden   opgevuld,' zei de verpleeghulp.  hij bedoelde dat ** gezichten [ van ] veel figuren op de muurschildering nog geen gezicht alle hadden. blanco  moesten worden opgevuld met een portret    van een belangrijke medewerker van het geboortehuis        of van het chicago ****** *** filiaal in      @ de     federale beëindigingsdienst.
+
+Shift [de] 32 words left
+ REF:  “er moeten nog *** veel gezichten ingevuld worden,”   zei de ziekenbroeder. hij bedoelde dat   de   gezichten van veel figuren op de muurschildering nog leeg waren.  alle lege    plekken moesten worden opgevuld met *** portretten van *** belangrijke mensen     van het ziekenhuispersoneel of van het chicago bureau van het federal bureau   of       termination.       
+ HYP:  'er moeten nog een hoop gezichten worden   opgevuld,' zei de verpleeghulp.  hij bedoelde dat [ de ] gezichten van veel figuren op de muurschildering nog geen gezicht alle hadden. blanco  moesten worden opgevuld met een portret    van een belangrijke medewerker van het geboortehuis        of van het chicago ****** *** *** filiaal in     @ federale beëindigingsdienst.
+
+
+
+Sentence ID: 30:1
+Best Ref: “moet leuk zijn om foto's te kunnen maken die ergens op lijken,” zei de ziekenbroeder.
+Orig Hyp: 'wat fijn als je schilderijen kunt maken die ergens op lijken,' zei de verpleeghulp.
+
+REF:  “moet leuk zijn om  foto's te           kunnen maken die ergens op lijken,” zei de ziekenbroeder.
+HYP:  ***** 'wat fijn als je     schilderijen kunt   maken die ergens op lijken,' zei de verpleeghulp. 
+EVAL: D     S    S    S   S      S            S                          S               S             
+SHFT:                                                                                                  
+TER Score:  60.00 (  9.0/ 15.0)
+
+
+
+Sentence ID: 31:1
+Best Ref: het gezicht van de schilder vertrok van minachting. “denk je dat ik trots ben op deze bekladding?” zei hij. “denk je dat dit mijn idee is van hoe het leven er echt uitziet?”
+Orig Hyp: het gezicht van de schilder vertrok vol minachting. 'denk je dat ik trots ben op dit gedrocht?' zei hij. 'denk je echt dat ik het leven zo in beeld zou brengen?'
+
+REF:  het gezicht van de schilder vertrok van minachting. “denk je dat ik trots ben op deze   bekladding?” zei hij. “denk je   dat     dit   mijn idee   is   van hoe   het leven   er    echt uitziet?”
+HYP:  het gezicht van de schilder vertrok vol minachting. 'denk je dat ik trots ben op **** @ gedrocht?'   zei hij. 'denk je [ dat ] [ dit ] **** echt @ ik @ zo  in  [ het leven ] beeld zou  brengen?'
+EVAL:                                     S               S                            D      S                     S                        D    S      S    S   S                 S     S    S        
+SHFT:                                                                                       2                                3     3 2     2           3    1         1           1                     
+TER Score:  48.48 ( 16.0/ 33.0)
+
+Shift [het, leven] 2 words right
+ REF:  het gezicht van de schilder vertrok van minachting. “denk je dat ik trots ben op deze bekladding?” zei hij. “denk je dat dit mijn idee is   van hoe   het leven   er    echt uitziet?”
+ HYP:  het gezicht van de schilder vertrok vol minachting. 'denk je dat ik trots ben op dit  gedrocht?'   zei hij. 'denk je *** *** echt dat  ik @ zo  in  [ het leven ] beeld zou  brengen?'
+
+Shift [dit] 5 words right
+ REF:  het gezicht van de schilder vertrok van minachting. “denk je dat ik trots ben op deze   bekladding?” zei hij. “denk je dat   dit   mijn idee is van hoe het leven er    echt uitziet?”
+ HYP:  het gezicht van de schilder vertrok vol minachting. 'denk je dat ik trots ben op **** @ gedrocht?'   zei hij. 'denk je *** [ dit ] echt dat  ik zo  in  het leven beeld zou  brengen?'
+
+Shift [dat] 2 words left
+ REF:  het gezicht van de schilder vertrok van minachting. “denk je dat ik trots ben op deze bekladding?” zei hij. “denk je   dat   dit mijn idee   is van hoe het leven er    echt uitziet?”
+ HYP:  het gezicht van de schilder vertrok vol minachting. 'denk je dat ik trots ben op **** gedrocht?'   zei hij. 'denk je [ dat ] dit **** echt @ ik zo  in  het leven beeld zou  brengen?'
+
+
+
+Sentence ID: 32:1
+Best Ref: “wat is jouw idee van hoe het leven eruit ziet?” zei de ziekenbroeder.
+Orig Hyp: 'hoe zou u het leven dan in beeld brengen?' vroeg de verpleeghulp
+
+REF:  “wat is   jouw idee   van hoe   het leven   eruit ziet?”    zei   de ziekenbroeder.
+HYP:  **** 'hoe zou  u    @ dan in  [ het leven ] beeld brengen?' vroeg de verpleeghulp  
+EVAL: D    S    S    S      S   S                 S     S         S        S             
+SHFT:                     1         1           1                                        
+TER Score:  84.62 ( 11.0/ 13.0)
+
+Shift [het, leven] 2 words right
+ REF:  “wat is   jouw idee   van hoe   het leven   eruit ziet?”    zei   de ziekenbroeder.
+ HYP:  **** 'hoe zou  u    @ dan in  [ het leven ] beeld brengen?' vroeg de verpleeghulp  
+
+
+
+Sentence ID: 33:1
+Best Ref: de schilder gebaarde naar een vies doek. “daar is een goede foto van,” zei hij. “lijst dat in en je hebt een plaatje dat verdomd veel eerlijker is dan dit.”
+Orig Hyp: de schilder gebaarde naar een smerig afdekkleed. 'dat is wel een goede weergave,' zei hij. 'doe daar een lijst omheen en je hebt schilderij dat een stuk oprechter is dan dit hier.'
+
+REF:  de schilder gebaarde naar een vies   doek.       “daar is *** een goede foto van,”      zei hij. **** “lijst   dat   in     en je hebt   een   plaatje    dat verdomd veel eerlijker is dan *** dit.” 
+HYP:  de schilder gebaarde naar een smerig afdekkleed. 'dat  is wel een goede **** weergave,' zei hij. 'doe daar   @ lijst omheen en je hebt [ een ] schilderij dat een     stuk oprechter is dan dit hier.'
+EVAL:                               S      S           S        I             D    S                   I    S        S     S                         S              S       S    S                I   S     
+SHFT:                                                                                                              1                         1     1                                                        
+TER Score:  56.67 ( 17.0/ 30.0)
+
+Shift [een] 5 words right
+ REF:  de schilder gebaarde naar een vies   doek.       “daar is *** een goede foto van,”      zei hij. **** “lijst   dat   in     en je hebt   een   plaatje    dat verdomd veel eerlijker is dan *** dit.” 
+ HYP:  de schilder gebaarde naar een smerig afdekkleed. 'dat  is wel een goede **** weergave,' zei hij. 'doe daar   @ lijst omheen en je hebt [ een ] schilderij dat een     stuk oprechter is dan dit hier.'
+
+
+
+Sentence ID: 34:1
+Best Ref: “je bent een sombere oude eend, nietwaar?” zei de ziekenbroeder.
+Orig Hyp: 'u bent wel een zwartgallige oude snuiter, zeg,' zei de verpleeghulp.
+
+REF:  “je bent *** een sombere      oude eend,    nietwaar?” zei de ziekenbroeder.
+HYP:  'u  bent wel een zwartgallige oude snuiter, zeg,'      zei de verpleeghulp. 
+EVAL: S        I       S                 S        S                 S             
+SHFT:                                                                             
+TER Score:  60.00 (  6.0/ 10.0)
+
+
+
+Sentence ID: 35:1
+Best Ref: “is dat een misdaad?” zei de schilder.
+Orig Hyp: 'dat is toch geen misdaad?' zei de schilder.
+
+REF:  **** “is dat  een  misdaad?” zei de schilder.
+HYP:  'dat is  toch geen misdaad?' zei de schilder.
+EVAL: I    S   S    S    S                         
+SHFT:                                              
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 36:1
+Best Ref: de ziekenbroeder haalde zijn schouders op. “als het u hier niet bevalt, opa-” zei hij, en hij maakte de gedachte af met het foefje dat mensen die niet meer wilden leven moesten bellen. de nul in het telefoonnummer sprak hij uit als “niets”.
+Orig Hyp: de verpleeghulp haalde zijn schouders op. 'als het u hier niet bevalt, opa...' zei hij, en hij maakte de gedachte af met het geestige telefoonnummer dat mensen die niet meer wilden leven konden bellen. hij sprak het telefoonnummer op zijn engels uit, met de ouderwetse 'naught'-uitspraak voor de nul.
+
+REF:  de ziekenbroeder haalde zijn schouders op. “als het u hier niet bevalt, opa-”   zei hij, en hij maakte de gedachte af met het ******** foefje         dat mensen die niet meer wilden leven moesten bellen.   de   nul in    het telefoonnummer ** **** ****** **** ***   sprak      hij                uit  als “niets”.
+HYP:  de verpleeghulp  haalde zijn schouders op. 'als het u hier niet bevalt, opa...' zei hij, en hij maakte de gedachte af met het geestige telefoonnummer dat mensen die niet meer wilden leven konden  bellen. [ de ] hij sprak het telefoonnummer op zijn engels uit, met @ ouderwetse 'naught'-uitspraak voor de  nul.    
+EVAL:    S                                       S                            S                                                     I        S                                                    S                      S   S                        I  I    I      I    I     S          S                  S    S   S       
+SHFT:                                                                                                                                                                                                             1    1                                                      1                                                
+TER Score:  44.19 ( 19.0/ 43.0)
+
+Shift [de] 9 words left
+ REF:  de ziekenbroeder haalde zijn schouders op. “als het u hier niet bevalt, opa-”   zei hij, en hij maakte de gedachte af met het ******** foefje         dat mensen die niet meer wilden leven moesten bellen.   de   nul in    het telefoonnummer ** **** ****** **** ***   sprak      hij                uit  als “niets”.
+ HYP:  de verpleeghulp  haalde zijn schouders op. 'als het u hier niet bevalt, opa...' zei hij, en hij maakte de gedachte af met het geestige telefoonnummer dat mensen die niet meer wilden leven konden  bellen. [ de ] hij sprak het telefoonnummer op zijn engels uit, met @ ouderwetse 'naught'-uitspraak voor de  nul.    
+
+
+
+Sentence ID: 37:1
+Best Ref: het nummer was: “2 b r 0 2 b.”
+Orig Hyp: het nummer was: '2 b r 0 2 b'.
+
+REF:  het nummer was: “2 b r 0 2 b.”
+HYP:  het nummer was: '2 b r 0 2 b'.
+EVAL:                 S          S  
+SHFT:                               
+TER Score:  22.22 (  2.0/  9.0)
+
+
+
+Sentence ID: 38:1
+Best Ref: het was het telefoonnummer van een instelling met fantasievolle bijnamen als: “automat', 'birdland', 'cannery', 'catbox', 'de-louser', 'easy-go', 'good-by, mother', 'happy hooligan', 'kiss-me-quick', 'lucky pierre', 'sheepdip', 'waring blendor', 'weep-no-more' en 'why worry?
+Orig Hyp: dit was het telefoonnummer van een instelling die ook wel bekendstond als: 'automatiek', 'geheim gemak', 'inmakerij', 'kattenbak', 'verdelger', 'zo gepiept', 'vaarwel, moeder', 'blijde bandiet', 'genadeslag', 'snikkelaar', 'ontsmettingsbad', 'hakmolen', 'tranendroger' en 'geen zorgen'.
+
+REF:  het was het telefoonnummer van een instelling *** met fantasievolle bijnamen    als: “automat',    'birdland', 'cannery', 'catbox',    'de-louser', 'easy-go',   'good-by, mother',  'happy    hooligan', 'kiss-me-quick', 'lucky    pierre',      'sheepdip',   'waring            blendor',   'weep-no-more' en 'why  worry?  
+HYP:  dit was het telefoonnummer van een instelling die ook wel           bekendstond als: 'automatiek', 'geheim     gemak',    'inmakerij', 'kattenbak', 'verdelger', 'zo       gepiept', 'vaarwel, moeder',   'blijde          bandiet', 'genadeslag', 'snikkelaar', 'ontsmettingsbad', 'hakmolen', 'tranendroger' en 'geen zorgen'.
+EVAL: S                                             I   S   S             S                S             S           S          S            S            S            S         S         S         S          S                S         S             S             S                  S           S                 S     S       
+SHFT:                                                                                                                                                                                                                                                                                                                                 
+TER Score:  77.42 ( 24.0/ 31.0)
+
+
+
+Sentence ID: 39:1
+Best Ref: “to be or not to be” was het telefoonnummer van de gemeentelijke gaskamers van het federal bureau of termination.
+Orig Hyp: 'to be or not to be' was het telefoonnummer van de gemeentelijke gaskamers van de federale beëindigingsdienst.
+
+REF:  “to be or not to be” was het telefoonnummer van de gemeentelijke gaskamers van het federal bureau of       termination.       
+HYP:  'to be or not to be' was het telefoonnummer van de gemeentelijke gaskamers van *** ******* de     federale beëindigingsdienst.
+EVAL: S                S                                                             D   D       S      S        S                  
+SHFT:                                                                                                                               
+TER Score:  36.84 (  7.0/ 19.0)
+
+
+
+Sentence ID: 40:1
+Best Ref: de schilder stak zijn neus op naar de verpleger. “als ik besluit dat het tijd is om te gaan,” zei hij, ”dan zal het niet in de schaapskooi zijn.”
+Orig Hyp: de schilder haalde laatdunkend zijn schouders op. 'als ik besluit dat het tijd is om eruit te stappen', zei hij, 'ga ik mooi niet naar de verdelger.'
+
+REF:  de schilder stak     zijn   neus          op          naar de   verpleger. “als ik besluit dat het tijd is om ***** te gaan,”    zei hij, ”dan zal het  niet in de schaapskooi   zijn.”     
+HYP:  de schilder haalde [ zijn ] laatdunkend @ schouders [ naar de ] op.        'als ik besluit dat het tijd is om eruit te stappen', zei hij, 'ga  ik  mooi niet ** ** *********** @ verdelger.'
+EVAL:             S               S             S                     S          S                                  I        S                  S    S   S         D  D  D             S          
+SHFT:                    2      2             2           1         1                                                                                                                1            
+TER Score:  55.17 ( 16.0/ 29.0)
+
+Shift [naar, de] 18 words left
+ REF:  de schilder stak   zijn        neus op          naar de   verpleger. “als ik besluit dat het tijd is om ***** te gaan,”    zei hij, ”dan zal het  niet in de schaapskooi   zijn.”     
+ HYP:  de schilder haalde laatdunkend zijn schouders [ naar de ] op.        'als ik besluit dat het tijd is om eruit te stappen', zei hij, 'ga  ik  mooi niet ** ** *********** @ verdelger.'
+
+Shift [zijn] 1 words left
+ REF:  de schilder stak     zijn   neus          op        naar de verpleger. “als ik besluit dat het tijd is om ***** te gaan,”    zei hij, ”dan zal het  niet in de schaapskooi zijn.”     
+ HYP:  de schilder haalde [ zijn ] laatdunkend @ schouders naar de op.        'als ik besluit dat het tijd is om eruit te stappen', zei hij, 'ga  ik  mooi niet ** ** *********** verdelger.'
+
+
+
+Sentence ID: 41:1
+Best Ref: “een doe-het-zelver, hè?” zei de ziekenbroeder. “rommelige zaak, opa. waarom houdt u niet een beetje rekening met de mensen die na u moeten opruimen?”
+Orig Hyp: 'aha, een doe-het-zelver,' zei de verpleeghulp. 'dat wordt een rotzooitje, hoor, opa. waarom houdt u niet een beetje rekening met de mensen die de boel moeten opruimen?'
+
+REF:  “een  doe-het-zelver, hè?”             zei de ************* **** ***** ziekenbroeder. “rommelige  zaak, opa. waarom houdt u niet een beetje rekening met de mensen die na u    moeten opruimen?”
+HYP:  'aha, een             doe-het-zelver,' zei de verpleeghulp. 'dat wordt een            rotzooitje, hoor, opa. waarom houdt u niet een beetje rekening met de mensen die de boel moeten opruimen?'
+EVAL: S     S               S                       I             I    I     S              S           S                                                                    S  S           S         
+SHFT:                                                                                                                                                                                                 
+TER Score:  50.00 ( 12.0/ 24.0)
+
+
+
+Sentence ID: 42:1
+Best Ref: de schilder uitte met een obsceniteit zijn gebrek aan zorg voor de beproevingen van zijn overlevenden. “de wereld kan wel wat meer rommel gebruiken, als je het mij vraagt,” zei hij.
+Orig Hyp: met een schunnig woord liet de schilder zijn gebrek aan mededogen voor de beproeving van degenen die hem overleefden blijken. 'de wereld kan wel wat meer rotzooi gebruiken, als je het mij vraagt,' zei hij.
+
+REF:    de schilder   uitte met een ******** ***** obsceniteit   zijn gebrek aan zorg      voor de beproevingen van ******* *** *** zijn        overlevenden. “de wereld kan wel wat meer rommel  gebruiken, als je het mij vraagt,” zei hij.
+HYP:  [ de schilder ] ***** met een schunnig woord liet        @ zijn gebrek aan mededogen voor de beproeving   van degenen die hem overleefden blijken.      'de wereld kan wel wat meer rotzooi gebruiken, als je het mij vraagt,' zei hij.
+EVAL:                 D             I        I     S                             S                 S                I       I   I   S           S             S                           S                                 S                
+SHFT: 1             1                                          1                                                                                                                                                                             
+TER Score:  48.39 ( 15.0/ 31.0)
+
+Shift [de, schilder] 5 words left
+ REF:    de schilder   uitte met een ******** ***** obsceniteit   zijn gebrek aan zorg      voor de beproevingen van ******* *** *** zijn        overlevenden. “de wereld kan wel wat meer rommel  gebruiken, als je het mij vraagt,” zei hij.
+ HYP:  [ de schilder ] ***** met een schunnig woord liet        @ zijn gebrek aan mededogen voor de beproeving   van degenen die hem overleefden blijken.      'de wereld kan wel wat meer rotzooi gebruiken, als je het mij vraagt,' zei hij.
+
+
+
+Sentence ID: 43:1
+Best Ref: de ziekenbroeder lachte en ging verder.
+Orig Hyp: de verpleeghulp schoot in de lach en liep weer verder.
+
+REF:  de ************ ****** ** ziekenbroeder lachte en **** ging verder.
+HYP:  de verpleeghulp schoot in de            lach   en liep weer verder.
+EVAL:    I            I      I  S             S         I    S           
+SHFT:                                                                    
+TER Score: 116.67 (  7.0/  6.0)
+
+
+
+Sentence ID: 44:1
+Best Ref: wehling, de wachtende vader, mompelde iets zonder zijn hoofd op te heffen. en toen viel hij weer stil.
+Orig Hyp: wehling, de wachtende vader, mompelde iets zonder zijn hoofd op te heffen. en toen zweeg hij weer.
+
+REF:  wehling, de wachtende vader, mompelde iets zonder zijn hoofd op te heffen. en toen viel  hij weer stil.
+HYP:  wehling, de wachtende vader, mompelde iets zonder zijn hoofd op te heffen. en toen zweeg hij **** weer.
+EVAL:                                                                                    S         D    S    
+SHFT:                                                                                                        
+TER Score:  16.67 (  3.0/ 18.0)
+
+
+
+Sentence ID: 45:1
+Best Ref: een grove, formidabele vrouw stapte op naaldhakken de wachtkamer binnen. haar schoenen, kousen, trenchcoat, tas en overseas pet waren allemaal paars, het paars dat de schilder “de kleur van druiven op de dag des oordeels” noemde.
+Orig Hyp: er beende een forse, ontzagwekkende vrouw op naaldhakken de wachtkamer in. haar schoenen, kousen, regenjas, tas en baret waren paars, van dat paars dat de schilder 'de kleur van druiven op de dag des oordeels' noemde.
+
+REF:  ** ****** een grove, formidabele    vrouw stapte op naaldhakken de wachtkamer binnen. haar schoenen, kousen, trenchcoat, tas en overseas pet   waren   allemaal   paars,   het paars dat de schilder “de kleur van druiven op de dag des oordeels” noemde.
+HYP:  er beende een forse, ontzagwekkende vrouw ****** op naaldhakken de wachtkamer in.     haar schoenen, kousen, regenjas,   tas en ******** baret waren @ van      [ paars, ] dat paars dat de schilder 'de kleur van druiven op de dag des oordeels' noemde.
+EVAL: I  I          S      S                    D                                   S                              S                  D        S             S                   S                         S                                   S                
+SHFT:                                                                                                                                                      1          1        1                                                                                
+TER Score:  38.89 ( 14.0/ 36.0)
+
+Shift [paars,] 1 words right
+ REF:  ** ****** een grove, formidabele    vrouw stapte op naaldhakken de wachtkamer binnen. haar schoenen, kousen, trenchcoat, tas en overseas pet   waren   allemaal   paars,   het paars dat de schilder “de kleur van druiven op de dag des oordeels” noemde.
+ HYP:  er beende een forse, ontzagwekkende vrouw ****** op naaldhakken de wachtkamer in.     haar schoenen, kousen, regenjas,   tas en ******** baret waren @ van      [ paars, ] dat paars dat de schilder 'de kleur van druiven op de dag des oordeels' noemde.
+
+
+
+Sentence ID: 46:1
+Best Ref: het medaillon op haar paarse musettezak was het zegel van de service division van het federal bureau of termination, een adelaar op een draaihek.
+Orig Hyp: de penning op haar paarse ransel was het zegel van de bijstandsafdeling van de federale beëindigingsdienst: een adelaar op een draaihek.
+
+REF:  het medaillon op haar paarse musettezak was het zegel van de service division          van het federal bureau of       termination,        een adelaar op een draaihek.
+HYP:  de  penning   op haar paarse ransel     was het zegel van de ******* bijstandsafdeling van *** ******* de     federale beëindigingsdienst: een adelaar op een draaihek.
+EVAL: S   S                        S                               D       S                     D   D       S      S        S                                               
+SHFT:                                                                                                                                                                        
+TER Score:  41.67 ( 10.0/ 24.0)
+
+
+
+Sentence ID: 47:1
+Best Ref: de vrouw had veel gezichtshaar, een onmiskenbare snor zelfs. het merkwaardige aan gastvrouwen in gaskamers was dat ze, hoe mooi en vrouwelijk ze ook waren toen ze werden aangenomen, binnen een jaar of vijf allemaal een snor lieten groeien.
+Orig Hyp: de vrouw had nogal wat gezichtshaar. sterker nog: je kon niet om haar snor heen. een opmerkelijk gegeven van gaskamerbegeleidsters was dat hoe mooi en vrouwelijk ze ook waren op het moment van hun aanstelling, binnen een jaar of vijf hadden ze allemaal een snor gekregen.
+
+REF:  de vrouw had ***** *** ************* ******* **** ** veel gezichtshaar, een onmiskenbare snor zelfs.   het   merkwaardige aan         gastvrouwen in  gaskamers             was dat ze, hoe mooi en vrouwelijk ze ook waren **   toen     ze   *** werden aangenomen,  binnen een jaar of vijf ******   allemaal een snor lieten groeien. 
+HYP:  de vrouw had nogal wat gezichtshaar. sterker nog: je kon  niet          om  haar         snor heen.  [ het ] een          opmerkelijk gegeven     van gaskamerbegeleidsters was dat *** hoe mooi en vrouwelijk ze ook waren op @ moment [ ze ] van hun    aanstelling, binnen een jaar of vijf hadden @ allemaal een snor ****** gekregen.
+EVAL:              I     I   I             I       I    I  S    S             S   S                 S              S            S           S           S   S                             D                                       I    S             I   S      S                                    I                          D      S        
+SHFT:                                                                                                      1     1                                                                                                                   1        2    2                                                        2                                   
+TER Score:  69.23 ( 27.0/ 39.0)
+
+Shift [het] 15 words left
+ REF:  de vrouw had ***** *** ************* ******* **** ** veel gezichtshaar, een onmiskenbare snor zelfs.   het   merkwaardige aan         gastvrouwen in  gaskamers             was dat ze, hoe mooi en vrouwelijk ze ook waren **   toen   ze  werden aangenomen,  binnen een jaar of vijf ****** ** allemaal een snor lieten groeien. 
+ HYP:  de vrouw had nogal wat gezichtshaar. sterker nog: je kon  niet          om  haar         snor heen.  [ het ] een          opmerkelijk gegeven     van gaskamerbegeleidsters was dat *** hoe mooi en vrouwelijk ze ook waren op @ moment van hun    aanstelling, binnen een jaar of vijf hadden ze allemaal een snor ****** gekregen.
+
+Shift [ze] 9 words left
+ REF:  de vrouw had ***** *** ************* ******* **** ** veel gezichtshaar, een onmiskenbare snor zelfs. het merkwaardige aan         gastvrouwen in  gaskamers             was dat ze, hoe mooi en vrouwelijk ze ook waren ** toen     ze   *** werden aangenomen,  binnen een jaar of vijf ******   allemaal een snor lieten groeien. 
+ HYP:  de vrouw had nogal wat gezichtshaar. sterker nog: je kon  niet          om  haar         snor heen.  het een          opmerkelijk gegeven     van gaskamerbegeleidsters was dat *** hoe mooi en vrouwelijk ze ook waren op moment [ ze ] van hun    aanstelling, binnen een jaar of vijf hadden @ allemaal een snor ****** gekregen.
+
+
+
+Sentence ID: 48:1
+Best Ref: “moet ik hier komen?” zei ze tegen de schilder.
+Orig Hyp: 'ben ik hier op de juiste plek?' vroeg ze aan de schilder.
+
+REF:  “moet ik hier ** ** ****** komen?” zei   ze tegen de schilder.
+HYP:  'ben  ik hier op de juiste plek?'  vroeg ze aan   de schilder.
+EVAL: S             I  I  I      S       S        S                 
+SHFT:                                                               
+TER Score:  77.78 (  7.0/  9.0)
+
+
+
+Sentence ID: 49:1
+Best Ref: “veel zou afhangen van wat uw bedrijf was,” zei hij. “je staat toch niet op het punt om een baby te krijgen?”
+Orig Hyp: 'dat hangt grotendeels af van waar u voor komt,' zei hij. 'u staat toch niet op het punt van bevallen, hè?'
+
+REF:  **** “veel zou         afhangen van wat  uw bedrijf was,”  zei hij. “je staat toch niet op het punt om een baby te        krijgen?”
+HYP:  'dat hangt grotendeels af       van waar u  voor    komt,' zei hij. 'u  staat toch niet op het punt ** *** van  bevallen, hè?'     
+EVAL: I    S     S           S            S    S  S       S               S                               D  D   S    S         S        
+SHFT:                                                                                                                                    
+TER Score:  63.64 ( 14.0/ 22.0)
+
+
+
+Sentence ID: 50:1
+Best Ref: “ze zeiden dat ik moest poseren voor een of andere foto,” zei ze. “mijn naam is leora duncan.” ze wachtte.
+Orig Hyp: 'ik heb te horen gekregen dat ik voor een schilderij moest poseren,' zei ze. 'ik ben leora duncan.' ze bleef wachten.
+
+REF:  *** “ze zeiden   dat ik   moest poseren    voor een of         andere foto,”    zei ze. “mijn naam is  leora duncan.” ze ***** wachtte.
+HYP:  'ik heb te     [ dat ik ] horen gekregen @ voor een schilderij moest  poseren,' zei ze. ***** 'ik  ben leora duncan.' ze bleef wachten.
+EVAL: I   S   S                 S     S                   S          S      S                 D     S    S         S           I     S       
+SHFT:                1        1                1                                                                                             
+TER Score:  75.00 ( 15.0/ 20.0)
+
+Shift [dat, ik] 2 words left
+ REF:  *** “ze zeiden   dat ik   moest poseren    voor een of         andere foto,”    zei ze. “mijn naam is  leora duncan.” ze ***** wachtte.
+ HYP:  'ik heb te     [ dat ik ] horen gekregen @ voor een schilderij moest  poseren,' zei ze. ***** 'ik  ben leora duncan.' ze bleef wachten.
+
+
+
+Sentence ID: 51:1
+Best Ref: “en je dompelt mensen onder,” zei hij.
+Orig Hyp: 'en u verdelgt naar goed-dunken,' zei hij.
+
+REF:  “en je dompelt  mensen onder,”       zei hij.
+HYP:  'en u  verdelgt naar   goed-dunken,' zei hij.
+EVAL: S   S  S        S      S                     
+SHFT:                                              
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 52:1
+Best Ref: “wat?” zei ze.
+Orig Hyp: 'hè?' zei ze.
+
+REF:  “wat?” zei ze.
+HYP:  'hè?'  zei ze.
+EVAL: S             
+SHFT:               
+TER Score:  33.33 (  1.0/  3.0)
+
+
+
+Sentence ID: 53:1
+Best Ref: “sla maar over,” zei hij.
+Orig Hyp: 'laat maar,' zei hij.
+
+REF:  “sla maar  over,” zei hij.
+HYP:  **** 'laat maar,' zei hij.
+EVAL: D    S     S              
+SHFT:                           
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 54:1
+Best Ref: “dat is zeker een mooie foto,” zei ze. “het lijkt wel de hemel of zo.”
+Orig Hyp: 'dat is me een prachtig schilderij, zeg,' verzuchtte ze. 'het lijkt de hemel wel, of zoiets.'
+
+REF:  “dat is zeker een ******** mooie       foto,” zei        ze. “het lijkt wel de hemel **** of zo.”    
+HYP:  'dat is me    een prachtig schilderij, zeg,'  verzuchtte ze. 'het lijkt *** de hemel wel, of zoiets.'
+EVAL: S       S         I        S           S      S              S          D            I       S       
+SHFT:                                                                                                      
+TER Score:  66.67 ( 10.0/ 15.0)
+
+
+
+Sentence ID: 55:1
+Best Ref: “of zoiets,” zei de schilder. hij haalde een lijst met namen uit zijn kielzak. “duncan, duncan, duncan,” zei hij terwijl hij de lijst afspeurde. “ja, hier zijn jullie. jullie hebben het recht om vereeuwigd te worden. zie je hier een lichaam zonder gezicht waar ik je hoofd op mag plakken? we hebben nog een paar mooie over.”
+Orig Hyp: 'of zoiets,' zei de schilder. hij haalde de lijst met namen uit de zak van zijn kiel. 'duncan, duncan, duncan,' zei hij, en zijn ogen gleden over de lijst. 'ja, daar staat u. u heeft het recht zich te laten vereeuwigen. ziet u er een lichaam zonder gezicht tussen zitten waar ik het uwe op zou kunnen plakken? er staan er nog een paar goeie open.'
+
+REF:  “of zoiets,” zei de schilder. hij haalde een lijst met namen uit ** *** *** zijn kielzak. “duncan, duncan, duncan,” zei **** **   hij  terwijl hij  de lijst  afspeurde. “ja, hier    zijn   jullie. jullie hebben het recht om     vereeuwigd   te   worden.      zie  je hier een lichaam zonder gezicht ****** ****** waar ik je  hoofd op *** mag    plakken? ** we    hebben nog een paar mooie over.”
+HYP:  'of zoiets,' zei de schilder. hij haalde de  lijst met namen uit de zak van zijn kiel.    'duncan, duncan, duncan,' zei hij, en @ ogen gleden  over de lijst. 'ja,       daar staat [ zijn ] u.      u      heeft  het recht zich @ laten      [ te ] vereeuwigen. ziet u  er   een lichaam zonder gezicht tussen zitten waar ik het uwe   op zou kunnen plakken? er staan er     nog een paar goeie open.'
+EVAL: S   S                                    S                       I  I   I        S        S                S            I    I    S    S       S       S      S          S    S              S       S      S                S      S                 S            S    S  S                               I      I              S   S        I   S               I  S     S                   S     S     
+SHFT:                                                                                                                                 1                                                   1      1                                      2            2    2                                                                                                                                                      
+TER Score:  70.18 ( 40.0/ 57.0)
+
+Shift [zijn] 8 words right
+ REF:  “of zoiets,” zei de schilder. hij haalde een lijst met namen uit ** *** *** zijn kielzak. “duncan, duncan, duncan,” zei **** **   hij  terwijl hij  de lijst  afspeurde. “ja, hier    zijn   jullie. jullie hebben het recht om   vereeuwigd te    worden.      zie  je hier een lichaam zonder gezicht ****** ****** waar ik je  hoofd op *** mag    plakken? ** we    hebben nog een paar mooie over.”
+ HYP:  'of zoiets,' zei de schilder. hij haalde de  lijst met namen uit de zak van zijn kiel.    'duncan, duncan, duncan,' zei hij, en @ ogen gleden  over de lijst. 'ja,       daar staat [ zijn ] u.      u      heeft  het recht zich te         laten vereeuwigen. ziet u  er   een lichaam zonder gezicht tussen zitten waar ik het uwe   op zou kunnen plakken? er staan er     nog een paar goeie open.'
+
+Shift [te] 1 words right
+ REF:  “of zoiets,” zei de schilder. hij haalde een lijst met namen uit ** *** *** zijn kielzak. “duncan, duncan, duncan,” zei **** ** hij  terwijl hij  de lijst  afspeurde. “ja, hier  zijn jullie. jullie hebben het recht om     vereeuwigd   te   worden.      zie  je hier een lichaam zonder gezicht ****** ****** waar ik je  hoofd op *** mag    plakken? ** we    hebben nog een paar mooie over.”
+ HYP:  'of zoiets,' zei de schilder. hij haalde de  lijst met namen uit de zak van zijn kiel.    'duncan, duncan, duncan,' zei hij, en ogen gleden  over de lijst. 'ja,       daar staat zijn u.      u      heeft  het recht zich @ laten      [ te ] vereeuwigen. ziet u  er   een lichaam zonder gezicht tussen zitten waar ik het uwe   op zou kunnen plakken? er staan er     nog een paar goeie open.'
+
+
+
+Sentence ID: 56:1
+Best Ref: ze bestudeerde de muurschildering somber. “goh,” zei ze, ”voor mij zijn ze allemaal hetzelfde. ik weet niets van kunst.”
+Orig Hyp: ze staarde mismoedig naar de muurschildering. 'jeetje,' zei ze, 'ze zien er allemaal hetzelfde uit. ik weet helemaal niets van kunst.'
+
+REF:  ze ******* bestudeerde   de   muurschildering   somber.          “goh,”    zei ze, ”voor mij  zijn   ze          allemaal   hetzelfde. ik weet ******** niets van kunst.”
+HYP:  ze staarde mismoedig   [ de ] naar            @ muurschildering. 'jeetje,' zei ze, 'ze   zien er   @ hetzelfde [ allemaal ] uit.       ik weet helemaal niets van kunst.'
+EVAL:    I       S                  S                 S                S                 S     S    S      S                      S                  I                  S      
+SHFT:                        1    1                 1                                                    2           2          2                                              
+TER Score:  73.68 ( 14.0/ 19.0)
+
+Shift [de] 1 words left
+ REF:  ze ******* bestudeerde   de   muurschildering   somber.          “goh,”    zei ze, ”voor mij  zijn ze       allemaal  hetzelfde. ik weet ******** niets van kunst.”
+ HYP:  ze staarde mismoedig   [ de ] naar            @ muurschildering. 'jeetje,' zei ze, 'ze   zien er   allemaal hetzelfde uit.       ik weet helemaal niets van kunst.'
+
+Shift [allemaal] 1 words right
+ REF:  ze ******* bestudeerde de muurschildering somber.          “goh,”    zei ze, ”voor mij  zijn   ze          allemaal   hetzelfde. ik weet ******** niets van kunst.”
+ HYP:  ze staarde mismoedig   de naar            muurschildering. 'jeetje,' zei ze, 'ze   zien er   @ hetzelfde [ allemaal ] uit.       ik weet helemaal niets van kunst.'
+
+
+
+Sentence ID: 57:1
+Best Ref: “een lichaam is een lichaam, hè?” zei hij. “oké dan. als meester in de schone kunsten beveel ik dit lichaam hier aan.” hij wees een gezichtsloze vrouwenfiguur aan die gedroogde stengels naar een vuilverbrander droeg.
+Orig Hyp: 'een lichaam blijft een lichaam, toch?' zei hij. 'okidoki. als meester in de schone kunsten raad ik dit lichaam aan.' hij wees naar het gezichtloze lichaam van een vrouw die uitgedroogde halmen naar een verbrandingston droeg.
+
+REF:  “een lichaam is     een lichaam, hè?”   zei hij. “oké dan.      als meester in de schone kunsten beveel ik dit lichaam hier aan.” hij wees   een   **** *** *********** gezichtsloze vrouwenfiguur   aan   die gedroogde    stengels naar een vuilverbrander  droeg.
+HYP:  'een lichaam blijft een lichaam, toch?' zei hij. **** 'okidoki. als meester in de schone kunsten raad   ik dit lichaam **** aan.' hij wees [ een ] naar het gezichtloze lichaam      van           @ vrouw die uitgedroogde halmen   naar een verbrandingston droeg.
+EVAL: S            S                   S               D    S                                          S                     D    S                      I    I   I           S            S               S         S            S                 S                     
+SHFT:                                                                                                                                            1     1                                                 1                                                                
+TER Score:  51.43 ( 18.0/ 35.0)
+
+Shift [een] 5 words left
+ REF:  “een lichaam is     een lichaam, hè?”   zei hij. “oké dan.      als meester in de schone kunsten beveel ik dit lichaam hier aan.” hij wees   een   **** *** *********** gezichtsloze vrouwenfiguur   aan   die gedroogde    stengels naar een vuilverbrander  droeg.
+ HYP:  'een lichaam blijft een lichaam, toch?' zei hij. **** 'okidoki. als meester in de schone kunsten raad   ik dit lichaam **** aan.' hij wees [ een ] naar het gezichtloze lichaam      van           @ vrouw die uitgedroogde halmen   naar een verbrandingston droeg.
+
+
+
+Sentence ID: 58:1
+Best Ref: “nou,” zei leora duncan, ”dat is meer het afvalvolk, nietwaar? ik bedoel, ik ben in dienst. ik ruim niets op.”
+Orig Hyp: 'tja,' zei leora duncan, 'dat zijn eerder de ruimers, toch? ik bedoel, ik verleen bijstand. ik heb niets met het ruimen van doen.'
+
+REF:  “nou,” zei leora duncan, ”dat is   meer     het   ** afvalvolk, nietwaar? ik bedoel, ik ben in      dienst.   ik ruim niets ***   ****** *** op.”  
+HYP:  'tja,' zei leora duncan, 'dat zijn eerder [ het ] de ruimers,   toch?     ik bedoel, ik *** verleen bijstand. ik heb  niets met @ ruimen van doen.'
+EVAL: S                        S    S    S              I  S          S                       D   S       S            S          I     I      I   S     
+SHFT:                                           1     1                                                                               1                  
+TER Score:  80.00 ( 16.0/ 20.0)
+
+Shift [het] 12 words left
+ REF:  “nou,” zei leora duncan, ”dat is   meer     het   ** afvalvolk, nietwaar? ik bedoel, ik ben in      dienst.   ik ruim niets ***   ****** *** op.”  
+ HYP:  'tja,' zei leora duncan, 'dat zijn eerder [ het ] de ruimers,   toch?     ik bedoel, ik *** verleen bijstand. ik heb  niets met @ ruimen van doen.'
+
+
+
+Sentence ID: 59:1
+Best Ref: de schilder klapte verrukt in zijn handen. “je zegt dat je niets van kunst weet, en dan bewijs je in één adem dat je er meer van weet dan ik! natuurlijk is de schovendrager verkeerd voor een gastvrouw! een snipperaar, een snoeier, dat is meer iets voor jou.” hij wees naar een figuur in paars die een dode tak van een appelboom zaagde. “wat vind je van haar?” zei hij. “vind je haar leuk?”
+Orig Hyp: de schilder klapte met geveinsde verrukking in zijn handen. 'u zegt dat u geen verstand hebt van kunst, en laat meteen daarna zien dat u er meer van weet dan ik! halmendraagster past inderdaad niet bij een begeleidster! een knipster, een snoeister - dat is meer uw werkveld.' hij wees naar een figuur in het paars die een dode tak van een appelboom zaagde. 'wat dacht u van deze?' vroeg hij. 'is zij misschien wat?'
+
+REF:  de schilder klapte *** ********* verrukt    in zijn handen. “je zegt dat je niets   van   kunst weet,      en   dan    bewijs   je   in     één    adem dat je er meer van weet dan ik! natuurlijk is              de   schovendrager verkeerd voor een gastvrouw!    een snipperaar, een ********* snoeier, dat is meer iets voor jou.”      hij wees naar een figuur in *** paars die een dode tak van een appelboom zaagde. “wat vind  je van haar?” zei   hij. “vind je  haar      leuk?”
+HYP:  de schilder klapte met geveinsde verrukking in zijn handen. 'u  zegt dat ** u     [ van ] geen  verstand [ en ] hebt @ kunst, @ laat meteen daarna zien dat u  er meer van weet dan ik! ********** halmendraagster past inderdaad     niet     bij  een begeleidster! een knipster,   een snoeister -        dat is meer **** uw   werkveld.' hij wees naar een figuur in het paars die een dode tak van een appelboom zaagde. 'wat dacht u  van deze?' vroeg hij. 'is   zij misschien wat?' 
+EVAL:                    I   I         S                          S            D  S             S     S               S      S        S    S      S      S        S                           D          S               S    S             S        S        S                 S               I         S                    D    S    S                                      I                                                    S    S     S      S      S          S     S   S         S     
+SHFT:                                                                                   1     1                2    2      1        2                                                                                                                                                                                                                                                                                                                                                              
+TER Score:  54.05 ( 40.0/ 74.0)
+
+Shift [van] 3 words left
+ REF:  de schilder klapte *** ********* verrukt    in zijn handen. “je zegt dat je niets   van   kunst weet,    en     dan    bewijs je   in     één    adem dat je er meer van weet dan ik! natuurlijk is              de   schovendrager verkeerd voor een gastvrouw!    een snipperaar, een ********* snoeier, dat is meer iets voor jou.”      hij wees naar een figuur in *** paars die een dode tak van een appelboom zaagde. “wat vind  je van haar?” zei   hij. “vind je  haar      leuk?”
+ HYP:  de schilder klapte met geveinsde verrukking in zijn handen. 'u  zegt dat ** u     [ van ] geen  verstand hebt @ kunst, en     laat meteen daarna zien dat u  er meer van weet dan ik! ********** halmendraagster past inderdaad     niet     bij  een begeleidster! een knipster,   een snoeister -        dat is meer **** uw   werkveld.' hij wees naar een figuur in het paars die een dode tak van een appelboom zaagde. 'wat dacht u  van deze?' vroeg hij. 'is   zij misschien wat?' 
+
+Shift [en] 2 words left
+ REF:  de schilder klapte *** ********* verrukt    in zijn handen. “je zegt dat je niets van kunst weet,      en   dan  bewijs   je   in     één    adem dat je er meer van weet dan ik! natuurlijk is              de   schovendrager verkeerd voor een gastvrouw!    een snipperaar, een ********* snoeier, dat is meer iets voor jou.”      hij wees naar een figuur in *** paars die een dode tak van een appelboom zaagde. “wat vind  je van haar?” zei   hij. “vind je  haar      leuk?”
+ HYP:  de schilder klapte met geveinsde verrukking in zijn handen. 'u  zegt dat ** u     van geen  verstand [ en ] hebt kunst, @ laat meteen daarna zien dat u  er meer van weet dan ik! ********** halmendraagster past inderdaad     niet     bij  een begeleidster! een knipster,   een snoeister -        dat is meer **** uw   werkveld.' hij wees naar een figuur in het paars die een dode tak van een appelboom zaagde. 'wat dacht u  van deze?' vroeg hij. 'is   zij misschien wat?' 
+
+
+
+Sentence ID: 60:1
+Best Ref: “goh-“ zei ze, en ze bloosde en werd nederig-”dat-dat zet me vlak naast dr. hitz.”
+Orig Hyp: 'gossie,' zei ze, en ze bloosde ineens bescheiden, 'dan... dan zou ik naast dokter hitz komen te staan.'
+
+REF:  “goh-“    zei ze, en ze bloosde en     werd        nederig-”dat-dat zet me  vlak naast ****** **** ***** dr. hitz.” 
+HYP:  'gossie,' zei ze, en ze bloosde ineens bescheiden, 'dan...          dan zou ik   naast dokter hitz komen te  staan.'
+EVAL: S                               S      S           S                S   S   S          I      I    I     S   S      
+SHFT:                                                                                                                     
+TER Score:  80.00 ( 12.0/ 15.0)
+
+
+
+Sentence ID: 61:1
+Best Ref: “vind je dat vervelend?” zei hij.
+Orig Hyp: 'vind u dat vervelend?' vroeg hij.
+
+REF:  “vind je dat vervelend?” zei   hij.
+HYP:  'vind u  dat vervelend?' vroeg hij.
+EVAL: S     S      S           S         
+SHFT:                                    
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 62:1
+Best Ref: “goede jus, nee!” zei ze. “het is gewoon zo'n eer.”
+Orig Hyp: 'grote grutjes, nee!' zei ze. 'het is... het is alleen wel een enorme eer.'
+
+REF:  “goede jus,     nee!” zei ze. **** ***** “het is ****** *** gewoon zo'n   eer.”
+HYP:  'grote grutjes, nee!' zei ze. 'het is... het  is alleen wel een    enorme eer.'
+EVAL: S      S        S             I    I     S       I      I   S      S      S    
+SHFT:                                                                                
+TER Score: 110.00 ( 11.0/ 10.0)
+
+
+
+Sentence ID: 63:1
+Best Ref: “ah, u... u bewondert hem, hè?” zei hij.
+Orig Hyp: 'aha, u heeft hem hoog zitten, hè?' vroeg hij.
+
+REF:  “ah,    u...    u   *** bewondert hem,    hè?” zei   hij.
+HYP:  'aha, @ heeft [ u ] hem hoog      zitten, hè?' vroeg hij.
+EVAL: S       S           I   S         S       S    S         
+SHFT:       1       1   1                                      
+TER Score: 100.00 (  8.0/  8.0)
+
+Shift [u] 1 words right
+ REF:  “ah,    u...    u   *** bewondert hem,    hè?” zei   hij.
+ HYP:  'aha, @ heeft [ u ] hem hoog      zitten, hè?' vroeg hij.
+
+
+
+Sentence ID: 64:1
+Best Ref: “wie bewondert hem niet?” zei ze, terwijl ze het portret van hitz aanbad. het was het portret van een gebruinde, witharige, almachtige zeus van tweehonderdveertig jaar oud. “wie bewondert hem niet?” zei ze opnieuw. “hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago.”
+Orig Hyp: 'wie bewondert hem niet?' zei ze, in aanbidding van het portret van hitz. het was het portret van een gebruinde, witharige, almachtige zeus, tweehonderdveertig jaar oud. 'wie bewondert hem niet?' herhaalde ze. 'hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago.'
+
+REF:  “wie bewondert hem niet?” zei ze, terwijl ze           het portret van hitz aanbad. het was het portret van een gebruinde, witharige, almachtige zeus    van   tweehonderdveertig jaar oud. “wie bewondert hem niet?” zei    ze        opnieuw. “hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago.”
+HYP:  'wie bewondert hem niet?' zei ze, in      aanbidding @ het portret van **** hitz.   het was het portret van een gebruinde, witharige, almachtige zeus, [ van ] tweehonderdveertig jaar oud. 'wie bewondert hem ****** niet?' herhaalde ze.      'hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago.'
+EVAL: S                  S              S       S                            D    S                                                                    S                                          S                  D      S      S         S        S                                                                          S        
+SHFT:                                                      1                                                                                                 1     1                                                                                                                                                                      
+TER Score:  32.61 ( 15.0/ 46.0)
+
+Shift [van] 14 words right
+ REF:  “wie bewondert hem niet?” zei ze, terwijl ze           het portret van hitz aanbad. het was het portret van een gebruinde, witharige, almachtige zeus    van   tweehonderdveertig jaar oud. “wie bewondert hem niet?” zei    ze        opnieuw. “hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago.”
+ HYP:  'wie bewondert hem niet?' zei ze, in      aanbidding @ het portret van **** hitz.   het was het portret van een gebruinde, witharige, almachtige zeus, [ van ] tweehonderdveertig jaar oud. 'wie bewondert hem ****** niet?' herhaalde ze.      'hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago.'
+
+
+
+Sentence ID: 65:1
+Best Ref: “niets zou me meer plezier doen,” zei de schilder, ”dan jou voor altijd naast hem te zetten. een ledemaat afzagen, lijkt je dat gepast?”
+Orig Hyp: 'niets zou me meer plezieren,' zei de schilder, 'dan u voor altijd naast hem te zetten. een tak afzagen - vindt u dat gepast?'
+
+REF:  “niets zou me meer plezier doen,”      zei de schilder, ”dan jou voor altijd naast hem te zetten. een *** ledemaat afzagen, lijkt je dat gepast?”
+HYP:  'niets zou me meer ******* plezieren,' zei de schilder, 'dan u   voor altijd naast hem te zetten. een tak afzagen  -        vindt u  dat gepast?'
+EVAL: S                  D       S                            S    S                                        I   S        S        S     S      S       
+SHFT:                                                                                                                                                  
+TER Score:  45.83 ( 11.0/ 24.0)
+
+
+
+Sentence ID: 66:1
+Best Ref: “dat lijkt een beetje op wat ik doe,” zei ze. ze was ingetogen over wat ze deed. wat ze deed was mensen op hun gemak stellen terwijl ze hen vermoordde.
+Orig Hyp: 'dat lijkt inderdaad wel een beetje op wat ik doe,' zei ze. ze was terughoudend over haar werk. wat ze deed was mensen op hun gemak stellen terwijl ze hen van kant maakte.
+
+REF:  “dat lijkt ********* *** een beetje op wat ik doe,” zei ze. ze was ingetogen    over wat ze   deed. wat ze deed was mensen op hun gemak stellen terwijl ze hen *** **** vermoordde.
+HYP:  'dat lijkt inderdaad wel een beetje op wat ik doe,' zei ze. ze was terughoudend over *** haar werk. wat ze deed was mensen op hun gemak stellen terwijl ze hen van kant maakte.    
+EVAL: S          I         I                        S                    S                 D   S    S                                                                I   I    S          
+SHFT:                                                                                                                                                                                    
+TER Score:  36.67 ( 11.0/ 30.0)
+
+
+
+Sentence ID: 67:1
+Best Ref: en terwijl leora duncan voor haar portret poseerde, kwam dr. hitz zelf de wachtkamer binnen. hij was twee meter lang en hij bulderde van belangrijkheid, prestaties en levensvreugde.
+Orig Hyp: en terwijl leora duncan voor haar portret poseerde, kwam dokter hitz zelf de wachtkamer binnenstuiven. hij was twee meter twaalf en hij straalde importantie, vakbekwaamheid en levensvreugde uit.
+
+REF:  en terwijl leora duncan voor haar portret poseerde, kwam dr.    hitz zelf de wachtkamer binnen.        hij was twee meter lang   en hij bulderde van          belangrijkheid,   prestaties      en   levensvreugde.
+HYP:  en terwijl leora duncan voor haar portret poseerde, kwam dokter hitz zelf de wachtkamer binnenstuiven. hij was twee meter twaalf en hij straalde importantie, vakbekwaamheid  @ levensvreugde [ en ] uit.          
+EVAL:                                                          S                              S                                 S             S        S            S                 S                    S             
+SHFT:                                                                                                                                                                               1               1    1               
+TER Score:  32.14 (  9.0/ 28.0)
+
+Shift [en] 1 words right
+ REF:  en terwijl leora duncan voor haar portret poseerde, kwam dr.    hitz zelf de wachtkamer binnen.        hij was twee meter lang   en hij bulderde van          belangrijkheid,   prestaties      en   levensvreugde.
+ HYP:  en terwijl leora duncan voor haar portret poseerde, kwam dokter hitz zelf de wachtkamer binnenstuiven. hij was twee meter twaalf en hij straalde importantie, vakbekwaamheid  @ levensvreugde [ en ] uit.          
+
+
+
+Sentence ID: 68:1
+Best Ref: “wel, miss duncan! juffrouw duncan!” zei hij en hij maakte een grapje. “wat doe jij hier?” zei hij. “hier gaan de mensen niet weg. hier komen ze binnen!”
+Orig Hyp: 'kijk eens aan, juffrouw duncan!' zei hij, en hij maakte een grapje. 'wat doet u hier?' vroeg hij. 'hier vertrekken de mensen niet. hier komen ze juist aan!'
+
+REF:  “wel, miss duncan! juffrouw duncan!” zei hij  en hij maakte een grapje. “wat doe  jij hier?” zei   hij. “hier gaan       de mensen niet weg.  hier komen ze ***** binnen!”
+HYP:  'kijk eens aan,    juffrouw duncan!' zei hij, en hij maakte een grapje. 'wat doet u   hier?' vroeg hij. 'hier vertrekken de mensen **** niet. hier komen ze juist aan!'   
+EVAL: S     S    S                S            S                              S    S    S   S      S          S     S                    D    S                   I     S       
+SHFT:                                                                                                                                                                           
+TER Score:  57.14 ( 16.0/ 28.0)
+
+
+
+Sentence ID: 69:1
+Best Ref: “we gaan samen op de foto,” zei ze verlegen.
+Orig Hyp: 'we komen samen op hetzelfde schilderij,' zei ze verlegen.
+
+REF:  “we gaan  samen op de        foto,”       zei ze verlegen.
+HYP:  'we komen samen op hetzelfde schilderij,' zei ze verlegen.
+EVAL: S   S              S         S                            
+SHFT:                                                           
+TER Score:  44.44 (  4.0/  9.0)
+
+
+
+Sentence ID: 70:1
+Best Ref: “goed zo!” zei dr. hitz hartelijk. “en, zeg, is dat niet wat voor een foto?”
+Orig Hyp: 'mooi zo!' zei dokter hitz hartelijk. 'en wát voor een schilderij!'
+
+REF:  “goed zo!” zei dr.    hitz hartelijk. “en, zeg, is dat niet wat voor een foto?”      
+HYP:  'mooi zo!' zei dokter hitz hartelijk. **** **** ** *** 'en  wát voor een schilderij!'
+EVAL: S     S        S                      D    D    D  D   S    S            S           
+SHFT:                                                                                      
+TER Score:  66.67 ( 10.0/ 15.0)
+
+
+
+Sentence ID: 71:1
+Best Ref: “ik ben zeker vereerd om er samen met jou op te staan,” zei ze.
+Orig Hyp: 'ik ben echt heel vereerd dat ik er met u op sta,' zei ze.
+
+REF:  “ik ben **** zeker vereerd om    er   samen   met jou op te staan,” zei ze.
+HYP:  'ik ben echt heel  vereerd dat [ er ] ik    @ met u   op ** sta,'   zei ze.
+EVAL: S       I    S             S          S           S      D  S              
+SHFT:                                1    1       1                              
+TER Score:  64.29 (  9.0/ 14.0)
+
+Shift [er] 1 words left
+ REF:  “ik ben **** zeker vereerd om    er   samen   met jou op te staan,” zei ze.
+ HYP:  'ik ben echt heel  vereerd dat [ er ] ik    @ met u   op ** sta,'   zei ze.
+
+
+
+Sentence ID: 72:1
+Best Ref: “laat me je vertellen,” zei hij, ”ik ben vereerd om er samen met jou in te staan. zonder vrouwen zoals jullie zou deze prachtige wereld die we hebben niet mogelijk zijn.”
+Orig Hyp: 'nou,' zei hij, 'anders ik wel met u. zonder vrouwen als u zou deze prachtwereld die we hebben onmogelijk zijn.'
+
+REF:  “laat me je vertellen,” zei hij, ”ik ben vereerd om      er samen met jou in te staan. zonder vrouwen zoals jullie zou deze prachtige wereld       die we hebben niet mogelijk   zijn.”
+HYP:  ***** ** ** 'nou,'      zei hij, *** *** ******* 'anders ik wel   met *** ** ** u.     zonder vrouwen als   u      zou deze ********* prachtwereld die we hebben **** onmogelijk zijn.'
+EVAL: D     D  D  S                    D   D   D       S       S  S         D   D  D  S                     S     S               D         S                          D    S          S     
+SHFT:                                                                                                                                                                                        
+TER Score:  67.74 ( 21.0/ 31.0)
+
+
+
+Sentence ID: 73:1
+Best Ref: hij groette haar en liep naar de deur die naar de verloskamers leidde. “raad eens wat er net geboren is,” zei hij.
+Orig Hyp: hij groette haar en liep naar de deur die naar de verloskamers leidde. 'raad eens wat er net geboren is,' zei hij.
+
+REF:  hij groette haar en liep naar de deur die naar de verloskamers leidde. “raad eens wat er net geboren is,” zei hij.
+HYP:  hij groette haar en liep naar de deur die naar de verloskamers leidde. 'raad eens wat er net geboren is,' zei hij.
+EVAL:                                                                        S                             S            
+SHFT:                                                                                                                   
+TER Score:   9.09 (  2.0/ 22.0)
+
+
+
+Sentence ID: 74:1
+Best Ref: “ik kan het niet,” zei ze.
+Orig Hyp: 'geen idee,' zei ze.
+
+REF:  “ik kan het   niet,” zei ze.
+HYP:  *** *** 'geen idee,' zei ze.
+EVAL: D   D   S     S             
+SHFT:                             
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 75:1
+Best Ref: “een drieling!” zei hij.
+Orig Hyp: 'een drieling!' zei hij.
+
+REF:  “een drieling!” zei hij.
+HYP:  'een drieling!' zei hij.
+EVAL: S    S                  
+SHFT:                         
+TER Score:  50.00 (  2.0/  4.0)
+
+
+
+Sentence ID: 76:1
+Best Ref: “een drieling!” zei ze. ze was zich aan het opwinden over de juridische implicaties van een drieling.
+Orig Hyp: 'een drieling!' riep ze uit, vanwege de wettelijke implicaties van drielingen.
+
+REF:  “een drieling!” zei        ze.  ze was zich aan het opwinden over    de juridische implicaties van een drieling.  
+HYP:  **** 'een       drieling!' riep ze *** **** *** *** uit,     vanwege de wettelijke implicaties van *** drielingen.
+EVAL: D    S          S          S       D   D    D   D   S        S          S                          D   S          
+SHFT:                                                                                                                   
+TER Score:  76.47 ( 13.0/ 17.0)
+
+
+
+Sentence ID: 77:1
+Best Ref: de wet zei dat geen enkel pasgeboren kind kon overleven tenzij de ouders van het kind iemand konden vinden die vrijwillig wilde sterven. voor een drieling waren drie vrijwilligers nodig om te overleven.
+Orig Hyp: de wet schreef voor dat een pasgeboren baby alleen kon blijven leven als de ouders iemand konden vinden die vrijwillig wilde sterven. als je een drieling wilde laten leven, had je drie vrijwilligers nodig.
+
+REF:  de wet zei       dat geen   enkel   pasgeboren   kind   kon ******* overleven tenzij de ouders van het kind iemand konden vinden die vrijwillig wilde sterven.   voor   *** ** een drieling ***** waren   drie vrijwilligers   nodig  om  te   overleven.
+HYP:  de wet schreef @ dat een  @ baby  [ pasgeboren ] alleen kon blijven leven     als    de ouders *** *** **** iemand konden vinden die vrijwillig wilde sterven. [ voor ] als je een drieling wilde laten [ drie vrijwilligers ] leven, had je @ nodig.    
+EVAL:        S             S      S                    S          I       S         S                D   D   D                                                                I   I               I     S                            S      S   S    S         
+SHFT:                2          3       3            3                                                                                                               2      2                                 1                    1               1           
+TER Score:  63.64 ( 21.0/ 33.0)
+
+Shift [drie, vrijwilligers] 3 words left
+ REF:  de wet ******* zei  dat geen enkel      pasgeboren kind   kon ******* overleven tenzij de ouders van het kind iemand konden vinden die vrijwillig wilde sterven. *** voor een drieling ***** waren   drie vrijwilligers   nodig  om  te   overleven.
+ HYP:  de wet schreef voor dat een  pasgeboren baby       alleen kon blijven leven     als    de ouders *** *** **** iemand konden vinden die vrijwillig wilde sterven. als je   een drieling wilde laten [ drie vrijwilligers ] leven, had je @ nodig.    
+
+Shift [voor] 18 words right
+ REF:  de wet zei       dat geen enkel      pasgeboren kind   kon ******* overleven tenzij de ouders van het kind iemand konden vinden die vrijwillig wilde sterven.   voor   *** ** een drieling ***** waren drie vrijwilligers nodig  om  te overleven.
+ HYP:  de wet schreef @ dat een  pasgeboren baby       alleen kon blijven leven     als    de ouders *** *** **** iemand konden vinden die vrijwillig wilde sterven. [ voor ] als je een drieling wilde laten drie vrijwilligers leven, had je nodig.    
+
+Shift [pasgeboren] 1 words right
+ REF:  de wet zei     dat geen   enkel   pasgeboren   kind   kon ******* overleven tenzij de ouders van het kind iemand konden vinden die vrijwillig wilde sterven. voor *** ** een drieling ***** waren drie vrijwilligers nodig  om  te overleven.
+ HYP:  de wet schreef dat een  @ baby  [ pasgeboren ] alleen kon blijven leven     als    de ouders *** *** **** iemand konden vinden die vrijwillig wilde sterven. voor als je een drieling wilde laten drie vrijwilligers leven, had je nodig.    
+
+
+
+Sentence ID: 78:1
+Best Ref: “hebben de ouders drie vrijwilligers?” zei leora duncan.
+Orig Hyp: 'hebben de ouders drie vrijwilligers?' vroeg leora duncan.
+
+REF:  “hebben de ouders drie vrijwilligers?” zei   leora duncan.
+HYP:  'hebben de ouders drie vrijwilligers?' vroeg leora duncan.
+EVAL: S                      S               S                  
+SHFT:                                                           
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 79:1
+Best Ref: “het laatste wat ik hoorde,” zei dr. hitz, ”was dat ze er één hadden en probeerden er nog twee bij elkaar te schrapen.”
+Orig Hyp: 'volgens de laatste berichten hebben ze er één,' zei hitz, 'en proberen ze er nog twee bij te scharrelen.'
+
+REF:  ******** “het laatste wat       ik       hoorde,” zei dr. hitz, ”was dat        ze er   één hadden en probeerden er nog twee bij elkaar te schrapen.”  
+HYP:  'volgens de   laatste berichten hebben @ één,'    zei *** hitz, 'en  proberen [ ze er ] *** ****** ** ze         er nog twee bij ****** te scharrelen.'
+EVAL: I        S            S         S        S            D         S    S                  D   D      D  S                          D         S           
+SHFT:                                        1                                      1       1                                                                
+TER Score:  65.22 ( 15.0/ 23.0)
+
+Shift [ze, er] 5 words right
+ REF:  ******** “het laatste wat       ik       hoorde,” zei dr. hitz, ”was dat        ze er   één hadden en probeerden er nog twee bij elkaar te schrapen.”  
+ HYP:  'volgens de   laatste berichten hebben @ één,'    zei *** hitz, 'en  proberen [ ze er ] *** ****** ** ze         er nog twee bij ****** te scharrelen.'
+
+
+
+Sentence ID: 80:1
+Best Ref: “ik denk niet dat ze het gehaald hebben,” zei ze. “niemand heeft drie afspraken met ons gemaakt. alleen maar singles vandaag, tenzij er iemand heeft gebeld nadat ik weg was. wat is de naam?”
+Orig Hyp: 'dat is ze geloof ik niet gelukt,' zei ze. 'er heeft niemand drie afspraken bij ons gemaakt. er zijn vandaag alleen maar enkelingen doorgekomen, tenzij zich nadat ik wegging nog iemand heeft gemeld. wat is de naam?'
+
+REF:  “ik denk   niet   dat ze het    gehaald   hebben,” zei ze. “niemand heeft ******* drie afspraken met ons gemaakt.   **** ******* alleen maar singles    vandaag,     tenzij   er   ****   iemand heeft   gebeld nadat ik ******* weg   was.    wat is de naam?”
+HYP:  *** 'dat [ niet ] is  ze geloof ik      @ gelukt,' zei ze. 'er      heeft niemand drie afspraken bij ons gemaakt. @ zijn vandaag alleen maar enkelingen doorgekomen, tenzij [ er ] zich [ iemand heeft ] ****** nadat ik wegging nog @ gemeld. wat is de naam?'
+EVAL: D   S             S      S      S         S                S              I                      S                  I    I                   S          S                          I                     D               I       S     S                 S     
+SHFT:          2      2                       2                                                                         3                                                         3    3      1              1                             1                         
+TER Score:  64.71 ( 22.0/ 34.0)
+
+Shift [iemand, heeft] 4 words left
+ REF:  “ik denk niet dat ze     het gehaald hebben,” zei ze. “niemand heeft ******* drie afspraken met ons gemaakt. ** **** ******* alleen maar singles    vandaag,     tenzij er     iemand heeft   gebeld nadat ik ******* weg   was.    wat is de naam?”
+ HYP:  *** 'dat is   ze  geloof ik  niet    gelukt,' zei ze. 'er      heeft niemand drie afspraken bij ons gemaakt. er zijn vandaag alleen maar enkelingen doorgekomen, tenzij zich [ iemand heeft ] ****** nadat ik wegging nog @ gemeld. wat is de naam?'
+
+Shift [niet] 4 words left
+ REF:  “ik denk   niet   dat ze het    gehaald   hebben,” zei ze. “niemand heeft ******* drie afspraken met ons gemaakt. ** **** ******* alleen maar singles    vandaag,     tenzij er   iemand heeft gebeld nadat ik ******* weg was.    wat is de naam?”
+ HYP:  *** 'dat [ niet ] is  ze geloof ik      @ gelukt,' zei ze. 'er      heeft niemand drie afspraken bij ons gemaakt. er zijn vandaag alleen maar enkelingen doorgekomen, tenzij zich iemand heeft ****** nadat ik wegging nog gemeld. wat is de naam?'
+
+Shift [er] 7 words right
+ REF:  “ik denk niet dat ze het    gehaald hebben,” zei ze. “niemand heeft ******* drie afspraken met ons gemaakt.   **** ******* alleen maar singles    vandaag,     tenzij   er   **** iemand heeft gebeld nadat ik ******* weg was.    wat is de naam?”
+ HYP:  *** 'dat niet is  ze geloof ik      gelukt,' zei ze. 'er      heeft niemand drie afspraken bij ons gemaakt. @ zijn vandaag alleen maar enkelingen doorgekomen, tenzij [ er ] zich iemand heeft ****** nadat ik wegging nog gemeld. wat is de naam?'
+
+
+
+Sentence ID: 81:1
+Best Ref: “wehling,” zei de wachtende vader, rechtop zittend, met rode ogen en wenkbrauwen. “edward k. wehling, jr., is de naam van de gelukkige aanstaande vader.”
+Orig Hyp: 'wehling,' zei de wachtende vader, terwijl hij duf en met rode ogen rechtop ging zitten. 'edward k. wehling jr. is de naam van de gelukkige aanstaande vader.'
+
+REF:  “wehling,” zei de wachtende vader,   rechtop   ******* *** zittend,   met rode ogen   en     **** wenkbrauwen. “edward k. wehling, jr., is de naam van de gelukkige aanstaande vader.”
+HYP:  'wehling,' zei de wachtende vader, [ rechtop ] terwijl hij duf      @ met rode ogen [ en ] @ ging zitten.      'edward k. wehling  jr.  is de naam van de gelukkige aanstaande vader.'
+EVAL: S                                              I       I   S                                 I    S            S          S        S                                           S      
+SHFT:                                    2         2                      1               1    1 2                                                                                          
+TER Score:  50.00 ( 12.0/ 24.0)
+
+Shift [en] 3 words right
+ REF:  “wehling,” zei de wachtende vader, ******* rechtop zittend,   met rode ogen   en   ******* **** wenkbrauwen. “edward k. wehling, jr., is de naam van de gelukkige aanstaande vader.”
+ HYP:  'wehling,' zei de wachtende vader, terwijl hij     duf      @ met rode ogen [ en ] rechtop ging zitten.      'edward k. wehling  jr.  is de naam van de gelukkige aanstaande vader.'
+
+Shift [rechtop] 7 words left
+ REF:  “wehling,” zei de wachtende vader,   rechtop   ******* *** zittend, met rode ogen en   **** wenkbrauwen. “edward k. wehling, jr., is de naam van de gelukkige aanstaande vader.”
+ HYP:  'wehling,' zei de wachtende vader, [ rechtop ] terwijl hij duf      met rode ogen en @ ging zitten.      'edward k. wehling  jr.  is de naam van de gelukkige aanstaande vader.'
+
+
+
+Sentence ID: 82:1
+Best Ref: hij stak zijn rechterhand op, keek naar een plek op de muur en grinnikte schor. “cadeau,” zei hij.
+Orig Hyp: hij hield zijn rechterhand op, keek naar een plek op de muur en liet een schor, droevig lachje horen. 'present,' zei hij.
+
+REF:  hij stak  zijn rechterhand op, keek naar een plek op de muur en **** *** ****** ******* grinnikte schor. “cadeau,”  zei hij.
+HYP:  hij hield zijn rechterhand op, keek naar een plek op de muur en liet een schor, droevig lachje    horen. 'present,' zei hij.
+EVAL:     S                                                           I    I   I      I       S         S      S                  
+SHFT:                                                                                                                             
+TER Score:  44.44 (  8.0/ 18.0)
+
+
+
+Sentence ID: 83:1
+Best Ref: “oh, meneer wehling,” zei dr. hitz, ”ik had u niet gezien.”
+Orig Hyp: 'o, meneer wehling,' zei dokter hitz, 'ik zag u niet.'
+
+REF:  “oh, meneer wehling,” zei dr.    hitz, ”ik had u niet gezien.”
+HYP:  'o,  meneer wehling,' zei dokter hitz, 'ik zag u **** niet.'  
+EVAL: S           S             S            S   S     D    S       
+SHFT:                                                               
+TER Score:  63.64 (  7.0/ 11.0)
+
+
+
+Sentence ID: 84:1
+Best Ref: “de onzichtbare man,” zei wehling.
+Orig Hyp: 'de onzichtbare man,' zei wehling.
+
+REF:  “de onzichtbare man,” zei wehling.
+HYP:  'de onzichtbare man,' zei wehling.
+EVAL: S               S                 
+SHFT:                                   
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 85:1
+Best Ref: “ze hebben me net gebeld dat uw drieling geboren is,” zei dr. hitz. “ze maken het allemaal goed, en de moeder ook. ik ga nu naar ze toe.”
+Orig Hyp: 'ik werd net gebeld dat uw drieling is geboren,' zei dokter hitz. 'het gaat goed met ze, en met de moeder ook. ik ben net naar hen onderweg.'
+
+REF:  “ze hebben me   net gebeld dat uw drieling geboren is,”      zei dr.    hitz. “ze  maken het  allemaal goed, en *** de moeder ook. ik ga  nu  naar ze  toe.”     
+HYP:  *** 'ik    werd net gebeld dat uw drieling is      geboren,' zei dokter hitz. 'het gaat  goed met      ze,   en met de moeder ook. ik ben net naar hen onderweg.'
+EVAL: D   S      S                               S       S             S            S    S     S    S        S        I                     S   S        S   S         
+SHFT:                                                                                                                                                                  
+TER Score:  57.14 ( 16.0/ 28.0)
+
+
+
+Sentence ID: 86:1
+Best Ref: “hoera,” zei wehling leeg.
+Orig Hyp: 'hoera,' zei wehling op holle toon.
+
+REF:  “hoera,” zei wehling ** ***** leeg.
+HYP:  'hoera,' zei wehling op holle toon.
+EVAL: S                    I  I     S    
+SHFT:                                    
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 87:1
+Best Ref: “je klinkt niet erg blij,” zei dokter hitz.
+Orig Hyp: 'u klinkt niet erg blij,' zei dokter hitz.
+
+REF:  “je klinkt niet erg blij,” zei dokter hitz.
+HYP:  'u  klinkt niet erg blij,' zei dokter hitz.
+EVAL: S                   S                      
+SHFT:                                            
+TER Score:  25.00 (  2.0/  8.0)
+
+
+
+Sentence ID: 88:1
+Best Ref: “welke man in mijn schoenen zou niet gelukkig zijn?” zei wehling. hij gebaarde met zijn handen om zorgeloze eenvoud te symboliseren. “het enige wat ik moet doen is uitzoeken wie van de drieling blijft leven, dan mijn grootvader van moederskant afleveren bij de happy hooligan en hier terugkomen met een bonnetje.”
+Orig Hyp: 'wie zou er in mijn plaats nou niet blij zijn?' zei wehling. hij maakte een handgebaar dat zorgeloze eenvoud moest uitbeelden. 'ik hoef alleen maar te kiezen wie van de drieling mag blijven leven, vervolgens mijn grootvader van moederskant bij de blijde bandiet af te leveren, en dan met de bon hier terug te komen.'
+
+REF:  “welke   man in mijn schoenen   zou   *** niet gelukkig zijn?” zei wehling. hij gebaarde   met   zijn   handen     om  zorgeloze eenvoud   te   symboliseren. “het  enige       wat ik   moet   doen is uitzoeken wie van de drieling *** blijft  leven,   dan   ********** mijn grootvader van moederskant afleveren bij de ****** ******* happy   hooligan en     ** *** hier terugkomen met   een   bonnetje.”
+HYP:  'wie   @ er  in mijn plaats   [ zou ] nou niet blij     zijn?' zei wehling. hij maakte   [ met ] **** @ handgebaar dat zorgeloze eenvoud [ te ] ************* moest uitbeelden. 'ik hoef alleen maar te kiezen    wie van de drieling mag blijven leven, [ dan ] vervolgens mijn grootvader van moederskant ********* bij de blijde bandiet af    @ leveren, en @ @ de bon hier terug      te  [ een ] komen.'   
+EVAL: S        S           S                I        S        S                       S                D      S          S                            D             S     S           S   S    S      S    S  S                             I   S                      I                                          D                I      I       S       S               I  I        S          S           S         
+SHFT:        3                      3     3                                                    2     2      4                                  1    1                                                                                                          5     5                                                                                  1             2 5                            4     4           
+TER Score:  72.55 ( 37.0/ 51.0)
+
+Shift [te] 25 words left
+ REF:  **** “welke man in mijn schoenen zou niet gelukkig zijn?” zei wehling. hij gebaarde met    zijn handen     om  zorgeloze eenvoud   te   symboliseren. “het  enige       wat ik   moet   doen is uitzoeken wie van de drieling *** blijft  leven, dan        mijn grootvader van moederskant afleveren bij de ****** ******* happy   hooligan en *** *** ** hier terugkomen met   een bonnetje.”
+ HYP:  'wie zou    er  in mijn plaats   nou niet blij     zijn?' zei wehling. hij ******** maakte een  handgebaar dat zorgeloze eenvoud [ te ] ************* moest uitbeelden. 'ik hoef alleen maar te kiezen    wie van de drieling mag blijven leven, vervolgens mijn grootvader van moederskant ********* bij de blijde bandiet af    @ leveren, en dan met de bon  hier       terug te  komen.'   
+
+Shift [met] 34 words left
+ REF:  **** “welke man in mijn schoenen zou niet gelukkig zijn?” zei wehling. hij gebaarde   met   zijn handen     om  zorgeloze eenvoud te symboliseren. “het  enige       wat ik   moet   doen is uitzoeken wie van de drieling *** blijft  leven, dan        mijn grootvader van moederskant afleveren bij de ****** ******* happy hooligan en ***   ** hier terugkomen met   een bonnetje.”
+ HYP:  'wie zou    er  in mijn plaats   nou niet blij     zijn?' zei wehling. hij maakte   [ met ] een  handgebaar dat zorgeloze eenvoud te ************* moest uitbeelden. 'ik hoef alleen maar te kiezen    wie van de drieling mag blijven leven, vervolgens mijn grootvader van moederskant ********* bij de blijde bandiet af    leveren, en dan @ de bon  hier       terug te  komen.'   
+
+Shift [zou] 4 words right
+ REF:  “welke   man in mijn schoenen   zou   *** niet gelukkig zijn?” zei wehling. hij gebaarde met zijn handen     om  zorgeloze eenvoud te symboliseren. “het  enige       wat ik   moet   doen is uitzoeken wie van de drieling *** blijft  leven, dan        mijn grootvader van moederskant afleveren bij de ****** ******* happy hooligan en *** ** hier terugkomen met   een bonnetje.”
+ HYP:  'wie   @ er  in mijn plaats   [ zou ] nou niet blij     zijn?' zei wehling. hij maakte   met een  handgebaar dat zorgeloze eenvoud te ************* moest uitbeelden. 'ik hoef alleen maar te kiezen    wie van de drieling mag blijven leven, vervolgens mijn grootvader van moederskant ********* bij de blijde bandiet af    leveren, en dan de bon  hier       terug te  komen.'   
+
+Shift [een] 38 words right
+ REF:  “welke man in mijn schoenen zou *** niet gelukkig zijn?” zei wehling. hij gebaarde met zijn   handen     om  zorgeloze eenvoud te symboliseren. “het  enige       wat ik   moet   doen is uitzoeken wie van de drieling *** blijft  leven, dan        mijn grootvader van moederskant afleveren bij de ****** ******* happy hooligan en *** ** *** hier terugkomen met   een   bonnetje.”
+ HYP:  'wie   er  in mijn plaats   zou nou niet blij     zijn?' zei wehling. hij maakte   met **** @ handgebaar dat zorgeloze eenvoud te ************* moest uitbeelden. 'ik hoef alleen maar te kiezen    wie van de drieling mag blijven leven, vervolgens mijn grootvader van moederskant ********* bij de blijde bandiet af    leveren, en dan de bon hier terug      te  [ een ] komen.'   
+
+Shift [dan] 12 words left
+ REF:  “welke man in mijn schoenen zou *** niet gelukkig zijn?” zei wehling. hij gebaarde met zijn handen     om  zorgeloze eenvoud te symboliseren. “het  enige       wat ik   moet   doen is uitzoeken wie van de drieling *** blijft  leven,   dan   ********** mijn grootvader van moederskant afleveren bij de ****** ******* happy hooligan en   ** *** hier terugkomen met een bonnetje.”
+ HYP:  'wie   er  in mijn plaats   zou nou niet blij     zijn?' zei wehling. hij maakte   met **** handgebaar dat zorgeloze eenvoud te ************* moest uitbeelden. 'ik hoef alleen maar te kiezen    wie van de drieling mag blijven leven, [ dan ] vervolgens mijn grootvader van moederskant ********* bij de blijde bandiet af    leveren, en @ de bon hier terug      te  een komen.'   
+
+
+
+Sentence ID: 89:1
+Best Ref: dr. hitz werd nogal streng tegen wehling, torende boven hem uit. “gelooft u niet in bevolkingsbeperking, meneer wehling?” zei hij.
+Orig Hyp: dokter hitz torende hoog boven hem uit en sprak hem nogal streng toe. 'gelooft u niet in geboortebeperking, meneer wehling?' vroeg hij.
+
+REF:  dr.    hitz werd      nogal streng   tegen   wehling, torende   boven ***   ***** hem   uit. “gelooft u niet in bevolkingsbeperking, meneer wehling?” zei   hij.
+HYP:  dokter hitz torende [ nogal streng ] hoog  @ uit      en      [ boven hem ] sprak hem @ toe. 'gelooft u niet in geboortebeperking,   meneer wehling?' vroeg hij.
+EVAL: S           S                        S       S        S               I     I           S    S                  S                           S         S         
+SHFT:                     1              1       2                  2       2   2           1                                                                         
+TER Score:  70.00 ( 14.0/ 20.0)
+
+Shift [nogal, streng] 7 words left
+ REF:  dr.    hitz werd      nogal streng   **** ***** tegen wehling, torende boven hem   uit. “gelooft u niet in bevolkingsbeperking, meneer wehling?” zei   hij.
+ HYP:  dokter hitz torende [ nogal streng ] hoog boven hem   uit      en      sprak hem @ toe. 'gelooft u niet in geboortebeperking,   meneer wehling?' vroeg hij.
+
+Shift [boven, hem] 2 words right
+ REF:  dr.    hitz werd    nogal streng tegen   wehling, torende   boven ***   ***** hem uit. “gelooft u niet in bevolkingsbeperking, meneer wehling?” zei   hij.
+ HYP:  dokter hitz torende nogal streng hoog  @ uit      en      [ boven hem ] sprak hem toe. 'gelooft u niet in geboortebeperking,   meneer wehling?' vroeg hij.
+
+
+
+Sentence ID: 90:1
+Best Ref: “ik denk dat het heel scherp is,” zei wehling strak.
+Orig Hyp: 'o, ik vind het uitstekend,' zei wehling vlak.
+
+REF:  “ik denk dat  het heel scherp is,”         zei wehling strak.
+HYP:  'o, ik   vind het **** ****** uitstekend,' zei wehling vlak. 
+EVAL: S   S    S        D    D      S                        S     
+SHFT:                                                              
+TER Score:  70.00 (  7.0/ 10.0)
+
+
+
+Sentence ID: 91:1
+Best Ref: “wilt u terug naar de goede oude tijd, toen de bevolking van de aarde twintig miljard was - op het punt om veertig miljard te worden, dan tachtig miljard, dan honderdzestig miljard? weet u wat een drupelet is, meneer wehling?” zei hitz.
+Orig Hyp: 'zou u soms terug willen naar de goeie oude tijd, toen de bevolking op aarde twintig miljard bedroeg - en snel veertig miljard zou bedragen, en vervolgens tachtig, en daarna honderdzestig miljard? weet u wat een steenvruchtje is, meneer wehling?' vroeg hitz.
+
+REF:  “wilt u **** terug ****** naar de goede oude tijd, toen de bevolking van de   aarde twintig miljard was     -   op   het punt om   veertig miljard *** te        worden, dan        tachtig  miljard, dan    honderdzestig miljard? weet u wat een drupelet      is, meneer wehling?” zei   hitz.
+HYP:  'zou  u soms terug willen naar de goeie oude tijd, toen de bevolking *** ** @ aarde twintig miljard bedroeg - [ op ] *** en   snel veertig miljard zou bedragen, en      vervolgens tachtig, en       daarna honderdzestig miljard? weet u wat een steenvruchtje is, meneer wehling?' vroeg hitz.
+EVAL: S       I          I              S                                  D   D                          S                D   S    S                    I   S         S       S          S        S        S                                            S                        S         S          
+SHFT:                                                                             1                                 1    1                                                                                                                                                                             
+TER Score:  50.00 ( 21.0/ 42.0)
+
+Shift [op] 5 words right
+ REF:  “wilt u **** terug ****** naar de goede oude tijd, toen de bevolking van de   aarde twintig miljard was     -   op   het punt om   veertig miljard *** te        worden, dan        tachtig  miljard, dan    honderdzestig miljard? weet u wat een drupelet      is, meneer wehling?” zei   hitz.
+ HYP:  'zou  u soms terug willen naar de goeie oude tijd, toen de bevolking *** ** @ aarde twintig miljard bedroeg - [ op ] *** en   snel veertig miljard zou bedragen, en      vervolgens tachtig, en       daarna honderdzestig miljard? weet u wat een steenvruchtje is, meneer wehling?' vroeg hitz.
+
+
+
+Sentence ID: 92:1
+Best Ref: “nee,” zei wehling nors.
+Orig Hyp: 'nee,' antwoordde wehling nukkig.
+
+REF:  “nee,” zei        wehling nors.  
+HYP:  'nee,' antwoordde wehling nukkig.
+EVAL: S      S                  S      
+SHFT:                                  
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 93:1
+Best Ref: “een drupelet, meneer wehling, is een van de kleine nopjes, een van de kleine pulpachtige korrels van een braam,” zei dr. hitz. “zonder bevolkingscontrole zouden de mensen nu opeengepakt zitten op dit oppervlak van deze oude planeet als drupelets op een braam! denk je eens in!”
+Orig Hyp: 'een steenvruchtje, meneer wehling, is een van die kleine bolletjes, een van die kleine vlezige pitjes van een braam,' zei dokter hitz. 'zonder geboortebeperking zou de mensheid nu opeengepakt op het oppervlak van deze oude planeet zitten, als steenvruchtjes op een braam! stelt u zich eens voor!'
+
+REF:  “een drupelet,      meneer wehling, is een van de  kleine nopjes,    een van de  kleine pulpachtige korrels van een braam,” zei dr.    hitz. “zonder bevolkingscontrole zouden de mensen   nu opeengepakt zitten op dit oppervlak van deze oude planeet ******* als drupelets      op een braam! ***** denk je   eens in!”  
+HYP:  'een steenvruchtje, meneer wehling, is een van die kleine bolletjes, een van die kleine vlezige     pitjes  van een braam,' zei dokter hitz. 'zonder geboortebeperking  zou    de mensheid nu opeengepakt ****** op het oppervlak van deze oude planeet zitten, als steenvruchtjes op een braam! stelt u    zich eens voor!'
+EVAL: S    S                                         S          S                  S          S           S               S           S            S       S                  S         S                       D         S                                   I           S                            I     S    S         S     
+SHFT:                                                                                                                                                                                                                                                                                                                             
+TER Score:  45.65 ( 21.0/ 46.0)
+
+
+
+Sentence ID: 94:1
+Best Ref: wehling bleef naar dezelfde plek op de muur staren.
+Orig Hyp: wehling bleef naar dezelfde plek op de muur staren.
+
+REF:  wehling bleef naar dezelfde plek op de muur staren.
+HYP:  wehling bleef naar dezelfde plek op de muur staren.
+EVAL:                                                    
+SHFT:                                                    
+TER Score:   0.00 (  0.0/  9.0)
+
+
+
+Sentence ID: 95:1
+Best Ref: “in het jaar 2000,” zei dr. hitz, ”voordat wetenschappers tussenbeide kwamen en de wet bepaalden, was er niet eens genoeg drinkwater voor iedereen en was er niets anders te eten dan zeewier - en toch bleven mensen volharden in hun recht om zich voort te planten als konijnen. en hun recht om, indien mogelijk, eeuwig te leven.”
+Orig Hyp: 'in het jaar 2000,' zei dokter hitz, 'voordat wetenschappers zich ermee bemoeiden en de wet gingen voorschrijven, was er niet eens genoeg drinkwater voor iedereen, en alleen maar zeewier te eten - en nóg bleven mensen op hun recht staan om zich als konijnen voort te planten. en op hun recht om, zo mogelijk, eeuwig te leven.'
+
+REF:  “in het jaar 2000,” zei dr.    hitz, ”voordat wetenschappers **** tussenbeide kwamen    en de wet ****** bepaalden,     was er niet eens genoeg drinkwater voor iedereen  en was er niets  anders   te eten dan   zeewier   - en toch bleven mensen volharden in hun recht ***** om zich   ******** voort te planten   als   konijnen. en ** hun recht om, indien mogelijk, eeuwig te leven.”
+HYP:  'in het jaar 2000,' zei dokter hitz, 'voordat wetenschappers zich ermee       bemoeiden en de wet gingen voorschrijven, was er niet eens genoeg drinkwater voor iedereen, en *** ** alleen maar   @ te eten *** [ zeewier ] - en nóg  bleven mensen ********* op hun recht staan om zich @ konijnen voort te ******* [ als ] planten.  en op hun recht om, zo     mogelijk, eeuwig te leven.'
+EVAL: S            S          S            S                       I    S           S                   I      S                                                      S            D   D  S      S                D                    S                  D         S            I               I                 D               S            I                S                          S      
+SHFT:                                                                                                                                                                                                   2             2         2                                                              1                           1     1                                                                 
+TER Score:  47.37 ( 27.0/ 57.0)
+
+Shift [als] 3 words right
+ REF:  “in het jaar 2000,” zei dr.    hitz, ”voordat wetenschappers **** tussenbeide kwamen    en de wet ****** bepaalden,     was er niet eens genoeg drinkwater voor iedereen  en was er     niets anders  te eten dan zeewier - en toch bleven mensen volharden in hun recht ***** om zich   ******** voort te planten   als   konijnen. en ** hun recht om, indien mogelijk, eeuwig te leven.”
+ HYP:  'in het jaar 2000,' zei dokter hitz, 'voordat wetenschappers zich ermee       bemoeiden en de wet gingen voorschrijven, was er niet eens genoeg drinkwater voor iedereen, en *** alleen maar  zeewier te eten *** ******* - en nóg  bleven mensen ********* op hun recht staan om zich @ konijnen voort te ******* [ als ] planten.  en op hun recht om, zo     mogelijk, eeuwig te leven.'
+
+Shift [zeewier] 2 words right
+ REF:  “in het jaar 2000,” zei dr.    hitz, ”voordat wetenschappers **** tussenbeide kwamen    en de wet ****** bepaalden,     was er niet eens genoeg drinkwater voor iedereen  en was er niets  anders   te eten dan   zeewier   - en toch bleven mensen volharden in hun recht ***** om zich ******** voort te planten als konijnen. en ** hun recht om, indien mogelijk, eeuwig te leven.”
+ HYP:  'in het jaar 2000,' zei dokter hitz, 'voordat wetenschappers zich ermee       bemoeiden en de wet gingen voorschrijven, was er niet eens genoeg drinkwater voor iedereen, en *** ** alleen maar   @ te eten *** [ zeewier ] - en nóg  bleven mensen ********* op hun recht staan om zich konijnen voort te ******* als planten.  en op hun recht om, zo     mogelijk, eeuwig te leven.'
+
+
+
+Sentence ID: 96:1
+Best Ref: “ik wil die kinderen,” zei wehling rustig. “ik wil ze alle drie.”
+Orig Hyp: 'ik wil die kinderen,' zei wehling zacht. 'ik wil ze alle drie.'
+
+REF:  “ik wil die kinderen,” zei wehling rustig. “ik wil ze alle drie.”
+HYP:  'ik wil die kinderen,' zei wehling zacht.  'ik wil ze alle drie.'
+EVAL: S           S                      S       S               S     
+SHFT:                                                                  
+TER Score:  41.67 (  5.0/ 12.0)
+
+
+
+Sentence ID: 97:1
+Best Ref: “natuurlijk wil je dat,” zei dr. hitz. “dat is alleen maar menselijk.”
+Orig Hyp: 'maar natuurlijk wilt u dat,' zei dokter hitz. 'dat is niet meer dan menselijk.'
+
+REF:  ***** “natuurlijk wil  je dat,” zei dr.    hitz. “dat is **** alleen maar menselijk.”
+HYP:  'maar natuurlijk  wilt u  dat,' zei dokter hitz. 'dat is niet meer   dan  menselijk.'
+EVAL: I     S           S    S  S         S            S       I    S      S    S          
+SHFT:                                                                                      
+TER Score:  91.67 ( 11.0/ 12.0)
+
+
+
+Sentence ID: 98:1
+Best Ref: “ik wil ook niet dat mijn opa doodgaat,” zei wehling.
+Orig Hyp: 'ik wil ook niet dat mijn grootvader sterft,' zei wehling.
+
+REF:  “ik wil ook niet dat mijn opa        doodgaat,” zei wehling.
+HYP:  'ik wil ook niet dat mijn grootvader sterft,'   zei wehling.
+EVAL: S                         S          S                      
+SHFT:                                                             
+TER Score:  30.00 (  3.0/ 10.0)
+
+
+
+Sentence ID: 99:1
+Best Ref: “niemand is er echt blij mee om een naast familielid naar de catbox te brengen,” zei dr. hitz zachtjes, sympathiek.
+Orig Hyp: 'niemand vindt het fijn om naaste familie naar de kattenbak te brengen,' zei dokter hitz kalm en meelevend.
+
+REF:  “niemand is er       echt  blij mee  om een naast  familielid naar de catbox    te brengen,” zei dr.    hitz **** zachtjes, sympathiek.
+HYP:  ******** ** 'niemand vindt het  fijn om *** naaste familie    naar de kattenbak te brengen,' zei dokter hitz kalm en        meelevend. 
+EVAL: D        D  S        S     S    S       D   S      S                  S            S             S           I    S         S          
+SHFT:                                                                                                                                        
+TER Score:  75.00 ( 15.0/ 20.0)
+
+
+
+Sentence ID: 100:1
+Best Ref: “ik wou dat mensen het niet zo noemden,” zei leora duncan.
+Orig Hyp: 'ik wou dat mensen het niet zo noemden,' zei leora duncan.
+
+REF:  “ik wou dat mensen het niet zo noemden,” zei leora duncan.
+HYP:  'ik wou dat mensen het niet zo noemden,' zei leora duncan.
+EVAL: S                              S                          
+SHFT:                                                           
+TER Score:  18.18 (  2.0/ 11.0)
+
+
+
+Sentence ID: 101:1
+Best Ref: “wat?” zei dr. hitz.
+Orig Hyp: 'wat?' vroeg dokter hitz.
+
+REF:  “wat?” zei   dr.    hitz.
+HYP:  'wat?' vroeg dokter hitz.
+EVAL: S      S     S           
+SHFT:                          
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 102:1
+Best Ref: “ik zou willen dat mensen het niet 'de catbox' en dat soort dingen zouden noemen,” zei ze. “het geeft mensen een verkeerde indruk.”
+Orig Hyp: 'ik wou dat mensen het niet de kattenbak of iets dergelijks noemden,' zei ze. 'dan krijgt men een verkeerde indruk.'
+
+REF:  “ik zou willen dat mensen het niet 'de catbox' en dat       soort dingen zouden     noemen,”  zei ze. “het geeft  mensen een verkeerde indruk.”
+HYP:  *** 'ik wou    dat mensen het niet *** ******* de kattenbak of    iets   dergelijks noemden,' zei ze. 'dan krijgt men    een verkeerde indruk.'
+EVAL: D   S   S                          D   D       S  S         S     S      S          S                 S    S      S                    S       
+SHFT:                                                                                                                                                
+TER Score:  65.22 ( 15.0/ 23.0)
+
+
+
+Sentence ID: 103:1
+Best Ref: “je hebt helemaal gelijk,” zei dr. hitz. “vergeef me.” hij corrigeerde zichzelf, gaf de gemeentelijke gaskamers hun officiële titel, een titel die niemand ooit in een gesprek gebruikte. “ik had moeten zeggen, 'ethische zelfmoord studios,'” zei hij.
+Orig Hyp: 'u hebt helemaal gelijk,' zei dokter hitz. 'sorry.' hij corrigeerde zichzelf en noemde de gemeentelijke gaskamers bij hun officiële naam, die niemand ooit in een gesprek gebruikte. 'ik had moeten zeggen: de ethisch verantwoorde suïcidestudio's,' zei hij.
+
+REF:  “je hebt helemaal gelijk,” zei dr.    hitz. “vergeef me.”     hij corrigeerde ******** zichzelf, gaf    de gemeentelijke gaskamers *** hun officiële titel, een titel die niemand ooit in een gesprek gebruikte. “ik had moeten ******* zeggen, 'ethische zelfmoord    studios,'”        zei hij.
+HYP:  'u  hebt helemaal gelijk,' zei dokter hitz. ******** 'sorry.' hij corrigeerde zichzelf en        noemde de gemeentelijke gaskamers bij hun officiële ****** *** naam, die niemand ooit in een gesprek gebruikte. 'ik had moeten zeggen: de      ethisch   verantwoorde suïcidestudio's,' zei hij.
+EVAL: S                 S            S            D        S                        I        S         S                                 I                 D      D   S                                                S              I       S       S         S            S                         
+SHFT:                                                                                                                                                                                                                                                                                                  
+TER Score:  48.65 ( 18.0/ 37.0)
+
+
+
+Sentence ID: 104:1
+Best Ref: “dat klinkt veel beter,” zei leora duncan.
+Orig Hyp: 'dat klinkt een stuk beter,' zei leora duncan.
+
+REF:  “dat klinkt *** veel beter,” zei leora duncan.
+HYP:  'dat klinkt een stuk beter,' zei leora duncan.
+EVAL: S           I   S    S                        
+SHFT:                                               
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 105:1
+Best Ref: “dit kind van u - welke u ook besluit te houden, meneer wehling,” zei dr. hitz. “hij of zij gaat leven op een gelukkige, ruime, schone, rijke planeet, dankzij bevolkingsbeperking. in een tuin zoals die muurschildering daar.” hij schudde zijn hoofd. “twee eeuwen geleden, toen ik jong was, was het een hel waarvan niemand dacht dat die nog twintig jaar zou duren. nu liggen er eeuwen van vrede en overvloed voor ons, zo ver als de verbeelding wil reizen.”
+Orig Hyp: 'dat kind van u - welke van de drie u ook besluit te houden, meneer wehling,' zei dokter hitz. 'hij of zij zal op een gelukkige, ruime, schone en rijke planeet wonen, dankzij geboortebeperking. in een hof als die muurschildering hier.' hij schudde zijn hoofd. 'twee eeuwen geleden, toen ik jong was, was het hier een hel waarvan niemand dacht dat die over twintig jaar nog zou bestaan. tegenwoordig liggen eeuwen van vrede en voorspoed voor ons in het verschiet, zo ver als onze verbeelding maar reikt.'
+
+REF:  “dit kind van u - welke *** ** **** u ook besluit te houden, meneer wehling,” zei dr.    hitz. “hij of zij gaat leven op een gelukkige, ruime, ****** schone, rijke ******* planeet, dankzij bevolkingsbeperking. in een tuin zoals die muurschildering daar.” hij schudde zijn hoofd. “twee eeuwen geleden, toen ik jong was, was het **** een hel waarvan niemand dacht dat die   nog   **** twintig jaar   zou duren.   nu           liggen er eeuwen van vrede en overvloed voor *** ** *** ons,       zo ver als de   verbeelding wil  reizen.”
+HYP:  'dat kind van u - welke van de drie u ook besluit te houden, meneer wehling,' zei dokter hitz. 'hij of zij **** zal   op een gelukkige, ruime, schone en      rijke planeet wonen,   dankzij geboortebeperking.   in een hof  als   die muurschildering hier.' hij schudde zijn hoofd. 'twee eeuwen geleden, toen ik jong was, was het hier een hel waarvan niemand dacht dat die [ nog ] over twintig jaar @ zou bestaan. tegenwoordig liggen ** eeuwen van vrede en voorspoed voor ons in het verschiet, zo ver als onze verbeelding maar reikt.' 
+EVAL: S                       I   I  I                                    S             S            S           D    S                              I      S             I       S                S                           S    S                         S                              S                                               I                                                  I                       S        S                   D                      S              I   I  I   S                     S                S    S       
+SHFT:                                                                                                                                                                                                                                                                                                                                                                                   1     1                   1                                                                                                                                       
+TER Score:  40.51 ( 32.0/ 79.0)
+
+Shift [nog] 3 words left
+ REF:  “dit kind van u - welke *** ** **** u ook besluit te houden, meneer wehling,” zei dr.    hitz. “hij of zij gaat leven op een gelukkige, ruime, ****** schone, rijke ******* planeet, dankzij bevolkingsbeperking. in een tuin zoals die muurschildering daar.” hij schudde zijn hoofd. “twee eeuwen geleden, toen ik jong was, was het **** een hel waarvan niemand dacht dat die   nog   **** twintig jaar   zou duren.   nu           liggen er eeuwen van vrede en overvloed voor *** ** *** ons,       zo ver als de   verbeelding wil  reizen.”
+ HYP:  'dat kind van u - welke van de drie u ook besluit te houden, meneer wehling,' zei dokter hitz. 'hij of zij **** zal   op een gelukkige, ruime, schone en      rijke planeet wonen,   dankzij geboortebeperking.   in een hof  als   die muurschildering hier.' hij schudde zijn hoofd. 'twee eeuwen geleden, toen ik jong was, was het hier een hel waarvan niemand dacht dat die [ nog ] over twintig jaar @ zou bestaan. tegenwoordig liggen ** eeuwen van vrede en voorspoed voor ons in het verschiet, zo ver als onze verbeelding maar reikt.' 
+
+
+
+Sentence ID: 106:1
+Best Ref: hij glimlachte stralend.
+Orig Hyp: hij glimlachte stralend.
+
+REF:  hij glimlachte stralend.
+HYP:  hij glimlachte stralend.
+EVAL:                         
+SHFT:                         
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 107:1
+Best Ref: de glimlach verdween toen hij zag dat wehling zojuist een revolver had getrokken.
+Orig Hyp: de glimlach vervloog toen hij zag dat wehling zojuist een pistool had getrokken.
+
+REF:  de glimlach verdween toen hij zag dat wehling zojuist een revolver had getrokken.
+HYP:  de glimlach vervloog toen hij zag dat wehling zojuist een pistool  had getrokken.
+EVAL:             S                                             S                      
+SHFT:                                                                                  
+TER Score:  15.38 (  2.0/ 13.0)
+
+
+
+Sentence ID: 108:1
+Best Ref: wehling schoot dr. hitz dood. “er is ruimte voor één - een hele grote,” zei hij.
+Orig Hyp: wehling schoot dokter hitz dood. 'nu is er plek voor één - en niet zo'n kleine ook,' zei hij.
+
+REF:  wehling schoot dr.    hitz dood. “er is ** ruimte voor één - ** **** een  hele   grote,” zei hij.
+HYP:  wehling schoot dokter hitz dood. 'nu is er plek   voor één - en niet zo'n kleine ook,'   zei hij.
+EVAL:                S                 S      I  S                 I  I    S    S      S               
+SHFT:                                                                                                  
+TER Score:  56.25 (  9.0/ 16.0)
+
+
+
+Sentence ID: 109:1
+Best Ref: en toen schoot hij leora duncan dood. “het is maar de dood,” zei hij tegen haar toen ze viel. “daar! ruimte voor twee.”
+Orig Hyp: en toen schoot hij op leora duncan. 'het is de dood maar,' zei hij tegen haar terwijl ze neerzeeg. 'zo! ruimte voor twee.'
+
+REF:  en toen schoot hij   leora   duncan   dood.   “het is   maar   de   dood,” zei hij tegen haar toen    ze viel.     “daar! ruimte voor twee.”
+HYP:  en toen schoot hij [ leora ] op     @ duncan. 'het is @ dood [ de ] maar,' zei hij tegen haar terwijl ze neerzeeg. 'zo!   ruimte voor twee.'
+EVAL:                              S        S       S         S           S                         S          S         S                  S     
+SHFT:                    1       1        1                 2      2    2                                                                         
+TER Score:  47.83 ( 11.0/ 23.0)
+
+Shift [leora] 1 words left
+ REF:  en toen schoot hij   leora   duncan   dood.   “het is maar de   dood,” zei hij tegen haar toen    ze viel.     “daar! ruimte voor twee.”
+ HYP:  en toen schoot hij [ leora ] op     @ duncan. 'het is de   dood maar,' zei hij tegen haar terwijl ze neerzeeg. 'zo!   ruimte voor twee.'
+
+Shift [de] 1 words right
+ REF:  en toen schoot hij leora duncan dood.   “het is   maar   de   dood,” zei hij tegen haar toen    ze viel.     “daar! ruimte voor twee.”
+ HYP:  en toen schoot hij leora op     duncan. 'het is @ dood [ de ] maar,' zei hij tegen haar terwijl ze neerzeeg. 'zo!   ruimte voor twee.'
+
+
+
+Sentence ID: 110:1
+Best Ref: en toen schoot hij zichzelf neer, om plaats te maken voor alle drie zijn kinderen.
+Orig Hyp: en daarna schoot hij zichzelf dood, en had hij zodoende ruimte gemaakt voor alle drie zijn kinderen.
+
+REF:  en toen   schoot hij zichzelf ***** ** neer, om  plaats   te     maken   voor alle drie zijn kinderen.
+HYP:  en daarna schoot hij zichzelf dood, en had   hij zodoende ruimte gemaakt voor alle drie zijn kinderen.
+EVAL:    S                          I     I  S     S   S        S      S                                    
+SHFT:                                                                                                       
+TER Score:  53.33 (  8.0/ 15.0)
+
+
+
+Sentence ID: 111:1
+Best Ref: niemand kwam aangerend. niemand leek de schoten te hebben gehoord.
+Orig Hyp: er kwam niemand aanrennen. kennelijk had niemand de schoten gehoord.
+
+REF:  niemand kwam   aangerend.   niemand   leek        de schoten   te  hebben    gehoord.
+HYP:  er      kwam @ aanrennen. [ niemand ] kennelijk [ de schoten ] had niemand @ gehoord.
+EVAL: S              S                      S                        S   S                 
+SHFT:              2            2         2           1            1             1         
+TER Score:  70.00 (  7.0/ 10.0)
+
+Shift [de, schoten] 2 words left
+ REF:  niemand kwam aangerend. niemand    leek        de schoten   te  hebben    gehoord.
+ HYP:  er      kwam niemand    aanrennen. kennelijk [ de schoten ] had niemand @ gehoord.
+
+Shift [niemand] 1 words right
+ REF:  niemand kwam   aangerend.   niemand   leek      de schoten te  hebben  gehoord.
+ HYP:  er      kwam @ aanrennen. [ niemand ] kennelijk de schoten had niemand gehoord.
+
+
+
+Sentence ID: 112:1
+Best Ref: de schilder zat bovenop zijn trapladder en keek nadenkend neer op het trieste tafereel.
+Orig Hyp: de schilder zat boven op zijn ladder en keek nadenkend neer op het droevige schouwspel.
+
+REF:  de schilder zat ***** bovenop zijn trapladder en keek nadenkend neer op het trieste  tafereel.  
+HYP:  de schilder zat boven op      zijn ladder     en keek nadenkend neer op het droevige schouwspel.
+EVAL:                 I     S            S                                        S        S          
+SHFT:                                                                                                 
+TER Score:  35.71 (  5.0/ 14.0)
+
+
+
+Sentence ID: 113:1
+Best Ref: de schilder dacht na over het treurige raadsel van het leven dat eist geboren te worden en, eenmaal geboren, eist vruchtbaar te zijn ... zich te vermenigvuldigen en zo lang mogelijk te leven - om dat allemaal te doen op een heel kleine planeet die eeuwig zou moeten duren.
+Orig Hyp: hij dacht na over de treurige puzzel van het leven dat van je verlangt geboren te worden, en eenmaal geboren, van je verlangt vruchtbaar te zijn... je te vermenigvuldigen en zo lang mogelijk te leven - en dat allemaal op een heel kleine planeet die voor eeuwig mee zou moeten.
+
+REF:    de   schilder dacht na over het   treurige raadsel van het leven dat *** ** eist     geboren te worden  en, eenmaal geboren, *** ** eist     vruchtbaar te zijn ...     zich te vermenigvuldigen en zo lang mogelijk te leven - om dat allemaal te doen op een heel kleine planeet die **** eeuwig   zou   moeten   duren. 
+HYP:  [ de ] hij      dacht na over *** @ treurige puzzel  van het leven dat van je verlangt geboren te worden, en  eenmaal geboren, van je verlangt vruchtbaar te **** zijn... je   te vermenigvuldigen en zo lang mogelijk te leven - en dat allemaal ** **** op een heel kleine planeet die voor eeuwig [ zou ] mee    @ moeten.
+EVAL:        S                      D              S                         I   I  S                   S       S                    I   I  S                      D    S       S                                                       S               D  D                                   I                   S        S      
+SHFT: 1    1                            1                                                                                                                                                                                                                                                                  2     2        2        
+TER Score:  44.90 ( 22.0/ 49.0)
+
+Shift [de] 4 words left
+ REF:    de   schilder dacht na over het   treurige raadsel van het leven dat *** ** eist     geboren te worden  en, eenmaal geboren, *** ** eist     vruchtbaar te zijn ...     zich te vermenigvuldigen en zo lang mogelijk te leven - om dat allemaal te doen op een heel kleine planeet die **** eeuwig zou moeten duren. 
+ HYP:  [ de ] hij      dacht na over *** @ treurige puzzel  van het leven dat van je verlangt geboren te worden, en  eenmaal geboren, van je verlangt vruchtbaar te **** zijn... je   te vermenigvuldigen en zo lang mogelijk te leven - en dat allemaal ** **** op een heel kleine planeet die voor eeuwig mee zou    moeten.
+
+Shift [zou] 1 words left
+ REF:  de schilder dacht na over het treurige raadsel van het leven dat *** ** eist     geboren te worden  en, eenmaal geboren, *** ** eist     vruchtbaar te zijn ...     zich te vermenigvuldigen en zo lang mogelijk te leven - om dat allemaal te doen op een heel kleine planeet die **** eeuwig   zou   moeten   duren. 
+ HYP:  de hij      dacht na over *** treurige puzzel  van het leven dat van je verlangt geboren te worden, en  eenmaal geboren, van je verlangt vruchtbaar te **** zijn... je   te vermenigvuldigen en zo lang mogelijk te leven - en dat allemaal ** **** op een heel kleine planeet die voor eeuwig [ zou ] mee    @ moeten.
+
+
+
+Sentence ID: 114:1
+Best Ref: alle antwoorden die de schilder kon bedenken waren grimmig. nog grimmiger, zeker, dan een catbox, een happy hooligan, een easy go. hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan honger.
+Orig Hyp: alle antwoorden die de schilder kon bedenken waren akelig. ongetwijfeld nog akeliger dan een kattenbak, een blijde bandiet of een snikkelaar. hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan hongersnood.
+
+REF:  alle antwoorden die de schilder kon bedenken waren grimmig.   nog   grimmiger,     zeker,   dan een catbox,    een happy  hooligan,   een   easy   go.         hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan honger.     
+HYP:  alle antwoorden die de schilder kon bedenken waren akelig.  [ nog ] ongetwijfeld @ akeliger dan een kattenbak, een blijde bandiet   [ een ] of   @ snikkelaar. hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan hongersnood.
+EVAL:                                                    S                S              S                S              S      S                 S      S                                                                      S           
+SHFT:                                                             1     1              1                                                  2     2      2                                                                                    
+TER Score:  32.35 ( 11.0/ 34.0)
+
+Shift [nog] 1 words left
+ REF:  alle antwoorden die de schilder kon bedenken waren grimmig.   nog   grimmiger,     zeker,   dan een catbox,    een happy  hooligan, een easy go.         hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan honger.     
+ HYP:  alle antwoorden die de schilder kon bedenken waren akelig.  [ nog ] ongetwijfeld @ akeliger dan een kattenbak, een blijde bandiet   of  een  snikkelaar. hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan hongersnood.
+
+Shift [een] 1 words left
+ REF:  alle antwoorden die de schilder kon bedenken waren grimmig. nog grimmiger,   zeker,   dan een catbox,    een happy  hooligan,   een   easy   go.         hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan honger.     
+ HYP:  alle antwoorden die de schilder kon bedenken waren akelig.  nog ongetwijfeld akeliger dan een kattenbak, een blijde bandiet   [ een ] of   @ snikkelaar. hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan hongersnood.
+
+
+
+Sentence ID: 115:1
+Best Ref: hij wist dat hij nooit meer zou schilderen. hij liet zijn verfkwast op de droogdoeken vallen. en toen besloot hij dat hij ook zo ongeveer genoeg had van het leven in de gelukkige tuin van het leven, en hij kwam langzaam van de ladder naar beneden.
+Orig Hyp: hij wist dat hij nooit meer zou schilderen. hij liet zijn kwast op de afdeklakens onder hem vallen. toen besloot hij dat hij ook wel genoeg had van het leven in de gelukkige hof des levens en daalde hij langzaam de trap af.
+
+REF:  hij wist dat hij nooit meer zou schilderen. hij liet zijn verfkwast op de *********** droogdoeken   vallen.   en    toen besloot hij dat hij ook zo ongeveer genoeg had van het leven in de gelukkige tuin van het leven, en   hij   kwam     langzaam van de ladder naar beneden.
+HYP:  hij wist dat hij nooit meer zou schilderen. hij liet zijn kwast     op de afdeklakens onder       [ vallen. ] hem @ toen besloot hij dat hij ook ** wel      genoeg had van het leven in de gelukkige **** hof des levens en [ hij ] daalde @ langzaam *** de ****** trap af.     
+EVAL:                                                           S               I           S                       S                                  D  S                                                 D    S   S   S                 S                 D      D      S    S       
+SHFT:                                                                                                   1         1     1                                                                                                          2     2        2                                     
+TER Score:  36.96 ( 17.0/ 46.0)
+
+Shift [vallen.] 1 words left
+ REF:  hij wist dat hij nooit meer zou schilderen. hij liet zijn verfkwast op de *********** droogdoeken   vallen.   en    toen besloot hij dat hij ook zo ongeveer genoeg had van het leven in de gelukkige tuin van het leven, en hij    kwam langzaam van de ladder naar beneden.
+ HYP:  hij wist dat hij nooit meer zou schilderen. hij liet zijn kwast     op de afdeklakens onder       [ vallen. ] hem @ toen besloot hij dat hij ook ** wel      genoeg had van het leven in de gelukkige **** hof des levens en daalde hij  langzaam *** de ****** trap af.     
+
+Shift [hij] 1 words left
+ REF:  hij wist dat hij nooit meer zou schilderen. hij liet zijn verfkwast op de *********** droogdoeken vallen. en  toen besloot hij dat hij ook zo ongeveer genoeg had van het leven in de gelukkige tuin van het leven, en   hij   kwam     langzaam van de ladder naar beneden.
+ HYP:  hij wist dat hij nooit meer zou schilderen. hij liet zijn kwast     op de afdeklakens onder       vallen. hem toen besloot hij dat hij ook ** wel      genoeg had van het leven in de gelukkige **** hof des levens en [ hij ] daalde @ langzaam *** de ****** trap af.     
+
+
+
+Sentence ID: 116:1
+Best Ref: hij pakte het pistool van wehling en was eigenlijk van plan om zichzelf neer te schieten.
+Orig Hyp: hij pakte wehlings pistool, met de bedoeling zichzelf dood te schieten.
+
+REF:  hij pakte het pistool van wehling en was      eigenlijk van plan om        zichzelf neer te schieten.
+HYP:  hij pakte *** ******* *** ******* ** wehlings pistool,  met de   bedoeling zichzelf dood te schieten.
+EVAL:           D   D       D   D       D  S        S         S   S    S                  S                
+SHFT:                                                                                                      
+TER Score:  68.75 ( 11.0/ 16.0)
+
+
+
+Sentence ID: 117:1
+Best Ref: maar hij durfde niet.
+Orig Hyp: maar hij had de moed er niet toe.
+
+REF:  maar hij *** ** **** ** durfde niet.
+HYP:  maar hij had de moed er niet   toe. 
+EVAL:          I   I  I    I  S      S    
+SHFT:                                     
+TER Score: 150.00 (  6.0/  4.0)
+
+
+
+Sentence ID: 118:1
+Best Ref: en toen zag hij de telefooncel in de hoek van de kamer. hij ging erheen en draaide het welbekende nummer: “2 b r 0 2 b.”
+Orig Hyp: toen viel zijn oog op de telefooncel in de hoek van de wachtkamer. hij ging erheen en draaide het goed onthouden nummer: 2 b r 0 2 b.
+
+REF:    en     toen   **** zag hij de telefooncel in de hoek van de kamer.      hij ging erheen en draaide het **** welbekende nummer: “2 b r 0 2 b.”
+HYP:  @ viel [ toen ] zijn oog op  de telefooncel in de hoek van de wachtkamer. hij ging erheen en draaide het goed onthouden  nummer: 2  b r 0 2 b. 
+EVAL:   S             I    S   S                                    S                                          I    S                  S          S  
+SHFT: 1      1      1                                                                                                                                
+TER Score:  38.46 ( 10.0/ 26.0)
+
+Shift [toen] 1 words right
+ REF:    en     toen   **** zag hij de telefooncel in de hoek van de kamer.      hij ging erheen en draaide het **** welbekende nummer: “2 b r 0 2 b.”
+ HYP:  @ viel [ toen ] zijn oog op  de telefooncel in de hoek van de wachtkamer. hij ging erheen en draaide het goed onthouden  nummer: 2  b r 0 2 b. 
+
+
+
+Sentence ID: 119:1
+Best Ref: “federal bureau of termination,” zei de zeer warme stem van een gastvrouw.
+Orig Hyp: 'federale beëindigingsdienst,' sprak de o zo warme stem van een begeleidster.
+
+REF:  “federal bureau    of                   termination,”   zei   de   zeer warme stem van een gastvrouw.   
+HYP:  ******** 'federale beëindigingsdienst,' sprak         @ o   [ de ] zo   warme stem van een begeleidster.
+EVAL: D        S         S                    S               S          S                       S            
+SHFT:                                                       1     1    1                                      
+TER Score:  66.67 (  8.0/ 12.0)
+
+Shift [de] 1 words right
+ REF:  “federal bureau    of                   termination,”   zei   de   zeer warme stem van een gastvrouw.   
+ HYP:  ******** 'federale beëindigingsdienst,' sprak         @ o   [ de ] zo   warme stem van een begeleidster.
+
+
+
+Sentence ID: 120:1
+Best Ref: “hoe snel kan ik een afspraak krijgen?” vroeg hij, terwijl hij heel voorzichtig sprak.
+Orig Hyp: 'kan ik op korte termijn een afspraak krijgen?' vroeg hij uiterst behoedzaam.
+
+REF:  “hoe   snel kan     ik   ******* een afspraak krijgen?” vroeg hij, terwijl hij heel voorzichtig sprak.     
+HYP:  'kan @ op   korte [ ik ] termijn een afspraak krijgen?' vroeg **** ******* hij **** uiterst     behoedzaam.
+EVAL: S      S    S            I                    S               D    D           D    S           S          
+SHFT:      1            1    1                                                                                   
+TER Score:  78.57 ( 11.0/ 14.0)
+
+Shift [ik] 2 words right
+ REF:  “hoe   snel kan     ik   ******* een afspraak krijgen?” vroeg hij, terwijl hij heel voorzichtig sprak.     
+ HYP:  'kan @ op   korte [ ik ] termijn een afspraak krijgen?' vroeg **** ******* hij **** uiterst     behoedzaam.
+
+
+
+Sentence ID: 121:1
+Best Ref: “we kunnen u waarschijnlijk laat in de middag inpassen, meneer,” zei ze. “het kan zelfs eerder, als we een annulering krijgen.”
+Orig Hyp: 'we kunnen wellicht in de namiddag een gaatje voor u vinden, meneer,' zei ze. 'misschien zelfs eerder, als iemand afzegt.'
+
+REF:  “we kunnen   u   waarschijnlijk   laat         in de   ****** middag   inpassen, meneer,” zei ze. “het kan        zelfs eerder, als we   een   annulering krijgen.”
+HYP:  'we kunnen [ u ] wellicht       @ namiddag @ [ in de ] gaatje voor   @ vinden,   meneer,' zei ze. **** 'misschien zelfs eerder, als ** [ een ] iemand     afzegt.' 
+EVAL: S                S                S                    I      S        S         S                D    S                            D          S          S        
+SHFT:            3   3                1          2 1       1               3                                                                 2     2                     
+TER Score:  71.43 ( 15.0/ 21.0)
+
+Shift [in, de] 2 words right
+ REF:  “we kunnen u          waarschijnlijk laat   in de   ****** **** middag inpassen, meneer,” zei ze. “het kan        zelfs eerder, als we een annulering krijgen.”
+ HYP:  'we kunnen wellicht @ namiddag       een  [ in de ] gaatje voor u      vinden,   meneer,' zei ze. **** 'misschien zelfs eerder, als ** *** iemand     afzegt.' 
+
+Shift [een] 13 words right
+ REF:  “we kunnen u waarschijnlijk laat       in de ****** **** middag inpassen, meneer,” zei ze. “het kan        zelfs eerder, als we   een   annulering krijgen.”
+ HYP:  'we kunnen * wellicht       namiddag @ in de gaatje voor u      vinden,   meneer,' zei ze. **** 'misschien zelfs eerder, als ** [ een ] iemand     afzegt.' 
+
+Shift [u] 6 words left
+ REF:  “we kunnen   u   waarschijnlijk laat     in de ****** middag   inpassen, meneer,” zei ze. “het kan        zelfs eerder, als we een annulering krijgen.”
+ HYP:  'we kunnen [ u ] wellicht       namiddag in de gaatje voor   @ vinden,   meneer,' zei ze. **** 'misschien zelfs eerder, als ** een iemand     afzegt.' 
+
+
+
+Sentence ID: 122:1
+Best Ref: “oké,” zei de schilder, ”maak maar een afspraak voor me, als u wilt.” en hij spelde zijn naam.
+Orig Hyp: 'goed,' zei de schilder, 'plan me maar in, alstublieft.' en hij gaf haar zijn naam, letter voor letter.
+
+REF:  “oké,”  zei de schilder, ”maak   maar   een   afspraak voor            me, als  u    wilt.”   en hij   spelde zijn naam.  
+HYP:  'goed,' zei de schilder, 'plan [ maar ] me  @ in,      alstublieft.' @ gaf haar zijn naam,  [ en hij ] letter voor letter.
+EVAL: S                        S              S     S        S               S   S    S    S                 S      S    S      
+SHFT:                                2      2     2                        1                      1        1                    
+TER Score:  77.78 ( 14.0/ 18.0)
+
+Shift [en, hij] 4 words right
+ REF:  “oké,”  zei de schilder, ”maak maar een  afspraak voor            me, als  u    wilt.”   en hij   spelde zijn naam.  
+ HYP:  'goed,' zei de schilder, 'plan me   maar in,      alstublieft.' @ gaf haar zijn naam,  [ en hij ] letter voor letter.
+
+Shift [maar] 1 words left
+ REF:  “oké,”  zei de schilder, ”maak   maar   een   afspraak voor          me, als  u    wilt.” en hij spelde zijn naam.  
+ HYP:  'goed,' zei de schilder, 'plan [ maar ] me  @ in,      alstublieft.' gaf haar zijn naam,  en hij letter voor letter.
+
+
+
+Sentence ID: 123:1
+Best Ref: “dank u, meneer,” zei de gastvrouw. “uw stad dankt u; uw land dankt u; uw planeet dankt u. maar de diepste dank van allemaal komt van toekomstige generaties.”
+Orig Hyp: 'dank u wel, meneer,' zei de begeleidster. 'uw stad bedankt u, uw land bedankt u en uw planeet bedankt u. maar toekomstige generaties bedanken u nog het meest.'
+
+REF:  ***** “dank u,   meneer,” zei de gastvrouw.    “uw stad dankt   u; uw land ******* dankt u; uw planeet dankt   u. maar de diepste   dank       van      allemaal komt van   toekomstige   generaties.”
+HYP:  'dank u     wel, meneer,' zei de begeleidster. 'uw stad bedankt u, uw land bedankt u     en uw planeet bedankt u. maar ** ******* @ generaties bedanken u        nog  het [ toekomstige ] meest.'     
+EVAL: I     S     S    S               S             S        S       S          I       S     S             S               D  D         S          S        S        S    S                   S           
+SHFT:                                                                                                                                   1                                       1             1             
+TER Score:  75.00 ( 21.0/ 28.0)
+
+Shift [toekomstige] 5 words right
+ REF:  ***** “dank u,   meneer,” zei de gastvrouw.    “uw stad dankt   u; uw land ******* dankt u; uw planeet dankt   u. maar de diepste   dank       van      allemaal komt van   toekomstige   generaties.”
+ HYP:  'dank u     wel, meneer,' zei de begeleidster. 'uw stad bedankt u, uw land bedankt u     en uw planeet bedankt u. maar ** ******* @ generaties bedanken u        nog  het [ toekomstige ] meest.'     
+
+
+

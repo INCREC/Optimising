@@ -1,0 +1,1101 @@
+Sentence ID: 1:1
+Original Ref: 2br02b
+Original Hyp: ﻿2br02b
+Hyp After Shift: ﻿2br02b
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 2:1
+Original Ref: alles was perfect in orde.
+Original Hyp: alles was piekfijn geregeld.
+Hyp After Shift: alles was piekfijn geregeld.
+Alignment: (  DSS)
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 3:1
+Original Ref: "er waren geen gevangenissen, geen sloppenwijken, geen krankzinnigengestichten, geen invaliden, geen armoede, geen oorlogen."
+Original Hyp: er waren geen gevangenissen, geen sloppenwijken, geen krankzinnigengestichten, geen invaliden, geen armoede, geen oorlogen.
+Hyp After Shift: er waren geen gevangenissen, geen sloppenwijken, geen krankzinnigengestichten, geen invaliden, geen armoede, geen oorlogen.
+Alignment: (S            S)
+NumShifts: 0
+Score: 0.14285714285714285 (2.0/14.0)
+
+Sentence ID: 4:1
+Original Ref: alle ziekten waren overwonnen. ook ouderdom was verslagen.
+Original Hyp: alle ziektes waren overwonnen. dat gold ook voor ouderdom.
+Hyp After Shift: alle ziektes waren overwonnen. ook dat gold voor ouderdom.
+Alignment: ( S   ISSS)
+NumShifts: 1
+  [6, 6, 3/3] ([ook])
+Score: 0.75 (6.0/8.0)
+
+Sentence ID: 5:1
+Original Ref: dood, afgezien van ongelukken, was een avontuur voor vrijwilligers.
+Original Hyp: de dood, ongelukken daargelaten, was een avontuur voor vrijwilligers.
+Hyp After Shift: dood, de ongelukken daargelaten, was een avontuur voor vrijwilligers.
+Alignment: ( SSS     )
+NumShifts: 1
+  [1, 1, -1/-1] ([dood,])
+Score: 0.4444444444444444 (4.0/9.0)
+
+Sentence ID: 6:1
+Original Ref: de bevolking van de verenigde staten was gestabiliseerd op veertig miljoen zielen.
+Original Hyp: met veertig miljoen stervelingen was het inwonersaantal van de verenigde staten in evenwicht gebracht.
+Hyp After Shift: met stervelingen het inwonersaantal van de verenigde staten was in evenwicht veertig miljoen gebracht.
+Alignment: (IISS     SS  S)
+NumShifts: 2
+  [1, 2, 10/12] ([veertig, miljoen])
+  [2, 2, 6/8] ([was])
+Score: 0.75 (9.0/12.0)
+
+Sentence ID: 7:1
+Original Ref: op een stralende ochtend in het chicago lying-in hospital wachtte een man genaamd edward k. wehling jr. op de bevalling van zijn vrouw. hij was de enige man die aan het wachten was. er werden tegenwoordig niet veel mensen meer per dag geboren.
+Original Hyp: op een stralende ochtend zat er een man genaamd edward k. wehling jr. in het geboortehuis van chicago te wachten tot zijn vrouw zou bevallen. hij was de enige wachtende. zoveel mensen werden er op een dag niet meer geboren.
+Hyp After Shift: op een stralende ochtend in het chicago zat er een man genaamd edward k. wehling jr. geboortehuis te tot van zijn vrouw zou bevallen. hij was de enige wachtende. zoveel wachten werden er op een niet mensen meer dag geboren.
+Alignment: (       DSS       SSS  IIS    DDSS S SS D  D  )
+NumShifts: 6
+  [13, 14, 4/3] ([in, het])
+  [17, 17, 6/5] ([chicago])
+  [19, 19, 31/31] ([wachten])
+  [36, 36, 41/38] ([dag])
+  [17, 17, 20/19] ([van])
+  [30, 30, 38/36] ([mensen])
+Score: 0.5581395348837209 (24.0/43.0)
+
+Sentence ID: 8:1
+Original Ref: wehling was zesenvijftig, een jonge spruit in een bevolking met een gemiddelde leeftijd van honderdnegenentwintig.
+Original Hyp: wehling was zesenvijftig, een jochie nog maar in een bevolking met een gemiddelde leeftijd van honderdnegenentwintig jaar.
+Hyp After Shift: wehling was zesenvijftig, een jochie nog maar in een bevolking met een gemiddelde leeftijd van honderdnegenentwintig jaar.
+Alignment: (    ISS        IS)
+NumShifts: 0
+Score: 0.3333333333333333 (5.0/15.0)
+
+Sentence ID: 9:1
+Original Ref: röntgenfoto's hadden onthuld dat zijn vrouw drie kinderen zou krijgen. de kinderen zouden zijn eerste zijn.
+Original Hyp: uit röntgenfoto's was gebleken dat zijn vrouw een drieling verwachtte. het zouden zijn eerste kinderen zijn.
+Hyp After Shift: uit röntgenfoto's was gebleken dat zijn vrouw kinderen een drieling verwachtte. het zouden zijn eerste zijn.
+Alignment: (I SS   D SSSS    )
+NumShifts: 1
+  [14, 14, 7/6] ([kinderen])
+Score: 0.5625 (9.0/16.0)
+
+Sentence ID: 10:1
+Original Ref: jonge wehling zat ineengedoken in zijn stoel, zijn hoofd in zijn handen. hij was zo verfrommeld, zo stil en kleurloos dat hij bijna onzichtbaar was. zijn camouflage was perfect, aangezien de wachtkamer ook een wanordelijke en ontmoedigde sfeer uitstraalde. stoelen en asbakken waren van de muren weggezet. de vloer was bedekt met gespatte afdekkleden.
+Original Hyp: de jonge wehling zat voorovergebogen op zijn stoel met zijn hoofd in zijn hand. hij zat er zo verfomfaaid bij, zo onbeweeglijk en bleek, dat hij praktisch onzichtbaar was. zijn camouflage kon niet beter, aangezien er in de wachtkamer ook een sfeer van wanorde en ontmoediging hing. stoelen en asbakken waren van de muren geschoven. overal op de vloer lagen afdeklakens vol verfspetters.
+Hyp After Shift: de jonge wehling zat voorovergebogen in op zijn stoel met zijn hoofd in zijn hand. hij zat er zo verfomfaaid bij, zo onbeweeglijk en bleek, dat hij praktisch onzichtbaar was. zijn camouflage kon niet beter, aangezien er de wachtkamer ook een van wanorde en ontmoediging sfeer hing. stoelen en asbakken waren van de muren geschoven. overal op de vloer lagen afdeklakens vol verfspetters.
+Alignment: (I   S I IS    S IS IS S S  S    ISS I    IS S S       IIS  DSSSS)
+NumShifts: 2
+  [41, 41, 37/45] ([sfeer])
+  [36, 36, 3/4] ([in])
+Score: 0.5740740740740741 (31.0/54.0)
+
+Sentence ID: 11:1
+Original Ref: de kamer werd opnieuw ingericht. het werd opnieuw ingericht als een gedenkteken voor een man die zich vrijwillig had aangemeld om te sterven.
+Original Hyp: de ruimte werd opgeknapt. hij werd opgeknapt ter nagedachtenis aan een man die zich vrijwillig had opgegeven om te sterven.
+Hyp After Shift: de ruimte werd opgeknapt. hij werd opgeknapt ter nagedachtenis aan een man die zich vrijwillig had opgegeven om te sterven.
+Alignment: ( S DSS DDSSSS      S   )
+NumShifts: 0
+Score: 0.4782608695652174 (11.0/23.0)
+
+Sentence ID: 12:1
+Original Ref: een sardonische oude man, ongeveer tweehonderd jaar oud, zat op een keukentrapje en schilderde een muurschildering die hij niet mooi vond. in de tijd toen mensen nog zichtbaar ouder werden, zou zijn leeftijd op ongeveer vijfendertig zijn geschat. zozeer had het ouder worden hem aangeraakt voordat de remedie tegen ouderdom werd gevonden.
+Original Hyp: een cynische oude man van een jaar of tweehonderd zat op een ladder en maakte een muurschildering die hem niet aanstond. vroeger, toen mensen nog zichtbaar verouderden, zou zijn leeftijd rond de vijfendertig zijn geschat. zo ver had zijn veroudering ingezet voordat het geneesmiddel hiervoor werd ontdekt.
+Hyp After Shift: een cynische oude man van tweehonderd een jaar of zat op een ladder en maakte een muurschildering die niet aanstond. de vroeger, toen mensen nog zichtbaar verouderden, zou zijn leeftijd rond vijfendertig zijn geschat. zo had ver zijn veroudering hem ingezet voordat het geneesmiddel hiervoor werd ontdekt.
+Alignment: ( S SS I S   S S   D DDS S    DS   DS   S SSS S DSSS S)
+NumShifts: 4
+  [8, 8, 4/4] ([tweehonderd])
+  [18, 18, 43/39] ([hem])
+  [30, 30, 22/19] ([de])
+  [36, 36, 38/34] ([had])
+Score: 0.5769230769230769 (30.0/52.0)
+
+Sentence ID: 13:1
+Original Ref: de muurschildering waar hij aan werkte, stelde een zeer nette tuin voor. mannen en vrouwen in het wit, artsen en verpleegkundigen, bewerkten de grond, plantten zaailingen, spoten insecten en verspreidden meststoffen.
+Original Hyp: de muurschildering waar hij aan werkte verbeeldde een bijzonder nette tuin. mannen en vrouwen in het wit, artsen en verpleegkundigen, spitten de aarde om, plantten zaailingen, spoten met insectenspray en strooiden kunstmest.
+Hyp After Shift: de muurschildering waar hij aan werkte verbeeldde een bijzonder nette tuin. mannen en vrouwen in het wit, artsen en verpleegkundigen, spitten de aarde om, plantten zaailingen, spoten met insectenspray en strooiden kunstmest.
+Alignment: (     SS S DS         S IS   IS SS)
+NumShifts: 0
+Score: 0.3870967741935484 (12.0/31.0)
+
+Sentence ID: 14:1
+Original Ref: mannen en vrouwen in paarse uniformen trokken onkruid uit, kapten planten die oud en ziek waren, harkten bladeren en brachten afval naar de vuilverbranders.
+Original Hyp: mannen en vrouwen in paarse uniformen wiedden onkruid, rooiden planten die oud en zwak waren, harkten bladeren bijeen en droegen afval naar verbrandingstonnen.
+Hyp After Shift: mannen en vrouwen in paarse uniformen wiedden onkruid, rooiden planten die oud en zwak waren, harkten bladeren bijeen en droegen afval naar verbrandingstonnen.
+Alignment: (      DSSS    S   I S  DS)
+NumShifts: 0
+Score: 0.375 (9.0/24.0)
+
+Sentence ID: 15:1
+Original Ref: nooit, nooit, nooit—zelfs niet in middeleeuws holland of het oude japan—was een tuin formeler geweest, beter verzorgd. elke plant had alle aarde, licht, water, lucht en voedingsstoffen die het kon gebruiken.
+Original Hyp: er was werkelijk waar nog nooit zo'n formele of goed onderhouden tuin geweest, zelfs niet in middeleeuws holland of het oude japan. elke plant was rijkelijk voorzien van aarde, licht, water, lucht en voeding.
+Hyp After Shift: er was werkelijk waar nog nooit zo'n formele of goed onderhouden zelfs niet in middeleeuws holland of het oude tuin japan. geweest, was rijkelijk elke plant voorzien van aarde, licht, water, lucht en voeding.
+Alignment: (IIIIIIIIISSS       DD S SS  SS     DDDDS)
+NumShifts: 3
+  [22, 23, 18/25] ([elke, plant])
+  [11, 11, 12/20] ([tuin])
+  [11, 11, 14/21] ([geweest,])
+Score: 0.8709677419354839 (27.0/31.0)
+
+Sentence ID: 16:1
+Original Ref: een ziekenhuismedewerker kwam de gang door, zachtjes een populair liedje neuriënd:
+Original Hyp: er kwam een verpleeghulp door de gang aangelopen die zachtjes een populair liedje zong:
+Hyp After Shift: er een verpleeghulp kwam door de gang aangelopen die zachtjes een populair liedje zong:
+Alignment: (I S I  IS    S)
+NumShifts: 1
+  [1, 1, 1/3] ([kwam])
+Score: 0.6363636363636364 (7.0/11.0)
+
+Sentence ID: 17:1
+Original Ref: als je mijn kussen niet leuk vindt, lieverd,
+Original Hyp: als jij mijn kussen niet ziet zitten, lief,
+Hyp After Shift: als jij mijn kussen niet ziet zitten, lief,
+Alignment: ( S   SSS)
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 18:1
+Original Ref: hier is wat ik zal doen:
+Original Hyp: dan valt dat me zo zwaar,
+Hyp After Shift: dan valt dat me zo zwaar,
+Alignment: (SSSSSS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 19:1
+Original Ref: ik ga een meisje in het paars opzoeken.
+Original Hyp: ga ik een vrouw in 't paars bezoeken,
+Hyp After Shift: ik ga een vrouw in 't paars bezoeken,
+Alignment: (   S S S)
+NumShifts: 1
+  [0, 0, 1/1] ([ga])
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 20:1
+Original Ref: kus deze droevige wereld vaarwel.
+Original Hyp: voor een laatste 'au revoir'.
+Hyp After Shift: voor een laatste 'au revoir'.
+Alignment: (SSSSS)
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 21:1
+Original Ref: als je mijn liefde niet wilt,
+Original Hyp: als jij mijn liefde afwijst, schatje,
+Hyp After Shift: als jij mijn liefde afwijst, schatje,
+Alignment: ( S  SS)
+NumShifts: 0
+Score: 0.5 (3.0/6.0)
+
+Sentence ID: 22:1
+Original Ref: waarom zou ik al deze ruimte innemen?
+Original Hyp: dan word ik knettergek,
+Hyp After Shift: dan word ik knettergek,
+Alignment: (SS DDDS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 23:1
+Original Ref: ik zal deze oude planeet verlaten.
+Original Hyp: zal ik van deze aarde scheiden,
+Hyp After Shift: ik zal deze van aarde scheiden,
+Alignment: (   SSS)
+NumShifts: 2
+  [0, 0, 0/1] ([zal])
+  [3, 3, 1/1] ([deze])
+Score: 0.8333333333333334 (5.0/6.0)
+
+Sentence ID: 24:1
+Original Ref: laat een lief kindje mijn plek innemen.
+Original Hyp: en mag een baby'tje mijn plek.
+Hyp After Shift: en een mag baby'tje mijn plek.
+Alignment: (S SS DS)
+NumShifts: 1
+  [2, 2, 0/0] ([een])
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 25:1
+Original Ref: de verzorger keek naar de muurschildering en de maker ervan. "het ziet er zo echt uit," zei hij, "ik kan me bijna voorstellen dat ik er middenin sta."
+Original Hyp: de verpleeghulp keek even naar de muurschilder en de muurschildering. 'net echt,' zei hij. 'ik krijg bijna het gevoel dat ik ertussen sta.'
+Hyp After Shift: de verpleeghulp keek even naar de muurschilder en de muurschildering. 'net echt,' zei hij. 'ik krijg het bijna gevoel dat ik ertussen sta.'
+Alignment: ( S I  S  DDDDDSSS SSSS S  DSS)
+NumShifts: 1
+  [16, 16, 21/17] ([bijna])
+Score: 0.7142857142857143 (20.0/28.0)
+
+Sentence ID: 26:1
+Original Ref: "wat doet je denken dat je er niet in zit?" zei de schilder. hij gaf een satirische glimlach. "het heet 'de gelukkige tuin des levens', weet je."
+Original Hyp: 'wie zegt dat je d'r niet tussen staat?' zei de schilder. hij glimlachte spottend. 'het heet namelijk "de gelukkige hof des levens".'
+Hyp After Shift: 'wie zegt dat je d'r niet tussen staat?' zei de schilder. hij glimlachte spottend. 'het namelijk heet "de gelukkige hof des levens".'
+Alignment: (DDSS  S SS    DSSSS S S DDS)
+NumShifts: 1
+  [15, 15, 19/16] ([heet])
+Score: 0.6666666666666666 (18.0/27.0)
+
+Sentence ID: 27:1
+Original Ref: "dat is vriendelijk van dr. hitz," zei de verpleger.
+Original Hyp: 'dokter hitz lijkt goed,' zei de verpleeghulp,
+Hyp After Shift: 'dokter hitz lijkt goed,' zei de verpleeghulp,
+Alignment: (DDSSSS  S)
+NumShifts: 0
+Score: 0.7777777777777778 (7.0/9.0)
+
+Sentence ID: 28:1
+Original Ref: hij verwees naar een van de mannelijke figuren in het wit, wiens hoofd een portret was van dr. benjamin hitz, de hoofdverloskundige van het ziekenhuis. hitz was een verblindend knappe man.
+Original Hyp: verwijzend aan een van de mannelijke figuren in het wit, wiens gezicht een portret was van dokter benjamin hitz. hitz was het hoofd verloskunde van het geboortehuis, en een verbluffend knappe man.
+Hyp After Shift: verwijzend aan een van de mannelijke figuren in het wit, wiens hoofd gezicht een portret was van dokter benjamin hitz. het verloskunde van het geboortehuis, hitz was en een verbluffend knappe man.
+Alignment: (DSS          I    S SSS  S  I S  )
+NumShifts: 2
+  [19, 20, 25/26] ([hitz, was])
+  [20, 20, 11/10] ([hoofd])
+Score: 0.41935483870967744 (13.0/31.0)
+
+Sentence ID: 29:1
+Original Ref: "helaas moeten er nog veel gezichten worden ingevuld," zei de verpleger. hij bedoelde dat de gezichten van veel van de figuren in het muurschildering nog leeg waren. alle lege plekken moesten worden opgevuld met portretten van belangrijke personen, ofwel van het ziekenhuispersoneel of uit het kantoor in chicago van het federale bureau voor beëindiging.
+Original Hyp: 'er moeten nog een hoop gezichten worden opgevuld,' zei de verpleeghulp. hij bedoelde dat veel figuren op de muurschildering nog geen gezicht hadden. alle blanco gezichten moesten worden opgevuld met een portret van een belangrijke medewerker van het geboortehuis of van het filiaal in chicago van de federale beëindigingsdienst.
+Hyp After Shift: 'er moeten een nog hoop gezichten worden opgevuld,' zei de verpleeghulp. hij bedoelde dat de gezichten veel van de figuren op muurschildering nog geen gezicht alle hadden. blanco moesten worden opgevuld met een portret van belangrijke een medewerker van het geboortehuis of filiaal in chicago van het federale beëindigingsdienst.
+Alignment: (S S S  S  S     D    DS  SS SS    IS  SS  S DDS     DDS)
+NumShifts: 7
+  [45, 46, 18/14] ([van, de])
+  [42, 43, 48/46] ([van, het])
+  [2, 2, 3/3] ([nog])
+  [19, 19, 14/13] ([de])
+  [27, 27, 15/14] ([gezichten])
+  [26, 26, 26/24] ([alle])
+  [36, 36, 35/34] ([belangrijke])
+Score: 0.5555555555555556 (30.0/54.0)
+
+Sentence ID: 30:1
+Original Ref: "het moet fijn zijn om beelden te kunnen maken die ergens op lijken," zei de verpleger.
+Original Hyp: 'wat fijn als je schilderijen kunt maken die ergens op lijken,' zei de verpleeghulp.
+Hyp After Shift: 'wat fijn als je schilderijen kunt maken die ergens op lijken,' zei de verpleeghulp.
+Alignment: (DS DSSSS    S  S)
+NumShifts: 0
+Score: 0.5625 (9.0/16.0)
+
+Sentence ID: 31:1
+Original Ref: de schilder's gezicht verzuurde van minachting. "denk je dat ik trots ben op deze klodder?" zei hij. "denk je dat dit mijn idee is van hoe het leven er echt uitziet?"
+Original Hyp: het gezicht van de schilder vertrok vol minachting. 'denk je dat ik trots ben op dit gedrocht?' zei hij. 'denk je echt dat ik het leven zo in beeld zou brengen?'
+Hyp After Shift: het de schilder gezicht vertrok vol minachting. 'denk je dat ik trots ben op gedrocht?' zei hij. 'denk je echt dit dat ik zo van in het leven beeld zou brengen?'
+Alignment: (I S SS S      DS  S S SSS S  SSS)
+NumShifts: 4
+  [24, 25, 27/27] ([het, leven])
+  [1, 1, 2/4] ([gezicht])
+  [1, 1, 24/24] ([van])
+  [14, 14, 20/20] ([dit])
+Score: 0.6451612903225806 (20.0/31.0)
+
+Sentence ID: 32:1
+Original Ref: "hoe denk jij dat het leven eruitziet?" zei de ziekenverzorger.
+Original Hyp: 'hoe zou u het leven dan in beeld brengen?' vroeg de verpleeghulp
+Hyp After Shift: 'hoe zou u het leven dan in beeld brengen?' vroeg de verpleeghulp
+Alignment: (DSSS  IIISS S)
+NumShifts: 0
+Score: 1.0 (10.0/10.0)
+
+Sentence ID: 33:1
+Original Ref: de schilder gebaarde naar een smerig afdekzeil. "daar is een goede afbeelding van," zei hij. "lijst dat in, en je zult een afbeelding hebben die verdomd veel eerlijker is dan deze."
+Original Hyp: de schilder gebaarde naar een smerig afdekkleed. 'dat is wel een goede weergave,' zei hij. 'doe daar een lijst omheen en je hebt schilderij dat een stuk oprechter is dan dit hier.'
+Hyp After Shift: de schilder gebaarde naar een smerig afdekkleed. 'dat is wel een goede weergave,' zei hij. 'doe daar een en je lijst een omheen hebt schilderij dat stuk oprechter is dan dit hier.'
+Alignment: (      SS I  DS  SSS  S SSSSSS  IS)
+NumShifts: 2
+  [20, 21, 17/17] ([en, je])
+  [25, 25, 20/20] ([een])
+Score: 0.6129032258064516 (19.0/31.0)
+
+Sentence ID: 34:1
+Original Ref: "je bent een sombere oude eend, nietwaar?" zei de verpleger.
+Original Hyp: 'u bent wel een zwartgallige oude snuiter, zeg,' zei de verpleeghulp.
+Hyp After Shift: 'u bent wel een zwartgallige oude snuiter, zeg,' zei de verpleeghulp.
+Alignment: (S I S SS  S)
+NumShifts: 0
+Score: 0.6 (6.0/10.0)
+
+Sentence ID: 35:1
+Original Ref: "is dat een misdaad?" zei de schilder.
+Original Hyp: 'dat is toch geen misdaad?' zei de schilder.
+Hyp After Shift: 'dat is toch geen misdaad?' zei de schilder.
+Alignment: (ISSSS   )
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 36:1
+Original Ref: de verpleger haalde zijn schouders op. "als je het hier niet leuk vindt, opa—" zei hij, en hij maakte de zin af met het tructelefoonnummer dat mensen die niet meer wilden leven geacht werden te bellen. de nul in het telefoonnummer sprak hij uit als "nul."
+Original Hyp: de verpleeghulp haalde zijn schouders op. 'als het u hier niet bevalt, opa...' zei hij, en hij maakte de gedachte af met het geestige telefoonnummer dat mensen die niet meer wilden leven konden bellen. hij sprak het telefoonnummer op zijn engels uit, met de ouderwetse 'naught'-uitspraak voor de nul.
+Hyp After Shift: de verpleeghulp haalde zijn schouders op. 'als u het hier niet bevalt, opa...' zei hij, en hij maakte de gedachte af met het geestige telefoonnummer dat mensen die niet meer wilden leven konden hij sprak bellen. de op zijn engels uit, het telefoonnummer met ouderwetse 'naught'-uitspraak voor de nul.
+Alignment: ( S    SS   DSS      S   IS       SSS  IISS  ISSSSS)
+NumShifts: 4
+  [36, 37, 38/41] ([het, telefoonnummer])
+  [7, 7, 8/8] ([het])
+  [33, 33, 34/35] ([bellen.])
+  [43, 43, 35/35] ([de])
+Score: 0.5652173913043478 (26.0/46.0)
+
+Sentence ID: 37:1
+Original Ref: het nummer was: "2 b r 0 2 b."
+Original Hyp: het nummer was: '2 b r 0 2 b'.
+Hyp After Shift: het nummer was: '2 b r 0 2 b'.
+Alignment: (   S    S)
+NumShifts: 0
+Score: 0.2222222222222222 (2.0/9.0)
+
+Sentence ID: 38:1
+Original Ref: het was het telefoonnummer van een instituut met fantasierijke bijnamen zoals: "automaat," "vogelland," "conservenfabriek," "kattenbak," "ontluiser," "gemakkelijk," "vaarwel, moeder," "blije hooligan," "kus-me-snel," "gelukkige pierre," "schapenbad," "waring blender," "huil-niet-meer" en "waarom zorgen?"
+Original Hyp: dit was het telefoonnummer van een instelling die ook wel bekendstond als: 'automatiek', 'geheim gemak', 'inmakerij', 'kattenbak', 'verdelger', 'zo gepiept', 'vaarwel, moeder', 'blijde bandiet', 'genadeslag', 'snikkelaar', 'ontsmettingsbad', 'hakmolen', 'tranendroger' en 'geen zorgen'.
+Hyp After Shift: dit was het telefoonnummer van een instelling die ook wel bekendstond als: 'automatiek', 'geheim gemak', 'inmakerij', 'kattenbak', 'verdelger', 'zo gepiept', 'vaarwel, moeder', 'blijde bandiet', 'genadeslag', 'snikkelaar', 'ontsmettingsbad', 'hakmolen', 'tranendroger' en 'geen zorgen'.
+Alignment: (S     ISSSSSSSSSSSSSSSSSSSSSS SS)
+NumShifts: 0
+Score: 0.8387096774193549 (26.0/31.0)
+
+Sentence ID: 39:1
+Original Ref: "zijn of niet zijn" was het telefoonnummer van de gemeentelijke gaskamers van het federaal bureau van beëindiging.
+Original Hyp: 'to be or not to be' was het telefoonnummer van de gemeentelijke gaskamers van de federale beëindigingsdienst.
+Hyp After Shift: 'to be or not to be' was het telefoonnummer van de gemeentelijke gaskamers van de federale beëindigingsdienst.
+Alignment: (IISSSS        DDSSS)
+NumShifts: 0
+Score: 0.6470588235294118 (11.0/17.0)
+
+Sentence ID: 40:1
+Original Ref: de schilder stak zijn duim naar zijn neus bij de ordonnans. "als ik besluit dat het tijd is om te vertrekken," zei hij, "zal het niet bij de sheepdip zijn."
+Original Hyp: de schilder haalde laatdunkend zijn schouders op. 'als ik besluit dat het tijd is om eruit te stappen', zei hij, 'ga ik mooi niet naar de verdelger.'
+Hyp After Shift: de schilder haalde laatdunkend naar zijn schouders op. 'als ik besluit dat het tijd is om eruit te stappen', zei hij, 'ga ik niet mooi de verdelger.'
+Alignment: (  DSS  DDSSS       I S  SS S DS)
+NumShifts: 2
+  [24, 24, 5/3] ([naar])
+  [24, 24, 24/22] ([niet])
+Score: 0.5666666666666667 (17.0/30.0)
+
+Sentence ID: 41:1
+Original Ref: "een doe-het-zelver, hè?" zei de verpleger. "rommelige zaak, opa. waarom toon je niet wat meer begrip voor de mensen die alles na jou moeten opruimen?"
+Original Hyp: 'aha, een doe-het-zelver,' zei de verpleeghulp. 'dat wordt een rotzooitje, hoor, opa. waarom houdt u niet een beetje rekening met de mensen die de boel moeten opruimen?'
+Hyp After Shift: 'aha, een doe-het-zelver,' zei de verpleeghulp. 'dat wordt een rotzooitje, hoor, opa. waarom houdt u niet een beetje rekening met de mensen die de boel moeten opruimen?'
+Alignment: (SSS  IIISSS  SS SSSS   DSS S)
+NumShifts: 0
+Score: 0.76 (19.0/25.0)
+
+Sentence ID: 42:1
+Original Ref: de schilder drukte met een belediging uit hoe weinig hij zich bekommerde om de moeilijkheden van zijn nabestaanden. "de wereld kan wel wat meer chaos gebruiken, als je het mij vraagt," zei hij.
+Original Hyp: met een schunnig woord liet de schilder zijn gebrek aan mededogen voor de beproeving van degenen die hem overleefden blijken. 'de wereld kan wel wat meer rotzooi gebruiken, als je het mij vraagt,' zei hij.
+Hyp After Shift: de schilder met een schunnig woord liet zijn gebrek aan mededogen voor de beproeving van degenen die hem overleefden blijken. 'de wereld kan wel wat meer rotzooi gebruiken, als je het mij vraagt,' zei hij.
+Alignment: (  D  SSSSSSSS S IIISSS     S     S  )
+NumShifts: 1
+  [5, 6, -1/-1] ([de, schilder])
+Score: 0.5757575757575758 (19.0/33.0)
+
+Sentence ID: 43:1
+Original Ref: de verpleger lachte en liep verder.
+Original Hyp: de verpleeghulp schoot in de lach en liep weer verder.
+Hyp After Shift: de verpleeghulp schoot in de lach en liep weer verder.
+Alignment: ( IIISS  I )
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 44:1
+Original Ref: wehling, de wachtende vader, mompelde iets zonder zijn hoofd op te heffen. en toen viel hij weer stil.
+Original Hyp: wehling, de wachtende vader, mompelde iets zonder zijn hoofd op te heffen. en toen zweeg hij weer.
+Hyp After Shift: wehling, de wachtende vader, mompelde iets zonder zijn hoofd op te heffen. en toen zweeg hij weer.
+Alignment: (              S DS)
+NumShifts: 0
+Score: 0.16666666666666666 (3.0/18.0)
+
+Sentence ID: 45:1
+Original Ref: een ruwe, geduchte vrouw stapte op naaldhakken de wachtkamer binnen. haar schoenen, kousen, regenjas, tas en overzeese pet waren allemaal paars, de paarstint die de schilder "de kleur van druiven op de dag des oordeels" noemde.
+Original Hyp: er beende een forse, ontzagwekkende vrouw op naaldhakken de wachtkamer in. haar schoenen, kousen, regenjas, tas en baret waren paars, van dat paars dat de schilder 'de kleur van druiven op de dag des oordeels' noemde.
+Hyp After Shift: er beende een forse, ontzagwekkende vrouw op naaldhakken de wachtkamer in. haar schoenen, kousen, regenjas, tas en baret waren van paars, dat paars dat de schilder 'de kleur van druiven op de dag des oordeels' noemde.
+Alignment: (II SS D    S      DS S SSS  S       S )
+NumShifts: 1
+  [19, 19, 20/20] ([paars,])
+Score: 0.4166666666666667 (15.0/36.0)
+
+Sentence ID: 46:1
+Original Ref: de medaille op haar paarse musettetas was het zegel van de service divisie van het federale bureau van beëindiging, een adelaar die op een draaikruis zat.
+Original Hyp: de penning op haar paarse ransel was het zegel van de bijstandsafdeling van de federale beëindigingsdienst: een adelaar op een draaihek.
+Hyp After Shift: de penning op haar paarse ransel was het zegel van de bijstandsafdeling van de federale beëindigingsdienst: een adelaar op een draaihek.
+Alignment: ( S   S     DS S DDS  D  DS)
+NumShifts: 0
+Score: 0.4230769230769231 (11.0/26.0)
+
+Sentence ID: 47:1
+Original Ref: de vrouw had veel gezichtshaar – een onmiskenbare snor, zelfs. een merkwaardig iets aan gastvrouwen van gaskamers was dat, hoe mooi en vrouwelijk ze ook waren toen ze werden aangenomen, ze binnen vijf jaar allemaal een snor kregen.
+Original Hyp: de vrouw had nogal wat gezichtshaar. sterker nog: je kon niet om haar snor heen. een opmerkelijk gegeven van gaskamerbegeleidsters was dat hoe mooi en vrouwelijk ze ook waren op het moment van hun aanstelling, binnen een jaar of vijf hadden ze allemaal een snor gekregen.
+Hyp After Shift: de vrouw had nogal wat gezichtshaar. sterker nog: je een kon niet om een haar snor heen. opmerkelijk gegeven van gaskamerbegeleidsters was dat hoe mooi en vrouwelijk ze ook waren op het ze moment van hun aanstelling, binnen of vijf jaar hadden allemaal een snor gekregen.
+Alignment: (   IIISSS SSS ISSSS S S       IS ISSS I  I   S)
+NumShifts: 4
+  [15, 15, 5/8] ([een])
+  [36, 36, 9/12] ([een])
+  [37, 37, 32/39] ([jaar])
+  [41, 41, 26/31] ([ze])
+Score: 0.7631578947368421 (29.0/38.0)
+
+Sentence ID: 48:1
+Original Ref: "is dit waar ik moet zijn?" zei ze tegen de schilder.
+Original Hyp: 'ben ik hier op de juiste plek?' vroeg ze aan de schilder.
+Hyp After Shift: 'ben hier op ik de juiste plek?' vroeg ze aan de schilder.
+Alignment: (SSS ISSS S  )
+NumShifts: 1
+  [1, 1, 2/3] ([ik])
+Score: 0.8181818181818182 (9.0/11.0)
+
+Sentence ID: 49:1
+Original Ref: "veel zou afhangen van wat je zaak was," zei hij. "je staat toch niet op het punt om een baby te krijgen, of wel?"
+Original Hyp: 'dat hangt grotendeels af van waar u voor komt,' zei hij. 'u staat toch niet op het punt van bevallen, hè?'
+Hyp After Shift: 'dat hangt grotendeels af van waar u voor komt,' zei hij. 'u staat toch niet op het punt van bevallen, hè?'
+Alignment: (ISSS SSSS  S      DDDDSSS)
+NumShifts: 0
+Score: 0.6666666666666666 (16.0/24.0)
+
+Sentence ID: 50:1
+Original Ref: "they vertelden me dat ik voor een foto moest poseren," zei ze. "mijn naam is leora duncan." ze wachtte.
+Original Hyp: 'ik heb te horen gekregen dat ik voor een schilderij moest poseren,' zei ze. 'ik ben leora duncan.' ze bleef wachten.
+Hyp After Shift: 'ik heb te horen gekregen dat ik voor een schilderij moest poseren,' zei ze. 'ik ben leora duncan.' ze bleef wachten.
+Alignment: (IISSS    S S  DSS S IS)
+NumShifts: 0
+Score: 0.6842105263157895 (13.0/19.0)
+
+Sentence ID: 51:1
+Original Ref: "en jullie dompelen mensen onder," zei hij.
+Original Hyp: 'en u verdelgt naar goed-dunken,' zei hij.
+Hyp After Shift: 'en u verdelgt naar goed-dunken,' zei hij.
+Alignment: (SSSSS  )
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 52:1
+Original Ref: "wat?" zei ze.
+Original Hyp: 'hè?' zei ze.
+Hyp After Shift: 'hè?' zei ze.
+Alignment: (S  )
+NumShifts: 0
+Score: 0.3333333333333333 (1.0/3.0)
+
+Sentence ID: 53:1
+Original Ref: "laat maar," zei hij.
+Original Hyp: 'laat maar,' zei hij.
+Hyp After Shift: 'laat maar,' zei hij.
+Alignment: (SS  )
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 54:1
+Original Ref: "dat is zeker een prachtige foto," zei ze. "ziet eruit als de hemel of zoiets."
+Original Hyp: 'dat is me een prachtig schilderij, zeg,' verzuchtte ze. 'het lijkt de hemel wel, of zoiets.'
+Hyp After Shift: 'dat is me een prachtig schilderij, zeg,' ze. verzuchtte 'het lijkt de hemel wel, of zoiets.'
+Alignment: (S S SSS SSS  I S)
+NumShifts: 1
+  [8, 8, 6/6] ([ze.])
+Score: 0.7333333333333333 (11.0/15.0)
+
+Sentence ID: 55:1
+Original Ref: "of zoiets," zei de schilder. hij haalde een lijst met namen uit de zak van zijn schort. "duncan, duncan, duncan," mompelde hij terwijl hij de lijst doorzocht. "ja—hier sta je. je hebt recht om vereeuwigd te worden. zie je hier een lichaam zonder gezicht waarop je je hoofd zou willen laten zetten? we hebben nog een paar bijzondere over."
+Original Hyp: 'of zoiets,' zei de schilder. hij haalde de lijst met namen uit de zak van zijn kiel. 'duncan, duncan, duncan,' zei hij, en zijn ogen gleden over de lijst. 'ja, daar staat u. u heeft het recht zich te laten vereeuwigen. ziet u er een lichaam zonder gezicht tussen zitten waar ik het uwe op zou kunnen plakken? er staan er nog een paar goeie open.'
+Hyp After Shift: 'of zoiets,' zei de schilder. hij haalde de lijst met namen uit de zak van zijn kiel. 'duncan, duncan, duncan,' zei hij, en zijn ogen gleden over de lijst. 'ja, daar staat u. u heeft het recht zich laten te vereeuwigen. ziet u er een lichaam zonder gezicht tussen zitten waar ik het uwe op zou kunnen plakken? er staan er nog een paar goeie open.'
+Alignment: (SS     S        SS IIISSSSS ISSSSSSS SS SSSS    IIISSSS SSSSS   SS)
+NumShifts: 1
+  [38, 38, 35/39] ([te])
+Score: 0.711864406779661 (42.0/59.0)
+
+Sentence ID: 56:1
+Original Ref: ze bestudeerde de muurschildering somber. "jeetje," zei ze, "ze zijn allemaal hetzelfde voor mij. ik weet niets van kunst."
+Original Hyp: ze staarde mismoedig naar de muurschildering. 'jeetje,' zei ze, 'ze zien er allemaal hetzelfde uit. ik weet helemaal niets van kunst.'
+Hyp After Shift: ze staarde mismoedig de naar muurschildering. 'jeetje,' zei ze, 'ze zien er allemaal hetzelfde uit. ik weet helemaal niets van kunst.'
+Alignment: ( IS SSS  ISS  DS  I  S)
+NumShifts: 1
+  [4, 4, 1/2] ([de])
+Score: 0.6842105263157895 (13.0/19.0)
+
+Sentence ID: 57:1
+Original Ref: "een lichaam is een lichaam, hè?" zei hij. "oké. als meester in de schone kunsten beveel ik dit lichaam hier aan." hij wees naar een gelaatloze figuur van een vrouw die gedroogde stelen naar een afvalverbrander droeg.
+Original Hyp: 'een lichaam blijft een lichaam, toch?' zei hij. 'okidoki. als meester in de schone kunsten raad ik dit lichaam aan.' hij wees naar het gezichtloze lichaam van een vrouw die uitgedroogde halmen naar een verbrandingston droeg.
+Hyp After Shift: 'een lichaam blijft een lichaam, toch?' zei hij. 'okidoki. als meester in de schone kunsten raad ik dit lichaam aan.' hij wees naar het gezichtloze lichaam van een vrouw die uitgedroogde halmen naar een verbrandingston droeg.
+Alignment: (S S  S  S      S   DS   SSS    SS  S )
+NumShifts: 0
+Score: 0.35135135135135137 (13.0/37.0)
+
+Sentence ID: 58:1
+Original Ref: "natuurlijk," zei leora duncan, "dat is meer iets voor de mensen van de verwijdering, nietwaar? ik bedoel, ik zit in de dienstverlening. ik doe geen verwijdering."
+Original Hyp: 'tja,' zei leora duncan, 'dat zijn eerder de ruimers, toch? ik bedoel, ik verleen bijstand. ik heb niets met het ruimen van doen.'
+Hyp After Shift: 'tja,' zei leora duncan, 'dat zijn eerder de van ruimers, toch? ik bedoel, ik verleen bijstand. heb niets ik met het ruimen doen.'
+Alignment: (S   DDSSS D DSS   SSSS ISSS)
+NumShifts: 2
+  [21, 21, 10/7] ([van])
+  [16, 16, 21/18] ([ik])
+Score: 0.7692307692307693 (20.0/26.0)
+
+Sentence ID: 59:1
+Original Ref: de schilder klapte in zijn handen van gespeelde vreugde. "je zegt dat je niets van kunst weet, en dan bewijs je in de volgende adem dat je er meer van weet dan ik! natuurlijk is de schijven-drager niets voor een gastvrouw! een snoeier, een pruner—dat past meer bij jou." hij wees naar een figuur in paars die een dode tak van een appelboom aan het zagen was. "wat vind je van haar?" zei hij. "hou je überhaupt van haar?"
+Original Hyp: de schilder klapte met geveinsde verrukking in zijn handen. 'u zegt dat u geen verstand hebt van kunst, en laat meteen daarna zien dat u er meer van weet dan ik! halmendraagster past inderdaad niet bij een begeleidster! een knipster, een snoeister - dat is meer uw werkveld.' hij wees naar een figuur in het paars die een dode tak van een appelboom zaagde. 'wat dacht u van deze?' vroeg hij. 'is zij misschien wat?'
+Hyp After Shift: de schilder klapte in zijn met van geveinsde verrukking handen. 'u zegt dat u geen verstand hebt kunst, en laat meteen daarna zien dat u er meer van weet dan ik! halmendraagster is inderdaad niet een begeleidster! een knipster, een snoeister - dat past meer bij uw werkveld.' hij wees naar een figuur in paars die een dode tak van een appelboom het zaagde. 'wat dacht u van deze?' vroeg hij. 'is zij misschien wat?'
+Alignment: (     S ISSS  SSSSS DDDSSSS S      S SSSS S SSS   IS              D DSSSS SS DSSSS)
+NumShifts: 6
+  [6, 7, 2/2] ([in, zijn])
+  [54, 54, 64/62] ([het])
+  [16, 16, 5/5] ([van])
+  [32, 32, 44/43] ([past])
+  [44, 44, 33/31] ([is])
+  [35, 35, 46/45] ([bij])
+Score: 0.6075949367088608 (48.0/79.0)
+
+Sentence ID: 60:1
+Original Ref: "jeetje—" zei ze, en ze bloosde en werd bescheiden—"dat—dat plaatst me direct naast dr. hitz."
+Original Hyp: 'gossie,' zei ze, en ze bloosde ineens bescheiden, 'dan... dan zou ik naast dokter hitz komen te staan.'
+Hyp After Shift: 'gossie,' zei ze, en ze bloosde ineens bescheiden, 'dan... dan zou ik naast dokter hitz komen te staan.'
+Alignment: (S     SSSSSS IIISS)
+NumShifts: 0
+Score: 0.8 (12.0/15.0)
+
+Sentence ID: 61:1
+Original Ref: "maakt dat je van streek?" zei hij.
+Original Hyp: 'vind u dat vervelend?' vroeg hij.
+Hyp After Shift: dat 'vind u vervelend?' vroeg hij.
+Alignment: (D SSSS )
+NumShifts: 1
+  [2, 2, 0/-1] ([dat])
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 62:1
+Original Ref: "goede genade, nee!" zei ze. "het is—het is gewoon zo'n eer."
+Original Hyp: 'grote grutjes, nee!' zei ze. 'het is... het is alleen wel een enorme eer.'
+Hyp After Shift: 'grote grutjes, nee!' zei ze. 'het is... het is alleen wel een enorme eer.'
+Alignment: (SSS  ISS IISSS)
+NumShifts: 0
+Score: 1.0 (11.0/11.0)
+
+Sentence ID: 63:1
+Original Ref: "ah, jij... jij bewondert hem, hè?" zei hij.
+Original Hyp: 'aha, u heeft hem hoog zitten, hè?' vroeg hij.
+Hyp After Shift: 'aha, u heeft hem hoog zitten, hè?' vroeg hij.
+Alignment: (ISSSSSSS )
+NumShifts: 0
+Score: 1.0 (8.0/8.0)
+
+Sentence ID: 64:1
+Original Ref: "wie bewondert hem niet?" zei ze, terwijl ze het portret van hitz aanbad. het was het portret van een gebruinde, witgehaarde, almachtige zeus, tweehonderdveertig jaar oud. "wie bewondert hem niet?" zei ze opnieuw. "hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago."
+Original Hyp: 'wie bewondert hem niet?' zei ze, in aanbidding van het portret van hitz. het was het portret van een gebruinde, witharige, almachtige zeus, tweehonderdveertig jaar oud. 'wie bewondert hem niet?' herhaalde ze. 'hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago.'
+Hyp After Shift: 'wie bewondert hem niet?' zei ze, in aanbidding van het portret van hitz. het was het portret van een gebruinde, witharige, almachtige zeus, tweehonderdveertig jaar oud. 'wie bewondert hem niet?' herhaalde ze. 'hij was verantwoordelijk voor het opzetten van de allereerste gaskamer in chicago.'
+Alignment: (S  S  ISS   DS       S     S  DSSSS          S)
+NumShifts: 0
+Score: 0.3333333333333333 (15.0/45.0)
+
+Sentence ID: 65:1
+Original Ref: "er zou niets zijn dat me meer plezier doet," zei de schilder, "dan om je voor altijd naast hem te plaatsen. een ledemaat afzagen—vind je dat gepast?"
+Original Hyp: 'niets zou me meer plezieren,' zei de schilder, 'dan u voor altijd naast hem te zetten. een tak afzagen - vindt u dat gepast?'
+Hyp After Shift: 'niets zou me meer plezieren,' zei de schilder, 'dan u voor altijd naast hem te zetten. een tak afzagen - vindt u dat gepast?'
+Alignment: (S DDD  DS   DSS     S IISSS S)
+NumShifts: 0
+Score: 0.5925925925925926 (16.0/27.0)
+
+Sentence ID: 66:1
+Original Ref: "dat lijkt een beetje op wat ik doe," zei ze. ze was bescheiden over wat ze deed. wat ze deed, was mensen op hun gemak stellen terwijl ze hen vermoordde.
+Original Hyp: 'dat lijkt inderdaad wel een beetje op wat ik doe,' zei ze. ze was terughoudend over haar werk. wat ze deed was mensen op hun gemak stellen terwijl ze hen van kant maakte.
+Hyp After Shift: 'dat lijkt inderdaad wel een beetje op wat ik doe,' zei ze. ze was terughoudend over haar werk. wat ze deed was mensen op hun gemak stellen terwijl ze hen van kant maakte.
+Alignment: (S II     S    S DSS  S         IIS)
+NumShifts: 0
+Score: 0.4 (12.0/30.0)
+
+Sentence ID: 67:1
+Original Ref: terwijl leora duncan poseerde voor haar portret, stormde dr. hitz zelf de wachtkamer binnen. hij was zeven voet lang en straalde een overweldigend gevoel van belangrijkheid, prestaties en levensvreugde uit.
+Original Hyp: en terwijl leora duncan voor haar portret poseerde, kwam dokter hitz zelf de wachtkamer binnenstuiven. hij was twee meter twaalf en hij straalde importantie, vakbekwaamheid en levensvreugde uit.
+Hyp After Shift: en terwijl leora duncan voor haar portret poseerde, kwam dokter hitz zelf de wachtkamer binnenstuiven. hij was twee meter twaalf en straalde hij importantie, vakbekwaamheid en levensvreugde uit.
+Alignment: (I   D  ISSS    S  SSS  DDDSSS   )
+NumShifts: 1
+  [22, 22, 20/20] ([straalde])
+Score: 0.5666666666666667 (17.0/30.0)
+
+Sentence ID: 68:1
+Original Ref: "nou, juffrouw duncan! juffrouw duncan!" zei hij en maakte een grapje. "wat doet u hier?" zei hij. "dit is niet waar de mensen vertrekken. dit is waar ze binnenkomen!"
+Original Hyp: 'kijk eens aan, juffrouw duncan!' zei hij, en hij maakte een grapje. 'wat doet u hier?' vroeg hij. 'hier vertrekken de mensen niet. hier komen ze juist aan!'
+Hyp After Shift: 'kijk eens aan, juffrouw duncan!' zei hij hij, en maakte een grapje. 'wat doet u hier?' vroeg hij. 'hier vertrekken de mensen niet. hier komen juist ze aan!'
+Alignment: (SSS S  I    S  SS DDSS  SSSS S)
+NumShifts: 2
+  [8, 8, 5/5] ([hij])
+  [25, 25, 27/26] ([ze])
+Score: 0.6551724137931034 (19.0/29.0)
+
+Sentence ID: 69:1
+Original Ref: "wij zullen samen in dezelfde foto staan," zei ze verlegen.
+Original Hyp: 'we komen samen op hetzelfde schilderij,' zei ze verlegen.
+Hyp After Shift: 'we komen samen op hetzelfde schilderij,' zei ze verlegen.
+Alignment: (SS DSSS   )
+NumShifts: 0
+Score: 0.6 (6.0/10.0)
+
+Sentence ID: 70:1
+Original Ref: "goed!" zei dr. hitz enthousiast. "en, zeg, is dat geen plaatje?"
+Original Hyp: 'mooi zo!' zei dokter hitz hartelijk. 'en wát voor een schilderij!'
+Hyp After Shift: 'mooi zo!' zei dokter hitz hartelijk. 'en wát voor een schilderij!'
+Alignment: (IS S DSSSSSS)
+NumShifts: 0
+Score: 0.9090909090909091 (10.0/11.0)
+
+Sentence ID: 71:1
+Original Ref: "ik voel me absoluut vereerd om hierbij met jou te zijn," zei ze.
+Original Hyp: 'ik ben echt heel vereerd dat ik er met u op sta,' zei ze.
+Hyp After Shift: 'ik ben echt heel vereerd dat ik er met u op sta,' zei ze.
+Alignment: (SSSS ISS SSS  )
+NumShifts: 0
+Score: 0.7692307692307693 (10.0/13.0)
+
+Sentence ID: 72:1
+Original Ref: "laat me je iets vertellen," zei hij, "ik ben vereerd om dit met je mee te maken. zonder vrouwen zoals jij zou deze prachtige wereld die we hebben niet mogelijk zijn."
+Original Hyp: 'nou,' zei hij, 'anders ik wel met u. zonder vrouwen als u zou deze prachtwereld die we hebben onmogelijk zijn.'
+Hyp After Shift: 'nou,' zei hij, 'anders ik wel met u. zonder vrouwen als u zou deze prachtwereld die we hebben onmogelijk zijn.'
+Alignment: (DDDDS  DDSSS DDDS  SS  DS   DSS)
+NumShifts: 0
+Score: 0.6774193548387096 (21.0/31.0)
+
+Sentence ID: 73:1
+Original Ref: hij groette haar en bewoog zich naar de deur die naar de verloskamers leidde. "raad eens wat er net geboren is," zei hij.
+Original Hyp: hij groette haar en liep naar de deur die naar de verloskamers leidde. 'raad eens wat er net geboren is,' zei hij.
+Hyp After Shift: hij groette haar en liep naar de deur die naar de verloskamers leidde. 'raad eens wat er net geboren is,' zei hij.
+Alignment: (    DS        S     S  )
+NumShifts: 0
+Score: 0.17391304347826086 (4.0/23.0)
+
+Sentence ID: 74:1
+Original Ref: "ik kan het niet," zei ze.
+Original Hyp: 'geen idee,' zei ze.
+Hyp After Shift: 'geen idee,' zei ze.
+Alignment: (DDSS  )
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 75:1
+Original Ref: "drielingen!" zei hij.
+Original Hyp: 'een drieling!' zei hij.
+Hyp After Shift: 'een drieling!' zei hij.
+Alignment: (IS  )
+NumShifts: 0
+Score: 0.6666666666666666 (2.0/3.0)
+
+Sentence ID: 76:1
+Original Ref: "drielingen!" zei ze. ze riep uit over de juridische implicaties van drielingen.
+Original Hyp: 'een drieling!' riep ze uit, vanwege de wettelijke implicaties van drielingen.
+Hyp After Shift: 'een drieling!' ze riep uit, vanwege de wettelijke implicaties van drielingen.
+Alignment: (DSS  SS S   )
+NumShifts: 1
+  [2, 2, 4/3] ([riep])
+Score: 0.5833333333333334 (7.0/12.0)
+
+Sentence ID: 77:1
+Original Ref: de wet stelde dat geen pasgeboren kind kon overleven tenzij de ouders van het kind iemand konden vinden die vrijwillig zou sterven. drielingen, als ze allemaal zouden leven, hadden drie vrijwilligers nodig.
+Original Hyp: de wet schreef voor dat een pasgeboren baby alleen kon blijven leven als de ouders iemand konden vinden die vrijwillig wilde sterven. als je een drieling wilde laten leven, had je drie vrijwilligers nodig.
+Hyp After Shift: de wet schreef voor dat een pasgeboren baby alleen kon blijven leven de ouders iemand konden vinden die vrijwillig wilde sterven. als je als een drieling wilde laten leven, had je drie vrijwilligers nodig.
+Alignment: (  IS S IS SS  DDD     S IS ISSS IS   )
+NumShifts: 1
+  [12, 12, 22/23] ([als])
+Score: 0.625 (20.0/32.0)
+
+Sentence ID: 78:1
+Original Ref: "heeft iemand van de ouders zich al vrijwillig gemeld?" zei leora duncan.
+Original Hyp: 'hebben de ouders drie vrijwilligers?' vroeg leora duncan.
+Hyp After Shift: 'hebben de ouders drie vrijwilligers?' vroeg leora duncan.
+Alignment: (DDS  DDSSS  )
+NumShifts: 0
+Score: 0.6666666666666666 (8.0/12.0)
+
+Sentence ID: 79:1
+Original Ref: "laatst dat ik hoorde," zei dr. hitz, "hadden ze er één, en probeerden ze er nog twee bij elkaar te schrapen."
+Original Hyp: 'volgens de laatste berichten hebben ze er één,' zei hitz, 'en proberen ze er nog twee bij te scharrelen.'
+Hyp After Shift: 'volgens de laatste zei berichten hebben één,' ze er hitz, 'en proberen ze er nog twee bij te scharrelen.'
+Alignment: (DSSS SSS  SSS     D S)
+NumShifts: 2
+  [5, 6, 9/8] ([ze, er])
+  [6, 6, 3/2] ([zei])
+Score: 0.6666666666666666 (14.0/21.0)
+
+Sentence ID: 80:1
+Original Ref: "ik denk niet dat ze het gehaald hebben," zei ze. "niemand heeft drie afspraken met ons gemaakt. alleen maar singles die vandaag langskomen, tenzij iemand gebeld heeft nadat ik wegging. hoe heet hij?"
+Original Hyp: 'dat is ze geloof ik niet gelukt,' zei ze. 'er heeft niemand drie afspraken bij ons gemaakt. er zijn vandaag alleen maar enkelingen doorgekomen, tenzij zich nadat ik wegging nog iemand heeft gemeld. wat is de naam?'
+Hyp After Shift: 'dat niet is ze geloof ik gelukt,' zei ze. 'er heeft niemand drie afspraken bij ons gemaakt. er zijn alleen maar enkelingen doorgekomen, vandaag zich tenzij iemand wegging nog heeft nadat ik gemeld. wat is de naam?'
+Alignment: (DS S SSS  S I  S  II  SS S  IS   ISSSS)
+NumShifts: 5
+  [26, 27, 27/31] ([nadat, ik])
+  [5, 5, 1/0] ([niet])
+  [19, 19, 20/23] ([vandaag])
+  [24, 24, 22/25] ([tenzij])
+  [28, 28, 23/25] ([iemand])
+Score: 0.7878787878787878 (26.0/33.0)
+
+Sentence ID: 81:1
+Original Ref: "wehling," zei de wachtende vader, overeind zittend met rooddoorlopen ogen en een verward uiterlijk. "edward k. wehling jr. is de naam van de gelukkige aanstaande vader."
+Original Hyp: 'wehling,' zei de wachtende vader, terwijl hij duf en met rode ogen rechtop ging zitten. 'edward k. wehling jr. is de naam van de gelukkige aanstaande vader.'
+Hyp After Shift: 'wehling,' zei de wachtende vader, terwijl hij duf met rode ogen en rechtop ging zitten. 'edward k. wehling jr. is de naam van de gelukkige aanstaande vader.'
+Alignment: (S    ISS S  SSSS          S)
+NumShifts: 1
+  [8, 8, 10/11] ([en])
+Score: 0.4230769230769231 (11.0/26.0)
+
+Sentence ID: 82:1
+Original Ref: hij hief zijn rechterhand op, keek naar een plek op de muur en gaf een schor, ellendig lachje. "aanwezig," zei hij.
+Original Hyp: hij hield zijn rechterhand op, keek naar een plek op de muur en liet een schor, droevig lachje horen. 'present,' zei hij.
+Hyp After Shift: hij hield zijn rechterhand op, keek naar een plek op de muur en liet een schor, droevig lachje horen. 'present,' zei hij.
+Alignment: ( S           S  ISSS  )
+NumShifts: 0
+Score: 0.2857142857142857 (6.0/21.0)
+
+Sentence ID: 83:1
+Original Ref: "oh, meneer wehling," zei dr. hitz, "ik zag u niet."
+Original Hyp: 'o, meneer wehling,' zei dokter hitz, 'ik zag u niet.'
+Hyp After Shift: 'o, meneer wehling,' zei dokter hitz, 'ik zag u niet.'
+Alignment: (S S S S  S)
+NumShifts: 0
+Score: 0.5 (5.0/10.0)
+
+Sentence ID: 84:1
+Original Ref: "de onzichtbare man," zei wehling.
+Original Hyp: 'de onzichtbare man,' zei wehling.
+Hyp After Shift: 'de onzichtbare man,' zei wehling.
+Alignment: (S S  )
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 85:1
+Original Ref: "ze hebben me net gebeld dat je drieling is geboren," zei dr. hitz. "met hen gaat het allemaal goed, en met de moeder ook. ik ben nu onderweg om ze te zien."
+Original Hyp: 'ik werd net gebeld dat uw drieling is geboren,' zei dokter hitz. 'het gaat goed met ze, en met de moeder ook. ik ben net naar hen onderweg.'
+Hyp After Shift: 'ik werd net gebeld dat uw drieling is geboren,' zei dokter hitz. 'het hen gaat goed met ze, en met de moeder ook. ik ben net naar onderweg.'
+Alignment: (DSS   S  S S S  SSS       DDDSSS)
+NumShifts: 1
+  [26, 26, 14/12] ([hen])
+Score: 0.53125 (17.0/32.0)
+
+Sentence ID: 86:1
+Original Ref: "hoera," zei wehling leegjes.
+Original Hyp: 'hoera,' zei wehling op holle toon.
+Hyp After Shift: 'hoera,' zei wehling op holle toon.
+Alignment: (S  IIS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 87:1
+Original Ref: "je klinkt niet erg gelukkig," zei dr. hitz.
+Original Hyp: 'u klinkt niet erg blij,' zei dokter hitz.
+Hyp After Shift: 'u klinkt niet erg blij,' zei dokter hitz.
+Alignment: (S   S S )
+NumShifts: 0
+Score: 0.375 (3.0/8.0)
+
+Sentence ID: 88:1
+Original Ref: "welke man in mijn situatie zou niet gelukkig zijn?" zei wehling. hij gebaarde met zijn handen om zorgeloze eenvoud uit te beelden. "alles wat ik hoef te doen is kiezen welke van de drieling gaat leven, dan mijn grootvader van moederskant afleveren bij de happy hooligan, en met een ontvangstbewijs hier terugkomen."
+Original Hyp: 'wie zou er in mijn plaats nou niet blij zijn?' zei wehling. hij maakte een handgebaar dat zorgeloze eenvoud moest uitbeelden. 'ik hoef alleen maar te kiezen wie van de drieling mag blijven leven, vervolgens mijn grootvader van moederskant bij de blijde bandiet af te leveren, en dan met de bon hier terug te komen.'
+Hyp After Shift: 'wie er in mijn plaats zou nou niet blij zijn?' zei wehling. hij maakte een handgebaar dat zorgeloze eenvoud te moest uitbeelden. 'ik hoef te alleen maar kiezen wie van de drieling mag blijven leven, dan vervolgens mijn grootvader van moederskant bij de blijde bandiet af leveren, en met de bon hier terug te komen.'
+Alignment: (SS  S I SS   DSSSS  D DSSS  SS S   IS  I    D  IISS  SS IIS)
+NumShifts: 4
+  [44, 44, 20/18] ([te])
+  [1, 1, 4/5] ([zou])
+  [26, 26, 25/23] ([te])
+  [47, 47, 35/34] ([dan])
+Score: 0.6923076923076923 (36.0/52.0)
+
+Sentence ID: 89:1
+Original Ref: dr. hitz werd behoorlijk streng tegen wehling en torende boven hem uit. "gelooft u niet in bevolkingsbeheersing, meneer wehling?" zei hij.
+Original Hyp: dokter hitz torende hoog boven hem uit en sprak hem nogal streng toe. 'gelooft u niet in geboortebeperking, meneer wehling?' vroeg hij.
+Hyp After Shift: dokter hitz hoog uit streng sprak hem nogal en torende boven hem toe. 'gelooft u niet in geboortebeperking, meneer wehling?' vroeg hij.
+Alignment: (S SS ISS    SS   S SS )
+NumShifts: 4
+  [4, 5, 9/10] ([boven, hem])
+  [2, 2, 8/8] ([torende])
+  [4, 4, 7/7] ([en])
+  [11, 11, 3/3] ([streng])
+Score: 0.7142857142857143 (15.0/21.0)
+
+Sentence ID: 90:1
+Original Ref: "ik vind het helemaal geweldig," zei wehling strak.
+Original Hyp: 'o, ik vind het uitstekend,' zei wehling vlak.
+Hyp After Shift: 'o, ik vind het uitstekend,' zei wehling vlak.
+Alignment: (IS  DS  S)
+NumShifts: 0
+Score: 0.625 (5.0/8.0)
+
+Sentence ID: 91:1
+Original Ref: "zou u terug willen naar de goede oude tijd, toen de bevolking van de aarde twintig miljard was—op het punt om veertig miljard te worden, daarna tachtig miljard, en vervolgens honderdzestig miljard? weet u wat een drupelet is, meneer wehling?" zei hitz.
+Original Hyp: 'zou u soms terug willen naar de goeie oude tijd, toen de bevolking op aarde twintig miljard bedroeg - en snel veertig miljard zou bedragen, en vervolgens tachtig, en daarna honderdzestig miljard? weet u wat een steenvruchtje is, meneer wehling?' vroeg hitz.
+Hyp After Shift: 'zou u soms terug willen naar de goeie oude tijd, toen de bevolking op aarde twintig miljard bedroeg - en snel veertig miljard zou bedragen, daarna tachtig, en en vervolgens honderdzestig miljard? weet u wat een steenvruchtje is, meneer wehling?' vroeg hitz.
+Alignment: (S I    S     DS   SSSS  SS SS        S  SS )
+NumShifts: 2
+  [25, 26, 29/29] ([en, vervolgens])
+  [27, 27, 24/24] ([daarna])
+Score: 0.42857142857142855 (18.0/42.0)
+
+Sentence ID: 92:1
+Original Ref: "nee," zei wehling chagrijnig.
+Original Hyp: 'nee,' antwoordde wehling nukkig.
+Hyp After Shift: 'nee,' antwoordde wehling nukkig.
+Alignment: (SS S)
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 93:1
+Original Ref: "een drupelet, meneer wehling, is een van de kleine knobbeltjes, een van de kleine sappige korrels van een braam," zei dr. hitz. "zonder bevolkingscontrole zouden mensen nu op het oppervlak van deze oude planeet gepakt zijn als drupelets op een braam! stel je dat eens voor!"
+Original Hyp: 'een steenvruchtje, meneer wehling, is een van die kleine bolletjes, een van die kleine vlezige pitjes van een braam,' zei dokter hitz. 'zonder geboortebeperking zou de mensheid nu opeengepakt op het oppervlak van deze oude planeet zitten, als steenvruchtjes op een braam! stelt u zich eens voor!'
+Hyp After Shift: 'een steenvruchtje, meneer wehling, is een van de die kleine bolletjes, een van die kleine vlezige pitjes van een braam,' zei dokter hitz. 'zonder geboortebeperking zou mensheid nu opeengepakt op het oppervlak van deze oude planeet zitten, als steenvruchtjes op een braam! stelt u zich eens voor!'
+Alignment: (SS      I S  S SS  S S SSSS I       DS S   SSS S)
+NumShifts: 1
+  [25, 25, 6/6] ([de])
+Score: 0.4782608695652174 (22.0/46.0)
+
+Sentence ID: 94:1
+Original Ref: wehling bleef naar dezelfde plek op de muur staren.
+Original Hyp: wehling bleef naar dezelfde plek op de muur staren.
+Hyp After Shift: wehling bleef naar dezelfde plek op de muur staren.
+Alignment: (         )
+NumShifts: 0
+Score: 0.0 (0.0/9.0)
+
+Sentence ID: 95:1
+Original Ref: "in het jaar 2000," zei dr. hitz, "voordat wetenschappers ingrijpen en de regels opstelden, was er niet eens genoeg drinkwater voor iedereen, en er was niets te eten behalve zeewier—en toch stonden mensen erop hun recht om zich voort te planten als konijnen te behouden. en hun recht, indien mogelijk, om eeuwig te leven."
+Original Hyp: 'in het jaar 2000,' zei dokter hitz, 'voordat wetenschappers zich ermee bemoeiden en de wet gingen voorschrijven, was er niet eens genoeg drinkwater voor iedereen, en alleen maar zeewier te eten - en nóg bleven mensen op hun recht staan om zich als konijnen voort te planten. en op hun recht om, zo mogelijk, eeuwig te leven.'
+Hyp After Shift: 'in het jaar 2000,' zei dokter hitz, 'voordat wetenschappers zich ermee bemoeiden en de wet gingen voorschrijven, was er niet eens genoeg drinkwater voor iedereen, en alleen maar zeewier te eten - en nóg bleven mensen op hun recht staan om zich voort te als konijnen planten. op en hun recht om, mogelijk, zo eeuwig te leven.'
+Alignment: (S  S S S IIS  ISS         SSS  SSSS S  I    D  SS  SS S  S)
+NumShifts: 3
+  [44, 45, 38/41] ([voort, te])
+  [47, 47, 45/48] ([en])
+  [53, 53, 48/51] ([mogelijk,])
+Score: 0.5370370370370371 (29.0/54.0)
+
+Sentence ID: 96:1
+Original Ref: "ik wil die kinderen," zei wehling rustig. "ik wil ze alle drie."
+Original Hyp: 'ik wil die kinderen,' zei wehling zacht. 'ik wil ze alle drie.'
+Hyp After Shift: 'ik wil die kinderen,' zei wehling zacht. 'ik wil ze alle drie.'
+Alignment: (S  S  SS   S)
+NumShifts: 0
+Score: 0.4166666666666667 (5.0/12.0)
+
+Sentence ID: 97:1
+Original Ref: "natuurlijk doe je dat," zei dr. hitz. "dat is alleen maar menselijk."
+Original Hyp: 'maar natuurlijk wilt u dat,' zei dokter hitz. 'dat is niet meer dan menselijk.'
+Hyp After Shift: 'maar natuurlijk wilt u dat,' zei dokter hitz. 'dat is niet meer dan menselijk.'
+Alignment: (ISSSS S S ISSS)
+NumShifts: 0
+Score: 0.9166666666666666 (11.0/12.0)
+
+Sentence ID: 98:1
+Original Ref: "ik wil ook niet dat mijn grootvader sterft," zei wehling.
+Original Hyp: 'ik wil ook niet dat mijn grootvader sterft,' zei wehling.
+Hyp After Shift: 'ik wil ook niet dat mijn grootvader sterft,' zei wehling.
+Alignment: (S      S  )
+NumShifts: 0
+Score: 0.2 (2.0/10.0)
+
+Sentence ID: 99:1
+Original Ref: "niemand is echt blij om een naaste verwant naar de kattenbak te brengen," zei dr. hitz zachtjes, meelevend.
+Original Hyp: 'niemand vindt het fijn om naaste familie naar de kattenbak te brengen,' zei dokter hitz kalm en meelevend.
+Hyp After Shift: 'niemand vindt het fijn om naaste familie naar de kattenbak te brengen,' zei dokter hitz kalm en meelevend.
+Alignment: (SSSS D S    S S IS )
+NumShifts: 0
+Score: 0.5555555555555556 (10.0/18.0)
+
+Sentence ID: 100:1
+Original Ref: "ik wou dat mensen het niet zo zouden noemen," zei leora duncan.
+Original Hyp: 'ik wou dat mensen het niet zo noemden,' zei leora duncan.
+Hyp After Shift: 'ik wou dat mensen het niet zo noemden,' zei leora duncan.
+Alignment: (S      DS   )
+NumShifts: 0
+Score: 0.25 (3.0/12.0)
+
+Sentence ID: 101:1
+Original Ref: "watt?" zei dr. hitz.
+Original Hyp: 'wat?' vroeg dokter hitz.
+Hyp After Shift: 'wat?' vroeg dokter hitz.
+Alignment: (SSS )
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 102:1
+Original Ref: "ik wou dat mensen het geen 'de kattenbak' en zulke dingen zouden noemen," zei ze. "dat geeft mensen de verkeerde indruk."
+Original Hyp: 'ik wou dat mensen het niet de kattenbak of iets dergelijks noemden,' zei ze. 'dan krijgt men een verkeerde indruk.'
+Hyp After Shift: 'ik wou dat mensen het niet de kattenbak of iets dergelijks noemden,' zei ze. 'dan krijgt men een verkeerde indruk.'
+Alignment: (S    DSSSSSSS  SSSS S)
+NumShifts: 0
+Score: 0.6666666666666666 (14.0/21.0)
+
+Sentence ID: 103:1
+Original Ref: "je hebt helemaal gelijk," zei dr. hitz. "vergeef me." hij verbeterde zichzelf en gebruikte de officiële benaming voor de gemeentelijke gaskamers, een benaming die niemand ooit in een gesprek gebruikte. "ik had moeten zeggen: 'ethische zelfmoordstudio's,'" zei hij.
+Original Hyp: 'u hebt helemaal gelijk,' zei dokter hitz. 'sorry.' hij corrigeerde zichzelf en noemde de gemeentelijke gaskamers bij hun officiële naam, die niemand ooit in een gesprek gebruikte. 'ik had moeten zeggen: de ethisch verantwoorde suïcidestudio's,' zei hij.
+Hyp After Shift: 'u hebt helemaal gelijk,' zei dokter hitz. 'sorry.' hij corrigeerde zichzelf en noemde de officiële gaskamers de gemeentelijke bij hun naam, die niemand ooit in een gesprek gebruikte. 'ik had moeten zeggen: ethisch verantwoorde suïcidestudio's,' zei hij.
+Alignment: (S  S S DS S  S  DS  SSS       S   ISS  )
+NumShifts: 3
+  [31, 31, 18/15] ([de])
+  [19, 19, 15/13] ([officiële])
+  [15, 15, 19/17] ([gemeentelijke])
+Score: 0.5 (19.0/38.0)
+
+Sentence ID: 104:1
+Original Ref: "dat klinkt veel beter," zei leora duncan.
+Original Hyp: 'dat klinkt een stuk beter,' zei leora duncan.
+Hyp After Shift: 'dat klinkt een stuk beter,' zei leora duncan.
+Alignment: (S ISS   )
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 105:1
+Original Ref: "dit kind van u—welk u ook besluit te houden, meneer wehling," zei dr. hitz. "hij of zij zal leven op een gelukkige, ruime, schone, rijke planeet, dankzij bevolkingsbeheersing. in een tuin zoals dat muurschildering daar." hij schudde zijn hoofd. "twee eeuwen geleden, toen ik een jonge man was, was het een hel waarvan niemand dacht dat het nog twintig jaar zou duren. nu strekken eeuwen van vrede en overvloed zich voor ons uit, zo ver als de verbeelding reikt."
+Original Hyp: 'dat kind van u - welke van de drie u ook besluit te houden, meneer wehling,' zei dokter hitz. 'hij of zij zal op een gelukkige, ruime, schone en rijke planeet wonen, dankzij geboortebeperking. in een hof als die muurschildering hier.' hij schudde zijn hoofd. 'twee eeuwen geleden, toen ik jong was, was het hier een hel waarvan niemand dacht dat die over twintig jaar nog zou bestaan. tegenwoordig liggen eeuwen van vrede en voorspoed voor ons in het verschiet, zo ver als onze verbeelding maar reikt.'
+Hyp After Shift: 'dat kind van u - welke van de drie u ook besluit te houden, meneer wehling,' zei dokter hitz. 'hij of zij zal op een gelukkige, ruime, schone en rijke planeet wonen, dankzij geboortebeperking. in een hof als die muurschildering hier.' hij schudde zijn hoofd. 'twee eeuwen geleden, toen ik jong was, was het hier een hel waarvan niemand dacht dat het die nog over twintig jaar zou bestaan. tegenwoordig liggen eeuwen van vrede en voorspoed voor ons in verschiet, zo ver als onze verbeelding maar reikt.'
+Alignment: (S IIII IS      S S S   D    IS IS S  SSS S    S    DDS   I       I I   SSS    DS  IS   S IS)
+NumShifts: 2
+  [65, 65, 56/61] ([nog])
+  [78, 78, 55/60] ([het])
+Score: 0.4936708860759494 (39.0/79.0)
+
+Sentence ID: 106:1
+Original Ref: hij glimlachte stralend.
+Original Hyp: hij glimlachte stralend.
+Hyp After Shift: hij glimlachte stralend.
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 107:1
+Original Ref: de glimlach verdween toen hij zag dat wehling net een revolver had getrokken.
+Original Hyp: de glimlach vervloog toen hij zag dat wehling zojuist een pistool had getrokken.
+Hyp After Shift: de glimlach vervloog toen hij zag dat wehling zojuist een pistool had getrokken.
+Alignment: (  S     S S  )
+NumShifts: 0
+Score: 0.23076923076923078 (3.0/13.0)
+
+Sentence ID: 108:1
+Original Ref: wehling schoot dr. hitz dood. "er is ruimte voor één—een heel grote," zei hij.
+Original Hyp: wehling schoot dokter hitz dood. 'nu is er plek voor één - en niet zo'n kleine ook,' zei hij.
+Hyp After Shift: wehling schoot dokter hitz dood. 'nu is er plek voor één - en niet zo'n kleine ook,' zei hij.
+Alignment: (  S  S IS IIIISSS  )
+NumShifts: 0
+Score: 0.7857142857142857 (11.0/14.0)
+
+Sentence ID: 109:1
+Original Ref: en toen schoot hij leora duncan neer. "het is maar de dood," zei hij tegen haar terwijl ze viel. "daar! ruimte voor twee."
+Original Hyp: en toen schoot hij op leora duncan. 'het is de dood maar,' zei hij tegen haar terwijl ze neerzeeg. 'zo! ruimte voor twee.'
+Hyp After Shift: en toen schoot hij leora op duncan. 'het is dood de maar,' zei hij tegen haar terwijl ze neerzeeg. 'zo! ruimte voor twee.'
+Alignment: (     SSS S S      SS  S)
+NumShifts: 2
+  [5, 5, 3/3] ([leora])
+  [9, 9, 10/10] ([de])
+Score: 0.43478260869565216 (10.0/23.0)
+
+Sentence ID: 110:1
+Original Ref: en toen schoot hij zichzelf neer, waardoor er ruimte ontstond voor al zijn drie kinderen.
+Original Hyp: en daarna schoot hij zichzelf dood, en had hij zodoende ruimte gemaakt voor alle drie zijn kinderen.
+Hyp After Shift: en daarna schoot hij zichzelf dood, en had hij zodoende ruimte gemaakt voor alle zijn drie kinderen.
+Alignment: ( S   IISSS S S   )
+NumShifts: 1
+  [14, 14, 13/15] ([drie])
+Score: 0.6 (9.0/15.0)
+
+Sentence ID: 111:1
+Original Ref: niemand kwam rennend. niemand, zo leek het, hoorde de schoten.
+Original Hyp: er kwam niemand aanrennen. kennelijk had niemand de schoten gehoord.
+Hyp After Shift: er kwam niemand aanrennen. kennelijk had niemand schoten de gehoord.
+Alignment: (S SSSSSS S)
+NumShifts: 1
+  [7, 7, 8/8] ([de])
+Score: 0.9 (9.0/10.0)
+
+Sentence ID: 112:1
+Original Ref: de schilder zat bovenop zijn trapladder en keek peinzend neer op het treurige tafereel.
+Original Hyp: de schilder zat boven op zijn ladder en keek nadenkend neer op het droevige schouwspel.
+Hyp After Shift: de schilder zat boven op zijn ladder en keek nadenkend neer op het droevige schouwspel.
+Alignment: (   IS S  S   SS)
+NumShifts: 0
+Score: 0.42857142857142855 (6.0/14.0)
+
+Sentence ID: 113:1
+Original Ref: de schilder peinsde over het droevige raadsel van het leven dat eiste om geboren te worden en, eenmaal geboren, eiste om vruchtbaar te zijn ... zich te vermenigvuldigen en zo lang mogelijk te leven—om dat alles te doen op een heel kleine planeet die voor altijd zou moeten meegaan.
+Original Hyp: hij dacht na over de treurige puzzel van het leven dat van je verlangt geboren te worden, en eenmaal geboren, van je verlangt vruchtbaar te zijn... je te vermenigvuldigen en zo lang mogelijk te leven - en dat allemaal op een heel kleine planeet die voor eeuwig mee zou moeten.
+Hyp After Shift: hij dacht na over de treurige puzzel van het leven dat van je verlangt geboren te worden, en eenmaal geboren, van je verlangt vruchtbaar te zijn... je te vermenigvuldigen en zo lang mogelijk te leven dat - en allemaal op een heel kleine planeet die voor eeuwig zou mee moeten.
+Alignment: (SSS SSS    ISS  SS  ISS  DSS       S SSS       S SS)
+NumShifts: 2
+  [37, 37, 33/34] ([dat])
+  [48, 48, 45/46] ([zou])
+Score: 0.5306122448979592 (26.0/49.0)
+
+Sentence ID: 114:1
+Original Ref: "alle antwoorden die de schilder kon bedenken, waren somber. zeker nog somberder dan een kattenbak, een blije boef, een makkelijke dobber. hij dacht aan oorlog. hij dacht aan een plaag. hij dacht aan verhongering."
+Original Hyp: alle antwoorden die de schilder kon bedenken waren akelig. ongetwijfeld nog akeliger dan een kattenbak, een blijde bandiet of een snikkelaar. hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan hongersnood.
+Hyp After Shift: alle antwoorden die de schilder kon bedenken waren akelig. ongetwijfeld nog akeliger dan een kattenbak, een blijde bandiet een of snikkelaar. hij dacht aan oorlog. hij dacht aan de pest. hij dacht aan hongersnood.
+Alignment: (S     S SS S    SS SS       SS   S)
+NumShifts: 1
+  [19, 19, 17/17] ([een])
+Score: 0.38235294117647056 (13.0/34.0)
+
+Sentence ID: 115:1
+Original Ref: hij wist dat hij nooit meer zou schilderen. hij liet zijn penseel vallen op de afdekzeilen beneden. en toen besloot hij dat hij ook genoeg had van het leven in de gelukkige tuin van het leven, en hij kwam langzaam van de ladder af.
+Original Hyp: hij wist dat hij nooit meer zou schilderen. hij liet zijn kwast op de afdeklakens onder hem vallen. toen besloot hij dat hij ook wel genoeg had van het leven in de gelukkige hof des levens en daalde hij langzaam de trap af.
+Hyp After Shift: hij wist dat hij nooit meer zou schilderen. hij liet zijn kwast op de afdeklakens onder hem vallen. toen besloot hij dat hij ook wel genoeg had van het leven in de gelukkige hof des levens en hij daalde langzaam de trap af.
+Alignment: (           DS  ISSS      I        DSSS  S D S )
+NumShifts: 1
+  [38, 38, 36/36] ([hij])
+Score: 0.3409090909090909 (15.0/44.0)
+
+Sentence ID: 116:1
+Original Ref: hij pakte wehlings pistool, vastbesloten om zichzelf neer te schieten.
+Original Hyp: hij pakte wehlings pistool, met de bedoeling zichzelf dood te schieten.
+Hyp After Shift: hij pakte wehlings pistool, met de bedoeling zichzelf dood te schieten.
+Alignment: (    ISS S  )
+NumShifts: 0
+Score: 0.4 (4.0/10.0)
+
+Sentence ID: 117:1
+Original Ref: maar hij had het lef niet.
+Original Hyp: maar hij had de moed er niet toe.
+Hyp After Shift: maar hij had de moed er niet toe.
+Alignment: (   IISSS)
+NumShifts: 0
+Score: 0.8333333333333334 (5.0/6.0)
+
+Sentence ID: 118:1
+Original Ref: en toen zag hij de telefooncel in de hoek van de kamer. hij liep ernaartoe, draaide het nummer dat hij zich goed herinnerde: "2 b r 0 2 b."
+Original Hyp: toen viel zijn oog op de telefooncel in de hoek van de wachtkamer. hij ging erheen en draaide het goed onthouden nummer: 2 b r 0 2 b.
+Hyp After Shift: en toen viel zijn oog op de telefooncel in de hoek van de wachtkamer. hij ging erheen draaide het onthouden goed nummer: 2 b r 0 2 b.
+Alignment: (  IISS       S SS  DDDS SS    S)
+NumShifts: 2
+  [16, 16, -1/-1] ([en])
+  [19, 19, 21/20] ([goed])
+Score: 0.5517241379310345 (16.0/29.0)
+
+Sentence ID: 119:1
+Original Ref: "federale bureau voor beëindiging," zei de zeer warme stem van een gastvrouw.
+Original Hyp: 'federale beëindigingsdienst,' sprak de o zo warme stem van een begeleidster.
+Hyp After Shift: 'federale beëindigingsdienst,' sprak o de zo warme stem van een begeleidster.
+Alignment: (DSSSS S    S)
+NumShifts: 1
+  [3, 3, 5/4] ([de])
+Score: 0.6666666666666666 (8.0/12.0)
+
+Sentence ID: 120:1
+Original Ref: "hoe snel kan ik een afspraak krijgen?" vroeg hij, terwijl hij heel voorzichtig sprak.
+Original Hyp: 'kan ik op korte termijn een afspraak krijgen?' vroeg hij uiterst behoedzaam.
+Hyp After Shift: 'kan op korte ik termijn een afspraak krijgen?' vroeg hij uiterst behoedzaam.
+Alignment: (SSS I  S DD DSS)
+NumShifts: 1
+  [1, 1, 2/3] ([ik])
+Score: 0.7857142857142857 (11.0/14.0)
+
+Sentence ID: 121:1
+Original Ref: "we kunnen u waarschijnlijk later vanmiddag nog inplannen, meneer," zei ze. "het zou zelfs eerder kunnen zijn als we een annulering krijgen."
+Original Hyp: 'we kunnen wellicht in de namiddag een gaatje voor u vinden, meneer,' zei ze. 'misschien zelfs eerder, als iemand afzegt.'
+Hyp After Shift: 'we kunnen u wellicht in de namiddag gaatje voor zei ze. vinden, zelfs meneer,' 'misschien eerder, als een iemand afzegt.'
+Alignment: (S  SSSSSS  DS SSS D SS)
+NumShifts: 4
+  [12, 13, 8/8] ([zei, ze.])
+  [6, 6, 19/17] ([een])
+  [10, 10, 2/1] ([u])
+  [14, 14, 12/11] ([zelfs])
+Score: 0.8636363636363636 (19.0/22.0)
+
+Sentence ID: 122:1
+Original Ref: "natuurlijk," zei de schilder, "plan me maar in, alsjeblieft." en hij gaf haar zijn naam, die hij spelde.
+Original Hyp: 'goed,' zei de schilder, 'plan me maar in, alstublieft.' en hij gaf haar zijn naam, letter voor letter.
+Hyp After Shift: 'goed,' zei de schilder, 'plan me maar in, alstublieft.' en hij gaf haar zijn naam, letter voor letter.
+Alignment: (S   S   S      SSS)
+NumShifts: 0
+Score: 0.3333333333333333 (6.0/18.0)
+
+Sentence ID: 123:1
+Original Ref: "dank u wel, meneer," zei de hostess. "uw stad bedankt u; uw land bedankt u; uw planeet bedankt u. maar de diepste dank komt van toekomstige generaties."
+Original Hyp: 'dank u wel, meneer,' zei de begeleidster. 'uw stad bedankt u, uw land bedankt u en uw planeet bedankt u. maar toekomstige generaties bedanken u nog het meest.'
+Hyp After Shift: 'dank u wel, meneer,' zei de begeleidster. 'uw stad bedankt u, uw land bedankt u en uw planeet bedankt u. maar generaties bedanken u nog het toekomstige meest.'
+Alignment: (S  S  SS  S   IS     SSSSS S)
+NumShifts: 1
+  [21, 21, 25/26] ([toekomstige])
+Score: 0.5185185185185185 (14.0/27.0)
+

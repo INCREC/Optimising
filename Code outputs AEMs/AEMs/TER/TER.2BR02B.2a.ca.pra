@@ -1,0 +1,1101 @@
+Sentence ID: 1:1
+Original Ref: **2br02b**
+Original Hyp: ﻿c-0-n-0-c
+Hyp After Shift: ﻿c-0-n-0-c
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 2:1
+Original Ref: tot era perfectament meravellós.
+Original Hyp: tot era absolutament sensacional.
+Hyp After Shift: tot era absolutament sensacional.
+Alignment: (  SS)
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 3:1
+Original Ref: no hi havia presons, ni barris marginals, ni manicomis, ni invàlids, ni pobresa, ni guerres.
+Original Hyp: no hi havia presons ni barris de barraques ni manicomis ni esguerrats ni pobresa ni guerres.
+Hyp After Shift: no hi havia presons ni barris de barraques ni manicomis ni esguerrats ni pobresa ni guerres.
+Alignment: (   S  IS S S S  )
+NumShifts: 0
+Score: 0.4 (6.0/15.0)
+
+Sentence ID: 4:1
+Original Ref: totes les malalties havien estat conquerides. igual que la vellesa.
+Original Hyp: s'havien vençut totes les malalties. també la vellesa.
+Hyp After Shift: totes les s'havien vençut malalties. també la vellesa.
+Alignment: (  DDSSSS  )
+NumShifts: 1
+  [2, 3, -1/-1] ([totes, les])
+Score: 0.7 (7.0/10.0)
+
+Sentence ID: 5:1
+Original Ref: la mort, excepte per accidents, era una aventura per a voluntaris.
+Original Hyp: la mort, tret de pels accidents, era una aventura per a voluntaris.
+Hyp After Shift: la mort, tret de pels accidents, era una aventura per a voluntaris.
+Alignment: (  ISS       )
+NumShifts: 0
+Score: 0.2727272727272727 (3.0/11.0)
+
+Sentence ID: 6:1
+Original Ref: la població dels estats units s'havia estabilitzat en quaranta milions d'ànimes.
+Original Hyp: la població dels estats units s'havia estabilitzat en quaranta milions d'ànimes.
+Hyp After Shift: la població dels estats units s'havia estabilitzat en quaranta milions d'ànimes.
+Alignment: (           )
+NumShifts: 0
+Score: 0.0 (0.0/11.0)
+
+Sentence ID: 7:1
+Original Ref: un matí brillant a l'hospital de maternitat de chicago, un home anomenat edward k. wehling, jr., esperava que la seva dona donés a llum. era l'únic home que esperava. ja no naixien moltes persones al dia.
+Original Hyp: un matí lluminós a la maternitat de chicago, un home anomenat edward k. wehling jr. esperava que la seva dona donés a llum. era l'únic que s'esperava. ja no naixien gaires persones al dia.
+Hyp After Shift: un matí lluminós a la maternitat de chicago, un home anomenat edward k. wehling jr. esperava que la seva dona donés a llum. era l'únic que s'esperava. ja no naixien gaires persones al dia.
+Alignment: (  S DS        SS          D S   S   )
+NumShifts: 0
+Score: 0.2222222222222222 (8.0/36.0)
+
+Sentence ID: 8:1
+Original Ref: wehling tenia cinquanta-sis anys, un simple jovenet en una població amb una edat mitjana de cent vint-i-nou anys.
+Original Hyp: wehling tenia cinquanta-sis anys, tot un jovencell per una població amb una mitjana d'edat de cent vint-i-nou anys.
+Hyp After Shift: wehling tenia cinquanta-sis anys, un tot jovencell per una població amb una d'edat mitjana de cent vint-i-nou anys.
+Alignment: (     SSS    S     )
+NumShifts: 2
+  [5, 5, 3/3] ([un])
+  [12, 12, 13/13] ([mitjana])
+Score: 0.3333333333333333 (6.0/18.0)
+
+Sentence ID: 9:1
+Original Ref: els raigs x havien revelat que la seva dona tindria trigèmins. els nens serien els seus primers.
+Original Hyp: les radiografies havien revelat que la seva dona tindria trigèmins. serien els seus primers fills.
+Hyp After Shift: les radiografies havien revelat que la seva dona tindria trigèmins. serien els seus primers fills.
+Alignment: (DSS        DD   IS)
+NumShifts: 0
+Score: 0.4117647058823529 (7.0/17.0)
+
+Sentence ID: 10:1
+Original Ref: el jove wehling estava encorbat a la seva cadira, amb el cap a la mà. estava tan arrugat, tan quiet i sense color que era pràcticament invisible. el seu camuflatge era perfecte, ja que la sala d'espera també tenia un aire desordenat i desmoralitzat. les cadires i els cendrers havien estat allunyats de les parets. el terra estava pavimentat amb llençols esquitxats.
+Original Hyp: el jove wehling seia cargolat a la cadira, aguantant-se el cap amb la mà. estava tan arronsat, tan quiet i apagat, que era virtualment invisible. el seu camuflatge era perfecte perquè la sala d'espera també tenia un aire desmanegat i desmoralitzat. havien mogut les cadires i els cendrers per apartar-los de la paret. aquí i allà el terra estava cobert amb teles protectores.
+Hyp After Shift: el jove wehling seia cargolat a la cadira, aguantant-se el cap amb la mà. estava tan arronsat, tan quiet i apagat, que era virtualment invisible. el seu camuflatge era perfecte perquè la sala d'espera també tenia un aire desmanegat i desmoralitzat. mogut les cadires i els cendrers havien per apartar-los de la paret. aquí i allà el terra estava cobert amb teles protectores.
+Alignment: (   SS  D S  S    S   DS  S     DSS       S  I      SS IIISS   S SS)
+NumShifts: 1
+  [41, 41, 48/47] ([havien])
+Score: 0.4032258064516129 (25.0/62.0)
+
+Sentence ID: 11:1
+Original Ref: la sala estava sent redecorada. estava sent redecorada com a memorial per a un home que s'havia ofert voluntari per morir.
+Original Hyp: estaven redecorant la sala. l'estaven redecorant per commemorar l'home que s'havia ofert voluntari per morir.
+Hyp After Shift: la estaven redecorant sala. l'estaven redecorant per commemorar l'home que s'havia ofert voluntari per morir.
+Alignment: ( DDDDDSSSSS DSS      )
+NumShifts: 1
+  [2, 2, -1/-1] ([la])
+Score: 0.6666666666666666 (14.0/21.0)
+
+Sentence ID: 12:1
+Original Ref: un home vell i sarcàstic, d'uns dos-cents anys, estava assegut en una escala de mà, pintant un mural que no li agradava. en els dies en què la gent envellia visiblement, la seva edat s'hauria endevinat en uns trenta-cinc anys. l'envelliment l'havia tocat tant abans que es trobés la cura per a l'envelliment.
+Original Hyp: un vell sarcàstic d'uns dos-cents anys s'estava assegut en una escala de mà pintant un mural que no li agradava. temps enllà, quan a les persones se'ls notava que envellien, li haurien posat uns trenta-cinc anys. l'envelliment ja l'havia afectat fins a aquest extrem quan van trobar-ne la cura.
+Hyp After Shift: un vell sarcàstic d'uns dos-cents anys s'estava assegut en una escala de mà pintant un mural que no li agradava. temps enllà, quan la les persones se'ls notava envellien, li haurien posat uns trenta-cinc anys. l'envelliment ja l'havia afectat fins a que aquest extrem quan van trobar-ne a cura.
+Alignment: ( D DS  SS     S       DDSSS DSSSSSSSS    I SSS SSSSS S)
+NumShifts: 3
+  [23, 23, 51/47] ([a])
+  [46, 46, 27/22] ([la])
+  [28, 28, 45/41] ([que])
+Score: 0.6226415094339622 (33.0/53.0)
+
+Sentence ID: 13:1
+Original Ref: el mural en què treballava representava un jardí molt ordenat. homes i dones de blanc, metges i infermeres, remenaven la terra, plantaven plançons, ruixaven insectes, escampaven fertilitzant.
+Original Hyp: el mural en el qual treballava representava un jardí molt net i polit. homes i dones vestits de blanc, metges i infermeres, removien la terra, plantaven plançons, fumigaven, escampaven fertilitzant.
+Hyp After Shift: el mural en el qual treballava representava un jardí molt net i polit. homes i dones vestits de blanc, metges i infermeres, removien la terra, plantaven plançons, fumigaven, escampaven fertilitzant.
+Alignment: (   IS     IIS   I     S    DS  )
+NumShifts: 0
+Score: 0.3333333333333333 (9.0/27.0)
+
+Sentence ID: 14:1
+Original Ref: homes i dones amb uniformes porpra arrencaven males herbes, tallaven plantes velles i malaltes, escombraven fulles, portaven deixalles als cremadors d'escombraries.
+Original Hyp: tot d'homes i dones amb uniformes morats arrencaven males herbes, tallaven les plantes velles i malaltes, rastellaven fulles i portaven la brossa a l'incinerador de residus.
+Hyp After Shift: tot d'homes i dones amb uniformes morats arrencaven males herbes, tallaven les plantes velles i malaltes, rastellaven fulles i portaven la brossa a l'incinerador de residus.
+Alignment: (IS    S    I    ISS IISSSS)
+NumShifts: 0
+Score: 0.6190476190476191 (13.0/21.0)
+
+Sentence ID: 15:1
+Original Ref: mai, mai, mai—ni tan sols a l'holanda medieval ni al japó antic—un jardí havia estat més formal, més ben cuidat. cada planta tenia tota la terra, llum, aigua, aire i aliment que podia utilitzar.
+Original Hyp: cap jardí no havia estat mai, mai, mai, —ni tan sols a l'holanda medieval ni al japó antic— tan decent i ben cuidat. cada planta tenia tot el soler, la llum, l'aire i l'aliment que li calia.
+Hyp After Shift: cap no mai, mai, mai, —ni tan sols a l'holanda medieval ni al japó antic— jardí havia estat tan decent i ben cuidat. cada planta tenia tot la el llum, soler, l'aire i l'aliment que li calia.
+Alignment: (III  S        S   SSS     S S SS S SS)
+NumShifts: 4
+  [3, 4, 14/17] ([havia, estat])
+  [1, 1, 12/15] ([jardí])
+  [29, 29, 23/26] ([la])
+  [30, 30, 25/28] ([llum,])
+Score: 0.5588235294117647 (19.0/34.0)
+
+Sentence ID: 16:1
+Original Ref: un camiller de l'hospital va baixar pel passadís, cantant en veu baixa una cançó popular:
+Original Hyp: un auxiliar sanitari va arribar pel passadís tot cantant una cançó popular entre dents:
+Hyp After Shift: un auxiliar sanitari va arribar pel passadís cantant tot popular entre una cançó dents:
+Alignment: ( DSS S S SSS  S)
+NumShifts: 2
+  [9, 10, 13/12] ([una, cançó])
+  [8, 8, 7/6] ([cantant])
+Score: 0.7333333333333333 (11.0/15.0)
+
+Sentence ID: 17:1
+Original Ref: si no t'agraden els meus petons, estimada,
+Original Hyp: si no t'agraden els meus petons, reina,
+Hyp After Shift: si no t'agraden els meus petons, reina,
+Alignment: (      S)
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 18:1
+Original Ref: aquí tens el que faré:
+Original Hyp: vet aquí el que faré:
+Hyp After Shift: aquí vet el que faré:
+Alignment: ( S   )
+NumShifts: 1
+  [1, 1, -1/-1] ([aquí])
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 19:1
+Original Ref: aniré a veure una noia de porpra,
+Original Hyp: aniré a veure una noia vestida de morat,
+Hyp After Shift: aniré a veure una noia vestida de morat,
+Alignment: (     I S)
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 20:1
+Original Ref: diré adéu a aquest món trist.
+Original Hyp: m'acomiadaré d'aquest món trist.
+Hyp After Shift: m'acomiadaré d'aquest món trist.
+Alignment: (DDSS  )
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 21:1
+Original Ref: si no vols el meu amor,
+Original Hyp: si no vols el meu amor,
+Hyp After Shift: si no vols el meu amor,
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 22:1
+Original Ref: per què hauria d'ocupar tot aquest espai?
+Original Hyp: quin sentit té que ocupi un lloc?
+Hyp After Shift: quin sentit té que ocupi un lloc?
+Alignment: (SSSSSSS)
+NumShifts: 0
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 23:1
+Original Ref: marxaré d'aquest vell planeta,
+Original Hyp: baixaré d'aquest planeta,
+Hyp After Shift: baixaré d'aquest planeta,
+Alignment: (S D )
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 24:1
+Original Ref: deixaré que algun dolç nadó tingui el meu lloc.
+Original Hyp: i que una criatureta es quedi el meu lloc.
+Hyp After Shift: i que una criatureta es quedi el meu lloc.
+Alignment: (S SSSS   )
+NumShifts: 0
+Score: 0.5555555555555556 (5.0/9.0)
+
+Sentence ID: 25:1
+Original Ref: el camiller va mirar el mural i el muralista. "sembla tan real," va dir, "pràcticament puc imaginar que estic al mig d'ell."
+Original Hyp: l'auxiliar es va mirar el mural i el pintor a la sala. —sembla tan real —va dir—. pràcticament em puc imaginar que soc dret allà al mig.
+Hyp After Shift: l'auxiliar es va mirar el mural i el pintor a la sala. —sembla tan real —va dir—. pràcticament em puc imaginar que soc dret al allà mig.
+Alignment: (SS      IIISS ISSSS   IS SS)
+NumShifts: 1
+  [25, 25, 18/23] ([al])
+Score: 0.7727272727272727 (17.0/22.0)
+
+Sentence ID: 26:1
+Original Ref: "què et fa pensar que no hi ets?" va dir el pintor. va fer un somriure satíric. "es diu 'el jardí feliç de la vida', saps."
+Original Hyp: —què et fa pensar que no hi ets? —va dir el pintor, tot fent un somriure satíric—. es diu el feliç jardí de la vida, saps?
+Hyp After Shift: —què et fa pensar que no hi ets? —va dir el pintor, tot fent un somriure satíric—. es diu el jardí feliç de la vida, saps?
+Alignment: (S      SS  SSS  SS S    SS)
+NumShifts: 1
+  [20, 20, 21/21] ([feliç])
+Score: 0.46153846153846156 (12.0/26.0)
+
+Sentence ID: 27:1
+Original Ref: "això és bo del dr. hitz," va dir el camiller.
+Original Hyp: —li ha quedat bé el doctor hitz —va dir l'auxiliar.
+Hyp After Shift: —li ha quedat bé doctor hitz —va dir el l'auxiliar.
+Alignment: (SSSSSSS  S)
+NumShifts: 1
+  [4, 4, 8/8] ([el])
+Score: 0.9 (9.0/10.0)
+
+Sentence ID: 28:1
+Original Ref: es referia a una de les figures masculines de blanc, el cap de la qual era un retrat del dr. benjamin hitz, el cap d'obstetrícia de l'hospital. hitz era un home d'una bellesa enlluernadora.
+Original Hyp: es referia a una de les figures masculines de blanc, el cap de la qual era un retrat del doctor benjamin hitz, l'obstetre en cap de l'hospital. hitz era un home d'una bellesa encegadora.
+Hyp After Shift: es referia a una de les figures masculines de blanc, el cap de la qual era un retrat del doctor benjamin hitz, l'obstetre cap en de l'hospital. hitz era un home d'una bellesa encegadora.
+Alignment: (                   S  S S        S)
+NumShifts: 1
+  [24, 24, 22/22] ([cap])
+Score: 0.14705882352941177 (5.0/34.0)
+
+Sentence ID: 29:1
+Original Ref: "encara queden moltes cares per omplir," va dir el camiller. volia dir que les cares de moltes de les figures del mural encara estaven en blanc. tots els espais en blanc s'havien d'omplir amb retrats de persones importants, ja sigui del personal de l'hospital o de l'oficina federal de terminació de chicago.
+Original Hyp: —encara falten moltes cares per omplir —va dir l'auxiliar. volia dir que les cares de moltes figures del mural encara estaven en blanc. tots els buits s'havien d'omplir amb els retrats de persones importants, ja fos del personal de l'hospital o de la delegació de chicago de l'oficina federal de liquidació.
+Hyp After Shift: —encara falten moltes cares per omplir —va dir l'auxiliar. volia dir que les cares de moltes de figures del mural encara estaven en blanc. tots els buits s'havien d'omplir amb els retrats de persones importants, ja fos del personal de l'hospital o de l'oficina federal de la delegació de chicago liquidació.
+Alignment: (SS   SS DS        D         DDS   I     S         IS IS)
+NumShifts: 2
+  [46, 49, 44/40] ([de, l'oficina, federal, de])
+  [44, 44, 17/15] ([de])
+Score: 0.34615384615384615 (18.0/52.0)
+
+Sentence ID: 30:1
+Original Ref: "deu ser agradable poder fer quadres que semblin alguna cosa," va dir el camiller.
+Original Hyp: —ha de ser bonic saber dibuixar imatges que semblin alguna cosa —va dir l'auxiliar.
+Hyp After Shift: —ha de ser bonic saber dibuixar imatges que semblin alguna cosa —va dir l'auxiliar.
+Alignment: (IS SSSS   SS DS)
+NumShifts: 0
+Score: 0.7142857142857143 (10.0/14.0)
+
+Sentence ID: 31:1
+Original Ref: la cara del pintor es va arrugar amb menyspreu. "creus que estic orgullós d'aquest gargot?" va dir. "creus que aquesta és la meva idea de com realment és la vida?"
+Original Hyp: al pintor se li va posar una cara agra de menyspreu. —et penses que estic orgullós d'aquesta pasterada? et penses que aquesta és realment la imatge que jo tinc de la vida?
+Hyp After Shift: al se li pintor posar una cara agra menyspreu. —et penses que estic orgullós d'aquesta pasterada? va et penses que aquesta és la imatge que de jo realment tinc de la vida?
+Alignment: (SSS SSSS IS   SS SS    SS S IS S)
+NumShifts: 4
+  [4, 4, 15/17] ([va])
+  [8, 8, 24/26] ([de])
+  [1, 1, 3/3] ([pintor])
+  [22, 22, 25/27] ([realment])
+Score: 0.7666666666666667 (23.0/30.0)
+
+Sentence ID: 32:1
+Original Ref: "quina és la teva idea de com és la vida?" va dir el camiller.
+Original Hyp: —quina imatge té vostè de la vida? —va preguntar l'auxiliar.
+Hyp After Shift: —quina imatge té vostè de la vida? —va preguntar l'auxiliar.
+Alignment: (DSSSS DD DSSSS)
+NumShifts: 0
+Score: 0.8571428571428571 (12.0/14.0)
+
+Sentence ID: 33:1
+Original Ref: el pintor va fer un gest cap a un llençol brut. "aquí tens una bona imatge d'això," va dir. "emmarca-ho, i tindràs una imatge molt més honesta que aquesta."
+Original Hyp: el pintor va assenyalar una tela empastifada de les que protegien el terra. —vet aquí una bona imatge de la vida —va dir—. l'emmarques i ja tindràs un coi de quadre mil vegades més honest que aquest.
+Hyp After Shift: el pintor va assenyalar tela un empastifada de les que protegien el terra. —vet aquí una bona imatge de la vida —va dir—. l'emmarques i ja tindràs una coi de quadre mil vegades més honest que aquest.
+Alignment: (   IS ISSSSSSSS   IISSSS I  IIISS S S)
+NumShifts: 2
+  [4, 4, 21/26] ([una])
+  [27, 27, 3/4] ([un])
+Score: 0.9310344827586207 (27.0/29.0)
+
+Sentence ID: 34:1
+Original Ref: "ets un vell trist, oi?" va dir el camiller.
+Original Hyp: —és un vell pessimista, eh? —va dir l'auxiliar.
+Hyp After Shift: —és un vell pessimista, eh? —va dir l'auxiliar.
+Alignment: (S  SSS DS)
+NumShifts: 0
+Score: 0.6666666666666666 (6.0/9.0)
+
+Sentence ID: 35:1
+Original Ref: "això és un crim?" va dir el pintor.
+Original Hyp: —què és delicte, ser-ho? —va dir el pintor.
+Hyp After Shift: —què és delicte, ser-ho? —va dir el pintor.
+Alignment: (S SSS   )
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 36:1
+Original Ref: el camiller va encongir les espatlles. "si no t'agrada aquí, avi—" va dir, i va acabar el pensament amb el número de telèfon trucat que les persones que ja no volien viure havien de trucar. el zero en el número de telèfon el va pronunciar "res."
+Original Hyp: l'auxiliar va arronsar les espatlles. —iaio, si això no li agrada, … —va dir, i va acabar la idea amb l'enginyós número de telèfon al qual havien de trucar els qui ja no volien viure més. els dos zeros del telèfon es pronunciaven com una o.
+Hyp After Shift: l'auxiliar va arronsar les espatlles. —iaio, si això no li agrada, … —va dir, i va acabar la idea amb l'enginyós número de telèfon al qual trucar els qui ja no volien viure havien de més. els dos zeros del es telèfon pronunciaven com una o.
+Alignment: (DS S  IIS SSSS    SS S   SSSSS      DSSSSSS SSSS)
+NumShifts: 2
+  [26, 27, 32/34] ([havien, de])
+  [40, 40, 41/41] ([telèfon])
+Score: 0.6739130434782609 (31.0/46.0)
+
+Sentence ID: 37:1
+Original Ref: el número era: "2 b r 0 2 b."
+Original Hyp: el número era: c-0-n-0-c.
+Hyp After Shift: el número era: c-0-n-0-c.
+Alignment: (   DDDDDS)
+NumShifts: 0
+Score: 0.6666666666666666 (6.0/9.0)
+
+Sentence ID: 38:1
+Original Ref: era el número de telèfon d'una institució els sobrenoms fantasiosos de la qual incloïen: "automat," "birdland," "cannery," "catbox," "de-louser," "easy-go," "good-by, mother," "happy hooligan," "kiss-me-quick," "lucky pierre," "sheepdip," "waring blendor," "weep-no-more" i "why worry?"
+Original Hyp: era el telèfon d'una institució que tenia sobrenoms imaginatius com ara: autoservei, club birdland, envasadora, caixa del gat, llemenera, sortida fàcil, adéu-mama, camorrista feliç, últim petó, pel davant i pel darrere, bany de suarda, minipimer, prou plorar i per-què-amoïnar-s'hi?
+Hyp After Shift: era el de telèfon d'una institució que tenia sobrenoms imaginatius com ara: autoservei, club birdland, envasadora, caixa del gat, llemenera, sortida fàcil, adéu-mama, camorrista feliç, últim petó, pel davant pel darrere, bany suarda, minipimer, prou i plorar i per-què-amoïnar-s'hi?
+Alignment: (  D    IS IIIISSSSSSSSSSSSSSSSSSSSSS ISS)
+NumShifts: 2
+  [32, 32, 3/1] ([de])
+  [29, 29, 30/35] ([i])
+Score: 1.0 (34.0/34.0)
+
+Sentence ID: 39:1
+Original Ref: "ser o no ser" era el número de telèfon de les cambres de gas municipals de l'oficina federal de terminació.
+Original Hyp: «ser o no ser» era el número de telèfon de les cambres de gas municipals de l'oficina federal de liquidació.
+Hyp After Shift: «ser o no ser» era el número de telèfon de les cambres de gas municipals de l'oficina federal de liquidació.
+Alignment: (S  S               S)
+NumShifts: 0
+Score: 0.15 (3.0/20.0)
+
+Sentence ID: 40:1
+Original Ref: el pintor va fer un gest despectiu amb el nas al camiller. "quan decideixi que és hora de marxar," va dir, "no serà al sheepdip."
+Original Hyp: el pintor va trufar-se de l'auxiliar. —quan decideixi que és hora de marxar —va dir—, no m'hi veuran al bany de suarda.
+Hyp After Shift: el pintor va trufar-se de l'auxiliar. —quan decideixi que és hora de marxar —va dir—, no m'hi veuran al bany de suarda.
+Alignment: (   DDDDDDSSSS     ISSSSS IIS)
+NumShifts: 0
+Score: 0.76 (19.0/25.0)
+
+Sentence ID: 41:1
+Original Ref: "un de fer-ho tu mateix, eh?" va dir el camiller. "un negoci desordenat, avi. per què no tens una mica de consideració per a les persones que han de netejar després de tu?"
+Original Hyp: —així que vostè és dels autosuficients, eh? —va dir l'auxiliar—. quin merder, iaio. per què no té una mica de consideració per la gent que ho haurà de netejar després?
+Hyp After Shift: —així vostè és dels autosuficients, eh? —va dir l'auxiliar—. quin merder, iaio. per què no té una mica de consideració per la gent que que ho haurà de netejar després?
+Alignment: (SSSSSSS DDSSSS   S     SSS IS  DDS)
+NumShifts: 1
+  [1, 1, 25/24] ([que])
+Score: 0.696969696969697 (23.0/33.0)
+
+Sentence ID: 42:1
+Original Ref: el pintor va expressar amb una obscenitat la seva manca de preocupació per les tribulacions dels seus supervivents. "el món podria fer amb una bona quantitat de desordre, si em preguntes," va dir.
+Original Hyp: el pintor va expressar amb una obscenitat la seva manca de miraments per les tribulacions dels que el sobreviurien. —mira què et dic, al món ja li aniria bé més merder, molt més merder —va dir.
+Hyp After Shift: el pintor va expressar amb una obscenitat la seva manca de miraments per les tribulacions dels que el sobreviurien. —mira què et món dic, al ja li aniria bé més merder, molt més merder —va dir.
+Alignment: (           S    IIISSS SSSSSSSSSSSS )
+NumShifts: 1
+  [24, 24, 18/21] ([món])
+Score: 0.6060606060606061 (20.0/33.0)
+
+Sentence ID: 43:1
+Original Ref: el camiller va riure i va continuar.
+Original Hyp: l'auxiliar va riure i va prosseguir el seu camí.
+Hyp After Shift: el l'auxiliar va riure i va prosseguir seu camí.
+Alignment: ( S    IIS)
+NumShifts: 1
+  [6, 6, -1/-1] ([el])
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 44:1
+Original Ref: wehling, el pare que esperava, va murmurar alguna cosa sense aixecar el cap. i després va tornar a quedar en silenci.
+Original Hyp: wehling, el pare que s'esperava, va murmurar alguna cosa sense aixecar el cap. i després va tornar a quedar-se en silenci.
+Hyp After Shift: wehling, el pare que s'esperava, va murmurar alguna cosa sense aixecar el cap. i després va tornar a quedar-se en silenci.
+Alignment: (    S             S  )
+NumShifts: 0
+Score: 0.09523809523809523 (2.0/21.0)
+
+Sentence ID: 45:1
+Original Ref: una dona corpulenta i formidable va entrar a la sala d'espera amb talons d'agulla. les seves sabates, mitges, gavardina, bossa i gorra d'ultramar eren totes porpra, el porpra que el pintor anomenava "el color dels raïms el dia del judici."
+Original Hyp: una dona formidable i barroera amb talons d'agulla va entrar a la sala d'espera fent gambades. les sabates, les mitges, la gavardina, la bossa, el casquet, eren tots de color morat, del morat que el pintor anomenava «el color del raïm el dia del judici final».
+Hyp After Shift: una dona formidable i barroera d'agulla va entrar a la sala d'espera amb talons fent gambades. les les sabates, mitges, la gavardina, la bossa, el casquet, eren tots de color morat, del morat que el pintor anomenava «el color del raïm el dia del judici final».
+Alignment: (  S IS        IS S  I SSSS IISSSS    S SS   IS)
+NumShifts: 2
+  [5, 6, 11/13] ([amb, talons])
+  [17, 17, 16/18] ([sabates,])
+Score: 0.6 (24.0/40.0)
+
+Sentence ID: 46:1
+Original Ref: la medalla a la seva bossa de musseta porpra era el segell de la divisió de serveis de l'oficina federal de terminació, un àguila posada sobre un torniquet.
+Original Hyp: el medalló del sarró morat era el segell de la divisió de servei de l'oficina federal de liquidació, una àguila aferrada a un torniquet giratori.
+Hyp After Shift: a el medalló del sarró morat era el segell de la divisió de servei de l'oficina federal de liquidació, una àguila aferrada torniquet un giratori.
+Alignment: (DD DSSSSS       S    SS SS S)
+NumShifts: 2
+  [21, 21, 2/-1] ([a])
+  [22, 22, 26/23] ([un])
+Score: 0.5714285714285714 (16.0/28.0)
+
+Sentence ID: 47:1
+Original Ref: la dona tenia molt de pèl facial—de fet, un bigoti inconfusible. una cosa curiosa sobre les hostesses de les cambres de gas era que, per molt boniques i femenines que fossin quan eren reclutades, totes brotaven bigotis en uns cinc anys o així.
+Original Hyp: la dona tenia molt pèl facial, de fet, tenia un bigoti inconfusible. una cosa curiosa de les hostesses de la cambra de gas era que, per molt adorables i femenines que fossin en el moment de reclutar-les, al cap d'uns cinc anys a totes els acabava sortint bigoti.
+Hyp After Shift: la dona tenia molt de pèl facial, fet, tenia un bigoti inconfusible. una cosa curiosa de les hostesses de la cambra de gas era que, per molt adorables i femenines que fossin el moment de totes reclutar-les, al cap en d'uns cinc anys a els acabava sortint bigoti.
+Alignment: (      S I      S   SS      S    SSS ISS S  IIISS)
+NumShifts: 3
+  [6, 6, 3/3] ([de])
+  [32, 32, 37/38] ([en])
+  [43, 43, 33/34] ([totes])
+Score: 0.4883720930232558 (21.0/43.0)
+
+Sentence ID: 48:1
+Original Ref: "és aquí on se suposa que he de venir?" va dir al pintor.
+Original Hyp: —és aquí on se suposa que he de venir? —va preguntar al pintor.
+Hyp After Shift: —és aquí on se suposa que he de venir? —va preguntar al pintor.
+Alignment: (S       SSS  )
+NumShifts: 0
+Score: 0.3076923076923077 (4.0/13.0)
+
+Sentence ID: 49:1
+Original Ref: "moltes coses depenen de quin sigui el teu negoci," va dir ell. "no estàs a punt de tenir un nadó, oi?"
+Original Hyp: —depèn molt de l'assumpte que tingui entre mans —va dir ell—. no està a punt de tenir una criatura, oi?
+Hyp After Shift: —depèn molt de l'assumpte que tingui entre mans —va dir ell—. no està a punt de tenir una criatura, oi?
+Alignment: (DSS SSSSSS SSS    SSS)
+NumShifts: 0
+Score: 0.7142857142857143 (15.0/21.0)
+
+Sentence ID: 50:1
+Original Ref: "em van dir que havia de posar per a alguna imatge," va dir ella. "em dic leora duncan." va esperar.
+Original Hyp: —m'han dit que he de posar per a un quadre —va dir la dona—. em dic leora pelham. va esperar resposta.
+Hyp After Shift: —m'han dit que he de posar per a un quadre —va dir la dona—. em dic leora pelham. va esperar resposta.
+Alignment: (DSS S    SSS ISS  S IS)
+NumShifts: 0
+Score: 0.65 (13.0/20.0)
+
+Sentence ID: 51:1
+Original Ref: "i tu enfonses gent," va dir ell.
+Original Hyp: —i es dedica a pelar la gent —va dir el pintor.
+Hyp After Shift: —i es dedica a pelar la gent —va dir el pintor.
+Alignment: (IIISSSSS IS)
+NumShifts: 0
+Score: 1.4285714285714286 (10.0/7.0)
+
+Sentence ID: 52:1
+Original Ref: "què?" va dir ella.
+Original Hyp: —què?
+Hyp After Shift: —què?
+Alignment: (DDDS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 53:1
+Original Ref: "oblida-ho," va dir ell.
+Original Hyp: —deixi-ho córrer.
+Hyp After Shift: —deixi-ho córrer.
+Alignment: (DDSS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 54:1
+Original Ref: "això sí que és una imatge bonica," va dir ella. "sembla el cel o alguna cosa així."
+Original Hyp: —això sí que és un quadre bonic —va dir la dona—. sembla el cel o una cosa així.
+Hyp After Shift: —això sí que és un quadre bonic —va dir la dona—. sembla el cel o una cosa així.
+Alignment: (S   SSSS ISS   S S)
+NumShifts: 0
+Score: 0.5882352941176471 (10.0/17.0)
+
+Sentence ID: 55:1
+Original Ref: "o alguna cosa," va dir el pintor. va treure una llista de noms de la butxaca de la seva bata. "duncan, duncan, duncan," va dir, escanejant la llista. "sí—aquí estàs. tens dret a ser immortalitzada. veus algun cos sense cara aquí on t'agradaria que posés el teu cap? tenim uns quants de bons."
+Original Hyp: —o una cosa així —va dir el pintor. es va treure una llista de noms de la butxaca del guardapols.— pelham, pelham, pelham —va dir, tot examinant la llista—. sí, aquí la tenim. té dret a ser immortalitzada. veu cap cos sense cara on li agradaria que hi posés el seu cap? encara en queden uns quants per triar.
+Hyp After Shift: —o una cosa així —va dir el pintor. es va treure una llista de noms de la butxaca del la guardapols.— pelham, pelham, pelham —va tot dir, examinant la llista—. sí, tenim. té dret a ser immortalitzada. veu cap cos sense cara aquí on li agradaria que hi posés el seu cap? encara en queden uns quants per triar.
+Alignment: (ISSSS   I         S SSSSSS S SSSS    SS     IS I  S IIS  SS)
+NumShifts: 3
+  [30, 30, 39/42] ([aquí])
+  [30, 30, 16/18] ([la])
+  [25, 25, 24/26] ([dir,])
+Score: 0.6037735849056604 (32.0/53.0)
+
+Sentence ID: 56:1
+Original Ref: ella va estudiar el mural amb tristesa. "caram," va dir, "tots em semblen iguals. no sé res d'art."
+Original Hyp: la dona va estudiar el mural amb fredor. —bufa —va dir—, tots em semblen iguals. jo no en sé res, d'art.
+Hyp After Shift: la dona va estudiar el mural amb fredor. —bufa —va dir—, tots em semblen iguals. jo no en sé res, d'art.
+Alignment: (IS     SSSSS   I I SS)
+NumShifts: 0
+Score: 0.6111111111111112 (11.0/18.0)
+
+Sentence ID: 57:1
+Original Ref: "un cos és un cos, eh?" va dir ell. "d'acord. com a mestre de belles arts, et recomano aquest cos aquí." va indicar una figura sense cara d'una dona que portava tiges seques a un cremador d'escombraries.
+Original Hyp: —un cos és un cos, oi? —va dir el pintor—. molt bé. com a mestre de les belles arts, jo li recomanaria aquest cos d'aquí —va fer assenyalant la figura sense cara d'una dona que portava tot de rostolls secs a la incineradora de residus.
+Hyp After Shift: —un cos és un cos, oi? —va dir el pintor—. molt bé. com a mestre de les belles arts, jo li recomanaria aquest cos d'aquí —va fer assenyalant la figura sense cara d'una dona que portava tot de rostolls secs a la incineradora de residus.
+Alignment: (S    SS IISS    I  ISS  ISSSS       IISS ISSS)
+NumShifts: 0
+Score: 0.6486486486486487 (24.0/37.0)
+
+Sentence ID: 58:1
+Original Ref: "bé," va dir leora duncan, "això és més per a la gent de disposició, oi? vull dir, jo estic en servei. no faig cap disposició."
+Original Hyp: —bé —va dir leora pelham—, això és més propi dels que s'encarreguen de les desferres, no? vull dir, que jo soc de la divisió de servei. no toco les desferres.
+Hyp After Shift: —bé —va dir leora pelham—, això és més propi dels la que s'encarreguen de les desferres, no? vull dir, que jo soc de divisió de servei. no toco les desferres.
+Alignment: (SS  SS  SS IS ISS  I IISS  SSS)
+NumShifts: 1
+  [22, 22, 9/9] ([la])
+Score: 0.8 (20.0/25.0)
+
+Sentence ID: 59:1
+Original Ref: el pintor va aplaudir amb les mans amb delit burlesc. "dius que no saps res d'art, i després demostres en la següent respiració que en saps més que jo! és clar que la portadora de tiges és incorrecta per a una hostessa! una talladora, una podadora—això és més la teva línia." va assenyalar una figura en porpra que estava serrant una branca morta d'un pomer. "què et sembla ella?" va dir. "t'agrada gens?"
+Original Hyp: el pintor va picar de mans amb falsa complaença. —diu que no sap res d'art, i al cap d'un minut demostra que en sap més que no pas jo! esclar que el que carreteja els garbons és una mala tria per a una hostessa! algú que podi, que esporgui, estaria més en la seva línia —. va assenyalar una figura que estava serrant la branca morta d'una pomera—. i aquesta? —va preguntar—. li agrada una mica?
+Hyp After Shift: el pintor va picar de mans amb falsa complaença. —diu que no sap res d'art, i al cap en la minut demostra que en sap més que no pas jo! és esclar que el que carreteja els garbons mala tria per a una hostessa! una algú que podi, una que esporgui, estaria més seva línia —. va assenyalar una figura que estava serrant la branca morta d'un d'una pomera—. i aquesta? —va preguntar—. li agrada mica?
+Alignment: (   DSS  SSS  S   SS  SS  S  II  S ISSSSSS     IIS ISS SSS    DD   S   SSSSSSSSS)
+NumShifts: 5
+  [51, 52, 19/17] ([en, la])
+  [20, 20, 62/65] ([d'un])
+  [37, 37, 28/29] ([és])
+  [38, 38, 41/44] ([una])
+  [74, 74, 43/47] ([una])
+Score: 0.6575342465753424 (48.0/73.0)
+
+Sentence ID: 60:1
+Original Ref: "caram—" va dir ella, i es va ruboritzar i es va tornar humil—"això—em posa just al costat del dr. hitz."
+Original Hyp: —mare meva… —va dir tot posant-se vermella i agafant un aire d'humilitat—. així… així seria just al costat del doctor hitz.
+Hyp After Shift: —mare meva… —va dir tot i posant-se vermella agafant un aire d'humilitat—. així… així seria just al costat del doctor hitz.
+Alignment: (ISS S SSSSSSSSS    SS)
+NumShifts: 1
+  [7, 7, 3/4] ([i])
+Score: 0.8 (16.0/20.0)
+
+Sentence ID: 61:1
+Original Ref: "això et molesta?" va dir ell.
+Original Hyp: —que li disgusta, això?
+Hyp After Shift: —que li disgusta, això?
+Alignment: (DDSSSS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 62:1
+Original Ref: "déu meu, no!" va dir ella. "és—és només un honor tan gran."
+Original Hyp: —per déu, no pas! —va dir la dona—. és que… és un honor tan gran!
+Hyp After Shift: —per déu, no pas! —va dir la dona—. és que… és un honor tan gran!
+Alignment: (ISSSS IISSS   S)
+NumShifts: 0
+Score: 0.9166666666666666 (11.0/12.0)
+
+Sentence ID: 63:1
+Original Ref: "ah, tu... l'admires, eh?" va dir ell.
+Original Hyp: —ah, així que l'admira, oi? —va dir ell.
+Hyp After Shift: —ah, així que l'admira, oi? —va dir ell.
+Alignment: (ISSSSS  )
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 64:1
+Original Ref: "qui no l'admira?" va dir ella, adorant el retrat de hitz. era el retrat d'un zeus bronzejat, de cabells blancs, omnipotent, de dos-cents quaranta anys. "qui no l'admira?" va dir ella de nou. "ell va ser responsable d'establir la primera cambra de gas a chicago."
+Original Hyp: —i qui no? —va respondre ella venerant el retrat d'en hitz. era la imatge d'un zeus moreno, de cabells blancs, omnipotent, de dos-cents quaranta anys—. i qui no? —va repetir—. va ser ell qui va obrir la primera cambra de gas a chicago.
+Hyp After Shift: —i qui no? va —va respondre venerant el retrat d'en hitz. era la imatge d'un zeus moreno, de cabells blancs, omnipotent, de dos-cents quaranta anys—. i qui no? —va ella repetir—. ell qui va ser obrir la primera cambra de gas a chicago.
+Alignment: (SSS SSS  S  SS  S       DSSSSS SSS  DS      S)
+NumShifts: 3
+  [30, 31, 33/33] ([va, ser])
+  [5, 5, 30/28] ([ella])
+  [34, 34, 3/2] ([va])
+Score: 0.5555555555555556 (25.0/45.0)
+
+Sentence ID: 65:1
+Original Ref: "res no em plauria més," va dir el pintor, "que posar-te al seu costat per sempre. tallar una branca—et sembla adequat?"
+Original Hyp: —res no em faria més feliç —va dir el pintor— que col·locar-la al seu costat per a l'eternitat. això de serrar una branca... ho veu adequat?
+Hyp After Shift: —res no em faria més feliç —va dir el pintor— que col·locar-la al seu costat per a l'eternitat. això de serrar una branca... ho veu adequat?
+Alignment: (S  ISSS  SSS    IIISS ISSS)
+NumShifts: 0
+Score: 0.8095238095238095 (17.0/21.0)
+
+Sentence ID: 66:1
+Original Ref: "això és una mica com el que faig," va dir ella. era modesta sobre el que feia. el que feia era fer que la gent se sentís còmoda mentre els matava.
+Original Hyp: —no és gaire diferent del que faig —va dir ella. era reservada en aquella qüestió. la seva feina consistia a fer sentir còmoda la gent mentre els matava.
+Hyp After Shift: —no és gaire diferent del que faig —va dir ella. era reservada en aquella qüestió. la seva feina consistia a fer sentir la gent còmoda mentre els matava.
+Alignment: (S DSSS SS   SSSSSSSSS S  DD    )
+NumShifts: 1
+  [22, 22, 27/24] ([còmoda])
+Score: 0.6451612903225806 (20.0/31.0)
+
+Sentence ID: 67:1
+Original Ref: i, mentre leora duncan posava per al seu retrat, va entrar a la sala d'espera el mateix dr. hitz. feia set peus d'alçada, i ressonava amb importància, èxits i la joia de viure.
+Original Hyp: i, mentre la leora pelham posava per al seu retrat, va entrar a gambades a la sala d'espera el doctor hitz en persona. feia dos quinze d'alçada i reverberava d'importància, de mèrits i d'alegria de viure.
+Hyp After Shift: i, mentre leora pelham posava per al seu retrat, va entrar a gambades a la sala d'espera el doctor hitz en persona. feia dos quinze d'alçada i reverberava d'importància, de mèrits i la d'alegria de viure.
+Alignment: (   S       II     ISSS SSS SSSS  S  )
+NumShifts: 1
+  [2, 2, 29/32] ([la])
+Score: 0.48484848484848486 (16.0/33.0)
+
+Sentence ID: 68:1
+Original Ref: "bé, senyoreta duncan! senyoreta duncan!" va dir, i va fer una broma. "què fas aquí?" va dir. "aquest no és el lloc on la gent marxa. aquest és el lloc on entren!"
+Original Hyp: —ves per on, senyoreta pelham! senyoreta pelham! —va dir, i després va fer broma—. què hi fa vostè, aquí? —li va preguntar—. per aquí no se'n va ningú. aquí és on arriben!
+Hyp After Shift: —ves per on, senyoreta pelham! senyoreta pelham! —va dir, i després va fer broma—. què hi fa va vostè, aquí? no —li preguntar—. per aquí se'n va ningú. aquí és on arriben!
+Alignment: (IIS S SS  I  DSSSS SS SSSSSSSS DD S)
+NumShifts: 2
+  [20, 20, 14/16] ([va])
+  [24, 24, 17/19] ([no])
+Score: 0.84375 (27.0/32.0)
+
+Sentence ID: 69:1
+Original Ref: "estarem en la mateixa imatge junts," va dir ella tímidament.
+Original Hyp: —sortirem junts al mateix mural —va dir ella amb timidesa.
+Hyp After Shift: —sortirem junts al mateix mural —va dir ella amb timidesa.
+Alignment: (DSSSSSS  IS)
+NumShifts: 0
+Score: 0.9 (9.0/10.0)
+
+Sentence ID: 70:1
+Original Ref: "bo!" va dir el dr. hitz amb entusiasme. "i, digues, no és una imatge?"
+Original Hyp: —molt bé! —va dir el doctor hitz efusivament—. per cert, quin senyor mural, oi que sí?
+Hyp After Shift: —molt bé! —va dir el doctor hitz efusivament—. per cert, quin senyor mural, oi que sí?
+Alignment: (ISS  S ISSSSSSSS)
+NumShifts: 0
+Score: 0.9285714285714286 (13.0/14.0)
+
+Sentence ID: 71:1
+Original Ref: "estic molt honrada de ser-hi amb tu," va dir ella.
+Original Hyp: —per a mi és tot un honor aparèixer-hi al seu costat —va dir ella.
+Hyp After Shift: —per a mi és tot un honor aparèixer-hi al seu costat —va dir ella.
+Alignment: (IIIISSSSSSSS  )
+NumShifts: 0
+Score: 1.2 (12.0/10.0)
+
+Sentence ID: 72:1
+Original Ref: "deixa'm dir-te," va dir ell, "estic honrat de ser-hi amb tu. sense dones com tu, aquest món meravellós que tenim no seria possible."
+Original Hyp: —doncs deixi'm que li digui —va ser la resposta d'ell— que l'honor és meu de ser al seu costat. sense dones com vostè, aquesta meravella de món que tenim no seria possible.
+Hyp After Shift: —doncs deixi'm que li digui —va ser la resposta d'ell— que l'honor és meu de ser al seu costat. sense dones com vostè, aquesta meravella món de que tenim no seria possible.
+Alignment: (IIIIIIISSSSSSS ISSS   ISS S    S)
+NumShifts: 1
+  [26, 26, 15/24] ([món])
+Score: 1.0434782608695652 (24.0/23.0)
+
+Sentence ID: 73:1
+Original Ref: la va saludar i es va dirigir cap a la porta que conduïa a les sales de part. "endevina què acaba de néixer," va dir.
+Original Hyp: li va dedicar una salutació marcial i es va acostar a la porta que duia a les sales de part. —aviam si sap qui acaba de néixer —va dir.
+Hyp After Shift: li va dedicar una salutació marcial i es va acostar a la porta que duia a les sales de part. —aviam si sap qui acaba de néixer —va dir.
+Alignment: (S IIIS   DS    S     IISS  SS )
+NumShifts: 0
+Score: 0.56 (14.0/25.0)
+
+Sentence ID: 74:1
+Original Ref: "no puc," va dir ella.
+Original Hyp: —no ho puc saber —va respondre ella.
+Hyp After Shift: —no ho puc saber —va respondre ella.
+Alignment: (IISSSS )
+NumShifts: 0
+Score: 1.2 (6.0/5.0)
+
+Sentence ID: 75:1
+Original Ref: "trigèmins!" va dir ell.
+Original Hyp: —trigèmins! —va dir ell.
+Hyp After Shift: —trigèmins! —va dir ell.
+Alignment: (SS  )
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 76:1
+Original Ref: "trigèmins!" va dir ella. estava exclamant sobre les implicacions legals dels trigèmins.
+Original Hyp: —trigèmins! —va dir ella, i va començar a recitar les implicacions jurídiques del fet que haguessin nascut tres infants.
+Hyp After Shift: —trigèmins! va —va dir ella, i començar a recitar les implicacions jurídiques del fet que haguessin nascut tres infants.
+Alignment: (S I ISSSS  IIIIISSS)
+NumShifts: 1
+  [5, 5, 0/0] ([va])
+Score: 1.3333333333333333 (16.0/12.0)
+
+Sentence ID: 77:1
+Original Ref: la llei deia que cap nen nounat podia sobreviure a menys que els pares del nen poguessin trobar algú que es voluntaritzés per morir. els trigèmins, si tots havien de viure, requerien tres voluntaris.
+Original Hyp: la llei estipulava que no podia néixer cap nova criatura llevat que els seus pares trobessin algú que decidís morir voluntàriament. que fossin trigèmins implicava, si volien que sobrevivissin tots, trobar tres voluntaris.
+Hyp After Shift: la llei estipulava que cap no néixer podia nova criatura llevat que els pares seus trobessin trobar algú que decidís morir voluntàriament. que fossin trigèmins si implicava, volien que sobrevivissin tots, tres voluntaris.
+Alignment: (  S  SS SSS   DSS   SSSSSS SSSSS  )
+NumShifts: 5
+  [5, 5, 7/7] ([podia])
+  [6, 6, 3/3] ([cap])
+  [14, 14, 13/12] ([pares])
+  [30, 30, 17/15] ([trobar])
+  [26, 26, 25/24] ([si])
+Score: 0.7352941176470589 (25.0/34.0)
+
+Sentence ID: 78:1
+Original Ref: "els pares tenen tres voluntaris?" va dir leora duncan.
+Original Hyp: —ja tenen tres voluntaris, els pares? —va dir la leora pelham.
+Hyp After Shift: —ja tenen tres voluntaris, els pares? —va dir la leora pelham.
+Alignment: (DS  IISS I S)
+NumShifts: 0
+Score: 0.8888888888888888 (8.0/9.0)
+
+Sentence ID: 79:1
+Original Ref: "l'últim que vaig sentir," va dir el dr. hitz, "tenien un, i estaven intentant aconseguir-ne dos més."
+Original Hyp: —l'última cosa que en sé —va explicar el doctor hitz— és que en tenien un i que provaven d'esgarrapar-ne un parell més.
+Hyp After Shift: —l'última cosa que en sé —va explicar el doctor hitz— és que en tenien un i que provaven d'esgarrapar-ne un parell més.
+Alignment: (IS SSSS IIISSSS ISSSSS)
+NumShifts: 0
+Score: 1.1176470588235294 (19.0/17.0)
+
+Sentence ID: 80:1
+Original Ref: "no crec que ho hagin aconseguit," va dir ella. "ningú no va fer tres cites amb nosaltres. res més que solters passant avui, a menys que algú hagi trucat després que vaig marxar. quin és el nom?"
+Original Hyp: —no crec que els hagin trobat —va dir ella—. al nostre servei ningú no ha concertat tres cites. avui només ens ha entrat gent sola, si no és que han vingut quan jo ja no hi era. quin nom és?
+Hyp After Shift: —no crec que els hagin trobat —va dir ella—. al nostre servei ningú no ha concertat tres cites. avui només ens ha que entrat gent sola, si no han vingut quan jo ja no hi era. quin és nom és?
+Alignment: (S  S SS IIISS SS SSSSS SSSSSSSSSSSSS  SS)
+NumShifts: 2
+  [27, 27, 34/37] ([és])
+  [27, 27, 18/21] ([que])
+Score: 0.8918918918918919 (33.0/37.0)
+
+Sentence ID: 81:1
+Original Ref: "wehling," va dir el pare que esperava, aixecant-se, amb els ulls vermells i desordenat. "edward k. wehling, jr., és el nom del feliç pare a ser."
+Original Hyp: —wehling —va dir el pare expectant reincorporant-se, amb els ulls encesos i malforjat—. edward k. wehling jr. és com es diu el futur pare feliç.
+Hyp After Shift: —wehling —va dir el pare expectant reincorporant-se, amb els ulls encesos i malforjat—. edward k. wehling jr. és el com es diu pare futur feliç.
+Alignment: (SS   DSS   S SS SS  SSS SS)
+NumShifts: 2
+  [21, 21, 18/17] ([el])
+  [23, 23, 22/21] ([pare])
+Score: 0.6538461538461539 (17.0/26.0)
+
+Sentence ID: 82:1
+Original Ref: va aixecar la mà dreta, va mirar un punt a la paret, va fer una rialla ronca i miserable. "present," va dir.
+Original Hyp: ell va aixecar la mà dreta, va observar una taca de la paret i va deixar anar una trista rialla enrogallada. —servidor —va dir.
+Hyp After Shift: ell va aixecar la mà dreta, va observar una taca de la paret va deixar anar una rialla trista i enrogallada. —servidor —va dir.
+Alignment: (I      SSSS S IS  S SSS )
+NumShifts: 2
+  [13, 13, 17/19] ([i])
+  [18, 18, 14/16] ([rialla])
+Score: 0.6363636363636364 (14.0/22.0)
+
+Sentence ID: 83:1
+Original Ref: "oh, senyor wehling," va dir el dr. hitz, "no l'havia vist."
+Original Hyp: —ui, senyor wehling —va dir el doctor hitz—, no l'havia vist.
+Hyp After Shift: —ui, senyor wehling —va dir el doctor hitz—, no l'havia vist.
+Alignment: (S SS  SSS S)
+NumShifts: 0
+Score: 0.6363636363636364 (7.0/11.0)
+
+Sentence ID: 84:1
+Original Ref: "l'home invisible," va dir wehling.
+Original Hyp: —l'home invisible —va dir en wehling.
+Hyp After Shift: —l'home invisible —va dir en wehling.
+Alignment: (SSS I )
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 85:1
+Original Ref: "acaben de trucar-me que els seus trigèmins han nascut," va dir el dr. hitz. "tots estan bé, i també la mare. estic de camí per veure'ls ara."
+Original Hyp: —m'acaben de trucar per dir-me que han nascut els seus trigèmins —va dir el doctor hitz—. estan tots bé, i la mare, també. ara mateix entraré a veure'ls.
+Hyp After Shift: —m'acaben de trucar dir-me que nascut els seus trigèmins han —va dir el doctor hitz—. tots estan bé, i la mare, també. ara mateix per entraré a veure'ls.
+Alignment: (S IS I    DS  SSS   D SSSS ISS)
+NumShifts: 3
+  [6, 6, 7/10] ([han])
+  [3, 3, 23/24] ([per])
+  [15, 15, 15/16] ([estan])
+Score: 0.7407407407407407 (20.0/27.0)
+
+Sentence ID: 86:1
+Original Ref: "visca," va dir wehling amb buidor.
+Original Hyp: —visca! —va dir en wehling desolat.
+Hyp After Shift: —visca! —va dir wehling en desolat.
+Alignment: (SS  SS)
+NumShifts: 1
+  [4, 4, 2/2] ([wehling])
+Score: 0.8333333333333334 (5.0/6.0)
+
+Sentence ID: 87:1
+Original Ref: "no sembla molt feliç," va dir el dr. hitz.
+Original Hyp: —no sembla gaire content —va dir el doctor hitz.
+Hyp After Shift: —no sembla gaire content —va dir el doctor hitz.
+Alignment: (S SSS  S )
+NumShifts: 0
+Score: 0.5555555555555556 (5.0/9.0)
+
+Sentence ID: 88:1
+Original Ref: "quin home en el meu lloc no estaria feliç?" va dir wehling. va fer un gest amb les mans per simbolitzar la simplicitat despreocupada. "tot el que he de fer és triar quin dels trigèmins viurà, després portar el meu avi matern al happy hooligan, i tornar aquí amb un rebut."
+Original Hyp: —quin home que es trobés en la meva pell no estaria content? —va dir en wehling. va fer un gest amb les mans per simbolitzar una candidesa despreocupada—. només haig de triar quin dels meus tres fills viurà i després deixar el meu avi matern al camorrista feliç i tornar a fer cap aquí amb el comprovant.
+Hyp After Shift: —quin home en es trobés meva pell no estaria content? —va dir en wehling. va fer un gest amb les mans per simbolitzar la una candidesa despreocupada—. només que haig de fer triar quin dels meus tres fills viurà i després deixar el meu avi matern al camorrista feliç i tornar a cap aquí amb el comprovant.
+Alignment: (S  ISSS  SS I           SSSS S  D   IIISS S     SS  II  SS)
+NumShifts: 4
+  [2, 2, 26/28] ([que])
+  [51, 51, 29/30] ([fer])
+  [5, 5, 21/23] ([la])
+  [4, 4, 1/1] ([en])
+Score: 0.5882352941176471 (30.0/51.0)
+
+Sentence ID: 89:1
+Original Ref: el dr. hitz es va tornar bastant sever amb wehling, es va alçar sobre ell. "no creu en el control de la població, senyor wehling?" va dir.
+Original Hyp: el doctor hitz es va tornar molt esquerp amb en wehling i el va observar des de dalt. —que no hi creu, en el control poblacional, senyor wehling? —li va preguntar.
+Hyp After Shift: el doctor hitz es va tornar molt esquerp amb en wehling i el va observar des dalt. —que no hi creu, en el control de poblacional, wehling? senyor —li va preguntar.
+Alignment: ( S    SS IISS IISSSSS    SS S S)
+NumShifts: 2
+  [16, 16, 20/24] ([de])
+  [26, 26, 23/27] ([senyor])
+Score: 0.7407407407407407 (20.0/27.0)
+
+Sentence ID: 90:1
+Original Ref: "crec que és perfectament genial," va dir wehling amb tensió.
+Original Hyp: —em sembla d'allò més bé —va dir en wehling amb aspror a la veu.
+Hyp After Shift: —em sembla d'allò més bé —va dir en wehling amb aspror a la veu.
+Alignment: (SSSSSS I  IIIS)
+NumShifts: 0
+Score: 1.1 (11.0/10.0)
+
+Sentence ID: 91:1
+Original Ref: "li agradaria tornar als bons vells temps, quan la població de la terra era de vint mil milions—a punt de convertir-se en quaranta mil milions, després vuitanta mil milions, després cent seixanta mil milions? saps què és un drupelet, senyor wehling?" va dir hitz.
+Original Hyp: —s'estimaria més tornar als vells temps en què la població de la terra era de vint mil milions, a punt de ser-ne quaranta mil milions, i després vuitanta, i després cent seixanta? sap vostè què és una drupa, senyor wehling? —va dir en hitz.
+Hyp After Shift: —s'estimaria més tornar als vells temps què la població de la terra era de vint mil a punt de ser-ne en quaranta mil milions, i després vuitanta, i milions, després cent seixanta? sap vostè què és una drupa, senyor wehling? —va dir en hitz.
+Alignment: (SS  D SS         S  S    I SS   DSSS  SS SS I )
+NumShifts: 2
+  [6, 6, 21/21] ([en])
+  [16, 16, 28/28] ([milions,])
+Score: 0.4772727272727273 (21.0/44.0)
+
+Sentence ID: 92:1
+Original Ref: "no," va dir wehling amb mal humor.
+Original Hyp: —no —va fer en wehling, emmurriat.
+Hyp After Shift: —no —va fer en wehling, emmurriat.
+Alignment: (DSSSSSS)
+NumShifts: 0
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 93:1
+Original Ref: "un drupelet, senyor wehling, és un dels petits botons, un dels petits grans polposos d'una mora," va dir el dr. hitz. "sense control de la població, els éssers humans ara estarien empaquetats en aquesta superfície d'aquest vell planeta com drupelets en una mora! pensa-hi!"
+Original Hyp: —una drupa, senyor wehling, és un d'aquells puntets, un granet d'aquells molsuts que tenen les mores —va dir el doctor hitz—. sense control poblacional, a hores d'ara els humans estaríem tots atapeïts per la superfície d'aquest vell planeta com les drupes d'una mora.
+Hyp After Shift: —una drupa, senyor wehling, és un d'aquells puntets, granet un d'aquells molsuts que tenen les mores —va dir el doctor hitz—. sense control poblacional, a hores els d'ara humans estaríem tots atapeïts per la superfície d'aquest vell planeta com les drupes d'una mora.
+Alignment: (SS    SSS SSSSSSS  SSS SSS S SSSSS     DSSSS)
+NumShifts: 2
+  [8, 8, 9/9] ([un])
+  [27, 27, 25/25] ([els])
+Score: 0.7045454545454546 (31.0/44.0)
+
+Sentence ID: 94:1
+Original Ref: wehling va continuar mirant el mateix punt a la paret.
+Original Hyp: en wehling va continuar clavant la mirada en la mateixa taca de la paret.
+Hyp After Shift: en wehling va continuar clavant la mirada en la mateixa taca de la paret.
+Alignment: (I   IIISSSSS  )
+NumShifts: 0
+Score: 0.9 (9.0/10.0)
+
+Sentence ID: 95:1
+Original Ref: "l'any 2000," va dir el dr. hitz, "abans que els científics intervinguessin i establissin la llei, no hi havia ni tan sols prou aigua potable per a tothom, i res per menjar excepte algues—i encara la gent insistia en el seu dret a reproduir-se com conills. i el seu dret, si era possible, a viure per sempre."
+Original Hyp: —l'any 2000 —va dir el doctor hitz—, abans que els científics hi intervinguessin i aprovessin la llei, ni tan sols hi havia prou aigua potable per subsistir, i per menjar no hi havia més que algues, i malgrat tot la gent s'entestava a defensar el seu dret a reproduir-se com conills. i també el dret, si podien, de viure eternament.
+Hyp After Shift: —l'any 2000 —va dir el doctor hitz—, abans que els científics hi intervinguessin i aprovessin la llei, no hi havia ni tan sols hi havia prou aigua potable per a subsistir, i per menjar més que algues, i malgrat tot la gent s'entestava defensar el seu dret a reproduir-se com conills. i el també dret, si podien, de viure eternament.
+Alignment: (SSS  SSS   I  S        II     S D  IIISSS  SS         S  DSS DS)
+NumShifts: 3
+  [30, 32, 16/16] ([no, hi, havia])
+  [42, 42, 26/28] ([a])
+  [53, 53, 46/51] ([el])
+Score: 0.5087719298245614 (29.0/57.0)
+
+Sentence ID: 96:1
+Original Ref: "vull aquests nens," va dir wehling tranquil·lament. "vull els tres."
+Original Hyp: —jo els vull, aquests nens —va dir en wehling tranquil·lament—. els vulls tots tres.
+Hyp After Shift: —jo vull, aquests nens —va dir en wehling tranquil·lament—. els vulls els tots tres.
+Alignment: (IS SS I ISS IS)
+NumShifts: 1
+  [1, 1, 7/11] ([els])
+Score: 1.1 (11.0/10.0)
+
+Sentence ID: 97:1
+Original Ref: "és clar que sí," va dir el dr. hitz. "això és només humà."
+Original Hyp: —esclar que els vol —va dir el doctor hitz—. no hi ha cosa més humana.
+Hyp After Shift: —esclar els que vol —va dir el doctor hitz—. no hi ha cosa més humana.
+Alignment: (SS SS  IISSSSSS)
+NumShifts: 1
+  [1, 1, 2/2] ([que])
+Score: 1.0 (13.0/13.0)
+
+Sentence ID: 98:1
+Original Ref: "no vull que el meu avi mori, tampoc," va dir wehling.
+Original Hyp: —i tampoc no vull que mori el meu avi —va dir en wehling.
+Hyp After Shift: —i tampoc no vull que mori el meu avi —va en dir wehling.
+Alignment: (IIS  I   DSS  )
+NumShifts: 1
+  [10, 10, 9/11] ([dir])
+Score: 0.7272727272727273 (8.0/11.0)
+
+Sentence ID: 99:1
+Original Ref: "ningú no està realment feliç de portar un parent proper al catbox," va dir el dr. hitz amb suavitat, amb simpatia.
+Original Hyp: —a ningú no li agrada dur un familiar proper a la caixa del gat —va dir el doctor hitz amb un to amable, compassiu.
+Hyp After Shift: —a ningú no li agrada dur familiar proper un a la caixa del gat —va dir el doctor hitz amb un to amable, compassiu.
+Alignment: (IS SSSSS ISSSSS  S  ISSS)
+NumShifts: 1
+  [6, 6, 6/8] ([un])
+Score: 0.9047619047619048 (19.0/21.0)
+
+Sentence ID: 100:1
+Original Ref: "desitjo que la gent no ho anomeni així," va dir leora duncan.
+Original Hyp: —m'agradaria que no en diguessin així —va dir la leora pelham.
+Hyp After Shift: —m'agradaria que la no en diguessin així —va dir leora pelham.
+Alignment: (S  D SSSS  S)
+NumShifts: 1
+  [8, 8, 2/1] ([la])
+Score: 0.6666666666666666 (8.0/12.0)
+
+Sentence ID: 101:1
+Original Ref: "què?" va dir el dr. hitz.
+Original Hyp: —com? —va preguntar el doctor hitz.
+Hyp After Shift: —com? —va preguntar el doctor hitz.
+Alignment: (SSS S )
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 102:1
+Original Ref: "desitjo que la gent no ho anomeni 'el catbox,' i coses així," va dir ella. "dóna a la gent la impressió equivocada."
+Original Hyp: —m'agradaria que no en diguessin la caixa del gat ni noms d'aquests —va dir ella—. fa la impressió equivocada.
+Hyp After Shift: —m'agradaria que la no en diguessin caixa del gat ni dir noms d'aquests —va ella—. fa la impressió equivocada.
+Alignment: (S  D DDSSSSSS SSSSS  S)
+NumShifts: 2
+  [5, 5, 2/1] ([la])
+  [13, 13, 12/9] ([dir])
+Score: 0.8181818181818182 (18.0/22.0)
+
+Sentence ID: 103:1
+Original Ref: "tens tota la raó," va dir el dr. hitz. "perdona'm." es va corregir, va donar a les cambres de gas municipals el seu títol oficial, un títol que ningú mai no utilitzava en conversa. "hauria d'haver dit, 'estudis de suïcidi ètic,'" va dir.
+Original Hyp: —té tota la raó —va dir el doctor hitz—. dispensi'm —es va corregir i es va referir a les cambres de gas municipals pel seu títol oficial, un títol que no feia servir ningú parlant—. hauria d'haver dit el taller de suïcidi ètic —va dir.
+Hyp After Shift: —té tota la raó —va dir el doctor hitz—. dispensi'm es va —es va corregir i referir a les cambres de gas municipals el pel seu títol oficial, un títol que ningú no feia servir parlant—. hauria d'haver dit taller de suïcidi ètic —va dir.
+Alignment: (S  SS  SSS  S IIS       I       D SSSS SS  SS )
+NumShifts: 3
+  [33, 33, 27/29] ([ningú])
+  [14, 15, 9/9] ([es, va])
+  [38, 38, 20/22] ([el])
+Score: 0.5348837209302325 (23.0/43.0)
+
+Sentence ID: 104:1
+Original Ref: "això sona molt millor," va dir leora duncan.
+Original Hyp: —sona molt millor —va dir la leora pelham.
+Hyp After Shift: —sona molt millor —va dir la leora pelham.
+Alignment: (DS SS I S)
+NumShifts: 0
+Score: 0.75 (6.0/8.0)
+
+Sentence ID: 105:1
+Original Ref: "aquest fill teu—qualsevol que decideixis mantenir, senyor wehling," va dir el dr. hitz. "ell o ella viurà en un planeta feliç, espaiós, net, ric, gràcies al control de la població. en un jardí com aquest mural d'allà." va sacsejar el cap. "fa dos segles, quan jo era un jove, era un infern que ningú pensava que podria durar vint anys més. ara segles de pau i abundància s'estenen davant nostre fins on la imaginació vulgui viatjar."
+Original Hyp: —aquest infant seu, el que decideixi quedar-se, senyor wehling —va dir el doctor hitz—, serà un nen o una nena que viuran en un planeta feliç, espaiós, net i ric, gràcies al control poblacional. en un jardí semblant al d'aquell mural d'allà —va remenar el cap—. fa dos segles, quan jo era jove, era tot un infern que ningú creia que duraria ni vint anys més. ara ens esperen segles de pau i tant d'espai que no te l'acabes, fins on arribi la imaginació.
+Hyp After Shift: —aquest infant seu, el que decideixi quedar-se, senyor wehling —va dir el doctor hitz—, serà nen o una nena que viuran en un planeta feliç, espaiós, net i ric, gràcies al control poblacional. en un jardí semblant al d'aquell mural d'allà —va remenar el cap—. fa dos segles, quan jo era un jove, era tot un infern que ningú creia que duraria ni vint anys més. ara ens esperen segles de pau i tant d'espai que no te l'acabes, fins on la arribi imaginació.
+Alignment: (ISSS SS SS  ISSS IISS     IS    DDS   ISS SSS SS        I    S SS    II    IISSSS   DSS)
+NumShifts: 2
+  [15, 15, 47/51] ([un])
+  [82, 82, 72/80] ([la])
+Score: 0.6052631578947368 (46.0/76.0)
+
+Sentence ID: 106:1
+Original Ref: va somriure lluminós.
+Original Hyp: va deixar anar un somriure lluminós.
+Hyp After Shift: va deixar anar un somriure lluminós.
+Alignment: ( III  )
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 107:1
+Original Ref: el somriure es va esvair quan va veure que wehling acabava de treure un revòlver.
+Original Hyp: el somriure se li va esborrar quan va veure que en wehling acabava de treure una pistola.
+Hyp After Shift: el somriure se li va esborrar quan va veure que en wehling acabava de treure una pistola.
+Alignment: (  IS S    I    SS)
+NumShifts: 0
+Score: 0.4 (6.0/15.0)
+
+Sentence ID: 108:1
+Original Ref: wehling va disparar al dr. hitz a mort. "hi ha espai per a un—un de ben gran," va dir.
+Original Hyp: en wehling va matar el doctor hitz d'un tret. —ara hi ha lloc per a un, i tindrà un espai enorme —va dir.
+Hyp After Shift: en wehling va matar el doctor hitz d'un tret. —ara hi ha espai lloc per a un, i tindrà un enorme —va dir.
+Alignment: (I  SSS ISSS  I  ISSSSS )
+NumShifts: 1
+  [19, 19, 9/11] ([espai])
+Score: 0.8421052631578947 (16.0/19.0)
+
+Sentence ID: 109:1
+Original Ref: i després va disparar a leora duncan. "és només la mort," li va dir mentre queia. "allà! espai per a dos."
+Original Hyp: encabat va matar la leora pelham. —és la mort i prou —li va dir mentre queia a terra—. apa! ja n'hi caben dos.
+Hyp After Shift: i encabat va matar a la leora pelham. —és mort la prou —li va dir mentre queia terra—. apa! ja n'hi caben dos.
+Alignment: ( S S I SSS SS   ISSSSSS)
+NumShifts: 3
+  [9, 9, -1/-1] ([i])
+  [8, 8, 9/9] ([la])
+  [16, 16, 3/3] ([a])
+Score: 0.8571428571428571 (18.0/21.0)
+
+Sentence ID: 110:1
+Original Ref: i després es va disparar a si mateix, fent espai per als seus tres fills.
+Original Hyp: i aleshores es va matar ell, i així va deixar lloc per als seus tres fills.
+Hyp After Shift: i aleshores es va matar ell, i així va deixar lloc per als seus tres fills.
+Alignment: ( S  ISSSSSS     )
+NumShifts: 0
+Score: 0.5333333333333333 (8.0/15.0)
+
+Sentence ID: 111:1
+Original Ref: ningú va venir corrent. ningú, aparentment, va sentir els trets.
+Original Hyp: no va venir ningú corrent. feia la sensació que ningú havia sentit els trets.
+Hyp After Shift: ningú no va venir corrent. feia la sensació que ningú havia sentit els trets.
+Alignment: ( I   IIISSSS  )
+NumShifts: 1
+  [3, 3, -1/-1] ([ningú])
+Score: 0.9 (9.0/10.0)
+
+Sentence ID: 112:1
+Original Ref: el pintor estava assegut a la part superior de la seva escala de mà, mirant reflexivament l'escena trista.
+Original Hyp: el pintor estava assegut al capdamunt de l'escaleta i des d'allà contemplava capficat aquell panorama tan trist.
+Hyp After Shift: el pintor estava assegut al capdamunt l'escaleta de i des d'allà contemplava capficat aquell panorama tan trist.
+Alignment: (    DSSS SSSSSSSSS)
+NumShifts: 1
+  [6, 6, 8/7] ([de])
+Score: 0.7777777777777778 (14.0/18.0)
+
+Sentence ID: 113:1
+Original Ref: el pintor va ponderar el trencaclosques trist de la vida que demanava néixer i, un cop nascuda, demanava ser fèrtil... multiplicar-se i viure el màxim de temps possible—fer tot això en un planeta molt petit que hauria de durar per sempre.
+Original Hyp: el pintor va reflexionar sobre l'infaust trencaclosques de la vida que exigeix néixer i, un cop nascuda, exigeix fructificar... multiplicar-se i viure tant com es pugui... i tot plegat en un planeta molt petit que hauria de durar eternament.
+Hyp After Shift: el pintor va reflexionar sobre trencaclosques l'infaust de la vida que exigeix néixer i, un cop nascuda, exigeix fructificar... multiplicar-se i viure tant com es pugui... i tot plegat en un planeta molt petit que hauria de durar eternament.
+Alignment: (   SS S    S     DSS   SSSSS S         DS)
+NumShifts: 1
+  [6, 6, 4/4] ([trencaclosques])
+Score: 0.3902439024390244 (16.0/41.0)
+
+Sentence ID: 114:1
+Original Ref: totes les respostes que el pintor podia pensar eren fosques. fins i tot més fosques, segurament, que un catbox, un happy hooligan, un easy go. va pensar en la guerra. va pensar en la pesta. va pensar en la fam.
+Original Hyp: totes les respostes que li venien al cap eren molt sinistres. molt més encara que una caixa del gat, un camorrista feliç, una sortida fàcil. va pensar en la guerra. va pensar en la pesta. va pensar en la inanició.
+Hyp After Shift: totes les respostes que li venien al cap eren molt sinistres. molt encara més una caixa que del gat, un camorrista feliç, una sortida fàcil. va pensar en la guerra. va pensar en la pesta. va pensar en la inanició.
+Alignment: (    SSSS SSSS SS SS SSSSS              S)
+NumShifts: 2
+  [12, 12, 13/13] ([més])
+  [14, 14, 16/16] ([que])
+Score: 0.5 (20.0/40.0)
+
+Sentence ID: 115:1
+Original Ref: sabia que mai no tornaria a pintar. va deixar caure el seu pinzell als llençols de sota. i després va decidir que ja n'havia tingut prou de la vida al jardí feliç de la vida, també, i va baixar lentament de l'escala.
+Original Hyp: sabia que no tornaria a pintar mai més. va deixar caure el pinzell sobre el paper protector del terra. i en aquell moment va decidir que ja n'havia tingut prou, del seu temps al jardí feliç de la vida, i va baixar a poc a poc de l'escala.
+Hyp After Shift: sabia que mai no tornaria a pintar més. va deixar caure el sobre pinzell el paper protector del terra. i en aquell moment va decidir que ja n'havia tingut prou, del seu temps al jardí feliç de la vida, i va baixar a poc a poc de l'escala.
+Alignment: (      IS    S ISSSS IIS      SSSS      D   IIIS  )
+NumShifts: 2
+  [6, 6, 2/1] ([mai])
+  [12, 12, 11/13] ([pinzell])
+Score: 0.5238095238095238 (22.0/42.0)
+
+Sentence ID: 116:1
+Original Ref: va agafar la pistola de wehling, realment amb la intenció de disparar-se a si mateix.
+Original Hyp: va agafar la pistola d'en wehling amb tota la intenció de disparar-se.
+Hyp After Shift: va agafar la pistola d'en wehling tota amb la intenció de disparar-se.
+Alignment: (    SSS    DDDS)
+NumShifts: 1
+  [6, 6, 7/7] ([amb])
+Score: 0.5333333333333333 (8.0/15.0)
+
+Sentence ID: 117:1
+Original Ref: però no va tenir el valor.
+Original Hyp: però no s'hi va veure amb cor.
+Hyp After Shift: però no s'hi va veure amb cor.
+Alignment: (  I SSS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 118:1
+Original Ref: i després va veure la cabina telefònica a la cantonada de la sala. hi va anar, va marcar el número ben recordat: "2 b r 0 2 b."
+Original Hyp: i aleshores va veure la cabina de telèfon en un racó de la sala. hi va anar i va marcar el telèfon que tan bé recordava: c-0-n-0-c.
+Hyp After Shift: i aleshores va veure la cabina de telèfon en un racó de la sala. hi va anar i va marcar el telèfon que tan bé recordava: c-0-n-0-c.
+Alignment: ( S    ISSSS     IS   DDDSSSSSS)
+NumShifts: 0
+Score: 0.6071428571428571 (17.0/28.0)
+
+Sentence ID: 119:1
+Original Ref: "oficina federal de terminació," va dir la veu molt càlida d'una hostessa.
+Original Hyp: —oficina federal de liquidació —va dir la veu agradable d'una hostessa.
+Hyp After Shift: —oficina federal de liquidació —va dir la veu agradable d'una hostessa.
+Alignment: (S  SS   DS  )
+NumShifts: 0
+Score: 0.4166666666666667 (5.0/12.0)
+
+Sentence ID: 120:1
+Original Ref: "com aviat podria obtenir una cita?" va preguntar, parlant molt acuradament.
+Original Hyp: —per a quan em podria donar cita? —va preguntar, expressant-se amb molt de compte.
+Hyp After Shift: —per a quan em podria donar cita? —va expressant-se preguntar, amb molt de compte.
+Alignment: (IISS SSSS S IS)
+NumShifts: 1
+  [8, 8, 7/9] ([preguntar,])
+Score: 1.0909090909090908 (12.0/11.0)
+
+Sentence ID: 121:1
+Original Ref: "probablement podríem encaixar-lo a última hora d'aquesta tarda, senyor," va dir ella. "fins i tot podria ser abans, si tenim una cancel·lació."
+Original Hyp: —segurament podríem oferir-li un buit aquest vespre, senyor —va dir ella—. potser abans i tot, si se n'anul·la alguna.
+Hyp After Shift: —segurament podríem oferir-li un buit aquest vespre, senyor —va dir i ella—. potser abans tot, si se n'anul·la alguna.
+Alignment: (S DSSSSSSS DD SSSS SSS)
+NumShifts: 1
+  [13, 13, 12/9] ([i])
+Score: 0.8636363636363636 (19.0/22.0)
+
+Sentence ID: 122:1
+Original Ref: "d'acord," va dir el pintor, "encaixa'm, si us plau." i li va donar el seu nom, lletrejant-lo.
+Original Hyp: —entesos —va dir el pintor—, doni'm hora, sisplau —i li va dir com es deia, lletra per lletra.
+Hyp After Shift: —entesos —va dir el pintor—, doni'm hora, sisplau —i li va dir com es deia, lletra per lletra.
+Alignment: (SS  DSSSSS  IISSSSS)
+NumShifts: 0
+Score: 0.8823529411764706 (15.0/17.0)
+
+Sentence ID: 123:1
+Original Ref: "gràcies, senyor," va dir l'hostessa. "la seva ciutat li agraeix; el seu país li agraeix; el seu planeta li agraeix. però el més profund agraïment de tots és de les generacions futures."
+Original Hyp: —gràcies, senyor —va dir l'hostessa—. gràcies de part de la seva ciutat. gràcies de part del seu país. gràcies de part del seu planeta. però, sobretot, moltes gràcies de part de les generacions futures.
+Hyp After Shift: —gràcies, senyor —va dir l'hostessa—. gràcies seva de part de la seu ciutat. gràcies de part del seu país. gràcies part del planeta. però, sobretot, moltes de gràcies de part de les generacions futures.
+Alignment: (SSS SS SSSS ISSSS SSSSSSSS ISS   S)
+NumShifts: 3
+  [10, 10, 5/5] ([seva])
+  [19, 19, 24/26] ([de])
+  [21, 21, 10/10] ([seu])
+Score: 0.90625 (29.0/32.0)
+

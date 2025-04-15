@@ -1,0 +1,1884 @@
+Sentence ID: 1:1
+Best Ref: 2br02b
+Orig Hyp: ﻿s3r0n0s3r
+
+REF:  2br02b    
+HYP:  ﻿s3r0n0s3r
+EVAL: S         
+SHFT:           
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 2:1
+Best Ref: todo estaba perfectamente bien.
+Orig Hyp: todo iba viento en popa.
+
+REF:  todo *** estaba perfectamente bien.
+HYP:  todo iba viento en            popa.
+EVAL:      I   S      S             S    
+SHFT:                                    
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 3:1
+Best Ref: no había cárceles, ni barrios marginales, ni asilos para enfermos mentales, ni lisiados, ni pobreza, ni guerras.
+Orig Hyp: habían desaparecido las cárceles, los barrios bajos, los manicomios, la discapacidad, la pobreza, las guerras.
+
+REF:  ****** no           había cárceles, ni  barrios marginales, ni asilos para   enfermos mentales,   ni lisiados,     ni pobreza, ni  guerras.
+HYP:  habían desaparecido las   cárceles, los barrios *********** ** ****** bajos, los      manicomios, la discapacidad, la pobreza, las guerras.
+EVAL: I      S            S               S           D           D  D      S      S        S           S  S             S           S           
+SHFT:                                                                                                                                            
+TER Score:  82.35 ( 14.0/ 17.0)
+
+
+
+Sentence ID: 4:1
+Best Ref: todas las enfermedades habían sido vencidas. también la vejez.
+Orig Hyp: no solo se había erradicado la enfermedad, sino también la vejez.
+
+REF:  ** **** todas las   enfermedades habían sido        vencidas. también la vejez.
+HYP:  no solo se    había erradicado   la     enfermedad, sino      también la vejez.
+EVAL: I  I    S     S     S            S      S           S                          
+SHFT:                                                                                
+TER Score:  88.89 (  8.0/  9.0)
+
+
+
+Sentence ID: 5:1
+Best Ref: la muerte, salvo accidentes, era una aventura para voluntarios.
+Orig Hyp: la muerte, sin contar los accidentes, era una aventura solo apta para voluntarios.
+
+REF:  la muerte, *** ****** salvo accidentes, era una aventura **** **** para voluntarios.
+HYP:  la muerte, sin contar los   accidentes, era una aventura solo apta para voluntarios.
+EVAL:            I   I      S                                  I    I                     
+SHFT:                                                                                     
+TER Score:  55.56 (  5.0/  9.0)
+
+
+
+Sentence ID: 6:1
+Best Ref: la población de los estados unidos se estabilizó en cuarenta millones de almas.
+Orig Hyp: la población del país se había estabilizado en cuarenta millones de almas.
+
+REF:  la población de los estados   unidos   se   estabilizó   en cuarenta millones de almas.
+HYP:  la población ** del país    @ había  [ se ] estabilizado en cuarenta millones de almas.
+EVAL:              D  S   S         S             S                                          
+SHFT:                             1        1    1                                            
+TER Score:  46.15 (  6.0/ 13.0)
+
+Shift [se] 1 words right
+ REF:  la población de los estados   unidos   se   estabilizó   en cuarenta millones de almas.
+ HYP:  la población ** del país    @ había  [ se ] estabilizado en cuarenta millones de almas.
+
+
+
+Sentence ID: 7:1
+Best Ref: una brillante mañana en el hospital de maternidad de chicago, un hombre llamado edward k. wehling, jr., esperaba a que su esposa diera a luz. era el único hombre esperando. ya no nacía mucha gente al día.
+Orig Hyp: una mañana radiante en el hospital materno infantil de la ciudad, un hombre llamado eduardo quejada esperaba a que diera a luz su mujer. era el único. ya no nacía mucha gente un día cualquiera.
+
+REF:  una   brillante   mañana   en el hospital de      maternidad de ** chicago, un hombre llamado edward k. wehling, jr.,    esperaba a que   su   esposa diera a luz.   era el   único   hombre   esperando. ya no nacía mucha gente ** al  día.       
+HYP:  una @ radiante  [ mañana ] en el hospital materno infantil   de la ciudad,  un hombre llamado ****** ** eduardo  quejada esperaba a que [ su ] ****** diera a luz  [ era el ] ***** @ mujer. @ único.     ya no nacía mucha gente un día cualquiera.
+EVAL:       S                                   S       S             I  S                          D      D  S        S                             D              S               D       S        S                                  I  S   S          
+SHFT:     2           2        2                                                                                                              3    3                     1        1       3        1                                                      
+TER Score:  54.05 ( 20.0/ 37.0)
+
+Shift [era, el] 2 words left
+ REF:  una brillante mañana   en el hospital de      maternidad de ** chicago, un hombre llamado edward k. wehling, jr.,    esperaba a que su esposa diera a luz.   era el   único hombre   esperando. ya no nacía mucha gente ** al  día.       
+ HYP:  una mañana    radiante en el hospital materno infantil   de la ciudad,  un hombre llamado ****** ** eduardo  quejada esperaba a que ** ****** diera a luz  [ era el ] su    mujer. @ único.     ya no nacía mucha gente un día cualquiera.
+
+Shift [mañana] 1 words right
+ REF:  una   brillante   mañana   en el hospital de      maternidad de ** chicago, un hombre llamado edward k. wehling, jr.,    esperaba a que su esposa diera a luz. era el único hombre esperando. ya no nacía mucha gente ** al  día.       
+ HYP:  una @ radiante  [ mañana ] en el hospital materno infantil   de la ciudad,  un hombre llamado ****** ** eduardo  quejada esperaba a que ** ****** diera a luz  era el su    mujer. único.     ya no nacía mucha gente un día cualquiera.
+
+Shift [su] 5 words left
+ REF:  una brillante mañana en el hospital de      maternidad de ** chicago, un hombre llamado edward k. wehling, jr.,    esperaba a que   su   esposa diera a luz. era el único   hombre esperando. ya no nacía mucha gente ** al  día.       
+ HYP:  una radiante  mañana en el hospital materno infantil   de la ciudad,  un hombre llamado ****** ** eduardo  quejada esperaba a que [ su ] ****** diera a luz  era el ***** @ mujer. único.     ya no nacía mucha gente un día cualquiera.
+
+
+
+Sentence ID: 8:1
+Best Ref: wehling tenía cincuenta y seis años, un mero joven en una población cuya edad media era de ciento veintinueve.
+Orig Hyp: quejada tenía cincuenta y seis años, apenas un mozalbete si tenemos en cuenta que la población tenía una edad media de ciento veintinueve años.
+
+REF:  wehling tenía cincuenta y seis años, ****** un ********* mero joven   en   una   ****** *** ** población cuya    edad media era de ciento *********** veintinueve.
+HYP:  quejada tenía cincuenta y seis años, apenas un mozalbete si   tenemos en [ una ] cuenta que la población tenía @ edad media *** de ciento veintinueve años.       
+EVAL: S                                    I         I         S    S                  I      I   I            S                  D             I           S           
+SHFT:                                                                          1     1                               1                                                  
+TER Score:  68.42 ( 13.0/ 19.0)
+
+Shift [una] 5 words left
+ REF:  wehling tenía cincuenta y seis años, ****** un ********* mero joven   en   una   ****** *** ** población cuya    edad media era de ciento *********** veintinueve.
+ HYP:  quejada tenía cincuenta y seis años, apenas un mozalbete si   tenemos en [ una ] cuenta que la población tenía @ edad media *** de ciento veintinueve años.       
+
+
+
+Sentence ID: 9:1
+Best Ref: las radiografías habían revelado que su esposa iba a tener trillizos. los niños serían sus primeros.
+Orig Hyp: la ecografía había desvelado que su mujer iba a tener trillizos. quejada era padre primerizo.
+
+REF:  las radiografías habían revelado  que su esposa iba a tener trillizos. los niños   serían sus   primeros. 
+HYP:  la  ecografía    había  desvelado que su mujer  iba a tener trillizos. *** quejada era    padre primerizo.
+EVAL: S   S            S      S                S                             D   S       S      S     S         
+SHFT:                                                                                                           
+TER Score:  62.50 ( 10.0/ 16.0)
+
+
+
+Sentence ID: 10:1
+Best Ref: el joven wehling estaba encorvado en su silla, con la cabeza en la mano. estaba tan arrugado, tan quieto y sin color, que era prácticamente invisible. su camuflaje era perfecto, dado que la sala de espera también tenía un aire desordenado y desmoralizado. las sillas y los ceniceros se habían apartado de las paredes. el suelo estaba pavimentado con lienzos salpicados.
+Orig Hyp: el joven quejada se sentaba encorvado con la cabeza entre las manos. estaba tan desaliñado, paralizado y pálido que era prácticamente invisible. el camuflaje era ideal porque la sala de espera ya tenía un aspecto desordenado y desmoralizador. se habían apartado las sillas y los ceniceros de la pared y el suelo estaba recubierto de telas manchadas.
+
+REF:  el joven wehling estaba   encorvado   en      su silla,    con la cabeza en      la     mano.  estaba tan arrugado, tan         quieto     y sin color, que era prácticamente invisible. su camuflaje era perfecto, dado  que    la sala de espera también tenía un aire    desordenado y desmoralizado.    las sillas y los ceniceros   se habían apartado   de   las     ***** paredes. el suelo estaba pavimentado con lienzos salpicados.
+HYP:  el joven ******* ****** [ encorvado ] quejada se sentaba @ con la cabeza entre [ la ] @ manos. estaba tan ********* desaliñado, paralizado y *** pálido que era prácticamente invisible. el camuflaje era ********* ideal porque la sala de espera ya      tenía un aspecto desordenado y desmoralizador. @ las sillas y los ceniceros [ se habían apartado ] de [ las ] @ pared y        el suelo estaba recubierto  de  telas   manchadas. 
+EVAL:          D       D                    S       S  S                       S              S                 D         S           S            D   S                                       S                D         S     S                        S                S                     S                                                                                I     S                        S           S   S       S          
+SHFT:                         2           2                    2                     3    3 4                                                                                                                                                                                                                   1                            1                    1    4     4 3                                                                   
+TER Score:  47.54 ( 29.0/ 61.0)
+
+Shift [se, habían, apartado] 5 words right
+ REF:  el joven wehling estaba encorvado en su      silla,    con la cabeza en    la  mano.  estaba tan arrugado, tan         quieto     y sin color, que era prácticamente invisible. su camuflaje era perfecto, dado  que    la sala de espera también tenía un aire    desordenado y desmoralizado.    las sillas y los ceniceros   se habían apartado   de ** las   paredes. el suelo estaba pavimentado con lienzos salpicados.
+ HYP:  el joven ******* ****** quejada   se sentaba encorvado con la cabeza entre las manos. estaba tan ********* desaliñado, paralizado y *** pálido que era prácticamente invisible. el camuflaje era ********* ideal porque la sala de espera ya      tenía un aspecto desordenado y desmoralizador. @ las sillas y los ceniceros [ se habían apartado ] de la pared y        el suelo estaba recubierto  de  telas   manchadas. 
+
+Shift [encorvado] 3 words left
+ REF:  el joven wehling estaba   encorvado   en      su silla,    con la cabeza en    la  mano.  estaba tan arrugado, tan         quieto     y sin color, que era prácticamente invisible. su camuflaje era perfecto, dado  que    la sala de espera también tenía un aire    desordenado y desmoralizado.  las sillas y los ceniceros se habían apartado de ** las   paredes. el suelo estaba pavimentado con lienzos salpicados.
+ HYP:  el joven ******* ****** [ encorvado ] quejada se sentaba @ con la cabeza entre las manos. estaba tan ********* desaliñado, paralizado y *** pálido que era prácticamente invisible. el camuflaje era ********* ideal porque la sala de espera ya      tenía un aspecto desordenado y desmoralizador. las sillas y los ceniceros se habían apartado de la pared y        el suelo estaba recubierto  de  telas   manchadas. 
+
+Shift [la] 37 words left
+ REF:  el joven wehling estaba encorvado en      su silla,  con la cabeza en      la   *** mano.  estaba tan arrugado, tan         quieto     y sin color, que era prácticamente invisible. su camuflaje era perfecto, dado  que    la sala de espera también tenía un aire    desordenado y desmoralizado.  las sillas y los ceniceros se habían apartado de   las   paredes. el suelo estaba pavimentado con lienzos salpicados.
+ HYP:  el joven ******* ****** encorvado quejada se sentaba con la cabeza entre [ la ] las manos. estaba tan ********* desaliñado, paralizado y *** pálido que era prácticamente invisible. el camuflaje era ********* ideal porque la sala de espera ya      tenía un aspecto desordenado y desmoralizador. las sillas y los ceniceros se habían apartado de @ pared y        el suelo estaba recubierto  de  telas   manchadas. 
+
+Shift [las] 36 words right
+ REF:  el joven wehling estaba encorvado en      su silla,  con la cabeza en    la   mano.  estaba tan arrugado, tan         quieto     y sin color, que era prácticamente invisible. su camuflaje era perfecto, dado  que    la sala de espera también tenía un aire    desordenado y desmoralizado.  las sillas y los ceniceros se habían apartado de   las   ***** paredes. el suelo estaba pavimentado con lienzos salpicados.
+ HYP:  el joven ******* ****** encorvado quejada se sentaba con la cabeza entre la @ manos. estaba tan ********* desaliñado, paralizado y *** pálido que era prácticamente invisible. el camuflaje era ********* ideal porque la sala de espera ya      tenía un aspecto desordenado y desmoralizador. las sillas y los ceniceros se habían apartado de [ las ] pared y        el suelo estaba recubierto  de  telas   manchadas. 
+
+
+
+Sentence ID: 11:1
+Best Ref: la sala estaba siendo redecorada. estaba siendo redecorada en memoria de un hombre que se había ofrecido como voluntario para morir.
+Orig Hyp: se estaba renovando la sala para conmemorar a un hombre que se había ofrecido voluntario para morir.
+
+REF:    la sala   estaba siendo redecorada. estaba siendo redecorada   en   memoria    de un hombre que se había ofrecido como voluntario para morir.
+HYP:  [ la sala ] ****** ****** se          estaba ****** renovando  @ para conmemorar a  un hombre que se había ofrecido **** voluntario para morir.
+EVAL:             D      D      S                  D      S            S    S          S                                  D                          
+SHFT: 1         1                                                    1                                                                               
+TER Score:  47.62 ( 10.0/ 21.0)
+
+Shift [la, sala] 3 words left
+ REF:    la sala   estaba siendo redecorada. estaba siendo redecorada   en   memoria    de un hombre que se había ofrecido como voluntario para morir.
+ HYP:  [ la sala ] ****** ****** se          estaba ****** renovando  @ para conmemorar a  un hombre que se había ofrecido **** voluntario para morir.
+
+
+
+Sentence ID: 12:1
+Best Ref: un anciano sardónico, de unos doscientos años, estaba sentado en una escalera de tijera, pintando un mural que no le gustaba. en los días en que la gente envejecía visiblemente, su edad habría sido estimada en unos treinta y cinco años. la vejez le había tocado hasta ese punto antes de que se encontrara la cura para el envejecimiento.
+Orig Hyp: un hombre mordaz, ya mayor, de unos doscientos años, estaba sentado en la escalera y pintaba un mural que no le gustaba. en los tiempos en que las personas envejecían de manera visible, se hubiera dicho que tenía unos treinta y cinco más o menos porque eran justo esos los años que había cumplido antes de que se encontrara la cura para el envejecimiento.
+
+REF:  un ****** ******* anciano sardónico, de unos doscientos años, estaba sentado en una escalera   de   tijera, pintando un mural que no le gustaba. en los días    en que la  gente    envejecía    visiblemente, su       edad habría  sido  estimada en    unos treinta y cinco *** * ***** años.  la   vejez le     había   tocado hasta ese   punto    antes de que se encontrara la cura para el envejecimiento.
+HYP:  un hombre mordaz, ya      mayor,     de unos doscientos años, estaba sentado en la  escalera [ de ] y       pintaba  un mural que no le gustaba. en los tiempos en que las personas envejecían @ manera        visible, se   hubiera dicho que      tenía unos treinta y cinco más o menos porque eran justo esos [ había ] los    años  que @ cumplido antes de que se encontrara la cura para el envejecimiento.
+EVAL:    I      I       S       S                                                     S                   S       S                                           S              S   S        S            S             S        S    S       S     S        S                          I   I I     S      S    S     S              S      S     S     S                                                                  
+SHFT:                                                                                              1    1                                                                                            1                                                                                                                  2       2                  2                                                                    
+TER Score:  52.54 ( 31.0/ 59.0)
+
+Shift [de] 16 words left
+ REF:  un ****** ******* anciano sardónico, de unos doscientos años, estaba sentado en una escalera   de   tijera, pintando un mural que no le gustaba. en los días    en que la  gente    envejecía    visiblemente, su       edad habría  sido  estimada en    unos treinta y cinco *** * ***** años.  la   vejez le   había tocado hasta ese   punto    antes de que se encontrara la cura para el envejecimiento.
+ HYP:  un hombre mordaz, ya      mayor,     de unos doscientos años, estaba sentado en la  escalera [ de ] y       pintaba  un mural que no le gustaba. en los tiempos en que las personas envejecían @ manera        visible, se   hubiera dicho que      tenía unos treinta y cinco más o menos porque eran justo esos los   años   que   había cumplido antes de que se encontrara la cura para el envejecimiento.
+
+Shift [había] 3 words left
+ REF:  un ****** ******* anciano sardónico, de unos doscientos años, estaba sentado en una escalera de tijera, pintando un mural que no le gustaba. en los días    en que la  gente    envejecía  visiblemente, su       edad habría  sido  estimada en    unos treinta y cinco *** * ***** años.  la   vejez le     había   tocado hasta ese   punto    antes de que se encontrara la cura para el envejecimiento.
+ HYP:  un hombre mordaz, ya      mayor,     de unos doscientos años, estaba sentado en la  escalera de y       pintaba  un mural que no le gustaba. en los tiempos en que las personas envejecían manera        visible, se   hubiera dicho que      tenía unos treinta y cinco más o menos porque eran justo esos [ había ] los    años  que @ cumplido antes de que se encontrara la cura para el envejecimiento.
+
+
+
+Sentence ID: 13:1
+Best Ref: el mural en el que trabajaba mostraba un jardín muy ordenado. hombres y mujeres de blanco, doctores y enfermeras, cavaban la tierra, plantaban semillas, rociaban insectos, esparcían fertilizante.
+Orig Hyp: el mural en el que trabajaba representaba un jardín extremadamente cuidado. hombres y mujeres de blanco, doctores y enfermeros, cavaban, plantaban semillas, fumigaban, fertilizaban la tierra.
+
+REF:  el mural en el que trabajaba mostraba     un jardín muy            ordenado. hombres y mujeres de blanco, doctores y enfermeras, cavaban       la   tierra,  plantaban semillas, rociaban insectos,  esparcían      fertilizante.
+HYP:  el mural en el que trabajaba representaba un jardín extremadamente cuidado.  hombres y mujeres de blanco, doctores y *********** enfermeros, [ la ] cavaban, plantaban semillas, ******** fumigaban, fertilizaban @ tierra.      
+EVAL:                              S                      S              S                                                 D           S                  S                            D        S          S              S            
+SHFT:                                                                                                                                              1    1                                                               1              
+TER Score:  39.29 ( 11.0/ 28.0)
+
+Shift [la] 5 words left
+ REF:  el mural en el que trabajaba mostraba     un jardín muy            ordenado. hombres y mujeres de blanco, doctores y enfermeras, cavaban       la   tierra,  plantaban semillas, rociaban insectos,  esparcían      fertilizante.
+ HYP:  el mural en el que trabajaba representaba un jardín extremadamente cuidado.  hombres y mujeres de blanco, doctores y *********** enfermeros, [ la ] cavaban, plantaban semillas, ******** fumigaban, fertilizaban @ tierra.      
+
+
+
+Sentence ID: 14:1
+Best Ref: hombres y mujeres con uniformes morados arrancaban maleza, cortaban plantas viejas y enfermas, rastrillaban hojas, llevaban residuos a incineradores de basura.
+Orig Hyp: los hombres y las mujeres vestidos con uniformes violeta quitaban la maleza, talaban las plantas viejas o enfermas, rastrillaban las hojas, llevaban la basura al incinerador.
+
+REF:  *** hombres y *** mujeres ******** con uniformes ******* morados  arrancaban maleza, ******* cortaban plantas viejas y enfermas, rastrillaban *** hojas, llevaban residuos a  incineradores de basura.     
+HYP:  los hombres y las mujeres vestidos con uniformes violeta quitaban la         maleza, talaban las      plantas viejas o enfermas, rastrillaban las hojas, llevaban ******** la basura        al incinerador.
+EVAL: I             I           I                      I       S        S                  I       S                       S                        I                   D        S  S             S  S           
+SHFT:                                                                                                                                                                                                            
+TER Score:  71.43 ( 15.0/ 21.0)
+
+
+
+Sentence ID: 15:1
+Best Ref: nunca, nunca, nunca, ni siquiera en la holanda medieval ni en el viejo japón, había un jardín más formal, mejor cuidado. cada planta tenía todo el mantillo, luz, agua, aire y alimento que podía usar.
+Orig Hyp: jamás de los jamases, ni siquiera en los países bajos del medioevo ni en el japón de la antigüedad, se había visto un jardín tan elegante ni mejor atendido. las plantas disponían de toda la tierra, luz, agua, aire y fertilizante necesarios.
+
+REF:  ***** nunca, nunca, nunca,   ni siquiera en   la   *** ****** ***** holanda medieval ni en el ***** **   viejo       japón, había ***** un jardín *** más      formal, mejor ********* cuidado. cada    planta    tenía todo el mantillo, luz, agua, aire y alimento que podía        usar.      
+HYP:  jamás de     los    jamases, ni siquiera en [ la ] los países bajos del     medioevo ni en el japón de @ antigüedad, se     había visto un jardín tan elegante ni      mejor atendido. las      plantas disponían de    toda la tierra,   luz, agua, aire y ******** *** fertilizante necesarios.
+EVAL: I     S      S      S                              I   I      I     S       S                 I     I    S           S            I               I   S        S             I         S        S       S         S     S    S  S                           D        D   S            S          
+SHFT:                                             1    1                                                     1                                                                                                                                                                                         
+TER Score:  85.71 ( 30.0/ 35.0)
+
+Shift [la] 10 words left
+ REF:  ***** nunca, nunca, nunca,   ni siquiera en   la   *** ****** ***** holanda medieval ni en el ***** **   viejo       japón, había ***** un jardín *** más      formal, mejor ********* cuidado. cada    planta    tenía todo el mantillo, luz, agua, aire y alimento que podía        usar.      
+ HYP:  jamás de     los    jamases, ni siquiera en [ la ] los países bajos del     medioevo ni en el japón de @ antigüedad, se     había visto un jardín tan elegante ni      mejor atendido. las      plantas disponían de    toda la tierra,   luz, agua, aire y ******** *** fertilizante necesarios.
+
+
+
+Sentence ID: 16:1
+Best Ref: un ordenanza del hospital bajó por el pasillo, canturreando una canción popular:
+Orig Hyp: por el pasillo, se acercaba un celador cantando en voz baja una canción popular:
+
+REF:    ** ******** un ordenanza del      hospital bajó   por el pasillo,   canturreando una canción popular:
+HYP:  @ se acercaba un celador   cantando en       voz  [ por el pasillo, ] baja         una canción popular:
+EVAL:   I  I           S         S        S        S                        S                                
+SHFT: 1                                                 1                 1                                  
+TER Score:  66.67 (  8.0/ 12.0)
+
+Shift [por, el, pasillo,] 7 words right
+ REF:    ** ******** un ordenanza del      hospital bajó   por el pasillo,   canturreando una canción popular:
+ HYP:  @ se acercaba un celador   cantando en       voz  [ por el pasillo, ] baja         una canción popular:
+
+
+
+Sentence ID: 17:1
+Best Ref: si no te gustan mis besos, cariño,
+Orig Hyp: si no deseas mis besos, amor,
+
+REF:  si no te gustan mis besos, cariño,
+HYP:  si no ** deseas mis besos, amor,  
+EVAL:       D  S                 S      
+SHFT:                                   
+TER Score:  42.86 (  3.0/  7.0)
+
+
+
+Sentence ID: 18:1
+Best Ref: esto es lo que haré:
+Orig Hyp: otro rumbo tomaré:
+
+REF:  esto es lo   que   haré:  
+HYP:  **** ** otro rumbo tomaré:
+EVAL: D    D  S    S     S      
+SHFT:                           
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 19:1
+Best Ref: iré a ver a una chica de púrpura,
+Orig Hyp: y a una de violeta, con fervor,
+
+REF:  iré a ver   a    una   chica    de  púrpura,
+HYP:  y   a *** @ de [ una ] violeta, con fervor, 
+EVAL: S     D     S          S        S   S       
+SHFT:           1    1     1                      
+TER Score:  87.50 (  7.0/  8.0)
+
+Shift [una] 1 words right
+ REF:  iré a ver   a    una   chica    de  púrpura,
+ HYP:  y   a *** @ de [ una ] violeta, con fervor, 
+
+
+
+Sentence ID: 20:1
+Best Ref: despido a este triste mundo.
+Orig Hyp: este cuerpo donaré.
+
+REF:  despido a este triste mundo. 
+HYP:  ******* * este cuerpo donaré.
+EVAL: D       D      S      S      
+SHFT:                              
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 21:1
+Best Ref: si no quieres mi amor,
+Orig Hyp: si ya no te es suficiente este amor,
+
+REF:  si ** no ** ** quieres    mi   amor,
+HYP:  si ya no te es suficiente este amor,
+EVAL:    I     I  I  S          S         
+SHFT:                                     
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 22:1
+Best Ref: ¿por qué ocupar todo este espacio?
+Orig Hyp: ¿para qué seguir con él?
+
+REF:  ¿por  qué ocupar todo   este espacio?
+HYP:  ¿para qué ****** seguir con  él?     
+EVAL: S         D      S      S    S       
+SHFT:                                      
+TER Score:  83.33 (  5.0/  6.0)
+
+
+
+Sentence ID: 23:1
+Best Ref: saldré de este viejo planeta,
+Orig Hyp: mundo cruel, ya me voy con mi dolor.
+
+REF:  ***** ****** ** saldré de  este viejo planeta,
+HYP:  mundo cruel, ya me     voy con  mi    dolor.  
+EVAL: I     I      I  S      S   S    S     S       
+SHFT:                                               
+TER Score: 160.00 (  8.0/  5.0)
+
+
+
+Sentence ID: 24:1
+Best Ref: dejaré que algún dulce bebé ocupe mi lugar.
+Orig Hyp: y un bebé aquí dejaré.
+
+REF:  dejaré que algún dulce bebé ocupe mi   lugar. 
+HYP:  ****** *** y     un    bebé ***** aquí dejaré.
+EVAL: D      D   S     S          D     S    S      
+SHFT:                                               
+TER Score:  87.50 (  7.0/  8.0)
+
+
+
+Sentence ID: 25:1
+Best Ref: el ordenanza miró el mural y al muralista. “parece tan real”, dijo, “que prácticamente puedo imaginarme que estoy parado en el medio de él”.
+Orig Hyp: el celador observó el mural y al muralista. —parece tan real —dijo—. es que me puedo imaginar ahí mismo en el medio de ese jardín.
+
+REF:  el ordenanza miró    el mural y al muralista. “parece tan real”, dijo,   “que   prácticamente puedo imaginarme   que   estoy parado en el medio de *** él”.   
+HYP:  el celador   observó el mural y al muralista. —parece tan real   —dijo—. es   @ me            puedo imaginar   [ que ] ahí   mismo  en el medio de ese jardín.
+EVAL:    S         S                                S           S      S       S      S                   S                  S     S                     I   S      
+SHFT:                                                                               1                                1     1                                        
+TER Score:  54.17 ( 13.0/ 24.0)
+
+Shift [que] 3 words right
+ REF:  el ordenanza miró    el mural y al muralista. “parece tan real”, dijo,   “que   prácticamente puedo imaginarme   que   estoy parado en el medio de *** él”.   
+ HYP:  el celador   observó el mural y al muralista. —parece tan real   —dijo—. es   @ me            puedo imaginar   [ que ] ahí   mismo  en el medio de ese jardín.
+
+
+
+Sentence ID: 26:1
+Best Ref: “¿qué te hace pensar que no estás en él?” dijo el pintor. esbozó una sonrisa satírica. “se llama ‘el feliz jardín de la vida’, ¿sabes?”.
+Orig Hyp: —¿y qué te hace pensar que no estás en el medio? —dijo el pintor con una sonrisa irónica—. se llama el feliz jardín de la vida, ¿sabías?
+
+REF:  *** “¿qué te hace pensar que no estás en ** él?”   dijo  el pintor. esbozó una sonrisa satírica. “se llama ‘el feliz jardín de la vida’, ¿sabes?”.
+HYP:  —¿y qué   te hace pensar que no estás en el medio? —dijo el pintor  con    una sonrisa irónica—. se  llama el  feliz jardín de la vida,  ¿sabías? 
+EVAL: I   S                                    I  S      S        S       S                  S         S         S                      S      S        
+SHFT:                                                                                                                                                   
+TER Score:  48.00 ( 12.0/ 25.0)
+
+
+
+Sentence ID: 27:1
+Best Ref: “eso estuvo bien por parte del dr. hitz”, dijo el ordenanza.
+Orig Hyp: —¡qué majo el doctor atiza! —dijo el celador.
+
+REF:  “eso estuvo bien por   parte del dr.    hitz”, dijo  el ordenanza.
+HYP:  **** ****** **** —¡qué majo  el  doctor atiza! —dijo el celador.  
+EVAL: D    D      D    S     S     S   S      S      S        S         
+SHFT:                                                                   
+TER Score:  90.91 ( 10.0/ 11.0)
+
+
+
+Sentence ID: 28:1
+Best Ref: se refería a una de las figuras masculinas vestidas de blanco, cuya cabeza era un retrato del dr. benjamin hitz, el jefe obstetra del hospital. hitz era un hombre deslumbrantemente guapo.
+Orig Hyp: se refería a una de las figuras masculinas de blanco cuya cabeza era un retrato del doctor benjamín atiza, el jefe de obstetricia del hospital. atiza era de una belleza arrolladora.
+
+REF:  se refería a una de las figuras masculinas vestidas de blanco, cuya cabeza era un retrato del dr.    benjamin hitz,  el jefe ** obstetra    del hospital. hitz  era un hombre deslumbrantemente guapo.      
+HYP:  se refería a una de las figuras masculinas ******** de blanco  cuya cabeza era un retrato del doctor benjamín atiza, el jefe de obstetricia del hospital. atiza era de una    belleza           arrolladora.
+EVAL:                                            D           S                                      S      S        S              I  S                         S         S  S      S                 S           
+SHFT:                                                                                                                                                                                                             
+TER Score:  38.71 ( 12.0/ 31.0)
+
+
+
+Sentence ID: 29:1
+Best Ref: “quedan muchas caras por completar”, dijo el ordenanza. se refería a que las caras de muchas de las figuras en el mural aún estaban en blanco. todos los espacios en blanco debían llenarse con retratos de personas importantes del personal del hospital o de la oficina federal de terminación de chicago.
+Orig Hyp: —todavía quedan muchas cabezas por completar —dijo el celador. se refería a que todavía quedaban muchas figuras en el mural con las cabezas sin rostro que debían completarse con retratos de personas importantes del hospital o de la oficina local de la agencia central de extinción.
+
+REF:  ******** “quedan muchas caras   por completar”, dijo  el ordenanza. se refería a que   las   caras   de       muchas de las figuras en el mural aún estaban en blanco. todos   los     espacios en     blanco debían llenarse    con retratos de personas importantes del personal del hospital o de la oficina federal de ** ******* terminación de chicago.  
+HYP:  —todavía quedan  muchas cabezas por completar   —dijo el celador.   se refería a que [ las ] todavía quedaban muchas ** *** figuras en el mural *** ******* ** ******* con   @ cabezas sin      rostro que    debían completarse con retratos de personas importantes *** ******** del hospital o de la oficina local   de la agencia central     de extinción.
+EVAL: I        S              S           S           S        S                                   S       S               D  D                       D   D       D  D       S       S       S        S      S             S                                                D   D                                     S          I  I       S              S         
+SHFT:                                                                                      1     1                                                                                 1                                                                                                                                                                                 
+TER Score:  54.90 ( 28.0/ 51.0)
+
+Shift [las] 8 words left
+ REF:  ******** “quedan muchas caras   por completar”, dijo  el ordenanza. se refería a que   las   caras   de       muchas de las figuras en el mural aún estaban en blanco. todos   los     espacios en     blanco debían llenarse    con retratos de personas importantes del personal del hospital o de la oficina federal de ** ******* terminación de chicago.  
+ HYP:  —todavía quedan  muchas cabezas por completar   —dijo el celador.   se refería a que [ las ] todavía quedaban muchas ** *** figuras en el mural *** ******* ** ******* con   @ cabezas sin      rostro que    debían completarse con retratos de personas importantes *** ******** del hospital o de la oficina local   de la agencia central     de extinción.
+
+
+
+Sentence ID: 30:1
+Best Ref: “debe ser agradable poder hacer imágenes que parezcan algo”, dijo el ordenanza.
+Orig Hyp: —debe ser interesante pintar cuadros que se parecen a algo —dijo el celador.
+
+REF:  “debe ser agradable   poder  hacer     imágenes   que   ******* parezcan algo”, dijo  el ordenanza.
+HYP:  —debe ser interesante pintar cuadros @ se       [ que ] parecen a        algo   —dijo el celador.  
+EVAL: S         S           S      S         S                I       S        S      S        S         
+SHFT:                                      1          1     1                                            
+TER Score:  91.67 ( 11.0/ 12.0)
+
+Shift [que] 1 words right
+ REF:  “debe ser agradable   poder  hacer     imágenes   que   ******* parezcan algo”, dijo  el ordenanza.
+ HYP:  —debe ser interesante pintar cuadros @ se       [ que ] parecen a        algo   —dijo el celador.  
+
+
+
+Sentence ID: 31:1
+Best Ref: la cara del pintor se curvó con desdén. “¿crees que estoy orgulloso de esta chapuza?” dijo. “¿crees que esta es mi idea de cómo se ve la vida realmente?”
+Orig Hyp: el pintor lo miró con desdén. —¿es que acaso piensas que estoy orgulloso de este pintarrajo? —dijo—. ¿es que crees que esta es mi idea de la vida real?
+
+REF:  la cara del pintor se curvó con desdén. **** *** ***** “¿crees que estoy orgulloso de **** *********** esta    chapuza?” dijo. “¿crees que esta es mi idea de cómo se ve la vida realmente?”
+HYP:  ** **** el  pintor lo miró  con desdén. —¿es que acaso piensas que estoy orgulloso de este pintarrajo? —dijo—. ¿es       que   crees   que esta es mi idea de **** ** ** la vida real?      
+EVAL: D  D    S          S  S                 I    I   I     S                              I    I           S       S         S     S                              D    D  D          S          
+SHFT:                                                                                                                                                                                             
+TER Score:  65.52 ( 19.0/ 29.0)
+
+
+
+Sentence ID: 32:1
+Best Ref: “¿cuál es tu idea de cómo se ve la vida?” dijo el ordenanza.
+Orig Hyp: —¿cuál es su idea de la vida real? —dijo el celador.
+
+REF:  “¿cuál es tu idea de cómo se   ve     la   vida?” dijo  el ordenanza.
+HYP:  —¿cuál es su idea de **** ** @ vida [ la ] real?  —dijo el celador.  
+EVAL: S         S          D    D    S           S      S        S         
+SHFT:                              1      1    1                           
+TER Score:  69.23 (  9.0/ 13.0)
+
+Shift [la] 1 words right
+ REF:  “¿cuál es tu idea de cómo se   ve     la   vida?” dijo  el ordenanza.
+ HYP:  —¿cuál es su idea de **** ** @ vida [ la ] real?  —dijo el celador.  
+
+
+
+Sentence ID: 33:1
+Best Ref: el pintor señaló un lienzo sucio. “ahí tienes una buena imagen”, dijo. “enmárquela, y tendrás una imagen bastante más honesta que esta”.
+Orig Hyp: el pintor señaló una tela inmunda. —ahí tienes una buena imagen de la vida —dijo—. enmárcala y tendrás un cuadro más honesto que este.
+
+REF:  el pintor señaló un  lienzo sucio.   “ahí tienes una buena   ** ** imagen”, dijo.   “enmárquela, y tendrás una   imagen   bastante más honesta que esta”.
+HYP:  el pintor señaló una tela   inmunda. —ahí tienes una buena @ de la vida     —dijo—. enmárcala    y tendrás un  [ imagen ] cuadro   más honesto que este. 
+EVAL:                  S   S      S        S                       I  I  S        S       S                      S              S            S           S     
+SHFT:                                                            1                                                   1        1                                
+TER Score:  63.64 ( 14.0/ 22.0)
+
+Shift [imagen] 8 words right
+ REF:  el pintor señaló un  lienzo sucio.   “ahí tienes una buena   ** ** imagen”, dijo.   “enmárquela, y tendrás una   imagen   bastante más honesta que esta”.
+ HYP:  el pintor señaló una tela   inmunda. —ahí tienes una buena @ de la vida     —dijo—. enmárcala    y tendrás un  [ imagen ] cuadro   más honesto que este. 
+
+
+
+Sentence ID: 34:1
+Best Ref: “eres un viejo triste, ¿no?” dijo el ordenanza.
+Orig Hyp: —es usted unas castañuelas, ¿eh? —dijo el celador.
+
+REF:  “eres un    viejo triste,      ¿no?” dijo  el ordenanza.
+HYP:  —es   usted unas  castañuelas, ¿eh?  —dijo el celador.  
+EVAL: S     S     S     S            S     S        S         
+SHFT:                                                         
+TER Score:  87.50 (  7.0/  8.0)
+
+
+
+Sentence ID: 35:1
+Best Ref: “¿es un crimen?” dijo el pintor.
+Orig Hyp: —¿es acaso un pecado? —dijo el pintor.
+
+REF:  **** “¿es  un crimen?” dijo  el pintor.
+HYP:  —¿es acaso un pecado?  —dijo el pintor.
+EVAL: I    S        S        S               
+SHFT:                                        
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 36:1
+Best Ref: el ordenanza se encogió de hombros. “si no te gusta aquí, abuelo—” dijo, y terminó el pensamiento con el número telefónico truco que las personas que no querían vivir más debían llamar. el cero en el número telefónico lo pronunció “nada”.
+Orig Hyp: el celador se encogió de hombros. «abuelo, si no le gusta…», dijo y completó la idea con el número de teléfono con truco al que había que llamar si ya no querías seguir viviendo. el cero representaba una «o» y el «3» una «e».
+
+REF:  el ordenanza se encogió de hombros. “si        no   te gusta aquí, abuelo—” dijo, y terminó    el   ** pensamiento con el número ** ******** telefónico truco   que   las   personas que no     querían vivir   más     debían llamar.   el cero en           el  número telefónico   lo  pronunció “nada”.
+HYP:  el celador   se encogió de hombros. «abuelo, [ no ] si no    le    gusta…», dijo  y completó [ el ] la idea        con el número de teléfono con        truco [ que ] al  @ había    que llamar si      ya    @ querías seguir viviendo. el cero representaba una «o»    y          @ «3» una       «e».   
+EVAL:    S                                S               S  S     S     S        S       S               I  S                         I  I        S                        S     S            S      S       S       S       S      S                 S            S   S      S            S   S         S      
+SHFT:                                              1    1                                          3    3                                                           2     2     2                                   1                                                                     3                      
+TER Score:  75.61 ( 31.0/ 41.0)
+
+Shift [no] 23 words left
+ REF:  el ordenanza se encogió de hombros. “si        no   te gusta aquí, abuelo—” dijo, y terminó  el pensamiento con el número ** ******** telefónico truco que las personas que no     querían vivir   más     debían llamar.   el cero ************ en  el  número telefónico lo  pronunció “nada”.
+ HYP:  el celador   se encogió de hombros. «abuelo, [ no ] si no    le    gusta…», dijo  y completó la idea        con el número de teléfono con        truco al  que había    que llamar si      ya    @ querías seguir viviendo. el cero representaba una «o» y      el         «3» una       «e».   
+
+Shift [que] 1 words left
+ REF:  el ordenanza se encogió de hombros. “si      no te gusta aquí, abuelo—” dijo, y terminó  el pensamiento con el número ** ******** telefónico truco   que   las   personas que no     querían vivir más     debían llamar.   el cero ************ en  el  número telefónico lo  pronunció “nada”.
+ HYP:  el celador   se encogió de hombros. «abuelo, no si no    le    gusta…», dijo  y completó la idea        con el número de teléfono con        truco [ que ] al  @ había    que llamar si      ya    querías seguir viviendo. el cero representaba una «o» y      el         «3» una       «e».   
+
+Shift [el] 25 words left
+ REF:  el ordenanza se encogió de hombros. “si      no te gusta aquí, abuelo—” dijo, y terminó    el   ** pensamiento con el número ** ******** telefónico truco que las personas que no     querían vivir más     debían llamar.   el cero en           el  número telefónico   lo  pronunció “nada”.
+ HYP:  el celador   se encogió de hombros. «abuelo, no si no    le    gusta…», dijo  y completó [ el ] la idea        con el número de teléfono con        truco que al  había    que llamar si      ya    querías seguir viviendo. el cero representaba una «o»    y          @ «3» una       «e».   
+
+
+
+Sentence ID: 37:1
+Best Ref: el número era: “2 b r 0 2 b”.
+Orig Hyp: el número era: «s 3 r 0 n 0 s 3 r ».
+
+REF:  el número era: “2 b r * * 0 * * 2 b”.
+HYP:  el número era: «s 3 r 0 n 0 s 3 r ». 
+EVAL:                S  S   I I   I I S S  
+SHFT:                                      
+TER Score:  88.89 (  8.0/  9.0)
+
+
+
+Sentence ID: 38:1
+Best Ref: era el número telefónico de una institución cuyos sobrenombres caprichosos incluían: “automat”, “birdland”, “cannery”, “catbox”, “de-louser”, “easy-go”, “good-by, mother”, “happy hooligan”, “kiss-me-quick”, “lucky pierre”, “sheepdip”, “waring blendor”, “weep-no-more” y “why worry?”
+Orig Hyp: era un número de teléfono para una institución que tenía los siguientes apodos creativos: «autoservicio», «los pajaritos», «envasados», «arenero», «despiojadora», «salida fácil», «adiós, mamá», «gamberro feliz», «beso letal», «final feliz», «terminator», «la barbacoa», «basta de sufrir», «no más angustia».
+
+REF:  era el número   telefónico   de   **** una institución *** ***** *** ********** ****** ********** *************** cuyos sobrenombres caprichosos  incluían:  “automat”,      “birdland”, “cannery”, “catbox”, “de-louser”, “easy-go”, “good-by, mother”, “happy  hooligan”, “kiss-me-quick”, “lucky        pierre”, “sheepdip”, “waring blendor”, “weep-no-more” y   “why worry?”   
+HYP:  era un número @ teléfono   [ de ] para una institución que tenía los siguientes apodos creativos: «autoservicio», «los  pajaritos»,  «envasados», «arenero», «despiojadora», «salida     fácil»,    «adiós,   mamá»,       «gamberro  feliz»,   «beso    letal», «final     feliz»,          «terminator», «la      barbacoa»,  «basta  de        sufrir»,       «no más  angustia».
+EVAL:     S           S                 I                    I   I     I   I          I      I          I               S     S            S            S          S               S           S          S         S            S          S         S        S       S          S                S             S        S           S       S         S              S   S    S         
+SHFT:               1            1    1                                                                                                                                                                                                                                                                                                                                                   
+TER Score: 112.90 ( 35.0/ 31.0)
+
+Shift [de] 1 words right
+ REF:  era el número   telefónico   de   **** una institución *** ***** *** ********** ****** ********** *************** cuyos sobrenombres caprichosos  incluían:  “automat”,      “birdland”, “cannery”, “catbox”, “de-louser”, “easy-go”, “good-by, mother”, “happy  hooligan”, “kiss-me-quick”, “lucky        pierre”, “sheepdip”, “waring blendor”, “weep-no-more” y   “why worry?”   
+ HYP:  era un número @ teléfono   [ de ] para una institución que tenía los siguientes apodos creativos: «autoservicio», «los  pajaritos»,  «envasados», «arenero», «despiojadora», «salida     fácil»,    «adiós,   mamá»,       «gamberro  feliz»,   «beso    letal», «final     feliz»,          «terminator», «la      barbacoa»,  «basta  de        sufrir»,       «no más  angustia».
+
+
+
+Sentence ID: 39:1
+Best Ref: “ser o no ser” era el número telefónico de las cámaras de gas municipales de la oficina federal de terminación.
+Orig Hyp: «ser o no ser» era el número de teléfono de las cámaras de gas municipales de la agencia central de extinción.
+
+REF:  “ser o no ser” era el número ** telefónico de las cámaras de gas municipales de la oficina federal de terminación.
+HYP:  «ser o no ser» era el número de teléfono   de las cámaras de gas municipales de la agencia central de extinción.  
+EVAL: S         S                  I  S                                                  S       S          S           
+SHFT:                                                                                                                   
+TER Score:  35.00 (  7.0/ 20.0)
+
+
+
+Sentence ID: 40:1
+Best Ref: el pintor se tocó la nariz con el pulgar en señal de burla hacia el ordenanza. “cuando decida que es hora de irse,” dijo, “no será en el catbox.”
+Orig Hyp: el pintor miró al celador con desprecio. —cuando decida que ha llegado la hora —dijo— no será con terminator.
+
+REF:  el pintor se   tocó   la   nariz   con el pulgar en señal de burla hacia el ordenanza. “cuando decida que es     hora   de irse,”    dijo,  “no será en el  catbox.”   
+HYP:  el pintor miró al   [ la ] celador con ** ****** ** ***** ** ***** ***** ** desprecio. —cuando decida que ** @ [ hora ] ha llegado @ —dijo— no  será ** con terminator.
+EVAL:           S    S           S           D  D      D  D     D  D     D     D  S          S                  D             S  S         S      S        D  S   S          
+SHFT:                     1    1                                                                                   1 2      2            2                                   
+TER Score:  79.31 ( 23.0/ 29.0)
+
+Shift [la] 8 words left
+ REF:  el pintor se   tocó   la   nariz   con el pulgar en señal de burla hacia el ordenanza. “cuando decida que es hora de        irse,” dijo,  “no será en el  catbox.”   
+ HYP:  el pintor miró al   [ la ] celador con ** ****** ** ***** ** ***** ***** ** desprecio. —cuando decida que ** ha   llegado @ hora   —dijo— no  será ** con terminator.
+
+Shift [hora] 2 words left
+ REF:  el pintor se   tocó la nariz   con el pulgar en señal de burla hacia el ordenanza. “cuando decida que es   hora   de irse,”    dijo,  “no será en el  catbox.”   
+ HYP:  el pintor miró al   la celador con ** ****** ** ***** ** ***** ***** ** desprecio. —cuando decida que ** [ hora ] ha llegado @ —dijo— no  será ** con terminator.
+
+
+
+Sentence ID: 41:1
+Best Ref: “¿eres de los que lo hace por sí mismo, eh?” dijo el ordenanza. “un asunto desordenado, abuelo. ¿por qué no tienes un poco de consideración por las personas que tienen que limpiar después de ti?”
+Orig Hyp: —ah, un autodidacta, ¿eh? —dijo el celador—. abuelo, es un poco complicado. ¿por qué no tiene un poco de consideración por las personas que deberán limpiar después de usted?
+
+REF:  “¿eres de los que lo hace por sí           mismo, eh?”    dijo        el   ordenanza. “un asunto desordenado, abuelo.     ¿por qué no tienes un poco de consideración por las personas que tienen que     limpiar después de ti?”  
+HYP:  ****** ** *** *** ** —ah, un  autodidacta, ¿eh?   —dijo @ celador—. [ el ] abuelo,    es  un     poco         complicado. ¿por qué no tiene  un poco de consideración por las personas que ****** deberán limpiar después de usted?
+EVAL: D      D  D   D   D  S    S   S            S      S       S                S          S   S      S            S                       S                                                    D      S                          S     
+SHFT:                                                         1           1    1                                                                                                                                                         
+TER Score:  60.00 ( 21.0/ 35.0)
+
+Shift [el] 1 words right
+ REF:  “¿eres de los que lo hace por sí           mismo, eh?”    dijo        el   ordenanza. “un asunto desordenado, abuelo.     ¿por qué no tienes un poco de consideración por las personas que tienen que     limpiar después de ti?”  
+ HYP:  ****** ** *** *** ** —ah, un  autodidacta, ¿eh?   —dijo @ celador—. [ el ] abuelo,    es  un     poco         complicado. ¿por qué no tiene  un poco de consideración por las personas que ****** deberán limpiar después de usted?
+
+
+
+Sentence ID: 42:1
+Best Ref: el pintor expresó con una obscenidad su falta de preocupación por las tribulaciones de sus sobrevivientes. “el mundo podría hacer con bastante más desorden, si me preguntas a mí”, dijo.
+Orig Hyp: el pintor dijo una vulgaridad para expresar su falta de preocupación por las tribulaciones de sus supervivientes. —a decir verdad, al mundo no le vendrían mal bastantes más complicaciones —dijo.
+
+REF:  el pintor expresó   con          una   **** obscenidad su falta de preocupación por las tribulaciones de sus sobrevivientes. “el               mundo   podría hacer con     bastante   más     desorden, si me       preguntas a           mí”,           dijo. 
+HYP:  el pintor dijo    @ vulgaridad [ una ] para expresar   su falta de preocupación por las tribulaciones de sus *************** supervivientes. [ mundo ] —a     decir verdad, al       [ más ] @ no        le vendrían mal       bastantes @ complicaciones —dijo.
+EVAL:           S         S                  I    S                                                                D               S                         S      S     S       S                  S         S  S        S         S           S              S     
+SHFT:                   1            1     1                                                                                                       2       2                               3     3 2                                           3                      
+TER Score:  66.67 ( 20.0/ 30.0)
+
+Shift [una] 1 words right
+ REF:  el pintor expresó   con          una   **** obscenidad su falta de preocupación por las tribulaciones de sus sobrevivientes. “el             mundo podría hacer   con bastante más desorden, si       me  preguntas a   mí”,           dijo. 
+ HYP:  el pintor dijo    @ vulgaridad [ una ] para expresar   su falta de preocupación por las tribulaciones de sus *************** supervivientes. —a    decir  verdad, al  mundo    no  le        vendrían mal bastantes más complicaciones —dijo.
+
+Shift [mundo] 4 words left
+ REF:  el pintor expresó con        una **** obscenidad su falta de preocupación por las tribulaciones de sus sobrevivientes. “el               mundo   podría hacer con     bastante   más desorden, si       me  preguntas a   mí”,           dijo. 
+ HYP:  el pintor dijo    vulgaridad una para expresar   su falta de preocupación por las tribulaciones de sus *************** supervivientes. [ mundo ] —a     decir verdad, al       @ no  le        vendrían mal bastantes más complicaciones —dijo.
+
+Shift [más] 5 words left
+ REF:  el pintor expresó con        una **** obscenidad su falta de preocupación por las tribulaciones de sus sobrevivientes. “el             mundo podría hacer con     bastante   más   desorden, si me       preguntas a           mí”,           dijo. 
+ HYP:  el pintor dijo    vulgaridad una para expresar   su falta de preocupación por las tribulaciones de sus *************** supervivientes. mundo —a     decir verdad, al       [ más ] no        le vendrían mal       bastantes @ complicaciones —dijo.
+
+
+
+Sentence ID: 43:1
+Best Ref: el ordenanza se rió y siguió su camino.
+Orig Hyp: el celador se marchó riéndose.
+
+REF:  el ordenanza se rió y siguió su     camino.  
+HYP:  el celador   se *** * ****** marchó riéndose.
+EVAL:    S            D   D D      S      S        
+SHFT:                                              
+TER Score:  75.00 (  6.0/  8.0)
+
+
+
+Sentence ID: 44:1
+Best Ref: wehling, el padre en espera, murmuró algo sin levantar la cabeza. y luego volvió a guardar silencio.
+Orig Hyp: quejada, el padre en espera, masculló algo ininteligible sin levantar la cabeza y no volvió a decir nada.
+
+REF:  wehling, el padre en espera, murmuró  algo ************* sin levantar la cabeza. y luego volvió a guardar silencio.
+HYP:  quejada, el padre en espera, masculló algo ininteligible sin levantar la cabeza  y no    volvió a decir   nada.    
+EVAL: S                            S             I                             S         S              S       S        
+SHFT:                                                                                                                    
+TER Score:  41.18 (  7.0/ 17.0)
+
+
+
+Sentence ID: 45:1
+Best Ref: una mujer ruda y formidable irrumpió en la sala de espera con tacones de aguja. sus zapatos, medias, gabardina, bolso y gorra de campaña eran todos púrpuras, del púrpura que el pintor llamaba “el color de las uvas en el día del juicio”.
+Orig Hyp: una mujer grande e imponente que llevaba tacones de aguja entró con decisión a la sala de espera. los zapatos, medias, gabardina, bolsa y el gorro eran violetas, el violeta que el pintor llamaba «el color de las uvas del juicio final».
+
+REF:  una mujer ruda   y formidable irrumpió en        la sala     de ***** espera con   tacones   ******** *   de aguja.  sus zapatos, medias, gabardina, bolso y gorra de   campaña eran todos     púrpuras,   del   púrpura que el pintor llamaba “el color de las uvas en   el   día   del    juicio”.
+HYP:  una mujer grande e imponente  que      llevaba [ la sala ] @ de aguja entró  con [ tacones ] decisión a @ de espera. los zapatos, medias, gabardina, bolsa y ***** ** @ gorro   eran violetas, el        [ del ] violeta que el pintor llamaba «el color de las uvas ** [ el ] *** @ juicio final». 
+EVAL:           S      S S          S        S                        I     S                      I        I      S       S                               S       D     D    S            S         S                 S                             S                     D         D     S      S       
+SHFT:                                                1         1 2                     2         2            1                                                             3                                  4     4                                                        3    3     4                
+TER Score:  62.79 ( 27.0/ 43.0)
+
+Shift [la, sala] 7 words left
+ REF:  una mujer ruda   y formidable irrumpió en        la sala   ******* de ***** espera con ******** tacones   de aguja.  sus zapatos, medias, gabardina, bolso y gorra de campaña eran todos púrpuras, del púrpura que el pintor llamaba “el color de las uvas en el día del    juicio”.
+ HYP:  una mujer grande e imponente  que      llevaba [ la sala ] tacones de aguja entró  con decisión a       @ de espera. los zapatos, medias, gabardina, bolsa y ***** el gorro   eran ***** violetas, el  violeta que el pintor llamaba «el color de las uvas ** ** del juicio final». 
+
+Shift [tacones] 4 words right
+ REF:  una mujer ruda   y formidable irrumpió en      la sala   de ***** espera con   tacones   ******** * de aguja.  sus zapatos, medias, gabardina, bolso y gorra de campaña eran todos púrpuras, del púrpura que el pintor llamaba “el color de las uvas en el día del    juicio”.
+ HYP:  una mujer grande e imponente  que      llevaba la sala @ de aguja entró  con [ tacones ] decisión a de espera. los zapatos, medias, gabardina, bolsa y ***** el gorro   eran ***** violetas, el  violeta que el pintor llamaba «el color de las uvas ** ** del juicio final». 
+
+Shift [el] 14 words right
+ REF:  una mujer ruda   y formidable irrumpió en      la sala de ***** espera con tacones ******** * de aguja.  sus zapatos, medias, gabardina, bolso y gorra de   campaña eran todos púrpuras, del púrpura que el pintor llamaba “el color de las uvas en   el   día del    juicio”.
+ HYP:  una mujer grande e imponente  que      llevaba la sala de aguja entró  con tacones decisión a de espera. los zapatos, medias, gabardina, bolsa y ***** ** @ gorro   eran ***** violetas, el  violeta que el pintor llamaba «el color de las uvas ** [ el ] del juicio final». 
+
+Shift [del] 11 words left
+ REF:  una mujer ruda   y formidable irrumpió en      la sala de ***** espera con tacones ******** * de aguja.  sus zapatos, medias, gabardina, bolso y gorra de campaña eran todos     púrpuras,   del   púrpura que el pintor llamaba “el color de las uvas en el día   del    juicio”.
+ HYP:  una mujer grande e imponente  que      llevaba la sala de aguja entró  con tacones decisión a de espera. los zapatos, medias, gabardina, bolsa y ***** ** gorro   eran violetas, el        [ del ] violeta que el pintor llamaba «el color de las uvas ** el *** @ juicio final». 
+
+
+
+Sentence ID: 46:1
+Best Ref: el medallón en su bolso morado era el sello de la división de servicios de la oficina federal de terminación, un águila posada sobre un torniquete.
+Orig Hyp: el medallón en la bolsa violeta llevaba el escudo de la división de servicio de la agencia central de extinción: un águila posada sobre un molinete.
+
+REF:  el medallón en su bolso morado  era     el sello  de la división de servicios de la oficina federal de terminación, un águila posada sobre un torniquete.
+HYP:  el medallón en la bolsa violeta llevaba el escudo de la división de servicio  de la agencia central de extinción:   un águila posada sobre un molinete.  
+EVAL:                S  S     S       S          S                        S               S       S          S                                      S          
+SHFT:                                                                                                                                                          
+TER Score:  38.46 ( 10.0/ 26.0)
+
+
+
+Sentence ID: 47:1
+Best Ref: la mujer tenía mucho vello facial, de hecho, un bigote inconfundible. una cosa curiosa sobre las anfitrionas de las cámaras de gas era que, por muy hermosas y femeninas que fueran al ser reclutadas, todas desarrollaban bigotes en unos cinco años más o menos.
+Orig Hyp: la mujer tenía mucho vello, en realidad, tenía un inconfundible bigote. lo curioso de las azafatas de la cámara de gas era que, aunque fueran muy dulces y femeninas al llegar, siempre les acababa saliendo bigote en los cinco primeros años de servicio.
+
+REF:  la mujer tenía mucho vello  facial, de        hecho, un   bigote   inconfundible. una     cosa curiosa sobre las anfitrionas de las cámaras de gas era que, por      muy hermosas y femeninas que   fueran   al ser     reclutadas, todas desarrollaban bigotes    en unos cinco   años   más        o  menos.   
+HYP:  la mujer tenía mucho vello, en      realidad, tenía  un [ bigote ] inconfundible  bigote. lo   curioso de    las azafatas    de la  cámara  de gas era que, aunque @ muy dulces   y femeninas *** [ fueran ] al llegar, siempre     les   acababa       saliendo @ en los  cinco [ años ] primeros @ de servicio.
+EVAL:                      S      S       S         S                    S              S       S    S       S         S              S   S                       S            S                    D                 S       S           S     S             S             S                   S          S  S        
+SHFT:                                                         2        2                                                                                                 1                              1        1                                                     2               3      3          3             
+TER Score:  61.36 ( 27.0/ 44.0)
+
+Shift [fueran] 4 words right
+ REF:  la mujer tenía mucho vello  facial, de        hecho, un bigote inconfundible. una     cosa curiosa sobre las anfitrionas de las cámaras de gas era que, por      muy hermosas y femeninas que   fueran   al ******* ser     reclutadas, todas   desarrollaban bigotes en unos cinco años     más  o  menos.   
+ HYP:  la mujer tenía mucho vello, en      realidad, tenía  un ****** inconfundible  bigote. lo   curioso de    las azafatas    de la  cámara  de gas era que, aunque @ muy dulces   y femeninas *** [ fueran ] al llegar, siempre les         acababa saliendo      bigote  en los  cinco primeros años de servicio.
+
+Shift [bigote] 26 words left
+ REF:  la mujer tenía mucho vello  facial, de        hecho, un   bigote   inconfundible. una     cosa curiosa sobre las anfitrionas de las cámaras de gas era que, por    muy hermosas y femeninas que fueran al ser     reclutadas, todas desarrollaban bigotes    en unos cinco años     más  o  menos.   
+ HYP:  la mujer tenía mucho vello, en      realidad, tenía  un [ bigote ] inconfundible  bigote. lo   curioso de    las azafatas    de la  cámara  de gas era que, aunque muy dulces   y femeninas *** fueran al llegar, siempre     les   acababa       saliendo @ en los  cinco primeros años de servicio.
+
+Shift [años] 1 words left
+ REF:  la mujer tenía mucho vello  facial, de        hecho, un bigote inconfundible. una     cosa curiosa sobre las anfitrionas de las cámaras de gas era que, por    muy hermosas y femeninas que fueran al ser     reclutadas, todas desarrollaban bigotes  en unos cinco   años   más        o  menos.   
+ HYP:  la mujer tenía mucho vello, en      realidad, tenía  un bigote inconfundible  bigote. lo   curioso de    las azafatas    de la  cámara  de gas era que, aunque muy dulces   y femeninas *** fueran al llegar, siempre     les   acababa       saliendo en los  cinco [ años ] primeros @ de servicio.
+
+
+
+Sentence ID: 48:1
+Best Ref: “¿es aquí donde se supone que debo venir?” dijo al pintor.
+Orig Hyp: —¿es aquí donde se supone que tengo que venir? —le dijo al pintor.
+
+REF:  “¿es aquí donde se supone *** ***** que debo   venir?” dijo al pintor.
+HYP:  —¿es aquí donde se supone que tengo que venir? —le     dijo al pintor.
+EVAL: S                         I   I         S      S                      
+SHFT:                                                                       
+TER Score:  45.45 (  5.0/ 11.0)
+
+
+
+Sentence ID: 49:1
+Best Ref: “mucho dependería de cuál sea tu negocio”, dijo él. “no vas a tener un bebé, ¿verdad?”
+Orig Hyp: —dependerá de lo que la trae hasta aquí —dijo él—. no está a punto de parir, ¿no?
+
+REF:  “mucho       dependería   de   *** cuál sea  tu    negocio”, dijo  él.  “no vas  a tener un bebé,  ¿verdad?”
+HYP:  —dependerá @ lo         [ de ] que la   trae hasta aquí      —dijo él—. no  está a punto de parir, ¿no?     
+EVAL: S            S                 I   S    S    S     S         S     S    S   S      S     S  S      S        
+SHFT:            1            1    1                                                                              
+TER Score: 100.00 ( 16.0/ 16.0)
+
+Shift [de] 1 words right
+ REF:  “mucho       dependería   de   *** cuál sea  tu    negocio”, dijo  él.  “no vas  a tener un bebé,  ¿verdad?”
+ HYP:  —dependerá @ lo         [ de ] que la   trae hasta aquí      —dijo él—. no  está a punto de parir, ¿no?     
+
+
+
+Sentence ID: 50:1
+Best Ref: “me dijeron que debía posar para una foto”, dijo. “me llamo leora duncan.” ella esperó.
+Orig Hyp: —me dijeron que tenía que posar para un cuadro —dijo ella—. me llamo salomé garcía. — y esperó.
+
+REF:  “me dijeron que ***** debía posar para ** una    foto”, dijo.  “me llamo ****** leora   duncan.” ella esperó.
+HYP:  —me dijeron que tenía que   posar para un cuadro —dijo  ella—. me  llamo salomé garcía. —        y    esperó.
+EVAL: S               I     S                I  S      S      S      S         I      S       S        S           
+SHFT:                                                                                                              
+TER Score:  80.00 ( 12.0/ 15.0)
+
+
+
+Sentence ID: 51:1
+Best Ref: “y tú ahogas a la gente”, dijo él.
+Orig Hyp: —ah, usted es la que corta cabezas —dijo el pintor.
+
+REF:  **** “y    tú   ahogas a       la   ******* gente”, dijo él.    
+HYP:  —ah, usted es @ que    corta [ la ] cabezas —dijo   el   pintor.
+EVAL: I    S     S    S      S            I       S       S    S      
+SHFT:               1              1    1                             
+TER Score: 125.00 ( 10.0/  8.0)
+
+Shift [la] 2 words right
+ REF:  **** “y    tú   ahogas a       la   ******* gente”, dijo él.    
+ HYP:  —ah, usted es @ que    corta [ la ] cabezas —dijo   el   pintor.
+
+
+
+Sentence ID: 52:1
+Best Ref: “¿qué?” dijo ella.
+Orig Hyp: —¿cómo? —dijo ella.
+
+REF:  “¿qué?” dijo  ella.
+HYP:  —¿cómo? —dijo ella.
+EVAL: S       S          
+SHFT:                    
+TER Score:  66.67 (  2.0/  3.0)
+
+
+
+Sentence ID: 53:1
+Best Ref: “olvídalo”, dijo él.
+Orig Hyp: —no, nada, mis cosas —le respondió.
+
+REF:  **** ***** *** “olvídalo”, dijo él.       
+HYP:  —no, nada, mis cosas       —le  respondió.
+EVAL: I    I     I   S           S    S         
+SHFT:                                           
+TER Score: 200.00 (  6.0/  3.0)
+
+
+
+Sentence ID: 54:1
+Best Ref: “es una imagen realmente hermosa”, dijo ella. “parece el cielo o algo así”.
+Orig Hyp: —¡qué cuadro tan bonito! —dijo—. parece que fuera el cielo o algo así.
+
+REF:  “es   una    imagen realmente hermosa”, dijo   ella. “parece el cielo o algo así”.
+HYP:  —¡qué cuadro tan    bonito!   —dijo—.   parece que   fuera   el cielo o algo así. 
+EVAL: S     S      S      S         S         S      S     S                       S    
+SHFT:                                                                                   
+TER Score:  69.23 (  9.0/ 13.0)
+
+
+
+Sentence ID: 55:1
+Best Ref: “o algo así”, dijo el pintor. sacó una lista de nombres del bolsillo de su bata. “duncan, duncan, duncan”, dijo, escaneando la lista. “sí, aquí estás. estás destinada a ser inmortalizada. ¿ves alguna figura sin rostro aquí en la que te gustaría que te ponga la cabeza? nos quedan algunas buenas opciones.”
+Orig Hyp: —algo así —dijo el pintor. sacó una lista de nombres de la bata—. salomé, salomé, salomé —dijo mientras repasaba la lista—. sí, aquí está. tiene derecho a ser inmortalizada. ¿se ha fijado en algún cuerpo sin rostro donde le gustaría que metiera su cabecita? aún nos quedan varias opciones de primera.
+
+REF:  “o algo  así”, dijo  el pintor. sacó una lista de nombres del bolsillo   de   su     bata.   “duncan, duncan, duncan”, dijo,    escaneando la lista.  “sí, aquí estás. estás destinada a ser inmortalizada. ¿ves alguna figura   sin rostro     aquí    en   la       que   te gustaría que te      ponga la        cabeza? nos quedan algunas buenas     opciones.”
+HYP:  ** —algo así   —dijo el pintor. sacó una lista de nombres de  la       [ de ] bata—. salomé, salomé,  salomé  —dijo    mientras repasaba   la lista—. sí,  aquí está.  tiene derecho   a ser inmortalizada. ¿se  ha     fijado [ sin rostro ] @ algún [ en ] cuerpo @ donde le gustaría que metiera su    cabecita? aún     nos quedan varias  opciones @ primera.  
+EVAL: D  S     S     S                                          S   S               S      S       S        S       S        S        S             S       S         S      S     S                              S    S      S                       S            S        S     S               S       S     S         S                  S       S          S         
+SHFT:                                                                        2    2                                                                                                                                                  1            1 3       3    3        1                                                                                   2           
+TER Score:  67.31 ( 35.0/ 52.0)
+
+Shift [sin, rostro] 3 words left
+ REF:  “o algo  así”, dijo  el pintor. sacó una lista de nombres del bolsillo de su     bata.   “duncan, duncan, duncan”, dijo,    escaneando la lista.  “sí, aquí estás. estás destinada a ser inmortalizada. ¿ves alguna figura   sin rostro   aquí en    la       que   te gustaría que te      ponga la        cabeza? nos quedan ****** algunas  buenas opciones.”
+ HYP:  ** —algo así   —dijo el pintor. sacó una lista de nombres *** de       la bata—. salomé, salomé,  salomé  —dijo    mientras repasaba   la lista—. sí,  aquí está.  tiene derecho   a ser inmortalizada. ¿se  ha     fijado [ sin rostro ] en   algún cuerpo @ donde le gustaría que metiera su    cabecita? aún     nos quedan varias opciones de     primera.  
+
+Shift [de] 37 words left
+ REF:  “o algo  así”, dijo  el pintor. sacó una lista de nombres del bolsillo   de   su     bata.   “duncan, duncan, duncan”, dijo,    escaneando la lista.  “sí, aquí estás. estás destinada a ser inmortalizada. ¿ves alguna figura sin rostro aquí en    la     que   te gustaría que te      ponga la        cabeza? nos quedan algunas buenas     opciones.”
+ HYP:  ** —algo así   —dijo el pintor. sacó una lista de nombres de  la       [ de ] bata—. salomé, salomé,  salomé  —dijo    mientras repasaba   la lista—. sí,  aquí está.  tiene derecho   a ser inmortalizada. ¿se  ha     fijado sin rostro en   algún cuerpo donde le gustaría que metiera su    cabecita? aún     nos quedan varias  opciones @ primera.  
+
+Shift [en] 1 words right
+ REF:  “o algo  así”, dijo  el pintor. sacó una lista de nombres del bolsillo de su     bata.   “duncan, duncan, duncan”, dijo,    escaneando la lista.  “sí, aquí estás. estás destinada a ser inmortalizada. ¿ves alguna figura sin rostro   aquí    en   la     que   te gustaría que te      ponga la        cabeza? nos quedan algunas buenas   opciones.”
+ HYP:  ** —algo así   —dijo el pintor. sacó una lista de nombres de  la       de bata—. salomé, salomé,  salomé  —dijo    mientras repasaba   la lista—. sí,  aquí está.  tiene derecho   a ser inmortalizada. ¿se  ha     fijado sin rostro @ algún [ en ] cuerpo donde le gustaría que metiera su    cabecita? aún     nos quedan varias  opciones primera.  
+
+
+
+Sentence ID: 56:1
+Best Ref: ella estudió el mural con tristeza. “caramba”, dijo, “para mí son todas iguales. no sé nada de arte”.
+Orig Hyp: estudió el mural algo desalentada. —vaya —dijo—, si se parecen todos. es que no sé nada de arte.
+
+REF:  ella estudió el mural **** con          tristeza. “caramba”, dijo, “para mí      son    todas iguales. no sé nada de arte”.
+HYP:  **** estudió el mural algo desalentada. —vaya     —dijo—,    si    se    parecen todos. es    que      no sé nada de arte. 
+EVAL: D                     I    S            S         S          S     S     S       S      S     S                      S     
+SHFT:                                                                                                                            
+TER Score:  66.67 ( 12.0/ 18.0)
+
+
+
+Sentence ID: 57:1
+Best Ref: “un cuerpo es un cuerpo, ¿eh?” dijo él. “muy bien. como maestro de bellas artes, recomiendo este cuerpo aquí”. señaló una figura sin rostro de una mujer que transportaba tallos secos a un incinerador de basura.
+Orig Hyp: —un cuerpo es un cuerpo —dijo—. como maestro de las bellas artes, le recomiendo este cuerpo de aquí. —y señaló a la figura sin rostro de una mujer que llevaba unas ramas secas al incinerador.
+
+REF:  “un cuerpo es un cuerpo, ¿eh?” dijo él. “muy   bien.   como maestro de *** bellas artes, ** recomiendo este cuerpo   ***** aquí”. señaló   una figura sin rostro de una mujer que transportaba tallos secos   a   un    incinerador   de   basura.     
+HYP:  —un cuerpo es un ******* ***** **** *** cuerpo —dijo—. como maestro de las bellas artes, le recomiendo este cuerpo @ aquí. —y     señaló @ la  figura sin rostro de una mujer que llevaba      unas   ramas [ a ] secas al          [ de ] incinerador.
+EVAL: S                D       D     D    D   S      S                       I                 I                           I     S               S                                      S            S      S           S     S                  S           
+SHFT:                                                                                                                    1                     2                                                                  2   2                   1    1             
+TER Score:  55.56 ( 20.0/ 36.0)
+
+Shift [de] 17 words right
+ REF:  “un cuerpo es un cuerpo, ¿eh?” dijo él. “muy   bien.   como maestro de *** bellas artes, ** recomiendo este cuerpo   ***** aquí”. señaló * una figura sin rostro de una mujer que transportaba tallos  secos a     un    incinerador   de   basura.     
+ HYP:  —un cuerpo es un ******* ***** **** *** cuerpo —dijo—. como maestro de las bellas artes, le recomiendo este cuerpo @ aquí. —y     señaló a la  figura sin rostro de una mujer que ************ llevaba unas  ramas secas al          [ de ] incinerador.
+
+Shift [a] 11 words right
+ REF:  “un cuerpo es un cuerpo, ¿eh?” dijo él. “muy   bien.   como maestro de *** bellas artes, ** recomiendo este cuerpo ***** aquí”. señaló   una figura sin rostro de una mujer que transportaba tallos secos   a   un    incinerador de basura.     
+ HYP:  —un cuerpo es un ******* ***** **** *** cuerpo —dijo—. como maestro de las bellas artes, le recomiendo este cuerpo aquí. —y     señaló @ la  figura sin rostro de una mujer que llevaba      unas   ramas [ a ] secas al          de incinerador.
+
+
+
+Sentence ID: 58:1
+Best Ref: “bueno,” dijo leora duncan, “eso es más para los encargados de la eliminación, ¿no? quiero decir, estoy en el servicio. no hago ninguna eliminación.”
+Orig Hyp: —bueno —dijo salomé garcía—, pero esos son los encargados de residuos, ¿no? quiero decir que yo soy de servicio. no me encargo de los residuos.
+
+REF:  “bueno,” dijo   leora duncan, “eso     es   más  para los encargados de la eliminación, ¿no? quiero ***** decir, estoy en  el servicio. no ** ******* hago ninguna eliminación.”
+HYP:  ******** —bueno —dijo salomé  garcía—, pero esos son  los encargados de ** residuos,    ¿no? quiero decir que    yo    soy de servicio. no me encargo de   los     residuos.    
+EVAL: D        S      S     S       S        S    S    S                      D  S                        I     S      S     S   S               I  I       S    S       S            
+SHFT:                                                                                                                                                                                 
+TER Score:  83.33 ( 20.0/ 24.0)
+
+
+
+Sentence ID: 59:1
+Best Ref: el pintor aplaudió con deleite fingido. “¡dices que no sabes nada de arte, y luego demuestras en el próximo aliento que sabes más de lo que yo sé! ¡por supuesto que la portadora del haz es incorrecta para una anfitriona! un cortador, un podador, ¡eso es más tu línea.” señaló una figura en morado que estaba aserrando una rama muerta de un manzano. “¿qué tal esa?” dijo él. “¿te gusta para ti?”
+Orig Hyp: el pintor aplaudió con falsa complacencia. —¡pero si dice que no sabe nada de arte y, de buenas a primeras, demuestra que sabe más que yo! ¡claro que no, una cargadora de gavillas no es apropiada para una azafata! una cortadora, una podadora estaría más en su línea. —y señalo a una figura de violeta que cortaba una rama muerta de un manzano—. ¿y ella? —dijo—. ¿le parece bien?
+
+REF:  el pintor aplaudió con ***** ************* deleite fingido. “¡dices que no sabes nada de arte, y    luego   demuestras   en   el próximo   aliento   que sabes más   de   lo que yo  sé!      ¡por supuesto   que   la        portadora del      haz es incorrecta para una anfitriona! un  cortador,  un  podador, ¡eso        es   más   ****** tu línea.” señaló una figura en morado  que estaba aserrando una rama muerta de un manzano. “¿qué tal esa?”     dijo él.   “¿te    gusta para   ti?” 
+HYP:  el pintor aplaudió con falsa complacencia. —¡pero  si       dice    que no sabe  nada de ***** arte y,    @ buenas     [ en ] a  primeras, demuestra que sabe  más [ de ] ** que yo! ¡claro @ no,  una      [ que ] cargadora de        gavillas no  es apropiada  para una azafata!    una cortadora, una podadora estaría @ @ su [ más ] línea. —y señalo  a      una figura de violeta que ****** cortaba   una rama muerta de un ******** ***** *** manzano—. ¿y   ella? —dijo—. ¿le   parece bien?
+EVAL:                        I     I             S       S        S              S             D     S    S       S                 S  S         S             S                D      S   S        S    S                S         S         S        S      S                   S           S   S          S   S        S           S          I      S  S       S                 S  S           D      S                               D        D     D   S         S    S     S       S     S      S    
+SHFT:                                                                                                           2            1    1                                      2    2                   3               3     3                                                                                                         1 4    4     4                                                                                                                                                             
+TER Score:  73.61 ( 53.0/ 72.0)
+
+Shift [en] 27 words left
+ REF:  el pintor aplaudió con ***** ************* deleite fingido. “¡dices que no sabes nada de arte, y  luego demuestras   en   el próximo   aliento   que sabes más de lo que yo  sé!    ¡por supuesto que la        portadora del      haz es incorrecta para una ******** anfitriona! un         cortador, un       podador, ¡eso   es más    tu línea.” señaló una figura en morado  que estaba aserrando una rama muerta de un manzano. “¿qué tal esa?”     dijo él.   “¿te    gusta para   ti?” 
+ HYP:  el pintor aplaudió con falsa complacencia. —¡pero  si       dice    que no sabe  nada de arte  y, de    buenas     [ en ] a  primeras, demuestra que sabe  más ** ** que yo! ¡claro que  no,      una cargadora de        gavillas no  es apropiada  para una azafata! una         cortadora, una       podadora estaría  más  @ su línea. —y señalo  a      una figura de violeta que ****** cortaba   una rama muerta de un ******** ***** *** manzano—. ¿y   ella? —dijo—. ¿le   parece bien?
+
+Shift [de] 8 words right
+ REF:  el pintor aplaudió con ***** ************* deleite fingido. “¡dices que no sabes nada de arte, y    luego   demuestras en el próximo   aliento   que sabes más   de   lo que yo  sé!    ¡por supuesto que la        portadora del      haz es incorrecta para una ******** anfitriona! un         cortador, un       podador, ¡eso es más    tu línea.” señaló una figura en morado  que estaba aserrando una rama muerta de un manzano. “¿qué tal esa?”     dijo él.   “¿te    gusta para   ti?” 
+ HYP:  el pintor aplaudió con falsa complacencia. —¡pero  si       dice    que no sabe  nada de ***** arte y,    @ buenas     en a  primeras, demuestra que sabe  más [ de ] ** que yo! ¡claro que  no,      una cargadora de        gavillas no  es apropiada  para una azafata! una         cortadora, una       podadora estaría  más  su línea. —y señalo  a      una figura de violeta que ****** cortaba   una rama muerta de un ******** ***** *** manzano—. ¿y   ella? —dijo—. ¿le   parece bien?
+
+Shift [que] 2 words right
+ REF:  el pintor aplaudió con ***** ************* deleite fingido. “¡dices que no sabes nada de arte, y    luego demuestras en el próximo   aliento   que sabes más de lo que yo  sé!      ¡por supuesto   que   la        portadora del      haz es incorrecta para una ******** anfitriona! un         cortador, un       podador, ¡eso es más    tu línea.” señaló una figura en morado  que estaba aserrando una rama muerta de un manzano. “¿qué tal esa?”     dijo él.   “¿te    gusta para   ti?” 
+ HYP:  el pintor aplaudió con falsa complacencia. —¡pero  si       dice    que no sabe  nada de ***** arte y,    buenas     en a  primeras, demuestra que sabe  más de ** que yo! ¡claro @ no,  una      [ que ] cargadora de        gavillas no  es apropiada  para una azafata! una         cortadora, una       podadora estaría  más  su línea. —y señalo  a      una figura de violeta que ****** cortaba   una rama muerta de un ******** ***** *** manzano—. ¿y   ella? —dijo—. ¿le   parece bien?
+
+Shift [más] 1 words right
+ REF:  el pintor aplaudió con ***** ************* deleite fingido. “¡dices que no sabes nada de arte, y    luego demuestras en el próximo   aliento   que sabes más de lo que yo  sé!    ¡por supuesto que la        portadora del      haz es incorrecta para una anfitriona! un  cortador,  un  podador, ¡eso      es   más   ****** tu línea.” señaló una figura en morado  que estaba aserrando una rama muerta de un manzano. “¿qué tal esa?”     dijo él.   “¿te    gusta para   ti?” 
+ HYP:  el pintor aplaudió con falsa complacencia. —¡pero  si       dice    que no sabe  nada de ***** arte y,    buenas     en a  primeras, demuestra que sabe  más de ** que yo! ¡claro no,  una      que cargadora de        gavillas no  es apropiada  para una azafata!    una cortadora, una podadora estaría @ su [ más ] línea. —y señalo  a      una figura de violeta que ****** cortaba   una rama muerta de un ******** ***** *** manzano—. ¿y   ella? —dijo—. ¿le   parece bien?
+
+
+
+Sentence ID: 60:1
+Best Ref: “caramba—” dijo ella, y se sonrojó y se volvió humilde—“eso—eso me pone justo al lado del dr. hitz.”
+Orig Hyp: —madre mía —se sonrojó y dijo modestamente—: pero eso significaría estar junto al doctor atiza.
+
+REF:  “caramba—”   dijo   ella,  y   se  sonrojó y   se             volvió humilde—“eso—eso me           pone  justo al lado del dr.    hitz.”
+HYP:  ********** [ dijo ] —madre mía —se sonrojó y @ modestamente—: pero   eso              significaría estar junto al **** *** doctor atiza.
+EVAL: D                   S      S   S               S              S      S                S            S     S        D    D   S      S     
+SHFT:            1      1                          1                                                                                          
+TER Score:  83.33 ( 15.0/ 18.0)
+
+Shift [dijo] 5 words left
+ REF:  “caramba—”   dijo   ella,  y   se  sonrojó y   se             volvió humilde—“eso—eso me           pone  justo al lado del dr.    hitz.”
+ HYP:  ********** [ dijo ] —madre mía —se sonrojó y @ modestamente—: pero   eso              significaría estar junto al **** *** doctor atiza.
+
+
+
+Sentence ID: 61:1
+Best Ref: “¿eso te molesta?” dijo él.
+Orig Hyp: —¿y eso le molesta? —dijo él.
+
+REF:  *** “¿eso te molesta?” dijo  él.
+HYP:  —¿y eso   le molesta?  —dijo él.
+EVAL: I   S     S  S         S        
+SHFT:                                 
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 62:1
+Best Ref: “¡por dios, no!” dijo ella. “es—es solo un gran honor.”
+Orig Hyp: —pero ¡qué va, por dios! —dijo—. es… es todo un honor.
+
+REF:  ***** “¡por dios, no!” dijo  ella.   “es—es solo   un   gran   honor.”
+HYP:  —pero ¡qué  va,   por  dios! —dijo—. es…    es   [ un ] todo @ honor. 
+EVAL: I     S     S     S    S     S       S      S           S      S      
+SHFT:                                                  1    1      1        
+TER Score: 110.00 ( 11.0/ 10.0)
+
+Shift [un] 1 words left
+ REF:  ***** “¡por dios, no!” dijo  ella.   “es—es solo   un   gran   honor.”
+ HYP:  —pero ¡qué  va,   por  dios! —dijo—. es…    es   [ un ] todo @ honor. 
+
+
+
+Sentence ID: 63:1
+Best Ref: “ah, tú… lo admiras, ¿eh?” dijo él.
+Orig Hyp: —ah, usted… lo admira, ¿verdad? —dijo él.
+
+REF:  “ah, tú…    lo admiras, ¿eh?”    dijo  él.
+HYP:  —ah, usted… lo admira,  ¿verdad? —dijo él.
+EVAL: S    S         S        S        S        
+SHFT:                                           
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 64:1
+Best Ref: “¿quién no lo admira?” dijo ella, adorando el retrato de hitz. era el retrato de un omnipotente zeus de piel bronceada y cabello blanco, doscientos cuarenta años. “¿quién no lo admira?” dijo nuevamente. “él fue responsable de establecer la primera cámara de gas en chicago.”
+Orig Hyp: —¿y quién no lo admira? —dijo, mirando con veneración el retrato de atiza. era el retrato de un zeus omnipotente, de pelo blanco y moreno de doscientos cuarenta años—. ¿y quién no lo admira? —repitió—. fue el responsable de instalar la primera cámara de gas de la ciudad.
+
+REF:  *** “¿quién no lo ******* admira?” dijo    ella, adorando   el retrato de hitz.  era el retrato de un   omnipotente    zeus   de piel bronceada y cabello blanco, doscientos cuarenta ****** años. “¿quién no lo admira?” dijo    nuevamente.   “él   fue   responsable de establecer la primera cámara de gas ** en chicago.”
+HYP:  —¿y quién   no lo admira? —dijo,   mirando con   veneración el retrato de atiza. era el retrato de un @ omnipotente, [ zeus ] de pelo blanco    y moreno  de      doscientos cuarenta años—. ¿y    quién   no lo ******** admira? —repitió—.  @ el  [ fue ] responsable de instalar   la primera cámara de gas de la ciudad.  
+EVAL: I   S             I       S        S       S     S                        S                             S                        S    S           S       S                           I      S     S             D        S       S             S                          S                                   I  S  S        
+SHFT:                                                                                                       1              1      1                                                                                                                 2     2     2                                                                   
+TER Score:  57.78 ( 26.0/ 45.0)
+
+Shift [zeus] 1 words right
+ REF:  *** “¿quién no lo ******* admira?” dijo    ella, adorando   el retrato de hitz.  era el retrato de un   omnipotente    zeus   de piel bronceada y cabello blanco, doscientos cuarenta ****** años. “¿quién no lo admira?” dijo    nuevamente. “él fue responsable de establecer la primera cámara de gas ** en chicago.”
+ HYP:  —¿y quién   no lo admira? —dijo,   mirando con   veneración el retrato de atiza. era el retrato de un @ omnipotente, [ zeus ] de pelo blanco    y moreno  de      doscientos cuarenta años—. ¿y    quién   no lo ******** admira? —repitió—.  fue el  responsable de instalar   la primera cámara de gas de la ciudad.  
+
+Shift [fue] 1 words right
+ REF:  *** “¿quién no lo ******* admira?” dijo    ella, adorando   el retrato de hitz.  era el retrato de un omnipotente  zeus de piel bronceada y cabello blanco, doscientos cuarenta ****** años. “¿quién no lo admira?” dijo    nuevamente.   “él   fue   responsable de establecer la primera cámara de gas ** en chicago.”
+ HYP:  —¿y quién   no lo admira? —dijo,   mirando con   veneración el retrato de atiza. era el retrato de un omnipotente, zeus de pelo blanco    y moreno  de      doscientos cuarenta años—. ¿y    quién   no lo ******** admira? —repitió—.  @ el  [ fue ] responsable de instalar   la primera cámara de gas de la ciudad.  
+
+
+
+Sentence ID: 65:1
+Best Ref: “nada me llenaría de más satisfacción,” dijo el pintor, “que ponerte a su lado para todo el tiempo. ¿cortar una rama te parece apropiado?”
+Orig Hyp: —no se me ocurre un placer más grande —dijo el pintor— que pintarla junto a él para la posteridad. ¿le parece apropiado cortando una extremidad?
+
+REF:  *** “nada me ****** llenaría de     más satisfacción,” dijo  el pintor, “que ponerte    a   su      lado para todo el tiempo.     ¿cortar   una     rama      te           parece   apropiado?”
+HYP:  —no se    me ocurre un       placer más grande         —dijo el pintor— que  pintarla [ a ] junto @ él   para **** la posteridad. ¿le     [ una ] @ apropiado cortando @ [ parece ] extremidad?
+EVAL: I   S        I      S        S          S              S        S       S    S              S       S         D    S  S           S                 S         S                     S          
+SHFT:                                                                                       1   1       1                                       3     3 2                    3 2        2            
+TER Score:  91.67 ( 22.0/ 24.0)
+
+Shift [a] 1 words left
+ REF:  *** “nada me ****** llenaría de     más satisfacción,” dijo  el pintor, “que ponerte    a   su      lado para todo el tiempo.     ¿cortar una    rama      te       parece apropiado?”
+ HYP:  —no se    me ocurre un       placer más grande         —dijo el pintor— que  pintarla [ a ] junto @ él   para **** la posteridad. ¿le     parece apropiado cortando una    extremidad?
+
+Shift [parece] 3 words right
+ REF:  *** “nada me ****** llenaría de     más satisfacción,” dijo  el pintor, “que ponerte  a su    lado para todo el tiempo.     ¿cortar   una       rama     te    parece   apropiado?”
+ HYP:  —no se    me ocurre un       placer más grande         —dijo el pintor— que  pintarla a junto él   para **** la posteridad. ¿le     @ apropiado cortando una [ parece ] extremidad?
+
+Shift [una] 2 words left
+ REF:  *** “nada me ****** llenaría de     más satisfacción,” dijo  el pintor, “que ponerte  a su    lado para todo el tiempo.     ¿cortar   una   rama      te         parece apropiado?”
+ HYP:  —no se    me ocurre un       placer más grande         —dijo el pintor— que  pintarla a junto él   para **** la posteridad. ¿le     [ una ] apropiado cortando @ parece extremidad?
+
+
+
+Sentence ID: 66:1
+Best Ref: “eso es algo parecido a lo que hago,” dijo ella. era humilde sobre lo que hacía. lo que hacía era hacer que la gente se sintiera cómoda mientras los mataba.
+Orig Hyp: —es más o menos lo que hago —dijo. hablaba de su profesión con modestia. lo que hacía era hacer que las personas estuvieran cómodas mientras las asesinaba.
+
+REF:  “eso es  algo parecido a     lo que hago,” dijo ella.  era     humilde sobre lo        que hacía.    lo que hacía era hacer que la gente se       sintiera   cómoda  mientras los mataba.   
+HYP:  **** —es más  o        menos lo que ****** hago —dijo. hablaba de      su    profesión con modestia. lo que hacía era hacer que ** las   personas estuvieran cómodas mientras las asesinaba.
+EVAL: D    S   S    S        S            D      S    S      S       S       S     S         S   S                                    D  S     S        S          S                S   S         
+SHFT:                                                                                                                                                                                             
+TER Score:  70.00 ( 21.0/ 30.0)
+
+
+
+Sentence ID: 67:1
+Best Ref: y, mientras leora duncan posaba para su retrato, al salón de espera irrumpió el propio dr. hitz. medía siete pies de alto y retumbaba con la importancia, los logros y la alegría de vivir.
+Orig Hyp: y mientras que salomé garcía posaba para su retrato, entró enérgicamente el mismísimo doctor atiza. medía dos metros y su figura desprendía importancia, éxito y alegría de vivir.
+
+REF:  y, mientras *** leora  duncan posaba para su retrato, al salón de espera irrumpió      el propio    dr.    hitz.  medía siete pies de  alto   y retumbaba con    la         importancia, los logros y la alegría de vivir.
+HYP:  y  mientras que salomé garcía posaba para su retrato, ** ***** ** entró  enérgicamente el mismísimo doctor atiza. medía ***** **** dos metros y su        figura desprendía importancia, *** éxito  y ** alegría de vivir.
+EVAL: S           I   S      S                              D  D     D  S      S                S         S      S            D     D    S   S        S         S      S                       D   S        D                   
+SHFT:                                                                                                                                                                                                                           
+TER Score:  64.71 ( 22.0/ 34.0)
+
+
+
+Sentence ID: 68:1
+Best Ref: “¡bueno, señorita duncan! ¡señorita duncan!” dijo, e hizo una broma. “¿qué haces aquí?” dijo. “¡este no es el lugar donde la gente se va. este es el lugar donde vienen!”
+Orig Hyp: —pero bueno, ¡señorita salomé! ¡señorita salomé! —dijo y añadió jocoso—: ¿qué hace aquí? —dijo—. no estamos en la sala donde las visitas se van, sino donde llegan.
+
+REF:  “¡bueno, señorita duncan! ¡señorita duncan!” dijo,     e       hizo  una broma. “¿qué    haces aquí?” dijo. “¡este  no es el      lugar   donde   la gente   se   va.    este es        el   lugar donde vienen!”
+HYP:  ******** —pero    bueno,  ¡señorita salomé!  ¡señorita salomé! —dijo y   añadió jocoso—: ¿qué  hace   aquí? —dijo—. no ** estamos en    [ donde ] la ***** [ se ] sala @ las  visitas @ van, sino  donde llegan. 
+EVAL: D        S        S                 S        S         S       S     S   S      S        S     S      S     S          D  S       S                  D            S      S    S         S    S           S       
+SHFT:                                                                                                                                         1       1          2    2      1              2                          
+TER Score:  86.67 ( 26.0/ 30.0)
+
+Shift [donde] 2 words left
+ REF:  “¡bueno, señorita duncan! ¡señorita duncan!” dijo,     e       hizo  una broma. “¿qué    haces aquí?” dijo. “¡este  no es el      lugar   donde   la gente se     va. este    es el   lugar donde vienen!”
+ HYP:  ******** —pero    bueno,  ¡señorita salomé!  ¡señorita salomé! —dijo y   añadió jocoso—: ¿qué  hace   aquí? —dijo—. no ** estamos en    [ donde ] la ***** sala @ las visitas se van, sino  donde llegan. 
+
+Shift [se] 3 words left
+ REF:  “¡bueno, señorita duncan! ¡señorita duncan!” dijo,     e       hizo  una broma. “¿qué    haces aquí?” dijo. “¡este  no es el      lugar donde la gente   se   va.  este es        el   lugar donde vienen!”
+ HYP:  ******** —pero    bueno,  ¡señorita salomé!  ¡señorita salomé! —dijo y   añadió jocoso—: ¿qué  hace   aquí? —dijo—. no ** estamos en    donde la ***** [ se ] sala las  visitas @ van, sino  donde llegan. 
+
+
+
+Sentence ID: 69:1
+Best Ref: “vamos a estar en la misma imagen juntos,” dijo ella tímidamente.
+Orig Hyp: —vamos a estar en el mismo cuadro juntos —dijo con timidez.
+
+REF:  “vamos a estar en la misma imagen juntos,” dijo  ella tímidamente.
+HYP:  —vamos a estar en el mismo cuadro juntos   —dijo con  timidez.    
+EVAL: S                 S  S     S      S        S     S    S           
+SHFT:                                                                   
+TER Score:  72.73 (  8.0/ 11.0)
+
+
+
+Sentence ID: 70:1
+Best Ref: “¡bien!” dijo el dr. hitz con entusiasmo. “y, a ver, ¿no es esa una gran pintura?”
+Orig Hyp: —¡perfecto! —dijo el doctor atiza con entusiasmo—. ¿a que es un cuadro genial?
+
+REF:  “¡bien!”    dijo  el dr.    hitz  con entusiasmo. “y, a            ver, ¿no es esa una gran   pintura?”
+HYP:  —¡perfecto! —dijo el doctor atiza con *********** *** entusiasmo—. ¿a   que es *** un  cuadro genial?  
+EVAL: S           S        S      S         D           D   S            S    S      D   S   S      S        
+SHFT:                                                                                                        
+TER Score:  81.25 ( 13.0/ 16.0)
+
+
+
+Sentence ID: 71:1
+Best Ref: “de verdad me honra estar en ella contigo,” dijo ella.
+Orig Hyp: —es un honor para mí estar junto a usted —dijo ella.
+
+REF:  *** “de verdad me   honra estar en    ella contigo,” dijo  ella.
+HYP:  —es un  honor  para mí    estar junto a    usted     —dijo ella.
+EVAL: I   S   S      S    S           S     S    S         S          
+SHFT:                                                                 
+TER Score:  90.00 (  9.0/ 10.0)
+
+
+
+Sentence ID: 72:1
+Best Ref: “déjame decirte,” dijo él, “que me honra estar en ella contigo. sin mujeres como tú, este maravilloso mundo que tenemos no sería posible.”
+Orig Hyp: —le digo una cosa —dijo él—, el honor es todo mío. sin mujeres como usted, nuestro mundo maravilloso no sería posible.
+
+REF:  “déjame decirte,” dijo él,  “que  me   honra estar en ella contigo. sin mujeres como tú,    este      maravilloso   mundo que tenemos   no sería posible.”
+HYP:  —le     digo      una  cosa —dijo él—, el    honor es todo mío.     sin mujeres como usted, nuestro [ maravilloso ] mundo *** ******* @ no sería posible. 
+EVAL: S       S         S    S    S     S    S     S     S  S    S                         S      S                             D   D                  S        
+SHFT:                                                                                                     1             1                   1                   
+TER Score:  73.91 ( 17.0/ 23.0)
+
+Shift [maravilloso] 1 words left
+ REF:  “déjame decirte,” dijo él,  “que  me   honra estar en ella contigo. sin mujeres como tú,    este      maravilloso   mundo que tenemos   no sería posible.”
+ HYP:  —le     digo      una  cosa —dijo él—, el    honor es todo mío.     sin mujeres como usted, nuestro [ maravilloso ] mundo *** ******* @ no sería posible. 
+
+
+
+Sentence ID: 73:1
+Best Ref: la saludó y se dirigió hacia la puerta que conducía a las salas de parto. “adivina qué acaba de nacer,” dijo.
+Orig Hyp: le hizo un saludo militar y se dirigió a la puerta de la sala de partos. —adivine qué acaba de nacer —dijo.
+
+REF:  ** **** ** la     saludó  y se dirigió hacia   la puerta que conducía   a   las salas de parto.  “adivina qué acaba de nacer,” dijo. 
+HYP:  le hizo un saludo militar y se dirigió ***** @ la puerta *** de       [ a ] la  sala  de partos. —adivine qué acaba de nacer   —dijo.
+EVAL: I  I    I  S      S                    D                 D   S              S   S        S       S                     S       S     
+SHFT:                                              1                        1   1                                                          
+TER Score:  71.43 ( 15.0/ 21.0)
+
+Shift [a] 3 words right
+ REF:  ** **** ** la     saludó  y se dirigió hacia   la puerta que conducía   a   las salas de parto.  “adivina qué acaba de nacer,” dijo. 
+ HYP:  le hizo un saludo militar y se dirigió ***** @ la puerta *** de       [ a ] la  sala  de partos. —adivine qué acaba de nacer   —dijo.
+
+
+
+Sentence ID: 74:1
+Best Ref: “no puedo,” dijo ella.
+Orig Hyp: —no sé —dijo ella.
+
+REF:  “no puedo,” dijo  ella.
+HYP:  —no sé      —dijo ella.
+EVAL: S   S       S          
+SHFT:                        
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 75:1
+Best Ref: “¡trillizos!” dijo él.
+Orig Hyp: —¡trillizos! —dijo él.
+
+REF:  “¡trillizos!” dijo  él.
+HYP:  —¡trillizos!  —dijo él.
+EVAL: S             S        
+SHFT:                        
+TER Score:  66.67 (  2.0/  3.0)
+
+
+
+Sentence ID: 76:1
+Best Ref: “¡trillizos!” dijo ella. estaba exclamando sobre las implicaciones legales de los trillizos.
+Orig Hyp: —¡trillizos! —exclamó ella, por las implicaciones legales que suponía tener trillizos.
+
+REF:  “¡trillizos!” dijo ella.        estaba   exclamando sobre las implicaciones legales *** de      los   trillizos.
+HYP:  ************* **** —¡trillizos! —exclamó ella,      por   las implicaciones legales que suponía tener trillizos.
+EVAL: D             D    S            S        S          S                               I   S       S               
+SHFT:                                                                                                                 
+TER Score:  75.00 (  9.0/ 12.0)
+
+
+
+Sentence ID: 77:1
+Best Ref: la ley decía que ningún niño recién nacido podía sobrevivir a menos que los padres del niño encontraran a alguien que se ofreciera para morir. trillizos, si todos debían vivir, requerían tres voluntarios.
+Orig Hyp: la ley decía que ningún recién nacido podía sobrevivir si sus padres no encontraban a un voluntario que se prestara a morir. los trillizos, para vivir, requerían tres voluntarios.
+
+REF:  la ley decía que ningún niño recién nacido podía sobrevivir   a   menos   que   los   padres del niño          encontraran   a   alguien    que se ofreciera   para     morir.   trillizos,   si   todos debían   vivir, requerían tres voluntarios.
+HYP:  la ley decía que ningún **** recién nacido podía sobrevivir [ a ] ***** @ sus [ los ] padres no  encontraban @ un          [ a ] voluntario que se prestara  [ para ] @ morir. @ trillizos, [ si ] ***** ****** @ vivir, requerían tres voluntarios.
+EVAL:                         D                                         D       S                  S   S             S                 S                 S                                               D     D                                          
+SHFT:                                                             3   3       2     1     1                        3             4   4                             5      5 4        1            2    2              5                                   
+TER Score:  45.45 ( 15.0/ 33.0)
+
+Shift [los] 11 words left
+ REF:  la ley decía que ningún niño recién nacido podía sobrevivir a menos que   los   padres del niño        encontraran a  alguien    que se ofreciera para morir.   trillizos, si todos debían vivir, requerían tres voluntarios.
+ HYP:  la ley decía que ningún **** recién nacido podía sobrevivir * si    sus [ los ] padres no  encontraban a           un voluntario que se prestara  a    morir. @ trillizos, ** ***** para   vivir, requerían tres voluntarios.
+
+Shift [si] 14 words right
+ REF:  la ley decía que ningún niño recién nacido podía sobrevivir a menos   que los padres del niño        encontraran a  alguien    que se ofreciera para morir. trillizos,   si   todos debían vivir, requerían tres voluntarios.
+ HYP:  la ley decía que ningún **** recién nacido podía sobrevivir * ***** @ sus los padres no  encontraban a           un voluntario que se prestara  a    morir. trillizos, [ si ] ***** para   vivir, requerían tres voluntarios.
+
+Shift [a] 5 words left
+ REF:  la ley decía que ningún niño recién nacido podía sobrevivir   a   menos que los padres del niño encontraran   a  alguien    que se ofreciera para morir. trillizos, si todos debían vivir, requerían tres voluntarios.
+ HYP:  la ley decía que ningún **** recién nacido podía sobrevivir [ a ] ***** sus los padres *** no   encontraban @ un voluntario que se prestara  a    morir. trillizos, si ***** para   vivir, requerían tres voluntarios.
+
+Shift [a] 4 words left
+ REF:  la ley decía que ningún niño recién nacido podía sobrevivir a menos que los padres del niño        encontraran   a   alguien    que se ofreciera para       morir. trillizos, si todos debían vivir, requerían tres voluntarios.
+ HYP:  la ley decía que ningún **** recién nacido podía sobrevivir a ***** sus los padres no  encontraban un          [ a ] voluntario que se ********* prestara @ morir. trillizos, si ***** para   vivir, requerían tres voluntarios.
+
+Shift [para] 3 words left
+ REF:  la ley decía que ningún niño recién nacido podía sobrevivir a menos que los padres del niño        encontraran a alguien    que se ofreciera   para   morir. trillizos, si todos debían   vivir, requerían tres voluntarios.
+ HYP:  la ley decía que ningún **** recién nacido podía sobrevivir a ***** sus los padres no  encontraban un          a voluntario que se prestara  [ para ] morir. trillizos, si ***** ****** @ vivir, requerían tres voluntarios.
+
+
+
+Sentence ID: 78:1
+Best Ref: “¿los padres tienen tres voluntarios?” dijo leora duncan.
+Orig Hyp: —¿tienen tres voluntarios los padres? —dijo salomé garcía.
+
+REF:  “¿los      padres      tienen   tres   voluntarios?” dijo  leora  duncan.
+HYP:  —¿tienen @ voluntarios los    [ tres ] padres?       —dijo salomé garcía.
+EVAL: S          S           S               S             S     S      S      
+SHFT:          1                    1      1                                   
+TER Score: 100.00 (  8.0/  8.0)
+
+Shift [tres] 2 words right
+ REF:  “¿los      padres      tienen   tres   voluntarios?” dijo  leora  duncan.
+ HYP:  —¿tienen @ voluntarios los    [ tres ] padres?       —dijo salomé garcía.
+
+
+
+Sentence ID: 79:1
+Best Ref: “la última vez que lo oí,” dijo el dr. hitz, “tenían uno, y estaban tratando de encontrar otros dos.”
+Orig Hyp: —lo último que sé —dijo el doctor atiza— es que tenían uno y que estaban intentando rebuscar otros dos.
+
+REF:  “la última   vez   que   lo      oí,”   dijo     el   dr. hitz, “tenían uno, y   estaban   tratando   de         encontrar otros dos.”
+HYP:  —lo último @ sé  [ que ] —dijo @ doctor atiza— [ el ] es  que   tenían  uno  y [ estaban ] que      @ intentando rebuscar  otros dos. 
+EVAL: S   S        S           S       S      S             S   S     S       S                  S          S          S               S    
+SHFT:            1     1     1       2               2    2                          3         3          3                                 
+TER Score:  89.47 ( 17.0/ 19.0)
+
+Shift [que] 1 words right
+ REF:  “la última   vez   que   lo    oí,” dijo   el     dr. hitz, “tenían uno, y estaban tratando de         encontrar otros dos.”
+ HYP:  —lo último @ sé  [ que ] —dijo el   doctor atiza— es  que   tenían  uno  y que     estaban  intentando rebuscar  otros dos. 
+
+Shift [el] 2 words right
+ REF:  “la última vez que lo      oí,”   dijo     el   dr. hitz, “tenían uno, y estaban tratando de         encontrar otros dos.”
+ HYP:  —lo último sé  que —dijo @ doctor atiza— [ el ] es  que   tenían  uno  y que     estaban  intentando rebuscar  otros dos. 
+
+Shift [estaban] 1 words left
+ REF:  “la última vez que lo    oí,”   dijo   el dr. hitz, “tenían uno, y   estaban   tratando   de         encontrar otros dos.”
+ HYP:  —lo último sé  que —dijo doctor atiza— el es  que   tenían  uno  y [ estaban ] que      @ intentando rebuscar  otros dos. 
+
+
+
+Sentence ID: 80:1
+Best Ref: “no creo que lo logren,” dijo ella. “nadie hizo tres citas con nosotros. solo hay individuales pasando hoy, a menos que alguien llamara después de que me fui. ¿cuál es el nombre?”
+Orig Hyp: —creo que no lo consiguieron —dijo—. nadie concertó tres citas con nosotros. solo tenemos citas individuales hoy, a no ser que alguien llamara cuando ya me había ido. ¿cómo se llama?
+
+REF:  “no creo  que   lo   logren,”   dijo         ella.   “nadie hizo     tres citas con nosotros. solo hay       individuales   pasando   hoy, a ** menos que alguien llamara después de     que me fui.  ¿cuál es    el nombre?”
+HYP:  *** —creo que [ lo ] no       @ consiguieron —dijo—. nadie  concertó tres citas con nosotros. solo tenemos [ individuales ] citas   @ hoy, a no ser   que alguien llamara ******* cuando ya  me había ido.  ¿cómo se llama?  
+EVAL: D   S                S          S            S       S      S                                      S                        S                I  S                         D       S      S      S     S     S     S  S       
+SHFT:               1    1          1                                                                            2              2         2                                                                                        
+TER Score:  65.63 ( 21.0/ 32.0)
+
+Shift [lo] 1 words left
+ REF:  “no creo  que   lo   logren,”   dijo         ella.   “nadie hizo     tres citas con nosotros. solo hay     individuales pasando      hoy, a ** menos que alguien llamara después de     que me fui.  ¿cuál es    el nombre?”
+ HYP:  *** —creo que [ lo ] no       @ consiguieron —dijo—. nadie  concertó tres citas con nosotros. solo tenemos citas        individuales hoy, a no ser   que alguien llamara ******* cuando ya  me había ido.  ¿cómo se llama?  
+
+Shift [individuales] 1 words left
+ REF:  “no creo  que lo logren,” dijo         ella.   “nadie hizo     tres citas con nosotros. solo hay       individuales   pasando   hoy, a ** menos que alguien llamara después de     que me fui.  ¿cuál es    el nombre?”
+ HYP:  *** —creo que lo no       consiguieron —dijo—. nadie  concertó tres citas con nosotros. solo tenemos [ individuales ] citas   @ hoy, a no ser   que alguien llamara ******* cuando ya  me había ido.  ¿cómo se llama?  
+
+
+
+Sentence ID: 81:1
+Best Ref: “wehling,” dijo el padre en espera, sentándose, con los ojos rojos y desaliñado. “edward k. wehling, jr., es el nombre del feliz futuro padre.”
+Orig Hyp: —quejada —dijo el padre en espera, que estaba sentado, con los ojos rojos y desaliñado—. eduardo quejada es el nombre del futuro padre feliz.
+
+REF:  “wehling,” dijo  el padre en espera, *** ****** sentándose, con los ojos rojos y desaliñado. “edward k.           wehling, jr.,    es el nombre del   feliz   futuro   padre.”
+HYP:  —quejada   —dijo el padre en espera, que estaba sentado,    con los ojos rojos y *********** ******* desaliñado—. eduardo  quejada es el nombre del @ padre [ futuro ] feliz. 
+EVAL: S          S                         I   I      S                                D           D       S            S        S                          S                S      
+SHFT:                                                                                                                                                     1       1        1        
+TER Score:  54.17 ( 13.0/ 24.0)
+
+Shift [futuro] 1 words right
+ REF:  “wehling,” dijo  el padre en espera, *** ****** sentándose, con los ojos rojos y desaliñado. “edward k.           wehling, jr.,    es el nombre del   feliz   futuro   padre.”
+ HYP:  —quejada   —dijo el padre en espera, que estaba sentado,    con los ojos rojos y *********** ******* desaliñado—. eduardo  quejada es el nombre del @ padre [ futuro ] feliz. 
+
+
+
+Sentence ID: 82:1
+Best Ref: levantó su mano derecha, miró un lugar en la pared, soltó una carcajada hozquemente lastimera. “presente,” dijo.
+Orig Hyp: levantó la mano, miró a un punto de la pared y soltó una risa ronca y quejosa. —presente —dijo.
+
+REF:  levantó su mano    derecha,   miró   un lugar en la ***** pared, soltó una **** carcajada hozquemente lastimera. “presente,” dijo. 
+HYP:  levantó la mano, @ a        [ miró ] un punto de la pared y      soltó una risa ronca     y           quejosa.   —presente   —dijo.
+EVAL:         S  S       S                    S     S     I     S                I    S         S           S          S           S     
+SHFT:                  1          1      1                                                                                               
+TER Score:  82.35 ( 14.0/ 17.0)
+
+Shift [miró] 1 words right
+ REF:  levantó su mano    derecha,   miró   un lugar en la ***** pared, soltó una **** carcajada hozquemente lastimera. “presente,” dijo. 
+ HYP:  levantó la mano, @ a        [ miró ] un punto de la pared y      soltó una risa ronca     y           quejosa.   —presente   —dijo.
+
+
+
+Sentence ID: 83:1
+Best Ref: “oh, sr. wehling,” dijo el dr. hitz, “no te vi.”
+Orig Hyp: —vaya, señor quejada —dijo el doctor atiza—. no lo había visto.
+
+REF:  “oh,   sr.   wehling,” dijo  el ****** dr.     hitz, “no te    vi.”  
+HYP:  —vaya, señor quejada   —dijo el doctor atiza—. no    lo  había visto.
+EVAL: S      S     S         S        I      S       S     S   S     S     
+SHFT:                                                                      
+TER Score: 100.00 ( 10.0/ 10.0)
+
+
+
+Sentence ID: 84:1
+Best Ref: “el hombre invisible,” dijo wehling.
+Orig Hyp: —el hombre invisible —dijo quejada.
+
+REF:  “el hombre invisible,” dijo  wehling.
+HYP:  —el hombre invisible   —dijo quejada.
+EVAL: S          S           S     S       
+SHFT:                                      
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 85:1
+Best Ref: “acaban de llamarme que tus trillizos han nacido,” dijo el dr. hitz. “todos están bien, y la madre también. ahora voy a verlos.”
+Orig Hyp: —me acaban de llamar para decirme que los trillizos ya nacieron —dijo el doctor atiza—. están todos bien y también la mamá. de hecho, iba a verlos ahora.
+
+REF:  *** “acaban de ****** **** llamarme que tus trillizos han nacido,” dijo  el dr.    hitz.     “todos   están   bien, y ******* la madre también. ahora  voy a ****** verlos.”
+HYP:  —me acaban  de llamar para decirme  que los trillizos ya  nacieron —dijo el doctor atiza—. @ todos  [ están ] bien  y también la mamá. de       hecho, iba a verlos ahora.  
+EVAL: I   S          I      I    S            S             S   S        S        S      S         S                S       I          S     S        S      S     I      S       
+SHFT:                                                                                            1        1       1                                                               
+TER Score:  91.30 ( 21.0/ 23.0)
+
+Shift [están] 1 words right
+ REF:  *** “acaban de ****** **** llamarme que tus trillizos han nacido,” dijo  el dr.    hitz.     “todos   están   bien, y ******* la madre también. ahora  voy a ****** verlos.”
+ HYP:  —me acaban  de llamar para decirme  que los trillizos ya  nacieron —dijo el doctor atiza—. @ todos  [ están ] bien  y también la mamá. de       hecho, iba a verlos ahora.  
+
+
+
+Sentence ID: 86:1
+Best Ref: “hurra,” dijo wehling sin entusiasmo.
+Orig Hyp: —¡hurra! —dijo quejada sin entusiasmo.
+
+REF:  “hurra,” dijo  wehling sin entusiasmo.
+HYP:  —¡hurra! —dijo quejada sin entusiasmo.
+EVAL: S        S     S                      
+SHFT:                                       
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 87:1
+Best Ref: “no pareces muy feliz,” dijo el dr. hitz.
+Orig Hyp: —no parece muy contento —dijo el doctor atiza.
+
+REF:  “no pareces muy feliz,”  dijo  el dr.    hitz. 
+HYP:  —no parece  muy contento —dijo el doctor atiza.
+EVAL: S   S           S        S        S      S     
+SHFT:                                                
+TER Score:  75.00 (  6.0/  8.0)
+
+
+
+Sentence ID: 88:1
+Best Ref: “¿qué hombre en mis zapatos no estaría feliz?” dijo wehling. hizo un gesto con las manos para simbolizar una simplicidad despreocupada. “todo lo que tengo que hacer es elegir cuál de los trillizos va a vivir, luego llevar a mi abuelo materno al happy hooligan y volver aquí con un recibo.”
+Orig Hyp: —¿qué hombre no estaría contento en mi lugar? —dijo quejada. hizo un gesto con las manos que simbolizaba despreocupación—. solo tengo que elegir cuál de los trillizos va a vivir, luego entregar a mi abuelo materno a gamberro feliz y volver con el recibo.
+
+REF:  “¿qué hombre   en     mis        zapatos   no estaría   feliz?” dijo  wehling. hizo un gesto con las manos para simbolizar una simplicidad   despreocupada. “todo             lo     que   tengo que hacer es elegir cuál de los trillizos va a vivir, luego llevar   a mi abuelo materno al happy    hooligan y volver aquí con un recibo.”
+HYP:  —¿qué hombre [ en ] @ contento @ mi      [ no estaría ] lugar?  —dijo quejada. hizo un gesto con las manos **** ********** *** *********** @ simbolizaba    despreocupación—. solo [ que ] tengo que ***** ** elegir cuál de los trillizos va a vivir, luego entregar a mi abuelo materno a  gamberro feliz    y volver **** con el recibo. 
+EVAL: S                     S          S                      S       S     S                                    D    D          D   D             S              S                 S                      D     D                                                 S                            S  S        S                 D        S  S       
+SHFT:              2    2 1          2         1            1                                                                                    3                                       3     3                                                                                                                                                  
+TER Score:  49.02 ( 25.0/ 51.0)
+
+Shift [no, estaría] 3 words right
+ REF:  “¿qué hombre   en       mis zapatos   no estaría   feliz?” dijo  wehling. hizo un gesto con las manos para simbolizar una simplicidad despreocupada. “todo       lo                que  tengo que hacer es elegir cuál de los trillizos va a vivir, luego llevar   a mi abuelo materno al happy    hooligan y volver aquí con un recibo.”
+ HYP:  —¿qué hombre @ contento en  mi      [ no estaría ] lugar?  —dijo quejada. hizo un gesto con las manos **** ********** *** *********** que            simbolizaba despreocupación—. solo tengo que ***** ** elegir cuál de los trillizos va a vivir, luego entregar a mi abuelo materno a  gamberro feliz    y volver **** con el recibo. 
+
+Shift [en] 1 words left
+ REF:  “¿qué hombre   en   mis        zapatos no estaría feliz?” dijo  wehling. hizo un gesto con las manos para simbolizar una simplicidad despreocupada. “todo       lo                que  tengo que hacer es elegir cuál de los trillizos va a vivir, luego llevar   a mi abuelo materno al happy    hooligan y volver aquí con un recibo.”
+ HYP:  —¿qué hombre [ en ] contento @ mi      no estaría lugar?  —dijo quejada. hizo un gesto con las manos **** ********** *** *********** que            simbolizaba despreocupación—. solo tengo que ***** ** elegir cuál de los trillizos va a vivir, luego entregar a mi abuelo materno a  gamberro feliz    y volver **** con el recibo. 
+
+Shift [que] 3 words right
+ REF:  “¿qué hombre en mis      zapatos no estaría feliz?” dijo  wehling. hizo un gesto con las manos para simbolizar una simplicidad   despreocupada. “todo             lo     que   tengo que hacer es elegir cuál de los trillizos va a vivir, luego llevar   a mi abuelo materno al happy    hooligan y volver aquí con un recibo.”
+ HYP:  —¿qué hombre en contento mi      no estaría lugar?  —dijo quejada. hizo un gesto con las manos **** ********** *** *********** @ simbolizaba    despreocupación—. solo [ que ] tengo que ***** ** elegir cuál de los trillizos va a vivir, luego entregar a mi abuelo materno a  gamberro feliz    y volver **** con el recibo. 
+
+
+
+Sentence ID: 89:1
+Best Ref: el dr. hitz se volvió bastante severo con wehling, se cernió sobre él. “¿no crees en el control de la población, sr. wehling?” dijo él.
+Orig Hyp: el doctor atiza se mostró duro con quejada y se inclinó sobre él. —¿no cree en el control de la población, señor quejada? —dijo.
+
+REF:  el dr.    hitz  se volvió bastante   severo    con   wehling, se cernió  sobre él. “¿no crees en el control de la población, sr. wehling?” dijo     él.   
+HYP:  el doctor atiza se mostró duro     @ quejada [ con ] y        se inclinó sobre él. —¿no cree  en el control de la población, *** señor     quejada? —dijo.
+EVAL:    S      S        S      S          S               S           S                 S    S                                    D   S         S        S     
+SHFT:                                    1         1     1                                                                                                      
+TER Score:  56.00 ( 14.0/ 25.0)
+
+Shift [con] 1 words right
+ REF:  el dr.    hitz  se volvió bastante   severo    con   wehling, se cernió  sobre él. “¿no crees en el control de la población, sr. wehling?” dijo     él.   
+ HYP:  el doctor atiza se mostró duro     @ quejada [ con ] y        se inclinó sobre él. —¿no cree  en el control de la población, *** señor     quejada? —dijo.
+
+
+
+Sentence ID: 90:1
+Best Ref: “creo que es perfectamente maravilloso,” dijo wehling con fortaleza.
+Orig Hyp: —me parece una verdadera fiesta —dijo quejada con cierta tensión.
+
+REF:  “creo que    es  perfectamente maravilloso,” dijo  wehling con ****** fortaleza.
+HYP:  —me   parece una verdadera     fiesta        —dijo quejada con cierta tensión.  
+EVAL: S     S      S   S             S             S     S           I      S         
+SHFT:                                                                                 
+TER Score: 100.00 (  9.0/  9.0)
+
+
+
+Sentence ID: 91:1
+Best Ref: “¿te gustaría volver a los viejos tiempos, cuando la población de la tierra era de veinte mil millones—estaba a punto de ser cuarenta mil millones, luego ochenta mil millones, luego ciento sesenta mil millones? ¿sabes qué es una drupleta, sr. wehling?” dijo hitz.
+Orig Hyp: —¿le gustaría volver a los viejos tiempos, cuando la población de la tierra era de veinte mil millones, a punto de convertirse en cuarenta, luego ochenta y luego ciento sesenta mil millones? ¿sabe lo que es una drupa, señor quejada? —dijo atiza.
+
+REF:  “¿te gustaría volver a los viejos tiempos, cuando la población de la tierra era de veinte mil millones—estaba   a punto de ser         cuarenta mil         millones,   luego ochenta mil millones, luego ciento sesenta mil millones? ***** ¿sabes qué es una drupleta, sr.   wehling?” dijo  hitz. 
+HYP:  —¿le gustaría volver a los viejos tiempos, cuando la población de la tierra era de veinte mil *************** @ a punto de convertirse en       cuarenta, [ millones, ] luego ochenta *** y         luego ciento sesenta mil millones? ¿sabe lo     que es una drupa,    señor quejada?  —dijo atiza.
+EVAL: S                                                                                             D                            S           S        S                                     D   S                                            I     S      S          S         S     S         S     S     
+SHFT:                                                                                                               1                                           1           1                                                                                                                              
+TER Score:  37.21 ( 16.0/ 43.0)
+
+Shift [millones,] 6 words right
+ REF:  “¿te gustaría volver a los viejos tiempos, cuando la población de la tierra era de veinte mil millones—estaba   a punto de ser         cuarenta mil         millones,   luego ochenta mil millones, luego ciento sesenta mil millones? ***** ¿sabes qué es una drupleta, sr.   wehling?” dijo  hitz. 
+ HYP:  —¿le gustaría volver a los viejos tiempos, cuando la población de la tierra era de veinte mil *************** @ a punto de convertirse en       cuarenta, [ millones, ] luego ochenta *** y         luego ciento sesenta mil millones? ¿sabe lo     que es una drupa,    señor quejada?  —dijo atiza.
+
+
+
+Sentence ID: 92:1
+Best Ref: “nope,” dijo wehling con aire de enfado.
+Orig Hyp: —nop —dijo quejada enfurruñado.
+
+REF:  “nope,” dijo wehling con  aire  de      enfado.     
+HYP:  ******* **** ******* —nop —dijo quejada enfurruñado.
+EVAL: D       D    D       S    S     S       S           
+SHFT:                                                     
+TER Score: 100.00 (  7.0/  7.0)
+
+
+
+Sentence ID: 93:1
+Best Ref: “una drupleta, sr. wehling, es una de las pequeñas protuberancias, uno de los pequeños granos pulposos de una mora,” dijo el dr. hitz. “sin el control de la población, los seres humanos ahora estarían amontonados en esta superficie de este viejo planeta como drupletas en una mora. ¡piénsalo!”
+Orig Hyp: —una drupa, señor quejada, es la parte pequeñita, los granitos carnosos de la mora —dijo el doctor atiza—. ¡sin control de la población, los seres humanos estaríamos comprimidos en la superficie de este viejo planeta como drupas en una mora! ¡imagínese!
+
+REF:  “una drupleta, sr.   wehling, es una de las pequeñas protuberancias, uno   de         los pequeños granos   pulposos de una mora,” dijo  el dr. hitz.  “sin    el   control de la población, los seres humanos ahora estarían   amontonados en esta superficie de este viejo planeta como drupletas en una mora. ¡piénsalo!”
+HYP:  —una drupa,    señor quejada, es *** ** *** ******** la              parte pequeñita, los ******** granitos carnosos de la  mora   —dijo el *** doctor atiza—. ¡sin control de la población, los seres humanos ***** estaríamos comprimidos en la   superficie de este viejo planeta como drupas    en una mora! ¡imagínese!
+EVAL: S    S         S     S           D   D  D   D        S               S     S              D        S        S           S   S      S        D   S      S       S                                               D     S          S              S                                          S                S     S          
+SHFT:                                                                                                                                                                                                                                                                                                                             
+TER Score:  58.33 ( 28.0/ 48.0)
+
+
+
+Sentence ID: 94:1
+Best Ref: wehling continuó mirando el mismo lugar en la pared.
+Orig Hyp: quejada seguía mirando al mismo punto de la pared.
+
+REF:  wehling continuó mirando el mismo lugar en la pared.
+HYP:  quejada seguía   mirando al mismo punto de la pared.
+EVAL: S       S                S        S     S           
+SHFT:                                                     
+TER Score:  55.56 (  5.0/  9.0)
+
+
+
+Sentence ID: 95:1
+Best Ref: “en el año 2000,” dijo el dr. hitz, “antes de que los científicos intervinieran y dictaran la ley, ni siquiera había suficiente agua potable para todos, y nada para comer salvo algas, y aun así la gente insistía en su derecho a reproducirse como conejos. y su derecho, si era posible, a vivir para siempre.”
+Orig Hyp: —en el año 2000 —dijo el doctor atiza—, antes de que los científicos intervinieran y aplicaran la ley, no existía siquiera suficiente agua potable para todos y solo se podían comer algas, y, a pesar de todo, la gente insistía en su derecho a reproducirse como conejos; y en su derecho, a ser posible, de vivir eternamente.
+
+REF:  “en el año 2000,” dijo  el dr.    hitz,   “antes de que los científicos intervinieran y dictaran  la ley, ni   siquiera   había     suficiente agua potable para todos, y **** nada para   comer   salvo   algas,     y     aun así   la gente insistía en su derecho a reproducirse como conejos. y ** su derecho, si era posible,   a     vivir   para   siempre.”   
+HYP:  —en el año 2000   —dijo el doctor atiza—, antes  de que los científicos intervinieran y aplicaran la ley, no [ siquiera ] existía @ suficiente agua potable para todos  y solo se   podían comer @ y,    [ algas, ] @ pesar de  todo, la gente insistía en su derecho a reproducirse como conejos; y en su derecho, a  ser posible, [ a ] [ vivir ] de   @ eternamente.
+EVAL: S          S      S        S      S       S                                             S                 S               S                                      S        I    S    S              S                  S     S   S                                                         S          I              S  S                            S      S           
+SHFT:                                                                                                              1          1         1                                                              2       2        2 3                                                                                                               3   3 4       4      4             
+TER Score:  49.09 ( 27.0/ 55.0)
+
+Shift [siquiera] 1 words left
+ REF:  “en el año 2000,” dijo  el dr.    hitz,   “antes de que los científicos intervinieran y dictaran  la ley, ni   siquiera   había     suficiente agua potable para todos, y **** nada para   comer ****** salvo algas, y     aun así   la gente insistía en su derecho a reproducirse como conejos. y ** su derecho, si era posible, a  vivir para siempre.”   
+ HYP:  —en el año 2000   —dijo el doctor atiza—, antes  de que los científicos intervinieran y aplicaran la ley, no [ siquiera ] existía @ suficiente agua potable para todos  y solo se   podían comer algas, y,    a      pesar de  todo, la gente insistía en su derecho a reproducirse como conejos; y en su derecho, a  ser posible, de vivir **** eternamente.
+
+Shift [algas,] 1 words right
+ REF:  “en el año 2000,” dijo  el dr.    hitz,   “antes de que los científicos intervinieran y dictaran  la ley, ni siquiera había   suficiente agua potable para todos, y **** nada para   comer   salvo   algas,   * y     aun así   la gente insistía en su derecho a reproducirse como conejos. y ** su derecho, si era posible, a  vivir para siempre.”   
+ HYP:  —en el año 2000   —dijo el doctor atiza—, antes  de que los científicos intervinieran y aplicaran la ley, no siquiera existía suficiente agua potable para todos  y solo se   podían comer @ y,    [ algas, ] a pesar de  todo, la gente insistía en su derecho a reproducirse como conejos; y en su derecho, a  ser posible, de vivir **** eternamente.
+
+Shift [a] 20 words right
+ REF:  “en el año 2000,” dijo  el dr.    hitz,   “antes de que los científicos intervinieran y dictaran  la ley, ni siquiera había   suficiente agua potable para todos, y **** nada para   comer salvo algas,   y     aun así   la gente insistía en su derecho a reproducirse como conejos. y ** su derecho, si era posible,   a   vivir para  siempre.”   
+ HYP:  —en el año 2000   —dijo el doctor atiza—, antes  de que los científicos intervinieran y aplicaran la ley, no siquiera existía suficiente agua potable para todos  y solo se   podían comer y,    algas, @ pesar de  todo, la gente insistía en su derecho a reproducirse como conejos; y en su derecho, a  ser posible, [ a ] de    vivir eternamente.
+
+Shift [vivir] 1 words left
+ REF:  “en el año 2000,” dijo  el dr.    hitz,   “antes de que los científicos intervinieran y dictaran  la ley, ni siquiera había   suficiente agua potable para todos, y **** nada para   comer salvo algas, y     aun así   la gente insistía en su derecho a reproducirse como conejos. y ** su derecho, si era posible, a   vivir   para   siempre.”   
+ HYP:  —en el año 2000   —dijo el doctor atiza—, antes  de que los científicos intervinieran y aplicaran la ley, no siquiera existía suficiente agua potable para todos  y solo se   podían comer y,    algas, pesar de  todo, la gente insistía en su derecho a reproducirse como conejos; y en su derecho, a  ser posible, a [ vivir ] de   @ eternamente.
+
+
+
+Sentence ID: 96:1
+Best Ref: “quiero esos niños,” dijo wehling calladamente. “quiero a los tres.”
+Orig Hyp: —yo los quiero a los niños —dijo quejada en voz baja—. los quiero a los tres.
+
+REF:  *** *** ****** * *** ***** “quiero esos    niños,” dijo wehling calladamente. “quiero a los tres.”
+HYP:  —yo los quiero a los niños —dijo   quejada en      voz  baja—.  los           quiero  a los tres. 
+EVAL: I   I   I      I I   I     S       S       S       S    S       S             S             S     
+SHFT:                                                                                                   
+TER Score: 140.00 ( 14.0/ 10.0)
+
+
+
+Sentence ID: 97:1
+Best Ref: “por supuesto que los quieres,” dijo el dr. hitz. “eso es solo humano.”
+Orig Hyp: —y claro que los quiere —dijo el doctor atiza—. desearlos es humano.
+
+REF:  “por supuesto que los quieres,” dijo  el dr.    hitz.   “eso      es solo humano.”
+HYP:  —y   claro    que los quiere    —dijo el doctor atiza—. desearlos es **** humano. 
+EVAL: S    S                S         S        S      S       S            D    S       
+SHFT:                                                                                   
+TER Score:  69.23 (  9.0/ 13.0)
+
+
+
+Sentence ID: 98:1
+Best Ref: “no quiero que mi abuelo muera tampoco,” dijo wehling.
+Orig Hyp: —pero tampoco quiero que se muera mi abuelo —dijo quejada.
+
+REF:  ***** “no     quiero que   mi abuelo     muera   tampoco,”     dijo  wehling.
+HYP:  —pero tampoco quiero que [ mi abuelo ] [ muera ] se        @ @ —dijo quejada.
+EVAL: I     S                                          S             S     S       
+SHFT:                          1           1 2       2           1 2               
+TER Score:  77.78 (  7.0/  9.0)
+
+Shift [mi, abuelo] 2 words left
+ REF:  ***** “no     quiero que   mi abuelo   muera tampoco,”   dijo  wehling.
+ HYP:  —pero tampoco quiero que [ mi abuelo ] se    muera     @ —dijo quejada.
+
+Shift [muera] 1 words left
+ REF:  ***** “no     quiero que mi abuelo   muera   tampoco,”   dijo  wehling.
+ HYP:  —pero tampoco quiero que mi abuelo [ muera ] se        @ —dijo quejada.
+
+
+
+Sentence ID: 99:1
+Best Ref: “nadie está verdaderamente feliz por llevar a un pariente cercano al catbox,” dijo amablemente dr. hitz, simpáticamente.
+Orig Hyp: —nadie se vuelve loco por llevar a un pariente cercano al arenero —dijo amablemente el doctor atiza, con compasión.
+
+REF:  “nadie está verdaderamente feliz por llevar a un pariente cercano al catbox,” dijo  amablemente ** ****** dr.    hitz, simpáticamente.
+HYP:  —nadie se   vuelve         loco  por llevar a un pariente cercano al arenero  —dijo amablemente el doctor atiza, con   compasión.     
+EVAL: S      S    S              S                                         S        S                 I  I      S      S     S              
+SHFT:                                                                                                                                       
+TER Score:  64.71 ( 11.0/ 17.0)
+
+
+
+Sentence ID: 100:1
+Best Ref: “quisiera que la gente no lo llamara así,” dijo leora duncan.
+Orig Hyp: —me gustaría que la gente no lo llamara así —dijo salomé garcía.
+
+REF:  *** “quisiera que la gente no lo llamara así,” dijo  leora  duncan.
+HYP:  —me gustaría  que la gente no lo llamara así   —dijo salomé garcía.
+EVAL: I   S                                    S     S     S      S      
+SHFT:                                                                    
+TER Score:  54.55 (  6.0/ 11.0)
+
+
+
+Sentence ID: 101:1
+Best Ref: “¿qué?” dijo el dr. hitz.
+Orig Hyp: —¿cómo? —dijo el doctor atiza.
+
+REF:  “¿qué?” dijo  el dr.    hitz. 
+HYP:  —¿cómo? —dijo el doctor atiza.
+EVAL: S       S        S      S     
+SHFT:                               
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 102:1
+Best Ref: “quisiera que la gente no lo llamara ‘el catbox,’ y cosas así,” dijo ella. “da a la gente la impresión equivocada.”
+Orig Hyp: —me gustaría que la gente no lo llamara ‘el arenero’ o apodos similares —dijo—. crea una idea equivocada.
+
+REF:  *** “quisiera que la gente no lo llamara ‘el catbox,’ y cosas así,” dijo     ella. “da    a         la      gente la  impresión equivocada.”
+HYP:  —me gustaría  que la gente no lo llamara ‘el ******** * ***** ***** arenero’ o     apodos similares —dijo—. crea  una idea      equivocada. 
+EVAL: I   S                                        D        D D     D     S        S     S      S         S       S     S   S         S           
+SHFT:                                                                                                                                             
+TER Score:  71.43 ( 15.0/ 21.0)
+
+
+
+Sentence ID: 103:1
+Best Ref: “tienes toda la razón,” dijo el dr. hitz. “perdóname.” se corrigió, dio a las cámaras de gas municipales su título oficial, título que nadie usaba en conversación. “debería haber dicho, ‘estudios éticamente suicidas,’” dijo.
+Orig Hyp: —tiene toda la razón —dijo el doctor atiza—. perdóneme. —se corrigió y dio a las cámaras de gas municipales su nombre oficial, un nombre que nunca nadie usaba al hablar—. debería haber dicho: ‘estudios de suicidio ético’ —dijo.
+
+REF:  “tienes toda la razón,” dijo  el ****** dr.     hitz.      “perdóname.” se       corrigió, dio a las cámaras de gas municipales su título oficial, ** título que ***** nadie usaba en conversación. “debería haber dicho, ‘estudios ** éticamente suicidas,’” dijo. 
+HYP:  —tiene  toda la razón   —dijo el doctor atiza—. perdóneme. —se          corrigió y         dio a las cámaras de gas municipales su nombre oficial, un nombre que nunca nadie usaba al hablar—.      debería  haber dicho: ‘estudios de suicidio   ético’      —dijo.
+EVAL: S               S       S        I      S       S          S            S        S                                                 S               I  S          I                 S  S             S              S                I  S          S           S     
+SHFT:                                                                                                                                                                                                                                                                     
+TER Score:  61.76 ( 21.0/ 34.0)
+
+
+
+Sentence ID: 104:1
+Best Ref: “eso suena mucho mejor,” dijo leora duncan.
+Orig Hyp: —así suena muchísimo mejor —dijo salomé garcía.
+
+REF:  “eso suena mucho     mejor,” dijo  leora  duncan.
+HYP:  —así suena muchísimo mejor   —dijo salomé garcía.
+EVAL: S          S         S       S     S      S      
+SHFT:                                                  
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 105:1
+Best Ref: “este niño tuyo—cualquiera que decidas conservar, sr. wehling,” dijo el dr. hitz. “él o ella va a vivir en un planeta feliz, amplio, limpio y rico, gracias al control de la población. en un jardín como ese mural ahí.” sacudió la cabeza. “hace dos siglos, cuando yo era un joven, era un infierno que nadie pensó que podría durar otros veinte años. ahora siglos de paz y abundancia se extienden ante nosotros tan lejos como la imaginación quiera viajar.”
+Orig Hyp: —este hijo suyo, el que al fin decida conservar, señor quejada —dijo el doctor atiza—. él o ella vivirá en un planeta rico, limpio, espacioso y feliz gracias al control de la población. en un jardín como el de ese mural. —asintió con la cabeza—. hace dos siglos, cuando yo era joven, era un infierno que nadie creía duraría veinte años más. ahora, siglos de paz y abundancia se extienden ante nosotros hasta donde alcanza la imaginación.
+
+REF:  ***** “este niño  tuyo—cualquiera que ** *** decidas conservar, sr.   wehling,” dijo  el dr.    hitz.   “él o ella va a vivir  en un planeta feliz, amplio, limpio    y rico, gracias al control de la población. en un jardín como ** ** ese mural  ahí.”    sacudió la cabeza.  “hace dos siglos, cuando yo era un joven, era un infierno que nadie pensó que podría durar     otros   veinte   años. ahora  siglos de paz y abundancia se extienden ante nosotros tan   lejos como    la imaginación quiera viajar.”    
+HYP:  —este hijo  suyo, el              que al fin decida  conservar, señor quejada   —dijo el doctor atiza—. él  o ella ** * vivirá en un planeta rico,  limpio, espacioso y feliz gracias al control de la población. en un jardín como el de ese mural. —asintió con     la cabeza—. hace  dos siglos, cuando yo era ** joven, era un infierno que nadie ***** *** creía  duraría @ años  [ veinte ] más.  ahora, siglos de paz y abundancia se extienden ante nosotros hasta donde alcanza la *********** ****** imaginación.
+EVAL: I     S     S     S                   I  I   S                  S     S         S        S      S       S          D  D S                    S      S       S           S                                                           I  I      S      S        S          S        S                               D                                   D     D   S      S         S                S     S                                                            S     S     S          D           D      S           
+SHFT:                                                                                                                                                                                                                                                                                                                                                                                1       1        1                                                                                                                          
+TER Score:  53.16 ( 42.0/ 79.0)
+
+Shift [veinte] 1 words right
+ REF:  ***** “este niño  tuyo—cualquiera que ** *** decidas conservar, sr.   wehling,” dijo  el dr.    hitz.   “él o ella va a vivir  en un planeta feliz, amplio, limpio    y rico, gracias al control de la población. en un jardín como ** ** ese mural  ahí.”    sacudió la cabeza.  “hace dos siglos, cuando yo era un joven, era un infierno que nadie pensó que podría durar     otros   veinte   años. ahora  siglos de paz y abundancia se extienden ante nosotros tan   lejos como    la imaginación quiera viajar.”    
+ HYP:  —este hijo  suyo, el              que al fin decida  conservar, señor quejada   —dijo el doctor atiza—. él  o ella ** * vivirá en un planeta rico,  limpio, espacioso y feliz gracias al control de la población. en un jardín como el de ese mural. —asintió con     la cabeza—. hace  dos siglos, cuando yo era ** joven, era un infierno que nadie ***** *** creía  duraría @ años  [ veinte ] más.  ahora, siglos de paz y abundancia se extienden ante nosotros hasta donde alcanza la *********** ****** imaginación.
+
+
+
+Sentence ID: 106:1
+Best Ref: sonrió luminosamente.
+Orig Hyp: sonrió intensamente.
+
+REF:  sonrió luminosamente.
+HYP:  sonrió intensamente. 
+EVAL:        S             
+SHFT:                      
+TER Score:  50.00 (  1.0/  2.0)
+
+
+
+Sentence ID: 107:1
+Best Ref: la sonrisa se desvaneció al ver que wehling acababa de sacar un revólver.
+Orig Hyp: la sonrisa se disipó en cuanto vio que quejada había sacado un revólver.
+
+REF:  la sonrisa se desvaneció al ver      que   wehling   acababa de    sacar  un revólver.
+HYP:  la sonrisa se disipó     en cuanto [ que ] vio     @ quejada había sacado un revólver.
+EVAL:               S          S  S              S         S       S     S                  
+SHFT:                                    1     1         1                                  
+TER Score:  61.54 (  8.0/ 13.0)
+
+Shift [que] 1 words left
+ REF:  la sonrisa se desvaneció al ver      que   wehling   acababa de    sacar  un revólver.
+ HYP:  la sonrisa se disipó     en cuanto [ que ] vio     @ quejada había sacado un revólver.
+
+
+
+Sentence ID: 108:1
+Best Ref: wehling disparó al dr. hitz muerto. “hay espacio para uno—uno bien grande,” dijo.
+Orig Hyp: quejada mató al dr. atiza de un disparo. —ya hay lugar para uno, un espacio bien grande —dijo.
+
+REF:  wehling disparó al dr. ***** ** ** hitz     muerto. “hay   espacio   ***** para **** uno—uno   bien grande,” dijo. 
+HYP:  quejada mató    al dr. atiza de un disparo. —ya     hay  [ espacio ] lugar para uno, un      @ bien grande   —dijo.
+EVAL: S       S              I     I  I  S        S       S                I          I    S              S        S     
+SHFT:                                                          1         1                         1                     
+TER Score: 107.69 ( 14.0/ 13.0)
+
+Shift [espacio] 4 words left
+ REF:  wehling disparó al dr. ***** ** ** hitz     muerto. “hay   espacio   ***** para **** uno—uno   bien grande,” dijo. 
+ HYP:  quejada mató    al dr. atiza de un disparo. —ya     hay  [ espacio ] lugar para uno, un      @ bien grande   —dijo.
+
+
+
+Sentence ID: 109:1
+Best Ref: y luego disparó a leora duncan. “es solo la muerte,” le dijo a ella mientras caía. “ahí. espacio para dos.”
+Orig Hyp: acto seguido, le disparó a salomé garcía. —tan solo es morirse —le dijo mientras caía al suelo—. ya hay lugar para dos.
+
+REF:  y    luego      disparó a leora  duncan. “es  solo la muerte,”   le   *** dijo   a    ella   mientras   ******* caía. “ahí. espacio para dos.”
+HYP:  acto seguido, @ disparó a salomé garcía. —tan solo es morirse  [ le ] —le dijo @ caía al   [ mientras ] suelo—. ya    hay   lugar   para dos. 
+EVAL: S    S                    S      S       S         S  S               I          S    S                 I       S     S     S            S    
+SHFT:               1                                                1    1          2           2          2                                       
+TER Score:  85.00 ( 17.0/ 20.0)
+
+Shift [le] 8 words right
+ REF:  y    luego      disparó a leora  duncan. “es  solo la muerte,”   le   *** dijo ******** a    ella mientras caía. “ahí. espacio para dos.”
+ HYP:  acto seguido, @ disparó a salomé garcía. —tan solo es morirse  [ le ] —le dijo mientras caía al   suelo—.  ya    hay   lugar   para dos. 
+
+Shift [mientras] 2 words right
+ REF:  y    luego    disparó a leora  duncan. “es  solo la muerte,” le *** dijo   a    ella   mientras   ******* caía. “ahí. espacio para dos.”
+ HYP:  acto seguido, disparó a salomé garcía. —tan solo es morirse  le —le dijo @ caía al   [ mientras ] suelo—. ya    hay   lugar   para dos. 
+
+
+
+Sentence ID: 110:1
+Best Ref: y luego se disparó a sí mismo, haciendo espacio para sus tres hijos.
+Orig Hyp: y luego se disparó y así hizo lugar para sus tres hijos.
+
+REF:  y luego se disparó a sí mismo, haciendo espacio para sus tres hijos.
+HYP:  y luego se disparó * y  así    hizo     lugar   para sus tres hijos.
+EVAL:                    D S  S      S        S                           
+SHFT:                                                                     
+TER Score:  38.46 (  5.0/ 13.0)
+
+
+
+Sentence ID: 111:1
+Best Ref: nadie vino corriendo. nadie, aparentemente, oyó los disparos.
+Orig Hyp: nadie acudió corriendo. nadie, al parecer, oyó los disparos.
+
+REF:  nadie vino   corriendo. nadie, ** aparentemente, oyó los disparos.
+HYP:  nadie acudió corriendo. nadie, al parecer,       oyó los disparos.
+EVAL:       S                        I  S                               
+SHFT:                                                                   
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 112:1
+Best Ref: el pintor sentado en lo alto de su escalera de tijera, mirando reflexivamente la penosa escena.
+Orig Hyp: el pintor se quedó sentado en el último peldaño de la escalera y observó la malograda escena.
+
+REF:  el pintor ** ***** sentado en ** lo     alto    de su escalera de tijera, mirando reflexivamente la penosa    escena.
+HYP:  el pintor se quedó sentado en el último peldaño de la escalera ** ******* y       observó        la malograda escena.
+EVAL:           I  I                I  S      S          S           D  D       S       S                 S                
+SHFT:                                                                                                                      
+TER Score:  68.75 ( 11.0/ 16.0)
+
+
+
+Sentence ID: 113:1
+Best Ref: el pintor reflexionó sobre el enigma lúgubre de la vida demandando nacer y, una vez nacida, demandando ser fructuosa… multiplicarse y vivir el mayor tiempo posible—hacer todo eso en un planeta muy pequeño que tendría que durar para siempre.
+Orig Hyp: el pintor reflexionó sobre el triste rompecabezas de la vida que exige nacer y, una vez en el mundo, exige fructificar… multiplicarse y vivir el máximo posible, y cumplir con este destino en un pequeñísimo planeta que debe durar para siempre.
+
+REF:  el pintor reflexionó sobre el enigma lúgubre      de la vida   demandando nacer y, una vez ** nacida, demandando ser   fructuosa…   multiplicarse y vivir el ****** ******** mayor tiempo  posible—hacer todo eso     en un   planeta   muy pequeño       que tendría   que   durar para siempre.
+HYP:  el pintor reflexionó sobre el triste rompecabezas de la vida @ exige      nacer y, una vez en el      mundo,     exige fructificar… multiplicarse y vivir el máximo posible, y     cumplir con           este destino en un [ planeta ] *** pequeñísimo @ que debe    [ que ] durar para siempre.
+EVAL:                               S      S                         S                           I  S       S          S     S                                     I      I        S     S       S             S    S                         D   S                 S                                  
+SHFT:                                                              1                                                                                                                                                              2         2                 2             1     1                    
+TER Score:  51.28 ( 20.0/ 39.0)
+
+Shift [que] 27 words right
+ REF:  el pintor reflexionó sobre el enigma lúgubre      de la vida   demandando nacer y, una vez ** nacida, demandando ser   fructuosa…   multiplicarse y vivir el ****** ******** mayor tiempo  posible—hacer todo eso     en un planeta muy         pequeño que tendría   que   durar para siempre.
+ HYP:  el pintor reflexionó sobre el triste rompecabezas de la vida @ exige      nacer y, una vez en el      mundo,     exige fructificar… multiplicarse y vivir el máximo posible, y     cumplir con           este destino en un ******* pequeñísimo planeta que debe    [ que ] durar para siempre.
+
+Shift [planeta] 1 words left
+ REF:  el pintor reflexionó sobre el enigma lúgubre      de la vida demandando nacer y, una vez ** nacida, demandando ser   fructuosa…   multiplicarse y vivir el ****** ******** mayor tiempo  posible—hacer todo eso     en un   planeta   muy pequeño       que tendría que durar para siempre.
+ HYP:  el pintor reflexionó sobre el triste rompecabezas de la vida exige      nacer y, una vez en el      mundo,     exige fructificar… multiplicarse y vivir el máximo posible, y     cumplir con           este destino en un [ planeta ] *** pequeñísimo @ que debe    que durar para siempre.
+
+
+
+Sentence ID: 114:1
+Best Ref: todas las respuestas que el pintor pudo pensar eran sombrías. incluso más sombrías, seguramente, que un catbox, un happy hooligan, un easy go. pensó en la guerra. pensó en la peste. pensó en la inanición.
+Orig Hyp: todas las respuestas que se le ocurrían al pintor eran desoladoras. con certeza más que el arenero, gamberro feliz o salida fácil. pensó en la guerra. pensó en la peste. pensó en la inanición.
+
+REF:  todas las respuestas que el   pintor   pudo pensar       eran   sombrías.   incluso        más   sombrías, seguramente,   que un catbox, un       happy    hooligan, un easy   go.    pensó en la guerra. pensó en la peste. pensó en la inanición.
+HYP:  todas las respuestas que se [ pintor ] le   ocurrían @ [ eran ] al        @ desoladoras. [ más ] con       certeza      @ que ** el      arenero, gamberro feliz     o  salida fácil. pensó en la guerra. pensó en la peste. pensó en la inanición.
+EVAL:                          S             S    S                   S           S                    S         S                  D  S       S        S        S         S  S      S                                                                   
+SHFT:                             1        1               1 2      2           2              3     3                        3                                                                                                                          
+TER Score:  51.43 ( 18.0/ 35.0)
+
+Shift [pintor] 3 words left
+ REF:  todas las respuestas que el   pintor   pudo pensar   eran   sombrías. incluso      más sombrías, seguramente, que un catbox, un       happy    hooligan, un easy   go.    pensó en la guerra. pensó en la peste. pensó en la inanición.
+ HYP:  todas las respuestas que se [ pintor ] le   ocurrían al   @ eran      desoladoras. con certeza   más          que ** el      arenero, gamberro feliz     o  salida fácil. pensó en la guerra. pensó en la peste. pensó en la inanición.
+
+Shift [eran] 1 words left
+ REF:  todas las respuestas que el pintor pudo pensar     eran   sombrías.   incluso      más sombrías, seguramente, que un catbox, un       happy    hooligan, un easy   go.    pensó en la guerra. pensó en la peste. pensó en la inanición.
+ HYP:  todas las respuestas que se pintor le   ocurrían [ eran ] al        @ desoladoras. con certeza   más          que ** el      arenero, gamberro feliz     o  salida fácil. pensó en la guerra. pensó en la peste. pensó en la inanición.
+
+Shift [más] 2 words left
+ REF:  todas las respuestas que el pintor pudo pensar   eran sombrías. incluso        más   sombrías, seguramente,   que un catbox, un       happy    hooligan, un easy   go.    pensó en la guerra. pensó en la peste. pensó en la inanición.
+ HYP:  todas las respuestas que se pintor le   ocurrían eran al        desoladoras. [ más ] con       certeza      @ que ** el      arenero, gamberro feliz     o  salida fácil. pensó en la guerra. pensó en la peste. pensó en la inanición.
+
+
+
+Sentence ID: 115:1
+Best Ref: sabía que nunca volvería a pintar. dejó caer su pincel sobre los lienzos abajo. y entonces decidió que también había tenido suficiente de la vida en el feliz jardín de la vida, y bajó lentamente de la escalera.
+Orig Hyp: sabía que no volvería a pintar. dejó caer el pincel a las telas que cubrían el suelo. y luego decidió que él también había tenido ya suficiente en el jardín feliz de la vida y bajó lentamente de la escalera.
+
+REF:  sabía que nunca volvería a pintar. dejó caer su pincel * *** ***** sobre los     lienzos abajo. y entonces decidió que ** también había tenido ** suficiente   de la vida   en el   feliz   jardín de la vida,     y bajó lentamente de la escalera.
+HYP:  sabía que no    volvería a pintar. dejó caer el pincel a las telas que   cubrían el      suelo. y luego    decidió que él también había tenido ya suficiente [ de la vida ] en el [ feliz ] jardín ** ** ***** @ @ y bajó lentamente de la escalera.
+EVAL:           S                                  S         I I   I     S     S       S       S        S                    I                       I                                                   D  D  D                                          
+SHFT:                                                                                                                                                              1            1       2       2                    1 2                                  
+TER Score:  44.74 ( 17.0/ 38.0)
+
+Shift [de, la, vida] 4 words left
+ REF:  sabía que nunca volvería a pintar. dejó caer su pincel * *** ***** sobre los     lienzos abajo. y entonces decidió que ** también había tenido ** suficiente   de la vida   en el feliz jardín de la vida,   y bajó lentamente de la escalera.
+ HYP:  sabía que no    volvería a pintar. dejó caer el pincel a las telas que   cubrían el      suelo. y luego    decidió que él también había tenido ya suficiente [ de la vida ] en el ***** jardín ** ** feliz @ y bajó lentamente de la escalera.
+
+Shift [feliz] 1 words left
+ REF:  sabía que nunca volvería a pintar. dejó caer su pincel * *** ***** sobre los     lienzos abajo. y entonces decidió que ** también había tenido ** suficiente de la vida en el   feliz   jardín de la vida,   y bajó lentamente de la escalera.
+ HYP:  sabía que no    volvería a pintar. dejó caer el pincel a las telas que   cubrían el      suelo. y luego    decidió que él también había tenido ya suficiente de la vida en el [ feliz ] jardín ** ** ***** @ y bajó lentamente de la escalera.
+
+
+
+Sentence ID: 116:1
+Best Ref: tomó el revólver de wehling, con la verdadera intención de dispararse.
+Orig Hyp: le quitó la pistola a quejada, con la intención real de dispararse.
+
+REF:  ** tomó  el revólver de wehling, con la   verdadera   intención   de dispararse.
+HYP:  le quitó la pistola  a  quejada, con la @ real      [ intención ] de dispararse.
+EVAL: I  S     S  S        S  S                 S                                     
+SHFT:                                         1           1           1               
+TER Score:  72.73 (  8.0/ 11.0)
+
+Shift [intención] 1 words right
+ REF:  ** tomó  el revólver de wehling, con la   verdadera   intención   de dispararse.
+ HYP:  le quitó la pistola  a  quejada, con la @ real      [ intención ] de dispararse.
+
+
+
+Sentence ID: 117:1
+Best Ref: pero no tuvo el valor.
+Orig Hyp: pero le faltó coraje.
+
+REF:  pero no tuvo el    valor. 
+HYP:  pero ** le   faltó coraje.
+EVAL:      D  S    S     S      
+SHFT:                           
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 118:1
+Best Ref: y entonces vio la cabina telefónica en la esquina de la habitación. se acercó a ella, marcó el número bien recordado: “2 b r 0 2 b.”
+Orig Hyp: entonces vio el teléfono en la esquina de la sala. se acercó y marcó el conocido número: s 3 r 0 n 0 s 3 r.
+
+REF:    y   entonces vio la cabina telefónica en la esquina de la habitación. se acercó a ella,   marcó el número   bien    recordado: “2     b r   * 0 * 2 b.”
+HYP:  [ y ] entonces vio ** el     teléfono   en la esquina de la sala.       se acercó * ***** @ marcó el conocido número: s          3  @ [ n r ] 0 0 s 3 r. 
+EVAL:                    D  S      S                              S                     D D                S        S       S          S      S     I   I S S  
+SHFT: 2   2                                                                                     2                                         1 1 1   1            
+TER Score:  62.96 ( 17.0/ 27.0)
+
+Shift [r, 0] 0 words right
+ REF:  y entonces vio la cabina telefónica en la esquina de la habitación. se acercó a ella, marcó el número   bien    recordado: “2     b r   * 0 * 2 b.”
+ HYP:  * entonces vio ** el     teléfono   en la esquina de la sala.       se acercó * y     marcó el conocido número: s          3  @ [ n r ] 0 0 s 3 r. 
+
+Shift [y] 12 words left
+ REF:    y   entonces vio la cabina telefónica en la esquina de la habitación. se acercó a ella,   marcó el número   bien    recordado: “2 b r * 0 * 2 b.”
+ HYP:  [ y ] entonces vio ** el     teléfono   en la esquina de la sala.       se acercó * ***** @ marcó el conocido número: s          3  n r 0 0 s 3 r. 
+
+
+
+Sentence ID: 119:1
+Best Ref: “oficina federal de terminación,” dijo la cálida voz de una anfitriona.
+Orig Hyp: —agencia central de extinción —dijo la dulce voz de la azafata.
+
+REF:  “oficina federal de terminación,” dijo  la cálida voz de una anfitriona.
+HYP:  —agencia central de extinción     —dijo la dulce  voz de la  azafata.   
+EVAL: S        S          S             S        S             S   S          
+SHFT:                                                                         
+TER Score:  63.64 (  7.0/ 11.0)
+
+
+
+Sentence ID: 120:1
+Best Ref: “¿cuán pronto podría conseguir una cita?” preguntó él, hablando muy cuidadosamente.
+Orig Hyp: —¿para cuándo es la primera cita disponible? —preguntó con lentitud.
+
+REF:  “¿cuán pronto podría conseguir una cita?”  preguntó él,         hablando  muy cuidadosamente.
+HYP:  ****** —¿para cuándo es        la  primera cita     disponible? —preguntó con lentitud.      
+EVAL: D      S      S      S         S   S       S        S           S         S   S              
+SHFT:                                                                                              
+TER Score: 100.00 ( 11.0/ 11.0)
+
+
+
+Sentence ID: 121:1
+Best Ref: “probablemente podríamos acomodarle a última hora de la tarde, señor,” dijo ella. “incluso podría ser antes, si tenemos una cancelación.”
+Orig Hyp: —seguramente lo podamos acomodar esta tarde a última hora, señor —dijo—. podría ser incluso antes si tenemos alguna cancelación.
+
+REF:  “probablemente podríamos acomodarle     a última   hora de      la       tarde, señor,”   dijo  ella. “incluso podría ser ******* antes, si tenemos una    cancelación.”
+HYP:  ************** ********* —seguramente [ a última ] lo   podamos acomodar esta   tarde   @ hora, señor —dijo—.  podría ser incluso antes  si tenemos alguna cancelación. 
+EVAL: D              D         S                         S    S       S        S      S         S     S     S                   I       S                 S      S            
+SHFT:                                       1          1                                      1                                                                               
+TER Score:  80.00 ( 16.0/ 20.0)
+
+Shift [a, última] 5 words left
+ REF:  “probablemente podríamos acomodarle     a última   hora de      la       tarde, señor,”   dijo  ella. “incluso podría ser ******* antes, si tenemos una    cancelación.”
+ HYP:  ************** ********* —seguramente [ a última ] lo   podamos acomodar esta   tarde   @ hora, señor —dijo—.  podría ser incluso antes  si tenemos alguna cancelación. 
+
+
+
+Sentence ID: 122:1
+Best Ref: “está bien,” dijo el pintor, “hágame un hueco, por favor.” y le dio su nombre, deletreándolo.
+Orig Hyp: —bien —dijo el pintor—, apúnteme, si es tan amable. —y le deletreó su nombre completo.
+
+REF:  “está bien,” dijo  el pintor,  “hágame   un hueco, por favor.” y  le dio      su nombre, deletreándolo.
+HYP:  ***** —bien  —dijo el pintor—, apúnteme, si es     tan amable. —y le deletreó su nombre  completo.     
+EVAL: D     S      S        S        S         S  S      S   S       S     S           S       S             
+SHFT:                                                                                                        
+TER Score:  81.25 ( 13.0/ 16.0)
+
+
+
+Sentence ID: 123:1
+Best Ref: “gracias, señor,” dijo la anfitriona. “su ciudad le agradece; su país le agradece; su planeta le agradece. pero el agradecimiento más profundo de todos es de las generaciones futuras.”
+Orig Hyp: —muchas gracias, señor —dijo la azafata—. la ciudad le da las gracias; el país le da las gracias; el planeta le da las gracias. pero el agradecimiento más grande es el de las generaciones futuras.
+
+REF:  ******* “gracias, señor,” dijo  la anfitriona. “su ciudad le ** *** agradece; su país le ** *** agradece; su planeta le ** *** agradece. pero el agradecimiento más profundo de       todos   es   de las generaciones futuras.”
+HYP:  —muchas gracias,  señor   —dijo la azafata—.   la  ciudad le da las gracias;  el país le da las gracias;  el planeta le da las gracias.  pero el agradecimiento más ******** grande @ el    [ es ] de las generaciones futuras. 
+EVAL: I       S         S       S        S           S             I  I   S         S          I  I   S         S             I  I   S                                    D        S        S                                S        
+SHFT:                                                                                                                                                                                     1       1    1                              
+TER Score:  75.86 ( 22.0/ 29.0)
+
+Shift [es] 1 words right
+ REF:  ******* “gracias, señor,” dijo  la anfitriona. “su ciudad le ** *** agradece; su país le ** *** agradece; su planeta le ** *** agradece. pero el agradecimiento más profundo de       todos   es   de las generaciones futuras.”
+ HYP:  —muchas gracias,  señor   —dijo la azafata—.   la  ciudad le da las gracias;  el país le da las gracias;  el planeta le da las gracias.  pero el agradecimiento más ******** grande @ el    [ es ] de las generaciones futuras. 
+
+
+

@@ -1,0 +1,1092 @@
+Sentence ID: 1:1
+Original Ref: **2br02b**
+Original Hyp: ﻿s3r0n0s3r
+Hyp After Shift: ﻿s3r0n0s3r
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 2:1
+Original Ref: todo estaba perfectamente bien.
+Original Hyp: todo iba viento en popa.
+Hyp After Shift: todo iba viento en popa.
+Alignment: ( ISSS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 3:1
+Original Ref: no había prisiones, ni barrios marginales, ni manicomios, ni inválidos, ni pobreza, ni guerras.
+Original Hyp: habían desaparecido las cárceles, los barrios bajos, los manicomios, la discapacidad, la pobreza, las guerras.
+Hyp After Shift: habían desaparecido las cárceles, los barrios bajos, los manicomios, la discapacidad, la pobreza, las guerras.
+Alignment: (ISSSS SS SSS S )
+NumShifts: 0
+Score: 0.7857142857142857 (11.0/14.0)
+
+Sentence ID: 4:1
+Original Ref: todas las enfermedades habían sido conquistadas. también la vejez.
+Original Hyp: no solo se había erradicado la enfermedad, sino también la vejez.
+Hyp After Shift: no solo se había erradicado la enfermedad, sino también la vejez.
+Alignment: (IISSSSSS   )
+NumShifts: 0
+Score: 0.8888888888888888 (8.0/9.0)
+
+Sentence ID: 5:1
+Original Ref: la muerte, salvo por accidentes, era una aventura para voluntarios.
+Original Hyp: la muerte, sin contar los accidentes, era una aventura solo apta para voluntarios.
+Hyp After Shift: la muerte, sin contar los accidentes, era una aventura solo apta para voluntarios.
+Alignment: (  ISS    II  )
+NumShifts: 0
+Score: 0.5 (5.0/10.0)
+
+Sentence ID: 6:1
+Original Ref: la población de los estados unidos se estabilizó en cuarenta millones de almas.
+Original Hyp: la población del país se había estabilizado en cuarenta millones de almas.
+Hyp After Shift: la población del país había se estabilizado en cuarenta millones de almas.
+Alignment: (  DSSS S     )
+NumShifts: 1
+  [4, 4, 6/5] ([se])
+Score: 0.46153846153846156 (6.0/13.0)
+
+Sentence ID: 7:1
+Original Ref: una mañana brillante en el hospital de maternidad de chicago, un hombre llamado edward k. wehling, jr., esperaba que su esposa diera a luz. era el único hombre esperando. ya no nacían muchas personas al día.
+Original Hyp: una mañana radiante en el hospital materno infantil de la ciudad, un hombre llamado eduardo quejada esperaba a que diera a luz su mujer. era el único. ya no nacía mucha gente un día cualquiera.
+Hyp After Shift: una mañana radiante en el hospital materno infantil de la ciudad, un hombre llamado eduardo quejada esperaba que su a diera a luz era el mujer. único. ya no nacía mucha gente un día cualquiera.
+Alignment: (  S   SS IS   DDSS   S  S  DSS  ISSSSS)
+NumShifts: 3
+  [24, 25, 23/21] ([era, el])
+  [18, 18, 18/16] ([que])
+  [24, 24, 19/17] ([su])
+Score: 0.6388888888888888 (23.0/36.0)
+
+Sentence ID: 8:1
+Original Ref: wehling tenía cincuenta y seis años, un mero jovenzuelo en una población cuya edad media era de ciento veintinueve años.
+Original Hyp: quejada tenía cincuenta y seis años, apenas un mozalbete si tenemos en cuenta que la población tenía una edad media de ciento veintinueve años.
+Hyp After Shift: quejada tenía cincuenta y seis años, apenas un mozalbete si tenemos en una cuenta que la población tenía edad media de ciento veintinueve años.
+Alignment: (S     I ISS  III S  D    )
+NumShifts: 1
+  [17, 17, 9/11] ([una])
+Score: 0.55 (11.0/20.0)
+
+Sentence ID: 9:1
+Original Ref: los rayos x revelaron que su esposa iba a tener trillizos. los niños serían sus primeros.
+Original Hyp: la ecografía había desvelado que su mujer iba a tener trillizos. quejada era padre primerizo.
+Hyp After Shift: la ecografía había desvelado que su mujer iba a tener trillizos. quejada era padre primerizo.
+Alignment: (SSSS  S    DSSSS)
+NumShifts: 0
+Score: 0.625 (10.0/16.0)
+
+Sentence ID: 10:1
+Original Ref: el joven wehling estaba encorvado en su silla, con la cabeza en la mano. estaba tan desaliñado, tan inmóvil y sin color, que era prácticamente invisible. su camuflaje era perfecto, ya que la sala de espera también tenía un aire desordenado y desmoralizado. las sillas y ceniceros se habían apartado de las paredes. el suelo estaba cubierto de telas protectoras salpicadas.
+Original Hyp: el joven quejada se sentaba encorvado con la cabeza entre las manos. estaba tan desaliñado, paralizado y pálido que era prácticamente invisible. el camuflaje era ideal porque la sala de espera ya tenía un aspecto desordenado y desmoralizador. se habían apartado las sillas y los ceniceros de la pared y el suelo estaba recubierto de telas manchadas.
+Hyp After Shift: el joven encorvado quejada se sentaba con la cabeza entre la manos. estaba tan desaliñado, paralizado y pálido que era prácticamente invisible. el camuflaje era ideal ya porque la sala de espera tenía un aspecto desordenado y desmoralizador. las sillas y los ceniceros se habían apartado de las pared y el suelo estaba recubierto de telas manchadas.
+Alignment: (  DD SSS   S S   DS DS    S  S S    D  S  S   I      IS   S  DS)
+NumShifts: 5
+  [38, 40, 48/45] ([se, habían, apartado])
+  [5, 5, 3/1] ([encorvado])
+  [31, 31, 30/25] ([ya])
+  [47, 47, 11/9] ([la])
+  [11, 11, 50/47] ([las])
+Score: 0.45901639344262296 (28.0/61.0)
+
+Sentence ID: 11:1
+Original Ref: la habitación estaba siendo redecorada. se estaba redecorando como un memorial para un hombre que se había ofrecido voluntario para morir.
+Original Hyp: se estaba renovando la sala para conmemorar a un hombre que se había ofrecido voluntario para morir.
+Hyp After Shift: la se estaba renovando sala conmemorar a para un hombre que se había ofrecido voluntario para morir.
+Alignment: ( DDDD  SSSS          )
+NumShifts: 2
+  [3, 3, -1/-1] ([la])
+  [5, 5, 11/7] ([para])
+Score: 0.47619047619047616 (10.0/21.0)
+
+Sentence ID: 12:1
+Original Ref: un viejo sardónico, de unos doscientos años, estaba sentado en una escalera, pintando un mural que no le gustaba. en los días en que las personas envejecían visiblemente, su edad se habría adivinado en unos treinta y cinco años. el envejecimiento lo había tocado tanto antes de que se encontrara la cura para el envejecimiento.
+Original Hyp: un hombre mordaz, ya mayor, de unos doscientos años, estaba sentado en la escalera y pintaba un mural que no le gustaba. en los tiempos en que las personas envejecían de manera visible, se hubiera dicho que tenía unos treinta y cinco más o menos porque eran justo esos los años que había cumplido antes de que se encontrara la cura para el envejecimiento.
+Hyp After Shift: un hombre mordaz, ya mayor, de unos doscientos años, estaba sentado en la escalera y pintaba un mural que no le gustaba. en los tiempos en que las personas envejecían de manera visible, se hubiera dicho que tenía unos treinta y cinco más o menos porque eran justo esos los años había que cumplido antes de que se encontrara la cura para el envejecimiento.
+Alignment: ( IISS       ISSS        S     SSS ISSS    IIIIISSSS SS          )
+NumShifts: 1
+  [52, 52, 41/50] ([había])
+Score: 0.509090909090909 (28.0/55.0)
+
+Sentence ID: 13:1
+Original Ref: el mural en el que trabajaba representaba un jardín muy ordenado. hombres y mujeres de blanco, doctores y enfermeras, removían la tierra, plantaban plántulas, rociaban insectos, esparcían fertilizante.
+Original Hyp: el mural en el que trabajaba representaba un jardín extremadamente cuidado. hombres y mujeres de blanco, doctores y enfermeros, cavaban, plantaban semillas, fumigaban, fertilizaban la tierra.
+Hyp After Shift: el mural en el que trabajaba representaba un jardín extremadamente cuidado. hombres y mujeres de blanco, doctores y enfermeros, la cavaban, plantaban semillas, fumigaban, fertilizaban tierra.
+Alignment: (         SS       DS S DSSSS)
+NumShifts: 1
+  [24, 24, 20/18] ([la])
+Score: 0.39285714285714285 (11.0/28.0)
+
+Sentence ID: 14:1
+Original Ref: hombres y mujeres con uniformes morados arrancaban malas hierbas, cortaban plantas viejas y enfermizas, barrían hojas, llevaban desechos a incineradoras.
+Original Hyp: los hombres y las mujeres vestidos con uniformes violeta quitaban la maleza, talaban las plantas viejas o enfermas, rastrillaban las hojas, llevaban la basura al incinerador.
+Hyp After Shift: los hombres y las mujeres vestidos con uniformes violeta quitaban la maleza, talaban las plantas viejas o enfermas, rastrillaban las hojas, llevaban la basura al incinerador.
+Alignment: (I  I I  ISSSSS  ISSS  ISSS)
+NumShifts: 0
+Score: 0.85 (17.0/20.0)
+
+Sentence ID: 15:1
+Original Ref: nunca, nunca, nunca—ni siquiera en la holanda medieval ni en el viejo japón—un jardín había sido más formal, cuidado con tanta esmero. cada planta tenía toda la tierra, luz, agua, aire y alimento que podría usar.
+Original Hyp: jamás de los jamases, ni siquiera en los países bajos del medioevo ni en el japón de la antigüedad, se había visto un jardín tan elegante ni mejor atendido. las plantas disponían de toda la tierra, luz, agua, aire y fertilizante necesarios.
+Hyp After Shift: jamás de los jamases, ni siquiera en la los países bajos del medioevo ni en el japón de antigüedad, jardín se había visto un tan elegante ni mejor atendido. las plantas disponían de toda la tierra, luz, agua, aire y fertilizante necesarios.
+Alignment: (IISSS   IIISS   ISS I ISSSSSSSSSS       DDSS)
+NumShifts: 2
+  [17, 17, 4/6] ([la])
+  [23, 23, 12/18] ([jardín])
+Score: 0.8611111111111112 (31.0/36.0)
+
+Sentence ID: 16:1
+Original Ref: un ordenanza del hospital caminaba por el pasillo, cantando por lo bajo una canción popular:
+Original Hyp: por el pasillo, se acercaba un celador cantando en voz baja una canción popular:
+Hyp After Shift: un se acercaba celador por el pasillo, cantando en voz baja una canción popular:
+Alignment: ( DSSS    SSS   )
+NumShifts: 2
+  [0, 2, 7/6] ([por, el, pasillo,])
+  [2, 2, -1/-1] ([un])
+Score: 0.6 (9.0/15.0)
+
+Sentence ID: 17:1
+Original Ref: si no te gustan mis besos, cariño,
+Original Hyp: si no deseas mis besos, amor,
+Hyp After Shift: si no deseas mis besos, amor,
+Alignment: (  DS  S)
+NumShifts: 0
+Score: 0.42857142857142855 (3.0/7.0)
+
+Sentence ID: 18:1
+Original Ref: aquí está lo que haré:
+Original Hyp: otro rumbo tomaré:
+Hyp After Shift: otro rumbo tomaré:
+Alignment: (DDSSS)
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 19:1
+Original Ref: iré a ver a una chica de morado,
+Original Hyp: y a una de violeta, con fervor,
+Hyp After Shift: y a de una violeta, con fervor,
+Alignment: (S DS SSS)
+NumShifts: 1
+  [2, 2, 4/3] ([una])
+Score: 0.875 (7.0/8.0)
+
+Sentence ID: 20:1
+Original Ref: adiós a este mundo triste.
+Original Hyp: este cuerpo donaré.
+Hyp After Shift: este cuerpo donaré.
+Alignment: (DD SS)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 21:1
+Original Ref: si no quieres mi amor,
+Original Hyp: si ya no te es suficiente este amor,
+Hyp After Shift: si ya no te es suficiente este amor,
+Alignment: ( I IISS )
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 22:1
+Original Ref: ¿por qué debería ocupar todo este espacio?
+Original Hyp: ¿para qué seguir con él?
+Hyp After Shift: ¿para qué seguir con él?
+Alignment: (S DDSSS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 23:1
+Original Ref: saliré de este viejo planeta,
+Original Hyp: mundo cruel, ya me voy con mi dolor.
+Hyp After Shift: mundo cruel, ya me voy con mi dolor.
+Alignment: (IIISSSSS)
+NumShifts: 0
+Score: 1.6 (8.0/5.0)
+
+Sentence ID: 24:1
+Original Ref: dejaré mi lugar a algún dulce bebé.
+Original Hyp: y un bebé aquí dejaré.
+Hyp After Shift: y un bebé aquí dejaré.
+Alignment: (DDSSSSS)
+NumShifts: 0
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 25:1
+Original Ref: el ordenanza miró el mural y al muralista. "parece tan real", dijo, "prácticamente puedo imaginar que estoy en medio de él."
+Original Hyp: el celador observó el mural y al muralista. —parece tan real —dijo—. es que me puedo imaginar ahí mismo en el medio de ese jardín.
+Hyp After Shift: el celador observó el mural y al muralista. —parece tan real —dijo—. es me puedo imaginar que ahí mismo en el medio de ese jardín.
+Alignment: ( SS     S ISSS   IS I  IS)
+NumShifts: 1
+  [13, 13, 14/16] ([que])
+Score: 0.6190476190476191 (13.0/21.0)
+
+Sentence ID: 26:1
+Original Ref: "¿qué te hace pensar que no estás en él?" dijo el pintor. dedicó una sonrisa irónica. "se llama 'el jardín feliz de la vida', ¿sabes?"
+Original Hyp: —¿y qué te hace pensar que no estás en el medio? —dijo el pintor con una sonrisa irónica—. se llama el feliz jardín de la vida, ¿sabías?
+Hyp After Shift: —¿y qué te hace pensar que no estás en el medio? —dijo el pintor con una sonrisa irónica—. se llama el jardín feliz de la vida, ¿sabías?
+Alignment: (IS       ISS SS  SS S    SS)
+NumShifts: 1
+  [21, 21, 20/22] ([feliz])
+Score: 0.52 (13.0/25.0)
+
+Sentence ID: 27:1
+Original Ref: "eso es bueno del dr. hitz", dijo el ordenanza.
+Original Hyp: —¡qué majo el doctor atiza! —dijo el celador.
+Hyp After Shift: —¡qué majo el doctor atiza! —dijo el celador.
+Alignment: (DSSSSSS S)
+NumShifts: 0
+Score: 0.8888888888888888 (8.0/9.0)
+
+Sentence ID: 28:1
+Original Ref: se refería a una de las figuras masculinas de blanco, cuya cabeza era un retrato del dr. benjamin hitz, el jefe de obstetricia del hospital. hitz era un hombre deslumbrantemente apuesto.
+Original Hyp: se refería a una de las figuras masculinas de blanco cuya cabeza era un retrato del doctor benjamín atiza, el jefe de obstetricia del hospital. atiza era de una belleza arrolladora.
+Hyp After Shift: se refería a una de las figuras masculinas de blanco cuya cabeza era un retrato del doctor benjamín atiza, el jefe de obstetricia del hospital. atiza era de una belleza arrolladora.
+Alignment: (         S      SSS      S SSSS)
+NumShifts: 0
+Score: 0.2903225806451613 (9.0/31.0)
+
+Sentence ID: 29:1
+Original Ref: "quedan muchas caras por rellenar", dijo el ordenanza. quería decir que las caras de muchas figuras en el mural aún estaban en blanco. todos los espacios en blanco se llenarían con retratos de personas importantes del personal del hospital o de la oficina federal de terminación de chicago.
+Original Hyp: —todavía quedan muchas cabezas por completar —dijo el celador. se refería a que todavía quedaban muchas figuras en el mural con las cabezas sin rostro que debían completarse con retratos de personas importantes del hospital o de la oficina local de la agencia central de extinción.
+Hyp After Shift: —todavía quedan muchas cabezas por completar —dijo el celador. refería a que las todavía quedaban muchas figuras en el mural con cabezas sin rostro que debían se completarse con retratos de personas importantes del hospital o de la oficina local de la agencia central de extinción.
+Alignment: (IS S SS SSS  SS     DDDSSSSSS S     DD      S IIS S)
+NumShifts: 2
+  [9, 9, 28/26] ([se])
+  [20, 20, 11/11] ([las])
+Score: 0.6041666666666666 (29.0/48.0)
+
+Sentence ID: 30:1
+Original Ref: "debe ser agradable poder hacer cuadros que se parezcan a algo", dijo el ordenanza.
+Original Hyp: —debe ser interesante pintar cuadros que se parecen a algo —dijo el celador.
+Hyp After Shift: —debe ser interesante pintar cuadros que se parecen a algo —dijo el celador.
+Alignment: (S DSS   S SS S)
+NumShifts: 0
+Score: 0.5714285714285714 (8.0/14.0)
+
+Sentence ID: 31:1
+Original Ref: la cara del pintor se retorció con desdén. "¿crees que estoy orgulloso de esta chapuza?" dijo. "¿crees que esta es mi idea de cómo realmente se ve la vida?"
+Original Hyp: el pintor lo miró con desdén. —¿es que acaso piensas que estoy orgulloso de este pintarrajo? —dijo—. ¿es que crees que esta es mi idea de la vida real?
+Hyp After Shift: la el pintor lo miró con desdén. —¿es que acaso piensas que estoy orgulloso de este pintarrajo? —dijo—. ¿es que crees que esta es mi idea de vida real?
+Alignment: ( DS SS  IIIS    IISSSS      DDDDSS)
+NumShifts: 1
+  [26, 26, -1/-1] ([la])
+Score: 0.7241379310344828 (21.0/29.0)
+
+Sentence ID: 32:1
+Original Ref: "¿cuál es tu idea de cómo se ve la vida?" dijo el ordenanza.
+Original Hyp: —¿cuál es su idea de la vida real? —dijo el celador.
+Hyp After Shift: —¿cuál es su idea de vida la real? —dijo el celador.
+Alignment: (S S  DDS SS S)
+NumShifts: 1
+  [5, 5, 8/6] ([la])
+Score: 0.6923076923076923 (9.0/13.0)
+
+Sentence ID: 33:1
+Original Ref: el pintor señaló una tela manchada. "ahí tienes una buena imagen de ello", dijo. "enmarca eso, y tendrás una imagen muchísimo más honesta que esta."
+Original Hyp: el pintor señaló una tela inmunda. —ahí tienes una buena imagen de la vida —dijo—. enmárcala y tendrás un cuadro más honesto que este.
+Hyp After Shift: el pintor señaló una tela inmunda. —ahí tienes una buena imagen de la vida —dijo—. enmárcala y tendrás un cuadro más honesto que este.
+Alignment: (     SS     SSSS  DSS S S)
+NumShifts: 0
+Score: 0.44 (11.0/25.0)
+
+Sentence ID: 34:1
+Original Ref: "eres un viejo lúgubre, ¿verdad?" dijo el ordenanza.
+Original Hyp: —es usted unas castañuelas, ¿eh? —dijo el celador.
+Hyp After Shift: —es usted unas castañuelas, ¿eh? —dijo el celador.
+Alignment: (SSSSSS S)
+NumShifts: 0
+Score: 0.875 (7.0/8.0)
+
+Sentence ID: 35:1
+Original Ref: "¿es eso un crimen?" dijo el pintor.
+Original Hyp: —¿es acaso un pecado? —dijo el pintor.
+Hyp After Shift: —¿es acaso un pecado? —dijo el pintor.
+Alignment: (SS SS  )
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 36:1
+Original Ref: el ordenanza se encogió de hombros. "si no te gusta aquí, abuelo—" dijo, y terminó el pensamiento con el número de teléfono con truco al que debían llamar las personas que ya no querían vivir. el cero en el número de teléfono lo pronunció como "nada".
+Original Hyp: el celador se encogió de hombros. «abuelo, si no le gusta…», dijo y completó la idea con el número de teléfono con truco al que había que llamar si ya no querías seguir viviendo. el cero representaba una «o» y el «3» una «e».
+Hyp After Shift: el celador se encogió de hombros. no «abuelo, si le gusta…», dijo y completó la idea con el número de teléfono con truco al que había llamar si que ya no querías seguir viviendo. el cero el representaba una «o» y «3» una «e».
+Alignment: ( S    D SSSSS SSS         S DS   ISS  D SSSSSSS)
+NumShifts: 3
+  [26, 26, 30/28] ([que])
+  [8, 8, 6/5] ([no])
+  [40, 40, 37/35] ([el])
+Score: 0.5869565217391305 (27.0/46.0)
+
+Sentence ID: 37:1
+Original Ref: el número era: "2 b r 0 2 b."
+Original Hyp: el número era: «s 3 r 0 n 0 s 3 r ».
+Hyp After Shift: el número era: «s 3 r 0 n 0 s 3 r ».
+Alignment: (   SS II IISS)
+NumShifts: 0
+Score: 0.8888888888888888 (8.0/9.0)
+
+Sentence ID: 38:1
+Original Ref: era el número de teléfono de una institución cuyos sobrenombres fantasiosos incluían: "automat", "birdland", "cannery", "catbox", "de-louser", "easy-go", "good-by, mother", "happy hooligan", "kiss-me-quick", "lucky pierre", "sheepdip", "waring blendor", "weep-no-more" y "why worry?"
+Original Hyp: era un número de teléfono para una institución que tenía los siguientes apodos creativos: «autoservicio», «los pajaritos», «envasados», «arenero», «despiojadora», «salida fácil», «adiós, mamá», «gamberro feliz», «beso letal», «final feliz», «terminator», «la barbacoa», «basta de sufrir», «no más angustia».
+Hyp After Shift: era un número de teléfono de para una institución que tenía los siguientes apodos creativos: «autoservicio», «los pajaritos», «envasados», «arenero», «despiojadora», «salida fácil», «adiós, mamá», «gamberro feliz», «beso letal», «final feliz», «terminator», «la barbacoa», «basta sufrir», «no más angustia».
+Alignment: ( S    I  IIIIIISSSSSSSSSSSSSSSSSSSSSSSS)
+NumShifts: 1
+  [34, 34, 4/4] ([de])
+Score: 1.03125 (33.0/32.0)
+
+Sentence ID: 39:1
+Original Ref: "ser o no ser" era el número de teléfono de las cámaras de gas municipales de la oficina federal de terminación.
+Original Hyp: «ser o no ser» era el número de teléfono de las cámaras de gas municipales de la agencia central de extinción.
+Hyp After Shift: «ser o no ser» era el número de teléfono de las cámaras de gas municipales de la agencia central de extinción.
+Alignment: (S  S             SS S)
+NumShifts: 0
+Score: 0.23809523809523808 (5.0/21.0)
+
+Sentence ID: 40:1
+Original Ref: el pintor se tocó la nariz despectivamente hacia el ordenanza. "cuando decida que es hora de irme", dijo, "no será en el sheepdip."
+Original Hyp: el pintor miró al celador con desprecio. —cuando decida que ha llegado la hora —dijo— no será con terminator.
+Hyp After Shift: el pintor la miró al celador con desprecio. —cuando decida que hora ha llegado —dijo— no será con terminator.
+Alignment: (  DD SSSSSS  D SSSS DSS)
+NumShifts: 2
+  [12, 12, 4/1] ([la])
+  [13, 13, 13/10] ([hora])
+Score: 0.782608695652174 (18.0/23.0)
+
+Sentence ID: 41:1
+Original Ref: "¿de los que lo hacen ellos mismos, eh?" dijo el ordenanza. "asunto desordenado, abuelo. ¿por qué no tienes un poco de consideración por las personas que tienen que limpiar después de ti?"
+Original Hyp: —ah, un autodidacta, ¿eh? —dijo el celador—. abuelo, es un poco complicado. ¿por qué no tiene un poco de consideración por las personas que deberán limpiar después de usted?
+Hyp After Shift: —ah, un autodidacta, ¿eh? —dijo celador—. abuelo, el es un poco complicado. ¿por qué no tiene un poco de consideración por las personas que deberán limpiar después de usted?
+Alignment: (DDSSSSSSS SSSS   S        DS   S)
+NumShifts: 1
+  [5, 5, 9/7] ([el])
+Score: 0.5625 (18.0/32.0)
+
+Sentence ID: 42:1
+Original Ref: el pintor expresó con una obscenidad su falta de preocupación por las tribulaciones de sus sobrevivientes. "al mundo le vendría bien bastante más desorden, si me preguntas", dijo.
+Original Hyp: el pintor dijo una vulgaridad para expresar su falta de preocupación por las tribulaciones de sus supervivientes. —a decir verdad, al mundo no le vendrían mal bastantes más complicaciones —dijo.
+Hyp After Shift: el pintor dijo vulgaridad una para expresar su falta de preocupación por las tribulaciones de sus supervivientes. —a decir mundo le verdad, al no más vendrían mal bastantes complicaciones —dijo.
+Alignment: (  SS IS         ISS  SSS SSSSS)
+NumShifts: 4
+  [3, 3, 3/4] ([una])
+  [21, 21, 16/18] ([mundo])
+  [23, 23, 17/19] ([le])
+  [27, 27, 21/23] ([más])
+Score: 0.6785714285714286 (19.0/28.0)
+
+Sentence ID: 43:1
+Original Ref: el ordenanza se echó a reír y siguió adelante.
+Original Hyp: el celador se marchó riéndose.
+Hyp After Shift: el celador se marchó riéndose.
+Alignment: ( S DDDDSS)
+NumShifts: 0
+Score: 0.7777777777777778 (7.0/9.0)
+
+Sentence ID: 44:1
+Original Ref: wehling, el futuro padre que esperaba, murmuró algo sin levantar la cabeza. y luego volvió a quedar en silencio.
+Original Hyp: quejada, el padre en espera, masculló algo ininteligible sin levantar la cabeza y no volvió a decir nada.
+Hyp After Shift: quejada, el padre espera, masculló ininteligible algo sin levantar la cabeza y no volvió a decir en nada.
+Alignment: (S D SSS    S S  S S)
+NumShifts: 2
+  [3, 3, 17/16] ([en])
+  [5, 5, 7/6] ([algo])
+Score: 0.5789473684210527 (11.0/19.0)
+
+Sentence ID: 45:1
+Original Ref: una mujer tosca y formidable entró en la sala de espera con tacones de aguja. sus zapatos, medias, gabardina, bolso y gorra de legionario estaban todos en morado, el morado que el pintor llamaba "el color de las uvas en el juicio final."
+Original Hyp: una mujer grande e imponente que llevaba tacones de aguja entró con decisión a la sala de espera. los zapatos, medias, gabardina, bolsa y el gorro eran violetas, el violeta que el pintor llamaba «el color de las uvas del juicio final».
+Hyp After Shift: una mujer grande e imponente entró que llevaba la sala de aguja con tacones decisión a de espera. los zapatos, medias, gabardina, bolsa y gorro eran violetas, el violeta que el pintor llamaba «el color de las uvas del el juicio final».
+Alignment: (  SSS IS   S  II SS   S DDDDSSS S    S    S  S)
+NumShifts: 4
+  [14, 15, 6/6] ([la, sala])
+  [9, 9, 11/13] ([tacones])
+  [11, 11, 4/4] ([entró])
+  [24, 24, 40/39] ([el])
+Score: 0.6046511627906976 (26.0/43.0)
+
+Sentence ID: 46:1
+Original Ref: la medalla en su bolsa morada era el sello de la división de servicio de la oficina federal de terminación, un águila posada en un torniquete.
+Original Hyp: el medallón en la bolsa violeta llevaba el escudo de la división de servicio de la agencia central de extinción: un águila posada sobre un molinete.
+Hyp After Shift: el medallón en la bolsa violeta llevaba el escudo de la división de servicio de la agencia central de extinción: un águila posada sobre un molinete.
+Alignment: (SS S SS S       SS S   S S)
+NumShifts: 0
+Score: 0.4230769230769231 (11.0/26.0)
+
+Sentence ID: 47:1
+Original Ref: la mujer tenía mucho vello facial, de hecho un bigote inconfundible. una curiosidad sobre las anfitrionas de las cámaras de gas era que, no importa cuán bellas y femeninas fueran al ser reclutadas, todas desarrollaban bigotes en unos cinco años.
+Original Hyp: la mujer tenía mucho vello, en realidad, tenía un inconfundible bigote. lo curioso de las azafatas de la cámara de gas era que, aunque fueran muy dulces y femeninas al llegar, siempre les acababa saliendo bigote en los cinco primeros años de servicio.
+Hyp After Shift: la mujer tenía mucho vello, en de realidad, tenía un bigote inconfundible bigote. lo curioso las azafatas de la cámara de gas era que, aunque muy dulces y femeninas fueran al llegar, siempre les acababa saliendo en los cinco primeros años de servicio.
+Alignment: (    SS IS  SSSS S SS    DSSS    SSSSS S IIIS)
+NumShifts: 3
+  [24, 24, 28/28] ([fueran])
+  [35, 35, 8/8] ([bigote])
+  [14, 14, 5/5] ([de])
+Score: 0.7 (28.0/40.0)
+
+Sentence ID: 48:1
+Original Ref: "¿es aquí donde se supone que debo venir?" preguntó al pintor.
+Original Hyp: —¿es aquí donde se supone que tengo que venir? —le dijo al pintor.
+Hyp After Shift: —¿es aquí donde se supone que tengo que venir? —le dijo al pintor.
+Alignment: (S    II SSS  )
+NumShifts: 0
+Score: 0.5454545454545454 (6.0/11.0)
+
+Sentence ID: 49:1
+Original Ref: "mucho dependería de cuál sea tu negocio", dijo él. "no estás a punto de tener un bebé, ¿verdad?"
+Original Hyp: —dependerá de lo que la trae hasta aquí —dijo él—. no está a punto de parir, ¿no?
+Hyp After Shift: —dependerá lo de que la trae hasta aquí —dijo él—. no está a punto de parir, ¿no?
+Alignment: (SS ISSSSSSSS   DDSS)
+NumShifts: 1
+  [1, 1, 1/2] ([de])
+Score: 0.8888888888888888 (16.0/18.0)
+
+Sentence ID: 50:1
+Original Ref: "me dijeron que se suponía que debía posar para alguna foto", dijo. "me llamo leora duncan." esperó.
+Original Hyp: —me dijeron que tenía que posar para un cuadro —dijo ella—. me llamo salomé garcía. — y esperó.
+Hyp After Shift: —me dijeron que tenía que posar para un cuadro —dijo ella—. me llamo salomé garcía. — y esperó.
+Alignment: (S  DS D  ISSSS IISS )
+NumShifts: 0
+Score: 0.7647058823529411 (13.0/17.0)
+
+Sentence ID: 51:1
+Original Ref: "y hundes a la gente", dijo él.
+Original Hyp: —ah, usted es la que corta cabezas —dijo el pintor.
+Hyp After Shift: —ah, usted es la que corta cabezas —dijo el pintor.
+Alignment: (SSS IIISSS)
+NumShifts: 0
+Score: 1.2857142857142858 (9.0/7.0)
+
+Sentence ID: 52:1
+Original Ref: "¿qué?" dijo ella.
+Original Hyp: —¿cómo? —dijo ella.
+Hyp After Shift: —¿cómo? —dijo ella.
+Alignment: (SS )
+NumShifts: 0
+Score: 0.6666666666666666 (2.0/3.0)
+
+Sentence ID: 53:1
+Original Ref: "olvídalo", dijo él.
+Original Hyp: —no, nada, mis cosas —le respondió.
+Hyp After Shift: —no, nada, mis cosas —le respondió.
+Alignment: (IIISSS)
+NumShifts: 0
+Score: 2.0 (6.0/3.0)
+
+Sentence ID: 54:1
+Original Ref: "seguro que es un cuadro hermoso", dijo ella. "parece justo el cielo o algo así."
+Original Hyp: —¡qué cuadro tan bonito! —dijo—. parece que fuera el cielo o algo así.
+Hyp After Shift: que —¡qué cuadro tan bonito! —dijo—. parece fuera el cielo o algo así.
+Alignment: (D DS SSSSS    S)
+NumShifts: 1
+  [6, 6, 1/-1] ([que])
+Score: 0.6666666666666666 (10.0/15.0)
+
+Sentence ID: 55:1
+Original Ref: "o algo", dijo el pintor. sacó una lista de nombres del bolsillo de su bata. "duncan, duncan, duncan", dijo, escaneando la lista. "sí, aquí estás. tienes derecho a ser inmortalizada. ¿ves algún cuerpo sin rostro aquí que te gustaría que pegue tu cabeza? nos quedan algunos de los buenos."
+Original Hyp: —algo así —dijo el pintor. sacó una lista de nombres de la bata—. salomé, salomé, salomé —dijo mientras repasaba la lista—. sí, aquí está. tiene derecho a ser inmortalizada. ¿se ha fijado en algún cuerpo sin rostro donde le gustaría que metiera su cabecita? aún nos quedan varias opciones de primera.
+Hyp After Shift: —algo así —dijo el pintor. sacó una lista de nombres la bata—. de su salomé, salomé, salomé —dijo mientras repasaba la lista—. sí, aquí está. tiene derecho a ser inmortalizada. ¿se ha fijado en algún cuerpo sin rostro donde le gustaría que metiera cabecita? aún nos quedan varias de opciones primera.
+Alignment: (SSS       SS  SSSSSS SS SS    IIIS    DSS  SSS  S SS)
+NumShifts: 3
+  [42, 42, 13/12] ([su])
+  [10, 10, 12/12] ([de])
+  [49, 49, 45/47] ([de])
+Score: 0.6326530612244898 (31.0/49.0)
+
+Sentence ID: 56:1
+Original Ref: ella estudió el mural sombríamente. "caray", dijo, "todos me parecen iguales. no sé nada de arte."
+Original Hyp: estudió el mural algo desalentada. —vaya —dijo—, si se parecen todos. es que no sé nada de arte.
+Hyp After Shift: estudió el mural algo desalentada. —vaya —dijo—, si se parecen todos. es que no sé nada de arte.
+Alignment: (D   ISSSSS IIS    S)
+NumShifts: 0
+Score: 0.6875 (11.0/16.0)
+
+Sentence ID: 57:1
+Original Ref: "un cuerpo es un cuerpo, ¿eh?" dijo él. "muy bien. como maestro de bellas artes, recomiendo este cuerpo aquí." señaló una figura sin rostro de una mujer que llevaba tallos secos a una incineradora.
+Original Hyp: —un cuerpo es un cuerpo —dijo—. como maestro de las bellas artes, le recomiendo este cuerpo de aquí. —y señaló a la figura sin rostro de una mujer que llevaba unas ramas secas al incinerador.
+Hyp After Shift: —un cuerpo es un cuerpo —dijo—. como maestro de las bellas artes, le recomiendo este cuerpo de aquí. —y señaló la figura sin rostro de una mujer que llevaba unas ramas a secas al incinerador.
+Alignment: (S   DDDDSS   I  I   IIS S        SS ISS)
+NumShifts: 1
+  [20, 20, 30/31] ([a])
+Score: 0.5588235294117647 (19.0/34.0)
+
+Sentence ID: 58:1
+Original Ref: "bueno", dijo leora duncan, "eso es más bien para la gente que se encarga de la eliminación, ¿no? quiero decir, yo estoy en servicio. no hago desechos."
+Original Hyp: —bueno —dijo salomé garcía—, pero esos son los encargados de residuos, ¿no? quiero decir que yo soy de servicio. no me encargo de los residuos.
+Hyp After Shift: —bueno —dijo salomé garcía—, pero esos son que los encargados de residuos, ¿no? quiero decir yo soy de servicio. no me encargo de los residuos.
+Alignment: (DDDDSSSSSSS SS DS  S SS  IIISS)
+NumShifts: 1
+  [14, 14, 11/6] ([que])
+Score: 0.8888888888888888 (24.0/27.0)
+
+Sentence ID: 59:1
+Original Ref: el pintor aplaudió con burla. "¡dices que no sabes nada de arte, y luego en la siguiente respiración demuestras que sabes más que yo! ¡por supuesto, el portador de gavillas es equivocado para una anfitriona! un cortador, un podador—eso es más tu línea." señaló una figura en morado que estaba sierra en mano cortando una rama muerta de un manzano. "¿qué te parece ella?" dijo. "¿te agrada?"
+Original Hyp: el pintor aplaudió con falsa complacencia. —¡pero si dice que no sabe nada de arte y, de buenas a primeras, demuestra que sabe más que yo! ¡claro que no, una cargadora de gavillas no es apropiada para una azafata! una cortadora, una podadora estaría más en su línea. —y señalo a una figura de violeta que cortaba una rama muerta de un manzano—. ¿y ella? —dijo—. ¿le parece bien?
+Hyp After Shift: el pintor aplaudió con falsa complacencia. —¡pero si dice que no sabe nada de arte y, de en buenas a primeras, demuestra que sabe más que yo! ¡claro no, una cargadora de gavillas no es apropiada para una azafata! una cortadora, una podadora estaría más su una figura línea. —y que señalo a de violeta que cortaba una rama muerta de un manzano—. ¿y parece ella? —dijo—. ¿le bien?
+Alignment: (    IIISS  S  SSS SSSS S   SSSS  I S  SSSSSS DDS  SS ISSSSS     DSS SSSS)
+NumShifts: 4
+  [51, 52, 43/46] ([una, figura])
+  [27, 27, 47/50] ([que])
+  [44, 44, 14/16] ([en])
+  [67, 67, 61/63] ([parece])
+Score: 0.7164179104477612 (48.0/67.0)
+
+Sentence ID: 60:1
+Original Ref: "vaya—" dijo ella, y se ruborizó y se volvió humilde—"eso … eso me pone justo al lado del dr. hitz."
+Original Hyp: —madre mía —se sonrojó y dijo modestamente—: pero eso significaría estar junto al doctor atiza.
+Hyp After Shift: dijo —madre mía —se sonrojó y modestamente—: pero eso significaría estar junto al doctor atiza.
+Alignment: (D SSSS DDSS SSS DDSS)
+NumShifts: 1
+  [5, 5, 1/-1] ([dijo])
+Score: 0.85 (17.0/20.0)
+
+Sentence ID: 61:1
+Original Ref: "¿eso te molesta?" dijo él.
+Original Hyp: —¿y eso le molesta? —dijo él.
+Hyp After Shift: —¿y eso le molesta? —dijo él.
+Alignment: (ISSSS )
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 62:1
+Original Ref: "¡por dios, no!" dijo ella. "es...es todo un honor."
+Original Hyp: —pero ¡qué va, por dios! —dijo—. es… es todo un honor.
+Hyp After Shift: —pero ¡qué va, por dios! —dijo—. es… es todo un honor.
+Alignment: (IISSSSSS  S)
+NumShifts: 0
+Score: 1.0 (9.0/9.0)
+
+Sentence ID: 63:1
+Original Ref: "ah, ¿admiras a él, verdad?" dijo él.
+Original Hyp: —ah, usted… lo admira, ¿verdad? —dijo él.
+Hyp After Shift: —ah, usted… lo admira, ¿verdad? —dijo él.
+Alignment: (SSSSSS )
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 64:1
+Original Ref: "¿quién no lo admira?" dijo ella, adorando el retrato de hitz. era el retrato de un zeus magnificente, de tez bronceada y pelo canoso, doscientos cuarenta años. "¿quién no lo admira?" dijo ella de nuevo. "él fue responsable de establecer la primera cámara de gas en chicago."
+Original Hyp: —¿y quién no lo admira? —dijo, mirando con veneración el retrato de atiza. era el retrato de un zeus omnipotente, de pelo blanco y moreno de doscientos cuarenta años—. ¿y quién no lo admira? —repitió—. fue el responsable de instalar la primera cámara de gas de la ciudad.
+Hyp After Shift: —¿y quién no lo admira? —dijo, mirando con veneración el retrato de atiza. era el retrato de un zeus omnipotente, de pelo blanco y moreno de doscientos cuarenta años—. ¿y quién no lo de admira? —repitió—. fue el responsable de instalar la primera cámara de gas la ciudad.
+Alignment: (IS  ISSSS   S      S SS SS  ISS  DDD SS I  S     SS)
+NumShifts: 1
+  [45, 45, 32/32] ([de])
+Score: 0.5531914893617021 (26.0/47.0)
+
+Sentence ID: 65:1
+Original Ref: "nada me complacería más", dijo el pintor, "que ponerte junto a él para siempre. serrando una rama—¿eso te parece apropiado?"
+Original Hyp: —no se me ocurre un placer más grande —dijo el pintor— que pintarla junto a él para la posteridad. ¿le parece apropiado cortando una extremidad?
+Hyp After Shift: —no se me ocurre un placer más grande —dijo el pintor— que pintarla junto a él para la posteridad. una ¿le apropiado cortando parece extremidad?
+Alignment: (IS IIISSS SSS    SS ISS S)
+NumShifts: 2
+  [20, 20, 17/22] ([parece])
+  [23, 23, 14/18] ([una])
+Score: 0.95 (19.0/20.0)
+
+Sentence ID: 66:1
+Original Ref: "eso es un poco lo que hago", dijo ella. era modesta sobre lo que hacía. lo que hacía era hacer sentir cómodas a las personas mientras las mataba.
+Original Hyp: —es más o menos lo que hago —dijo. hablaba de su profesión con modestia. lo que hacía era hacer que las personas estuvieran cómodas mientras las asesinaba.
+Hyp After Shift: —es más o menos lo que hago —dijo. hablaba de su profesión con que modestia. lo que hacía era hacer estuvieran cómodas las personas mientras las asesinaba.
+Alignment: (SSSS  SSSSSSS S     S D    S)
+NumShifts: 2
+  [20, 21, 24/23] ([las, personas])
+  [19, 19, 13/12] ([que])
+Score: 0.6071428571428571 (17.0/28.0)
+
+Sentence ID: 67:1
+Original Ref: y, mientras leora duncan posaba para su retrato, en la sala de espera entró con energía el propio dr. hitz. medía más de dos metros, y rebosaba importancia, logros y la alegría de vivir.
+Original Hyp: y mientras que salomé garcía posaba para su retrato, entró enérgicamente el mismísimo doctor atiza. medía dos metros y su figura desprendía importancia, éxito y alegría de vivir.
+Hyp After Shift: y mientras que salomé garcía posaba para su retrato, entró enérgicamente el mismísimo doctor atiza. medía metros y dos su figura desprendía importancia, éxito y alegría de vivir.
+Alignment: (S ISS    DDDDD DS SSS SS SSS S D   )
+NumShifts: 1
+  [16, 16, 23/18] ([dos])
+Score: 0.6470588235294118 (22.0/34.0)
+
+Sentence ID: 68:1
+Original Ref: "¡bueno, señorita duncan! señorita duncan!" dijo él, e hizo una broma. "¿qué haces aquí?" dijo. "¡este no es el lugar donde la gente se va. ¡este es donde vienen!"
+Original Hyp: —pero bueno, ¡señorita salomé! ¡señorita salomé! —dijo y añadió jocoso—: ¿qué hace aquí? —dijo—. no estamos en la sala donde las visitas se van, sino donde llegan.
+Hyp After Shift: —pero bueno, ¡señorita salomé! ¡señorita salomé! —dijo y añadió jocoso—: ¿qué hace aquí? —dijo—. estamos no en la sala donde las visitas se van, sino donde llegan.
+Alignment: (DSSSSSSSSSSSSSSS SSS SS DSS S)
+NumShifts: 1
+  [14, 14, 16/15] ([no])
+Score: 0.896551724137931 (26.0/29.0)
+
+Sentence ID: 69:1
+Original Ref: "vamos a estar en la misma imagen juntos", dijo ella tímidamente.
+Original Hyp: —vamos a estar en el mismo cuadro juntos —dijo con timidez.
+Hyp After Shift: —vamos a estar en el mismo cuadro juntos —dijo con timidez.
+Alignment: (S   SSSSSSS)
+NumShifts: 0
+Score: 0.7272727272727273 (8.0/11.0)
+
+Sentence ID: 70:1
+Original Ref: "¡bueno!" dijo el dr. hitz cordialmente. "y, oye, ¿no es un buen cuadro?"
+Original Hyp: —¡perfecto! —dijo el doctor atiza con entusiasmo—. ¿a que es un cuadro genial?
+Hyp After Shift: —¡perfecto! —dijo el doctor atiza con entusiasmo—. ¿a que es un cuadro genial?
+Alignment: (SS SSSSSS  SS)
+NumShifts: 0
+Score: 0.7692307692307693 (10.0/13.0)
+
+Sentence ID: 71:1
+Original Ref: "es un honor estar en él contigo", dijo ella.
+Original Hyp: —es un honor para mí estar junto a usted —dijo ella.
+Hyp After Shift: —es un honor para mí estar junto a usted —dijo ella.
+Alignment: (S  II SSSS )
+NumShifts: 0
+Score: 0.7777777777777778 (7.0/9.0)
+
+Sentence ID: 72:1
+Original Ref: "déjame decirte", dijo él, "es un honor estar en él contigo. sin mujeres como tú, este maravilloso mundo que tenemos no sería posible."
+Original Hyp: —le digo una cosa —dijo él—, el honor es todo mío. sin mujeres como usted, nuestro mundo maravilloso no sería posible.
+Hyp After Shift: —le digo una cosa —dijo él—, honor el es todo mío. sin mujeres como usted, nuestro maravilloso mundo no sería posible.
+Alignment: (SSSSSS SSSS   SS  DD  S)
+NumShifts: 2
+  [7, 7, 5/5] ([honor])
+  [17, 17, 16/15] ([maravilloso])
+Score: 0.7391304347826086 (17.0/23.0)
+
+Sentence ID: 73:1
+Original Ref: la saludó y se dirigió hacia la puerta que conducía a las salas de parto. "adivina qué acaba de nacer", dijo.
+Original Hyp: le hizo un saludo militar y se dirigió a la puerta de la sala de partos. —adivine qué acaba de nacer —dijo.
+Hyp After Shift: le hizo un saludo militar y se dirigió la puerta de a la sala de partos. —adivine qué acaba de nacer —dijo.
+Alignment: (IIISS   D  DS SS SS   SS)
+NumShifts: 1
+  [8, 8, 10/11] ([a])
+Score: 0.7142857142857143 (15.0/21.0)
+
+Sentence ID: 74:1
+Original Ref: "no puedo", dijo ella.
+Original Hyp: —no sé —dijo ella.
+Hyp After Shift: —no sé —dijo ella.
+Alignment: (SSS )
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 75:1
+Original Ref: "¡trillizos!" dijo él.
+Original Hyp: —¡trillizos! —dijo él.
+Hyp After Shift: —¡trillizos! —dijo él.
+Alignment: (SS )
+NumShifts: 0
+Score: 0.6666666666666666 (2.0/3.0)
+
+Sentence ID: 76:1
+Original Ref: "¡trillizos!" dijo ella. estaba exclamando sobre las implicaciones legales de los trillizos.
+Original Hyp: —¡trillizos! —exclamó ella, por las implicaciones legales que suponía tener trillizos.
+Hyp After Shift: —¡trillizos! —exclamó ella, por las implicaciones legales que suponía tener trillizos.
+Alignment: (DDSSSS   ISS )
+NumShifts: 0
+Score: 0.75 (9.0/12.0)
+
+Sentence ID: 77:1
+Original Ref: la ley decía que ningún recénacido podía sobrevivir a menos que los padres del niño encontraran a alguien dispuesto a morir voluntariamente. trillizos, si debían vivir todos, requerían tres voluntarios.
+Original Hyp: la ley decía que ningún recién nacido podía sobrevivir si sus padres no encontraban a un voluntario que se prestara a morir. los trillizos, para vivir, requerían tres voluntarios.
+Hyp After Shift: la ley decía que ningún recién nacido podía sobrevivir a sus no encontraban padres un voluntario que se prestara a morir. los trillizos, si para vivir, requerían tres voluntarios.
+Alignment: (     IS   SSS DSSSSS SS  DSS   )
+NumShifts: 3
+  [9, 9, 23/23] ([si])
+  [10, 10, 12/12] ([padres])
+  [13, 13, 8/8] ([a])
+Score: 0.6333333333333333 (19.0/30.0)
+
+Sentence ID: 78:1
+Original Ref: "¿tienen los padres tres voluntarios?" preguntó leora duncan.
+Original Hyp: —¿tienen tres voluntarios los padres? —dijo salomé garcía.
+Hyp After Shift: —¿tienen los voluntarios tres padres? —dijo salomé garcía.
+Alignment: (S S SSSS)
+NumShifts: 2
+  [1, 1, 3/3] ([tres])
+  [2, 2, 0/0] ([los])
+Score: 1.0 (8.0/8.0)
+
+Sentence ID: 79:1
+Original Ref: "la última vez que escuché," dijo el dr. hitz, "tenían uno, y estaban intentando conseguir otros dos."
+Original Hyp: —lo último que sé —dijo el doctor atiza— es que tenían uno y que estaban intentando rebuscar otros dos.
+Hyp After Shift: —lo último que sé —dijo el doctor atiza— es que tenían uno y que estaban intentando rebuscar otros dos.
+Alignment: (DSS SS IISSSS I  S S)
+NumShifts: 0
+Score: 0.8235294117647058 (14.0/17.0)
+
+Sentence ID: 80:1
+Original Ref: "no creo que lo consiguieran", dijo ella. "nadie ha hecho tres citas con nosotros. solo solteros pasando hoy, a menos que alguien llamara después de que me fui. ¿cuál es el nombre?"
+Original Hyp: —creo que no lo consiguieron —dijo—. nadie concertó tres citas con nosotros. solo tenemos citas individuales hoy, a no ser que alguien llamara cuando ya me había ido. ¿cómo se llama?
+Hyp After Shift: —creo que lo no consiguieron —dijo—. nadie concertó tres citas con nosotros. solo tenemos citas individuales hoy, a no ser que alguien llamara cuando ya me había ido. ¿cómo se llama?
+Alignment: (DS  DSSSSS     ISS  IS   DSS SSSSS)
+NumShifts: 1
+  [3, 3, 3/1] ([lo])
+Score: 0.6875 (22.0/32.0)
+
+Sentence ID: 81:1
+Original Ref: "wehling", dijo el padre a la espera, levantándose, con los ojos rojos y desaliñado. "edward k. wehling, jr., es el nombre del feliz futuro padre".
+Original Hyp: —quejada —dijo el padre en espera, que estaba sentado, con los ojos rojos y desaliñado—. eduardo quejada es el nombre del futuro padre feliz.
+Hyp After Shift: —quejada —dijo el padre en que espera, estaba sentado, con los ojos rojos y desaliñado—. eduardo quejada es el nombre del padre futuro feliz.
+Alignment: (SS  SS IS     DDSSS    S S)
+NumShifts: 2
+  [5, 5, 5/6] ([espera,])
+  [21, 21, 23/22] ([futuro])
+Score: 0.6 (15.0/25.0)
+
+Sentence ID: 82:1
+Original Ref: levantó su mano derecha, miró un punto en la pared, y dio un indigente y ronco reír. "presente", dijo.
+Original Hyp: levantó la mano, miró a un punto de la pared y soltó una risa ronca y quejosa. —presente —dijo.
+Hyp After Shift: levantó la mano, a miró un punto de la pared y soltó una risa y ronca quejosa. —presente —dijo.
+Alignment: ( SSS   S S SSS SSSS)
+NumShifts: 2
+  [3, 3, 4/4] ([miró])
+  [15, 15, 13/13] ([y])
+Score: 0.7368421052631579 (14.0/19.0)
+
+Sentence ID: 83:1
+Original Ref: "oh, señor wehling," dijo el dr. hitz, "no lo vi a usted."
+Original Hyp: —vaya, señor quejada —dijo el doctor atiza—. no lo había visto.
+Hyp After Shift: —vaya, señor quejada —dijo el doctor atiza—. no lo había visto.
+Alignment: (S SS SSS DSS)
+NumShifts: 0
+Score: 0.75 (9.0/12.0)
+
+Sentence ID: 84:1
+Original Ref: "el hombre invisible," dijo wehling.
+Original Hyp: —el hombre invisible —dijo quejada.
+Hyp After Shift: —el hombre invisible —dijo quejada.
+Alignment: (S SSS)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 85:1
+Original Ref: "me acaban de llamar que sus trillizos han nacido," dijo el dr. hitz. "están todos bien, y también la madre. voy a verlos ahora."
+Original Hyp: —me acaban de llamar para decirme que los trillizos ya nacieron —dijo el doctor atiza—. están todos bien y también la mamá. de hecho, iba a verlos ahora.
+Hyp After Shift: —me acaban de llamar para decirme que los trillizos ya nacieron —dijo el doctor atiza—. están todos bien y también la mamá. de hecho, iba a verlos ahora.
+Alignment: (S   II S SSS SSS S   IISS  S)
+NumShifts: 0
+Score: 0.6666666666666666 (16.0/24.0)
+
+Sentence ID: 86:1
+Original Ref: "viva," dijo wehling vacíamente.
+Original Hyp: —¡hurra! —dijo quejada sin entusiasmo.
+Hyp After Shift: —¡hurra! —dijo quejada sin entusiasmo.
+Alignment: (ISSSS)
+NumShifts: 0
+Score: 1.25 (5.0/4.0)
+
+Sentence ID: 87:1
+Original Ref: "no suena muy feliz," dijo el dr. hitz.
+Original Hyp: —no parece muy contento —dijo el doctor atiza.
+Hyp After Shift: —no parece muy contento —dijo el doctor atiza.
+Alignment: (SS SS SS)
+NumShifts: 0
+Score: 0.75 (6.0/8.0)
+
+Sentence ID: 88:1
+Original Ref: "¿qué hombre en mi situación no estaría feliz?" dijo wehling. hizo un gesto con las manos para simbolizar la sencilla despreocupación. "todo lo que tengo que hacer es elegir cuál de los trillizos va a vivir, luego llevar a mi abuelo al happy hooligan, y regresar aquí con un recibo."
+Original Hyp: —¿qué hombre no estaría contento en mi lugar? —dijo quejada. hizo un gesto con las manos que simbolizaba despreocupación—. solo tengo que elegir cuál de los trillizos va a vivir, luego entregar a mi abuelo materno a gamberro feliz y volver con el recibo.
+Hyp After Shift: —¿qué hombre contento en mi no estaría lugar? —dijo quejada. hizo un gesto con las manos simbolizaba despreocupación—. solo que tengo que elegir cuál de los trillizos va a vivir, luego entregar a mi abuelo materno a gamberro y feliz volver con el recibo.
+Alignment: (S I  D  SSS      DDDDSSS   DD         S   SSS SS SS)
+NumShifts: 3
+  [2, 3, 6/6] ([no, estaría])
+  [16, 16, 23/19] ([que])
+  [39, 39, 43/37] ([y])
+Score: 0.52 (26.0/50.0)
+
+Sentence ID: 89:1
+Original Ref: el dr. hitz se puso bastante severo con wehling, se erguió sobre él. "¿no cree en el control de la población, sr. wehling?" dijo.
+Original Hyp: el doctor atiza se mostró duro con quejada y se inclinó sobre él. —¿no cree en el control de la población, señor quejada? —dijo.
+Hyp After Shift: el doctor atiza se mostró duro quejada con y se inclinó sobre él. —¿no cree en el control de la población, señor quejada? —dijo.
+Alignment: ( SS SSS S S  S       SSS)
+NumShifts: 1
+  [6, 6, 7/7] ([con])
+Score: 0.5 (12.0/24.0)
+
+Sentence ID: 90:1
+Original Ref: "creo que es perfectamente estupendo," dijo wehling con tensión.
+Original Hyp: —me parece una verdadera fiesta —dijo quejada con cierta tensión.
+Hyp After Shift: —me parece una verdadera fiesta —dijo quejada con cierta tensión.
+Alignment: (SSSSSSS I )
+NumShifts: 0
+Score: 0.8888888888888888 (8.0/9.0)
+
+Sentence ID: 91:1
+Original Ref: "¿le gustaría volver a los buenos viejos tiempos, cuando la población de la tierra era de veinte mil millones—y estaba a punto de convertirse en cuarenta mil millones, luego ochenta mil millones, luego ciento sesenta mil millones? ¿sabe lo que es un druplet, sr. wehling?" dijo hitz.
+Original Hyp: —¿le gustaría volver a los viejos tiempos, cuando la población de la tierra era de veinte mil millones, a punto de convertirse en cuarenta, luego ochenta y luego ciento sesenta mil millones? ¿sabe lo que es una drupa, señor quejada? —dijo atiza.
+Hyp After Shift: —¿le gustaría volver a los viejos tiempos, cuando la población de la tierra era de veinte a punto de convertirse en cuarenta, mil millones, luego ochenta y luego ciento sesenta mil millones? ¿sabe lo que es una drupa, señor quejada? —dijo atiza.
+Alignment: (S    D           DDD     S    DS         SSSSSS)
+NumShifts: 1
+  [16, 17, 27/23] ([mil, millones,])
+Score: 0.3191489361702128 (15.0/47.0)
+
+Sentence ID: 92:1
+Original Ref: "no," dijo wehling con mal humor.
+Original Hyp: —nop —dijo quejada enfurruñado.
+Hyp After Shift: —nop —dijo quejada enfurruñado.
+Alignment: (DDSSSS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 93:1
+Original Ref: "un druplet, sr. wehling, es uno de los pequeños nudos, uno de los pequeños granos pulposos de una zarzamora," dijo el dr. hitz. "sin control de la población, los seres humanos ahora estarían apretujados en la superficie de este viejo planeta como druplets en una zarzamora! ¡piénselo!"
+Original Hyp: —una drupa, señor quejada, es la parte pequeñita, los granitos carnosos de la mora —dijo el doctor atiza—. ¡sin control de la población, los seres humanos estaríamos comprimidos en la superficie de este viejo planeta como drupas en una mora! ¡imagínese!
+Hyp After Shift: —una drupa, señor quejada, es la parte pequeñita, los granitos carnosos de la mora —dijo el doctor atiza—. ¡sin control de la población, los seres humanos estaríamos comprimidos en la superficie de este viejo planeta como drupas en una mora! ¡imagínese!
+Alignment: (SSSS DDDDSSS DSS SSS SSS       DSS        S  SS)
+NumShifts: 0
+Score: 0.5531914893617021 (26.0/47.0)
+
+Sentence ID: 94:1
+Original Ref: wehling continuó mirando el mismo punto en la pared.
+Original Hyp: quejada seguía mirando al mismo punto de la pared.
+Hyp After Shift: quejada seguía mirando al mismo punto de la pared.
+Alignment: (SS S  S  )
+NumShifts: 0
+Score: 0.4444444444444444 (4.0/9.0)
+
+Sentence ID: 95:1
+Original Ref: "en el año 2000," dijo el dr. hitz, "antes de que los científicos intervinieran y establecieran la ley, no había ni siquiera suficiente agua potable para todos, y nada más que algas marinas para comer—y aún así las personas insistían en su derecho a reproducirse como conejos. y su derecho, si era posible, a vivir para siempre."
+Original Hyp: —en el año 2000 —dijo el doctor atiza—, antes de que los científicos intervinieran y aplicaran la ley, no existía siquiera suficiente agua potable para todos y solo se podían comer algas, y, a pesar de todo, la gente insistía en su derecho a reproducirse como conejos; y en su derecho, a ser posible, de vivir eternamente.
+Hyp After Shift: —en el año 2000 —dijo el doctor atiza—, antes de que los científicos intervinieran y aplicaran la ley, no existía siquiera suficiente agua potable para todos y solo se podían comer algas, y, pesar de todo, la gente insistía en su derecho a reproducirse como conejos; y en su derecho, a ser posible, a vivir de eternamente.
+Alignment: (S  SS SSS      S   DS     S SSSSSSSSSSSS      S I  SS   SS)
+NumShifts: 2
+  [33, 33, 52/53] ([a])
+  [55, 55, 53/53] ([vivir])
+Score: 0.5263157894736842 (30.0/57.0)
+
+Sentence ID: 96:1
+Original Ref: "quiero a esos niños," dijo wehling en voz baja. "quiero a los tres."
+Original Hyp: —yo los quiero a los niños —dijo quejada en voz baja—. los quiero a los tres.
+Hyp After Shift: —yo los quiero a los niños —dijo quejada en voz baja—. los quiero a los tres.
+Alignment: (IIS SSSS  ISS  S)
+NumShifts: 0
+Score: 0.8461538461538461 (11.0/13.0)
+
+Sentence ID: 97:1
+Original Ref: "por supuesto que sí," dijo el dr. hitz. "eso es solo humano."
+Original Hyp: —y claro que los quiere —dijo el doctor atiza—. desearlos es humano.
+Hyp After Shift: —y claro que los quiere —dijo el doctor atiza—. desearlos es humano.
+Alignment: (SS ISS SSS DS)
+NumShifts: 0
+Score: 0.8333333333333334 (10.0/12.0)
+
+Sentence ID: 98:1
+Original Ref: "no quiero que mi abuelo muera tampoco," dijo wehling.
+Original Hyp: —pero tampoco quiero que se muera mi abuelo —dijo quejada.
+Hyp After Shift: —pero tampoco quiero que mi abuelo muera se —dijo quejada.
+Alignment: (IS     SSS)
+NumShifts: 2
+  [6, 7, 2/3] ([mi, abuelo])
+  [7, 7, 4/5] ([muera])
+Score: 0.7777777777777778 (7.0/9.0)
+
+Sentence ID: 99:1
+Original Ref: "nadie está realmente feliz de llevar a un pariente cercano al catbox," dijo el dr. hitz amablemente, con simpatía.
+Original Hyp: —nadie se vuelve loco por llevar a un pariente cercano al arenero —dijo amablemente el doctor atiza, con compasión.
+Hyp After Shift: —nadie se vuelve loco por llevar a un pariente cercano al arenero —dijo el amablemente doctor atiza, con compasión.
+Alignment: (SSSSS      SS SSS S)
+NumShifts: 1
+  [14, 14, 12/12] ([el])
+Score: 0.631578947368421 (12.0/19.0)
+
+Sentence ID: 100:1
+Original Ref: "desearía que la gente no lo llamara así," dijo leora duncan.
+Original Hyp: —me gustaría que la gente no lo llamara así —dijo salomé garcía.
+Hyp After Shift: —me gustaría que la gente no lo llamara así —dijo salomé garcía.
+Alignment: (IS      SSSS)
+NumShifts: 0
+Score: 0.5454545454545454 (6.0/11.0)
+
+Sentence ID: 101:1
+Original Ref: "¿qué?" dijo el dr. hitz.
+Original Hyp: —¿cómo? —dijo el doctor atiza.
+Hyp After Shift: —¿cómo? —dijo el doctor atiza.
+Alignment: (SS SS)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 102:1
+Original Ref: "desearía que la gente no lo llamara 'el catbox,' y cosas así," dijo ella. "da a la gente la impresión equivocada."
+Original Hyp: —me gustaría que la gente no lo llamara ‘el arenero’ o apodos similares —dijo—. crea una idea equivocada.
+Hyp After Shift: —me gustaría que la gente no lo llamara ‘el arenero’ o apodos similares —dijo—. crea una idea equivocada.
+Alignment: (IS      DDDDSSSSSSSSSS)
+NumShifts: 0
+Score: 0.7619047619047619 (16.0/21.0)
+
+Sentence ID: 103:1
+Original Ref: "tienes toda la razón," dijo el dr. hitz. "discúlpame." se corrigió, dio a las cámaras de gas municipales su título oficial, un título que nadie usaba en la conversación. "debí haber dicho, 'estudios éticos de suicidio,'" dijo.
+Original Hyp: —tiene toda la razón —dijo el doctor atiza—. perdóneme. —se corrigió y dio a las cámaras de gas municipales su nombre oficial, un nombre que nunca nadie usaba al hablar—. debería haber dicho: ‘estudios de suicidio ético’ —dijo.
+Hyp After Shift: —tiene toda la razón —dijo el doctor atiza—. perdóneme. —se corrigió y dio a las cámaras de gas municipales su nombre oficial, un nombre que nunca nadie usaba al hablar—. debería haber dicho: ‘estudios suicidio de ético’ —dijo.
+Alignment: (S  SS ISSSSS        S  S I  DSSS SSS SS)
+NumShifts: 1
+  [34, 34, 34/35] ([de])
+Score: 0.5945945945945946 (22.0/37.0)
+
+Sentence ID: 104:1
+Original Ref: "ese suena mucho mejor," dijo leora duncan.
+Original Hyp: —así suena muchísimo mejor —dijo salomé garcía.
+Hyp After Shift: —así suena muchísimo mejor —dijo salomé garcía.
+Alignment: (S SSSSS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 105:1
+Original Ref: "este hijo tuyo—cualquiera que elijas quedarte, sr. wehling," dijo el dr. hitz. "él o ella va a vivir en un planeta feliz, espacioso, limpio y rico, gracias al control de la población. en un jardín como ese mural allí." movió la cabeza. "hace dos siglos, cuando era un joven, era un infierno que nadie pensaba que podría durar otros veinte años. ahora, siglos de paz y abundancia se extienden ante nosotros tanto como la imaginación quiere viajar."
+Original Hyp: —este hijo suyo, el que al fin decida conservar, señor quejada —dijo el doctor atiza—. él o ella vivirá en un planeta rico, limpio, espacioso y feliz gracias al control de la población. en un jardín como el de ese mural. —asintió con la cabeza—. hace dos siglos, cuando yo era joven, era un infierno que nadie creía duraría veinte años más. ahora, siglos de paz y abundancia se extienden ante nosotros hasta donde alcanza la imaginación.
+Hyp After Shift: —este hijo suyo, el que al fin decida conservar, señor quejada —dijo el doctor atiza—. él o ella vivirá en un planeta rico, limpio, espacioso y feliz gracias al control de la población. en un jardín como el de ese mural. —asintió con la cabeza—. hace dos siglos, cuando era yo joven, era un infierno que nadie creía duraría años veinte más. ahora, siglos de paz y abundancia se extienden ante nosotros hasta la donde alcanza imaginación.
+Alignment: (S IS IISSSSS SSS  DDS   SSS S          II SSS SS    S      DDSSS S          DS SSS)
+NumShifts: 3
+  [50, 50, 45/48] ([era])
+  [59, 59, 59/60] ([veinte])
+  [75, 75, 72/72] ([la])
+Score: 0.5454545454545454 (42.0/77.0)
+
+Sentence ID: 106:1
+Original Ref: sonrió radiante.
+Original Hyp: sonrió intensamente.
+Hyp After Shift: sonrió intensamente.
+Alignment: ( S)
+NumShifts: 0
+Score: 0.5 (1.0/2.0)
+
+Sentence ID: 107:1
+Original Ref: la sonrisa desapareció al ver que wehling acababa de sacar un revolver.
+Original Hyp: la sonrisa se disipó en cuanto vio que quejada había sacado un revólver.
+Hyp After Shift: la sonrisa se disipó en cuanto que vio quejada había sacado un revólver.
+Alignment: (  ISSS SSSS S)
+NumShifts: 1
+  [7, 7, 4/5] ([que])
+Score: 0.8333333333333334 (10.0/12.0)
+
+Sentence ID: 108:1
+Original Ref: wehling disparó y mató al dr. hitz. "hay espacio para uno—un grande," dijo.
+Original Hyp: quejada mató al dr. atiza de un disparo. —ya hay lugar para uno, un espacio bien grande —dijo.
+Hyp After Shift: quejada mató al dr. atiza de un disparo. —ya hay espacio lugar para uno, un bien grande —dijo.
+Alignment: (DDS   IIIISS I IISSS)
+NumShifts: 1
+  [14, 14, 7/9] ([espacio])
+Score: 1.2307692307692308 (16.0/13.0)
+
+Sentence ID: 109:1
+Original Ref: y después disparó a leora duncan. "es solo la muerte," le dijo mientras caía. "¡ahí! hay espacio para dos."
+Original Hyp: acto seguido, le disparó a salomé garcía. —tan solo es morirse —le dijo mientras caía al suelo—. ya hay lugar para dos.
+Hyp After Shift: acto seguido, disparó a salomé garcía. —tan solo es morirse le —le dijo mientras caía al suelo—. ya hay lugar para dos.
+Alignment: (SS  SSS SS I  IISS S S)
+NumShifts: 1
+  [2, 2, 9/10] ([le])
+Score: 0.7894736842105263 (15.0/19.0)
+
+Sentence ID: 110:1
+Original Ref: y luego se disparó a sí mismo, haciendo espacio para los tres de sus hijos.
+Original Hyp: y luego se disparó y así hizo lugar para sus tres hijos.
+Hyp After Shift: y luego se disparó y así hizo lugar para tres sus hijos.
+Alignment: (    DSSSS D D  )
+NumShifts: 1
+  [9, 9, 13/10] ([sus])
+Score: 0.5333333333333333 (8.0/15.0)
+
+Sentence ID: 111:1
+Original Ref: nadie apareció corriendo. nadie, aparentemente, escuchó los disparos.
+Original Hyp: nadie acudió corriendo. nadie, al parecer, oyó los disparos.
+Hyp After Shift: nadie acudió corriendo. nadie, al parecer, oyó los disparos.
+Alignment: ( S  ISS  )
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 112:1
+Original Ref: el pintor permaneció en lo alto de su escalera, mirando reflexivamente la triste escena.
+Original Hyp: el pintor se quedó sentado en el último peldaño de la escalera y observó la malograda escena.
+Hyp After Shift: el pintor se quedó sentado en el último peldaño de la escalera y observó la malograda escena.
+Alignment: (  IIS ISS SSSS S )
+NumShifts: 0
+Score: 0.7857142857142857 (11.0/14.0)
+
+Sentence ID: 113:1
+Original Ref: el pintor ponderó el rompecabezas sombrío de la vida que exige nacer y, una vez nacida, exige fructificar...multiplicar y vivir el mayor tiempo posible—hacer todo eso en un planeta muy pequeño que tendría que durar para siempre.
+Original Hyp: el pintor reflexionó sobre el triste rompecabezas de la vida que exige nacer y, una vez en el mundo, exige fructificar… multiplicarse y vivir el máximo posible, y cumplir con este destino en un pequeñísimo planeta que debe durar para siempre.
+Hyp After Shift: el pintor reflexionó sobre el rompecabezas triste de la vida que exige nacer y, una vez en el mundo, exige fructificar… multiplicarse y vivir el máximo posible, y cumplir con este destino en un planeta pequeñísimo que debe durar para siempre.
+Alignment: (  IS  S         IIS IS   IISSSSS   DS DS   )
+NumShifts: 2
+  [6, 6, 3/4] ([rompecabezas])
+  [35, 35, 28/33] ([planeta])
+Score: 0.5675675675675675 (21.0/37.0)
+
+Sentence ID: 114:1
+Original Ref: todas las respuestas que el pintor pudo imaginar eran sombrías. incluso más sombrías, sin duda, que un catbox, un happy hooligan, un easy go. pensó en la guerra. pensó en la peste. pensó en el hambre.
+Original Hyp: todas las respuestas que se le ocurrían al pintor eran desoladoras. con certeza más que el arenero, gamberro feliz o salida fácil. pensó en la guerra. pensó en la peste. pensó en la inanición.
+Hyp After Shift: todas las respuestas que el pintor se le eran ocurrían al más desoladoras. con certeza que arenero, gamberro feliz o salida fácil. pensó en la guerra. pensó en la peste. pensó en la inanición.
+Alignment: (      SS SS SSS DDSSSSSS          SS)
+NumShifts: 4
+  [8, 8, 4/3] ([pintor])
+  [9, 9, 7/6] ([eran])
+  [13, 13, 10/9] ([más])
+  [15, 15, 4/3] ([el])
+Score: 0.5833333333333334 (21.0/36.0)
+
+Sentence ID: 115:1
+Original Ref: sabía que nunca volvería a pintar. dejó caer su pincel a las telas de abajo. y entonces decidió que ya había tenido suficiente de la vida en el jardín feliz de la vida también, y bajó lentamente de la escalera.
+Original Hyp: sabía que no volvería a pintar. dejó caer el pincel a las telas que cubrían el suelo. y luego decidió que él también había tenido ya suficiente en el jardín feliz de la vida y bajó lentamente de la escalera.
+Hyp After Shift: sabía que no volvería a pintar. dejó caer el pincel a las telas que cubrían el suelo. y luego decidió que ya él también había tenido suficiente en el jardín feliz de la vida y bajó lentamente de la escalera.
+Alignment: (  S     S    IISS S   II   DDD       D      )
+NumShifts: 1
+  [25, 25, 18/20] ([ya])
+Score: 0.35 (14.0/40.0)
+
+Sentence ID: 116:1
+Original Ref: tomó el pistola de wehling, realmente con la intención de dispararse.
+Original Hyp: le quitó la pistola a quejada, con la intención real de dispararse.
+Hyp After Shift: le quitó pistola la a quejada, con la intención real de dispararse.
+Alignment: (SS SSS   I  )
+NumShifts: 1
+  [3, 3, 1/1] ([pistola])
+Score: 0.6363636363636364 (7.0/11.0)
+
+Sentence ID: 117:1
+Original Ref: pero no tuvo el valor.
+Original Hyp: pero le faltó coraje.
+Hyp After Shift: pero le faltó coraje.
+Alignment: ( DSSS)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 118:1
+Original Ref: y luego vio la cabina telefónica en la esquina de la sala. fue hacia ella, marcó el número bien recordado: "2 b r 0 2 b."
+Original Hyp: entonces vio el teléfono en la esquina de la sala. se acercó y marcó el conocido número: s 3 r 0 n 0 s 3 r.
+Hyp After Shift: y entonces vio el teléfono en la esquina de la sala. se acercó marcó el conocido número: s 3 n r 0 0 s 3 r.
+Alignment: ( S DSS      DSS  SSSSS I ISS)
+NumShifts: 2
+  [19, 20, 21/20] ([r, 0])
+  [12, 12, -1/-1] ([y])
+Score: 0.6923076923076923 (18.0/26.0)
+
+Sentence ID: 119:1
+Original Ref: "oficina federal de terminación," dijo la cálida voz de una anfitriona.
+Original Hyp: —agencia central de extinción —dijo la dulce voz de la azafata.
+Hyp After Shift: —agencia central de extinción —dijo la dulce voz de la azafata.
+Alignment: (SS SS S  SS)
+NumShifts: 0
+Score: 0.6363636363636364 (7.0/11.0)
+
+Sentence ID: 120:1
+Original Ref: "¿qué tan pronto podría conseguir una cita?" preguntó, hablando con mucho cuidado.
+Original Hyp: —¿para cuándo es la primera cita disponible? —preguntó con lentitud.
+Hyp After Shift: —¿para cuándo es la primera cita disponible? —preguntó con lentitud.
+Alignment: (DSSSSSSSS DS)
+NumShifts: 0
+Score: 0.9166666666666666 (11.0/12.0)
+
+Sentence ID: 121:1
+Original Ref: "probablemente podríamos encajarlo a usted al final de esta tarde, señor," dijo ella. "incluso podría ser antes, si tenemos una cancelación."
+Original Hyp: —seguramente lo podamos acomodar esta tarde a última hora, señor —dijo—. podría ser incluso antes si tenemos alguna cancelación.
+Hyp After Shift: a —seguramente lo podamos acomodar esta tarde última hora, señor —dijo—. podría ser incluso antes si tenemos alguna cancelación.
+Alignment: (DDD SSSS SSSSS  IS  SS)
+NumShifts: 1
+  [6, 6, 2/-1] ([a])
+Score: 0.8095238095238095 (17.0/21.0)
+
+Sentence ID: 122:1
+Original Ref: "muy bien," dijo el pintor, "anóteme, por favor." y dio su nombre, deletreándolo.
+Original Hyp: —bien —dijo el pintor—, apúnteme, si es tan amable. —y le deletreó su nombre completo.
+Hyp After Shift: —bien —dijo pintor—, apúnteme, el si es tan amable. —y le deletreó su nombre completo.
+Alignment: (ISSS ISSSSSS SS)
+NumShifts: 1
+  [2, 2, 2/4] ([el])
+Score: 1.0769230769230769 (14.0/13.0)
+
+Sentence ID: 123:1
+Original Ref: "gracias, señor," dijo la anfitriona. "su ciudad le agradece; su país le agradece; su planeta le agradece. pero el más profundo agradecimiento es de las futuras generaciones."
+Original Hyp: —muchas gracias, señor —dijo la azafata—. la ciudad le da las gracias; el país le da las gracias; el planeta le da las gracias. pero el agradecimiento más grande es el de las generaciones futuras.
+Hyp After Shift: —muchas gracias, señor —dijo la azafata—. la ciudad le da las gracias; el país le da las gracias; el planeta le da las gracias. pero el más grande agradecimiento es el de las generaciones futuras.
+Alignment: (ISSS SS  IISS  IISS  IIS   S  I  SS)
+NumShifts: 1
+  [26, 26, 20/28] ([agradecimiento])
+Score: 0.8148148148148148 (22.0/27.0)
+
